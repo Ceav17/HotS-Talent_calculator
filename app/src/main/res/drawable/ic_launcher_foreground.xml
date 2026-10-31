@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Proportional padding keeps the cropped artwork inside round launcher masks. -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:inset="25%">
+    <bitmap
+        android:src="@drawable/app_launcher_artwork"
+        android:gravity="fill"
+        android:filter="true" />
+</inset>

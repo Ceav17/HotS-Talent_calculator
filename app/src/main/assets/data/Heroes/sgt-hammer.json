@@ -1,0 +1,577 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "sgt-hammer",
+    "name": "Sgt. Hammer",
+    "team_role": "Ranged Assassin",
+    "universe": "StarCraft",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "spider_mines_b6053f30fe",
+      "name": "Spider Mines",
+      "description": "Mana: 50 Cooldown: 14 seconds Create 3 mines that arm after 1.25 seconds. Mines detonate when an enemy comes in range, dealing 96 (+4% per level) damage to nearby enemies and Slowing them by 25% for 1.5 seconds.  Siege Mode: Cast range increased by 100%.",
+      "icon": "Heroes/sgt-hammer/abilities/storm_ui_icon_sgthammer_spidermines.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "SgtHammerSpiderMines|SgtHammerSpiderMines|Q",
+      "ability_id": "SgtHammerSpiderMines",
+      "button_id": "SgtHammerSpiderMines",
+      "unit_id": "HeroSgtHammer",
+      "unit_name": "Sgt. Hammer",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "concussive_blast",
+      "name": "Concussive Blast",
+      "description": "Mana: 80 Cooldown: 12 seconds Deal 141 (+4% per level) damage to enemies in front of Sgt. Hammer and knock them back.  Siege Mode: Radius increased by 50%.",
+      "icon": "Heroes/sgt-hammer/abilities/storm_ui_icon_sgthammer_concussiveblast.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "SgtHammerConcussiveBlast|SgtHammerConcussiveBlast|W",
+      "ability_id": "SgtHammerConcussiveBlast",
+      "button_id": "SgtHammerConcussiveBlast",
+      "unit_id": "HeroSgtHammer",
+      "unit_name": "Sgt. Hammer",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "neosteel_plating",
+      "name": "Neosteel Plating",
+      "description": "Mana: 60 Cooldown: 16 seconds Gain 25 Armor for 2 seconds.  Siege Mode: Grants 100% more Armor.",
+      "icon": "Heroes/sgt-hammer/abilities/storm_ui_icon_sgthammer_neosteelplating.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "SgtHammerNeosteelPlating|SgtHammerNeosteelPlating|E",
+      "ability_id": "SgtHammerNeosteelPlating",
+      "button_id": "SgtHammerNeosteelPlating",
+      "unit_id": "HeroSgtHammer",
+      "unit_name": "Sgt. Hammer",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "napalm_strike_35191c9e85",
+      "name": "Napalm Strike",
+      "description": "Mana: 35 Cooldown: 6 seconds Deals 164 (+4% per level) damage on impact, and leaves a napalm area that deals 50 (+4% per level) damage per second. Lasts for 4 seconds.",
+      "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_napalmstrike.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "SgtHammerNapalmStrike|SgtHammerNapalmStrike|Heroic",
+      "ability_id": "SgtHammerNapalmStrike",
+      "button_id": "SgtHammerNapalmStrike",
+      "unit_id": "HeroSgtHammer",
+      "unit_name": "Sgt. Hammer",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_napalmstrike_mini.png"
+    },
+    {
+      "id": "blunt_force_gun",
+      "name": "Blunt Force Gun",
+      "description": "Mana: 100 Cooldown: 70 seconds Fire a missile across the battlefield, dealing 500 (+3% per level) damage to enemies in its path.  Deals 50% damage to Structures.",
+      "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_bluntforcegun.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "SgtHammerBluntForceGun|SgtHammerBluntForceGun|Heroic",
+      "ability_id": "SgtHammerBluntForceGun",
+      "button_id": "SgtHammerBluntForceGun",
+      "unit_id": "HeroSgtHammer",
+      "unit_name": "Sgt. Hammer",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_bluntforcegun_mini.png"
+    },
+    {
+      "id": "siege_mode",
+      "name": "Siege Mode",
+      "description": "Cooldown: 2 seconds Activate to enter Siege Mode. While in Siege Mode, Basic Attacks deal 20% more damage, have 100% increased range, and deal 25% of their damage as splash damage around the target.",
+      "icon": "Heroes/sgt-hammer/abilities/storm_ui_icon_sgthammer_siegemode.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "SgtHammerSiegeMode|SgtHammerSiegeMode|Trait",
+      "ability_id": "SgtHammerSiegeMode",
+      "button_id": "SgtHammerSiegeMode",
+      "unit_id": "HeroSgtHammer",
+      "unit_name": "Sgt. Hammer",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "thrusters",
+      "name": "Thrusters",
+      "description": "Cooldown: 30 seconds Increase Movement Speed by 60% for 4 seconds. Thrusters are always active while at the Hall of Storms. Activating Thrusters cancels Siege Mode.",
+      "icon": "Heroes/sgt-hammer/abilities/storm_ui_icon_sgthammer_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "SgtHammerThrusters|SgtHammerThrusters|Z",
+      "ability_id": "SgtHammerThrusters",
+      "button_id": "SgtHammerThrusters",
+      "unit_id": "HeroSgtHammer",
+      "unit_name": "Sgt. Hammer",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroSgtHammer",
+      "unit_name": "Sgt. Hammer",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "spider_mines_5feedc6eca",
+      "name": "Spider Mines",
+      "description": "Mana: 50 Cooldown: 14 seconds Create 3 mines that arm after 1.25 seconds. Mines detonate when an enemy comes in range, dealing 96 (+4% per level) damage to nearby enemies and Slowing them by 25% for 1.5 seconds.  Siege Mode: Cast range increased by 100%.",
+      "icon": "Heroes/sgt-hammer/abilities/storm_ui_icon_sgthammer_spidermines.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "SgtHammerSpiderMinesSiegeMode|SgtHammerSpiderMines|Q",
+      "ability_id": "SgtHammerSpiderMinesSiegeMode",
+      "button_id": "SgtHammerSpiderMines",
+      "unit_id": "HeroSgtHammer",
+      "unit_name": "Sgt. Hammer",
+      "parent_link_ids": [
+        "SgtHammerSiegeMode|SgtHammerSiegeMode|Trait"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "napalm_strike_6d3c74d9ea",
+      "name": "Napalm Strike",
+      "description": "Mana: 35 Cooldown: 6 seconds Deals 164 (+4% per level) damage on impact, and leaves a napalm area that deals 50 (+4% per level) damage per second. Lasts for 4 seconds.",
+      "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_napalmstrike.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "SgtHammerNapalmStrikeSiege|SgtHammerNapalmStrike|Heroic",
+      "ability_id": "SgtHammerNapalmStrikeSiege",
+      "button_id": "SgtHammerNapalmStrike",
+      "unit_id": "HeroSgtHammer",
+      "unit_name": "Sgt. Hammer",
+      "parent_link_ids": [
+        "SgtHammerSiegeMode|SgtHammerSiegeMode|Trait"
+      ],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_napalmstrike_mini.png"
+    },
+    {
+      "id": "tank_mode",
+      "name": "Tank Mode",
+      "description": "Return to Tank Mode",
+      "icon": "Heroes/sgt-hammer/abilities/storm_ui_icon_sgthammer_tankmode.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "SgtHammerTankMode|SgtHammerTankMode|Trait",
+      "ability_id": "SgtHammerTankMode",
+      "button_id": "SgtHammerTankMode",
+      "unit_id": "HeroSgtHammer",
+      "unit_name": "Sgt. Hammer",
+      "parent_link_ids": [
+        "SgtHammerSiegeMode|SgtHammerSiegeMode|Trait"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "barricade_cancel",
+      "name": "Barricade Cancel",
+      "description": "Cooldown: 1.5 seconds Destroys Debris Wall.",
+      "icon": null,
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "ConcussiveBlastScrapCancel|SgtHammerConcussiveBlastBarricadeCancel|W",
+      "ability_id": "ConcussiveBlastScrapCancel",
+      "button_id": "SgtHammerConcussiveBlastBarricadeCancel",
+      "unit_id": "HeroSgtHammer",
+      "unit_name": "Sgt. Hammer",
+      "parent_link_ids": [
+        "SgtHammerBarricade|SgtHammerConcussiveBlastBarricadeTalent|W|Level4"
+      ],
+      "unlock_conditions": [
+        [
+          "SgtHammerBarricade"
+        ]
+      ]
+    },
+    {
+      "id": "maelstrom_rounds",
+      "name": "Maelstrom Rounds",
+      "description": "Charge Cooldown: 80 seconds Activate to increase Basic Attack damage dealt by 40% for 5 seconds. Hitting enemy Heroes or Structures with Basic Attacks while in Siege Mode reduces the cooldown of Maelstrom Rounds by 5 seconds.  Stores up to 3 charges.",
+      "icon": "Heroes/sgt-hammer/abilities/storm_ui_icon_sgthammer_siegemode_var1.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "SgtHammerSiegeModeMaelstromRounds|SgtHammerSiegeModeMaelstromRounds|Active",
+      "ability_id": "SgtHammerSiegeModeMaelstromRounds",
+      "button_id": "SgtHammerSiegeModeMaelstromRounds",
+      "unit_id": "HeroSgtHammer",
+      "unit_name": "Sgt. Hammer",
+      "parent_link_ids": [
+        "SgtHammerSiegeModeMaelstromRounds|SgtHammerSiegeModeMaelstromRounds|Active|Level1"
+      ],
+      "unlock_conditions": [
+        [
+          "SgtHammerSiegeModeMaelstromRounds"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "SgtHammerSiegeModeMaelstromRounds",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 1,
+      "unlock_position": 3
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "ambush",
+          "name": "Ambush",
+          "description": "Gain Stealth when entering Siege Mode or after not taking or dealing damage for 3 seconds while in Siege Mode. Basic Attacks while Stealthed deal 125% more damage.  Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.",
+          "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_siegemode_var2.png",
+          "position": 1,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "SgtHammerAmbush|SgtHammerSiegeModeAmbushTalent|Trait|Level1",
+          "talent_id": "SgtHammerAmbush",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_siegemode_var2_mini.png"
+        },
+        {
+          "id": "advanced_artillery",
+          "name": "Advanced Artillery",
+          "description": "Increase Siege Mode's splash damage to 60% of Basic Attack damage, and increase its splash radius by 25%.",
+          "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_siegemode.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "SgtHammerSiegeModeAdvancedArtillery|SgtHammerSiegeModeAdvancedArtillery|Trait|Level1",
+          "talent_id": "SgtHammerSiegeModeAdvancedArtillery",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_siegemode_mini.png"
+        },
+        {
+          "id": "maelstrom_rounds",
+          "name": "Maelstrom Rounds",
+          "description": "Charge Cooldown: 80 seconds Activate to increase Basic Attack damage dealt by 40% for 5 seconds. Hitting enemy Heroes or Structures with Basic Attacks while in Siege Mode reduces the cooldown of Maelstrom Rounds by 5 seconds.  Stores up to 3 charges.",
+          "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_siegemode_var1.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "SgtHammerSiegeModeMaelstromRounds|SgtHammerSiegeModeMaelstromRounds|Active|Level1",
+          "talent_id": "SgtHammerSiegeModeMaelstromRounds",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_siegemode_var1_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "barricade",
+          "name": "Barricade",
+          "description": "Reduce Concussive Blast's cooldown by 4 seconds, its Mana cost by 40, and when cast create an impassable wall in front of Sgt. Hammer for 4 seconds.",
+          "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_concussiveblast.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "SgtHammerBarricade|SgtHammerConcussiveBlastBarricadeTalent|W|Level4",
+          "talent_id": "SgtHammerBarricade",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_concussiveblast_mini.png"
+        },
+        {
+          "id": "siege_tactics",
+          "name": "Siege Tactics",
+          "description": "Using Neosteel Plating while in Siege Mode grants Unstoppable for 2 seconds, as long as she remains in Siege Mode.",
+          "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_neosteelplating.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "SgtHammerNeosteelPlatingSiegeTactics|SgtHammerNeosteelPlatingSiegeTacticsTalent|E|Level4",
+          "talent_id": "SgtHammerNeosteelPlatingSiegeTactics",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_neosteelplating_mini.png"
+        },
+        {
+          "id": "regenerative_bio_steel",
+          "name": "Regenerative Bio-Steel",
+          "description": "Basic Attacks while in Siege Mode heal for 10% of the damage dealt.",
+          "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_siegemode.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "SgtHammerSiegeModeRegenerativeBioSteel|SgtHammerSiegeModeRegenerativeBioSteel|Trait|Level4",
+          "talent_id": "SgtHammerSiegeModeRegenerativeBioSteel",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_siegemode_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "pulse_detonation_core",
+          "name": "Pulse Detonation Core",
+          "description": "Spider Mines detonate 3 times over 3 seconds. All damage from Basic Attacks against enemy Heroes grant 5 Mana and reduce the cooldown of Spider Mines by 1.5 seconds. Increase this bonus to 2.5 seconds while in Siege Mode.",
+          "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_spidermines.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "SgtHammerSpiderMinesPulseDetonationCore|SgtHammerSpiderMinesPulseDetonationCoreTalent|Q|Level7",
+          "talent_id": "SgtHammerSpiderMinesPulseDetonationCore",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_spidermines_mini.png"
+        },
+        {
+          "id": "hover_siege_mode",
+          "name": "Hover Siege Mode",
+          "description": "Sgt. Hammer can move at 50% Movement Speed while in Siege Mode.",
+          "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_siegemode.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "SgtHammerMasteryHoverSiegeMode|SgtHammerSiegeModeHoverSiegeModeTalent|Trait|Level7",
+          "talent_id": "SgtHammerMasteryHoverSiegeMode",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_siegemode_mini.png"
+        },
+        {
+          "id": "graduating_range",
+          "name": "Graduating Range",
+          "description": "While in Siege Mode, Basic Attack range is increased by 1 every 1.5 seconds, up to 3.",
+          "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_siegemode_var1.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "SgtHammerGraduatingRange|SgtHammerSiegeModeGraduatingRangeTalent|Trait|Level7",
+          "talent_id": "SgtHammerGraduatingRange",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_siegemode_var1_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "blunt_force_gun",
+          "name": "Blunt Force Gun",
+          "description": "Mana: 100 Cooldown: 70 seconds Fire a missile across the battlefield, dealing 500 (+3% per level) damage to enemies in its path.  Deals 50% damage to Structures.",
+          "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_bluntforcegun.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "SgtHammerHeroicAbilityBluntForceGun|SgtHammerBluntForceGun|Heroic|Level10",
+          "talent_id": "SgtHammerHeroicAbilityBluntForceGun",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_bluntforcegun_mini.png"
+        },
+        {
+          "id": "napalm_strike",
+          "name": "Napalm Strike",
+          "description": "Mana: 35 Cooldown: 6 seconds Deals 164 (+4% per level) damage on impact, and leaves a napalm area that deals 50 (+4% per level) damage per second. Lasts for 4 seconds.",
+          "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_napalmstrike.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "SgtHammerHeroicAbilityNapalmStrike|SgtHammerNapalmStrike|Heroic|Level10",
+          "talent_id": "SgtHammerHeroicAbilityNapalmStrike",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_napalmstrike_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "tactical_mine_deployment",
+          "name": "Tactical Mine Deployment",
+          "description": "Moving while Thrusters is active leaves a trail of up to 5 Spider Mines. Additionally, increase the Slow of Spider Mines by 15%.",
+          "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_spidermines.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "SgtHammerSpiderMinesTacticalMineDeployment|SgtHammerSpiderMinesTacticalMineDeployment|Q|Level13",
+          "talent_id": "SgtHammerSpiderMinesTacticalMineDeployment",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_spidermines_mini.png"
+        },
+        {
+          "id": "entrenched",
+          "name": "Entrenched",
+          "description": "While in Siege Mode, Concussive Blasts's damage and knockback distance are increased by 75%.",
+          "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_concussiveblast.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "SgtHammerConcussiveBlastEntrenched|SgtHammerConcussiveBlastEntrenchedTalent|W|Level13",
+          "talent_id": "SgtHammerConcussiveBlastEntrenched",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_concussiveblast_mini.png"
+        },
+        {
+          "id": "hyper_cooling_engines",
+          "name": "Hyper-Cooling Engines",
+          "description": "While in Siege Mode, hitting Heroes or Structures with Basic Attacks reduces the cooldown of Thrusters by 5 seconds.",
+          "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_hypercoolingengines.png",
+          "position": 3,
+          "hotkey": "Z",
+          "ability_type": "Z",
+          "link_id": "SgtHammerHyperCoolingEngines|SgtHammerThrustersHyperCoolingEnginesTalent|Z|Level13",
+          "talent_id": "SgtHammerHyperCoolingEngines",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_hypercoolingengines_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "mechanical_know_how",
+          "name": "Mechanical Know-how",
+          "description": "Neosteel Plating grants 20% maximum Health as a Shield for 2 seconds and increases Basic Attack damage by 30% for 5 seconds.",
+          "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_neosteelplating.png",
+          "position": 1,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "SgtHammerNeosteelPlatingMechanicalKnowhow|SgtHammerNeosteelPlatingMechanicalKnowhowTalent|E|Level16",
+          "talent_id": "SgtHammerNeosteelPlatingMechanicalKnowhow",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_neosteelplating_mini.png"
+        },
+        {
+          "id": "executioner",
+          "name": "Executioner",
+          "description": "Attacking a Hero that is Slowed, Rooted, or Stunned increases your Basic Attack damage by 30% for 3 seconds.",
+          "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_talent_autoattack_damage.png",
+          "position": 2,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "HeroGenericExecutionerPassive|GenericExecutionerTalent|Passive|Level16",
+          "talent_id": "HeroGenericExecutionerPassive",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_talent_autoattack_damage_mini.png"
+        },
+        {
+          "id": "giant_killer",
+          "name": "Giant Killer",
+          "description": "Basic Attacks against enemy Heroes deal bonus damage equal to 1.5% of the Hero's maximum Health.",
+          "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_talent_autoattack_searing.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "GenericTalentGiantKillerSgtHammer|SgtHammerGiantKiller|Passive|Level16",
+          "talent_id": "GenericTalentGiantKillerSgtHammer",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_talent_autoattack_searing_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "orbital_bfg",
+          "name": "Orbital BFG",
+          "description": "Blunt Force Gun's missile orbits the planet every 5 seconds. Only the last missile fired orbits.",
+          "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_bluntforcegun.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "SgtHammerMasteryOrbitalBFGBluntForceGun|SgtHammerBluntForceGunOrbitalBFGTalent|Heroic|Level20",
+          "talent_id": "SgtHammerMasteryOrbitalBFGBluntForceGun",
+          "prerequisite_talent_ids": [
+            "SgtHammerHeroicAbilityBluntForceGun"
+          ],
+          "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_bluntforcegun_mini.png"
+        },
+        {
+          "id": "advanced_lava_strike",
+          "name": "Advanced Lava Strike",
+          "description": "Increase the cast range of Napalm Strike by 75%, and its impact deals 65% more damage.",
+          "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_napalmstrike.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "SgtHammerMasteryAdvancedLavaStrikeNapalmStrike|SgtHammerNapalmStrikeAdvancedLavaStrikeTalent|Heroic|Level20",
+          "talent_id": "SgtHammerMasteryAdvancedLavaStrikeNapalmStrike",
+          "prerequisite_talent_ids": [
+            "SgtHammerHeroicAbilityNapalmStrike"
+          ],
+          "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_napalmstrike_mini.png"
+        },
+        {
+          "id": "shrapnel_mines",
+          "name": "Shrapnel Mines",
+          "description": "Upon detonating, Spider Mines reduce the Armor of enemy Heroes hit by 10, up to 50, for 4 seconds.",
+          "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_spidermines.png",
+          "position": 3,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "SgtHammerSpiderMinesShrapnelMines|SgtHammerSpiderMinesShrapnelMines|Q|Level20",
+          "talent_id": "SgtHammerSpiderMinesShrapnelMines",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_spidermines_mini.png"
+        },
+        {
+          "id": "ultra_capacitors",
+          "name": "Ultra Capacitors",
+          "description": "Hitting enemy Heroes or Structures with Basic Attacks while in Siege Mode grants 10% Attack Speed for 5 seconds, up to 60%.",
+          "icon": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_siegemode.png",
+          "position": 4,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "SgtHammerSiegeModeUltraCapacitors|SgtHammerSiegeModeUltraCapacitors|Trait|Level20",
+          "talent_id": "SgtHammerSiegeModeUltraCapacitors",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sgt-hammer/talents/storm_ui_icon_sgthammer_siegemode_mini.png"
+        }
+      ]
+    }
+  ]
+}

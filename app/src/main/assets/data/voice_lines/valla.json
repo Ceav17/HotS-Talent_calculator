@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/valla/portrait.png",
+  "lines": [
+    {
+      "id": "just_getting_started_94ea80b9",
+      "title": "Just Getting Started",
+      "variant": null,
+      "audio": "voice_lines/valla/just_getting_started_94ea80b9.ogg"
+    },
+    {
+      "id": "that_s_it_f75b7e4b",
+      "title": "That's It?",
+      "variant": null,
+      "audio": "voice_lines/valla/that_s_it_f75b7e4b.ogg"
+    },
+    {
+      "id": "the_hunt_begins_a1e07a53",
+      "title": "The Hunt Begins",
+      "variant": null,
+      "audio": "voice_lines/valla/the_hunt_begins_a1e07a53.ogg"
+    },
+    {
+      "id": "vengeance_is_mine_9caa3a73",
+      "title": "Vengeance Is Mine",
+      "variant": null,
+      "audio": "voice_lines/valla/vengeance_is_mine_9caa3a73.ogg"
+    },
+    {
+      "id": "well_done_4a21ac9e",
+      "title": "Well Done!",
+      "variant": null,
+      "audio": "voice_lines/valla/well_done_4a21ac9e.ogg"
+    }
+  ]
+}

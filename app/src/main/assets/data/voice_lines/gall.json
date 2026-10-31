@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/gall/portrait.png",
+  "lines": [
+    {
+      "id": "cackle_ed7e8e33",
+      "title": "Cackle",
+      "variant": null,
+      "audio": "voice_lines/gall/cackle_ed7e8e33.ogg"
+    },
+    {
+      "id": "embrace_the_shadow_0b75d517",
+      "title": "Embrace the Shadow",
+      "variant": null,
+      "audio": "voice_lines/gall/embrace_the_shadow_0b75d517.ogg"
+    },
+    {
+      "id": "infinite_madness_b5e0e588",
+      "title": "Infinite Madness",
+      "variant": null,
+      "audio": "voice_lines/gall/infinite_madness_b5e0e588.ogg"
+    },
+    {
+      "id": "the_apocalypse_is_nigh_da866552",
+      "title": "The Apocalypse Is Nigh",
+      "variant": null,
+      "audio": "voice_lines/gall/the_apocalypse_is_nigh_da866552.ogg"
+    },
+    {
+      "id": "your_eyes_are_open_fca0d547",
+      "title": "Your Eyes Are Open",
+      "variant": null,
+      "audio": "voice_lines/gall/your_eyes_are_open_fca0d547.ogg"
+    }
+  ]
+}

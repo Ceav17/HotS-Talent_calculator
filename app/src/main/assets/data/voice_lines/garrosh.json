@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/garrosh/portrait.png",
+  "lines": [
+    {
+      "id": "hellscream_s_eyes_10c7d877",
+      "title": "Hellscream's Eyes",
+      "variant": null,
+      "audio": "voice_lines/garrosh/hellscream_s_eyes_10c7d877.ogg"
+    },
+    {
+      "id": "i_answer_to_no_one_66c375d5",
+      "title": "I Answer to No One",
+      "variant": null,
+      "audio": "voice_lines/garrosh/i_answer_to_no_one_66c375d5.ogg"
+    },
+    {
+      "id": "lok_narash_46c0c5a8",
+      "title": "Lok-narash!",
+      "variant": null,
+      "audio": "voice_lines/garrosh/lok_narash_46c0c5a8.ogg"
+    },
+    {
+      "id": "serve_or_be_crushed_190038df",
+      "title": "Serve or Be Crushed",
+      "variant": null,
+      "audio": "voice_lines/garrosh/serve_or_be_crushed_190038df.ogg"
+    },
+    {
+      "id": "you_are_dismissed_1672f3ff",
+      "title": "You Are Dismissed",
+      "variant": null,
+      "audio": "voice_lines/garrosh/you_are_dismissed_1672f3ff.ogg"
+    }
+  ]
+}

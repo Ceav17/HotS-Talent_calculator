@@ -1,0 +1,685 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "rexxar",
+    "name": "Rexxar",
+    "team_role": "Bruiser",
+    "universe": "Warcraft",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "spirit_swoop",
+      "name": "Spirit Swoop",
+      "description": "Mana: 40 Cooldown: 7 seconds Deal 141 (+4% per level) damage to enemies in a line, slowing them by 30% for 2 seconds.",
+      "icon": "Heroes/rexxar/abilities/storm_ui_icon_rexxar_spiritswoop.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "RexxarSpiritSwoop|RexxarSpiritSwoop|Q",
+      "ability_id": "RexxarSpiritSwoop",
+      "button_id": "RexxarSpiritSwoop",
+      "unit_id": "HeroRexxar",
+      "unit_name": "Rexxar",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "misha_charge_b1c473b6c6",
+      "name": "Misha, Charge!",
+      "description": "Mana: 45 Cooldown: 10 seconds Misha charges in a line, dealing 150 (+4% per level) damage and stunning enemies for 1.25 seconds.",
+      "icon": "Heroes/rexxar/abilities/storm_ui_icon_rexxar_mishacharge.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "RexxarMishaChargeRedirect|RexxarMishaChargeRedirect|W",
+      "ability_id": "RexxarMishaChargeRedirect",
+      "button_id": "RexxarMishaChargeRedirect",
+      "unit_id": "HeroRexxar",
+      "unit_name": "Rexxar",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "mend_pet",
+      "name": "Mend Pet",
+      "description": "Mana: 70 Cooldown: 10 seconds Heal Misha for 714 (+4% per level) Health over 5 seconds.",
+      "icon": "Heroes/rexxar/abilities/storm_ui_icon_rexxar_mendpet.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "RexxarMendPet|RexxarMendPet|E",
+      "ability_id": "RexxarMendPet",
+      "button_id": "RexxarMendPet",
+      "unit_id": "HeroRexxar",
+      "unit_name": "Rexxar",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unleash_the_boars",
+      "name": "Unleash the Boars",
+      "description": "Mana: 75 Cooldown: 60 seconds Release a herd of boars that track down all enemy Heroes in a direction, dealing 110 (+4% per level) damage, revealing, and slowing enemies by 40% for 5 seconds.",
+      "icon": "Heroes/rexxar/talents/storm_ui_icon_rexxar_unleashtheboars.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "RexxarUnleashTheBoars|RexxarUnleashTheBoars|Heroic",
+      "ability_id": "RexxarUnleashTheBoars",
+      "button_id": "RexxarUnleashTheBoars",
+      "unit_id": "HeroRexxar",
+      "unit_name": "Rexxar",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_rexxar_unleashtheboars_mini.png"
+    },
+    {
+      "id": "bestial_wrath",
+      "name": "Bestial Wrath",
+      "description": "Mana: 75 Cooldown: 50 seconds Increases Misha's Basic Attack damage by 200% for 12 seconds.",
+      "icon": "Heroes/rexxar/talents/storm_ui_icon_rexxar_bestialwrath.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "RexxarBestialWrath|RexxarBestialWrath|Heroic",
+      "ability_id": "RexxarBestialWrath",
+      "button_id": "RexxarBestialWrath",
+      "unit_id": "HeroRexxar",
+      "unit_name": "Rexxar",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_rexxar_bestialwrath_mini.png"
+    },
+    {
+      "id": "misha_focus",
+      "name": "Misha, Focus!",
+      "description": "Passive: Misha gains 15% move speed.   Command Misha to attack a specific enemy or move to a point and wait.  Targeting Rexxar commands Misha to retreat to his position, gaining 30% move speed until she reaches Rexxar.  Targeting Misha commands her to hold her current position.",
+      "icon": "Heroes/rexxar/abilities/storm_ui_icon_rexxar_mishafixate.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "RexxarMishaFocus|RexxarMishaFocus|Trait",
+      "ability_id": "RexxarMishaFocus",
+      "button_id": "RexxarMishaFocus",
+      "unit_id": "HeroRexxar",
+      "unit_name": "Rexxar",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroRexxar",
+      "unit_name": "Rexxar",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroRexxar",
+      "unit_name": "Rexxar",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroRexxar",
+      "unit_name": "Rexxar",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "misha_charge_4a9c3ea22d",
+      "name": "Misha, Charge!",
+      "description": "Misha charges in a line, dealing 150 (+4% per level) damage and stunning enemies for 1.25 seconds.",
+      "icon": "Heroes/rexxar/abilities/storm_ui_icon_rexxar_mishacharge.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "RexxarMishaCharge|RexxarMishaChargeRedirect|W",
+      "ability_id": "RexxarMishaCharge",
+      "button_id": "RexxarMishaChargeRedirect",
+      "unit_id": "RexxarMisha",
+      "unit_name": "Misha",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "flare",
+      "name": "Flare",
+      "description": "Cooldown: 20 seconds Fire a flare at an area, revealing it for 20 seconds.",
+      "icon": "Heroes/rexxar/abilities/storm_ui_icon_rexxar_flare.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "RexxarFlare|RexxarFlare|Active",
+      "ability_id": "RexxarFlare",
+      "button_id": "RexxarFlare",
+      "unit_id": "HeroRexxar",
+      "unit_name": "Rexxar",
+      "parent_link_ids": [
+        "RexxarFlare|RexxarFlare|Active|Level1"
+      ],
+      "unlock_conditions": [
+        [
+          "RexxarFlare"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "RexxarFlare",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 1,
+      "unlock_position": 3
+    },
+    {
+      "id": "primal_intimidation",
+      "name": "Primal Intimidation",
+      "description": "Cooldown: 20 seconds Activate to Slow the Attack Speed by 50% and Movement Speed by 20% of Heroes and Summons near Rexxar and Misha for 2.5 seconds.  Passive: Heroes and Summons that attack Rexxar or Misha have their Attack Speed slowed by 20% for 2.5 seconds.",
+      "icon": "Heroes/rexxar/abilities/storm_ui_icon_talent_imposingpresence.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "RexxarPrimalIntimidation|RexxarSpiritBondPrimalIntimidationTalent|Active",
+      "ability_id": "RexxarPrimalIntimidation",
+      "button_id": "RexxarSpiritBondPrimalIntimidationTalent",
+      "unit_id": "HeroRexxar",
+      "unit_name": "Rexxar",
+      "parent_link_ids": [
+        "RexxarSpiritBondPrimalIntimidation|RexxarSpiritBondPrimalIntimidationTalent|Active|Level16"
+      ],
+      "unlock_conditions": [
+        [
+          "RexxarSpiritBondPrimalIntimidation"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "RexxarPrimalIntimidation",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 16,
+      "unlock_position": 2
+    },
+    {
+      "id": "feign_death_cancel",
+      "name": "Feign Death Cancel",
+      "description": "Cooldown: 35 seconds Cancel Feign Death.",
+      "icon": null,
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "RexxarFeignDeath|RexxarFeignDeathCancel|Active",
+      "ability_id": "RexxarFeignDeath",
+      "button_id": "RexxarFeignDeathCancel",
+      "unit_id": "HeroRexxar",
+      "unit_name": "Rexxar",
+      "parent_link_ids": [
+        "RexxarFeignDeath|RexxarFeignDeath|Active"
+      ],
+      "unlock_conditions": [
+        [
+          "RexxarFeignDeath"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "RexxarFeignDeath",
+      "active_order": 3,
+      "active_origin": "talent",
+      "unlock_level": 16,
+      "unlock_position": 3
+    },
+    {
+      "id": "feign_death",
+      "name": "Feign Death",
+      "description": "Cooldown: 35 seconds Rexxar fakes his death, becoming Invulnerable and untargetable for 5 seconds. During this time you control Misha.",
+      "icon": "Heroes/rexxar/abilities/storm_ui_icon_rexxar_feigndeath.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "RexxarFeignDeath|RexxarFeignDeath|Active",
+      "ability_id": "RexxarFeignDeath",
+      "button_id": "RexxarFeignDeath",
+      "unit_id": "HeroRexxar",
+      "unit_name": "Rexxar",
+      "parent_link_ids": [
+        "RexxarFeignDeath|RexxarFeignDeath|Active|Level16"
+      ],
+      "unlock_conditions": [
+        [
+          "RexxarFeignDeath"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "RexxarFeignDeath",
+      "active_order": 3,
+      "active_origin": "talent",
+      "unlock_level": 16,
+      "unlock_position": 3
+    },
+    {
+      "id": "hardened_skin",
+      "name": "Hardened Skin",
+      "description": "Cooldown: 60 seconds Rexxar and Misha gain 75 Armor for 4 seconds, reducing damage taken by 75%.",
+      "icon": "Heroes/rexxar/abilities/storm_ui_icon_talent_hardenedshield.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "RexxarHardenedSkin|RexxarHardenedSkin|Active",
+      "ability_id": "RexxarHardenedSkin",
+      "button_id": "RexxarHardenedSkin",
+      "unit_id": "HeroRexxar",
+      "unit_name": "Rexxar",
+      "parent_link_ids": [
+        "RexxarHardenedSkin|RexxarHardenedSkin|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "RexxarHardenedSkin"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2",
+        "3"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "RexxarHardenedSkin",
+      "active_order": 4,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 4
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "bird_of_prey",
+          "name": "Bird of Prey",
+          "description": "Increases Spirit Swoop's damage by 150% to Minions.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_rexxar_spiritswoop.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "RexxarSpiritSwoopBirdOfPrey|RexxarSpiritSwoopBirdOfPreyTalent|Q|Level1",
+          "talent_id": "RexxarSpiritSwoopBirdOfPrey",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_rexxar_spiritswoop_mini.png"
+        },
+        {
+          "id": "easy_prey",
+          "name": "Easy Prey",
+          "description": "Increases Misha's basic attack damage to Minions and Mercenaries by 150%, and Misha gains 50 Armor against Minions and Mercenaries, reducing damage taken by 50%.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_rexxar_heremishaactive.png",
+          "position": 2,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "RexxarSpiritBondEasyPrey|RexxarSpiritBondEasyPreyTalent|Passive|Level1",
+          "talent_id": "RexxarSpiritBondEasyPrey",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_rexxar_heremishaactive_mini.png"
+        },
+        {
+          "id": "flare",
+          "name": "Flare",
+          "description": "Cooldown: 20 seconds Fire a flare at an area, revealing it for 20 seconds.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_rexxar_flare.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "RexxarFlare|RexxarFlare|Active|Level1",
+          "talent_id": "RexxarFlare",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_rexxar_flare_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "hungry_bear",
+          "name": "Hungry Bear",
+          "description": "Misha's Basic Attacks heal her for 4.5% of her maximum Health.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_rexxar_heremishaactive.png",
+          "position": 1,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "RexxarHungryBear|RexxarHungryBearTalent|Passive|Level4",
+          "talent_id": "RexxarHungryBear",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_rexxar_heremishaactive_mini.png"
+        },
+        {
+          "id": "hunter_gatherer",
+          "name": "Hunter-Gatherer",
+          "description": "Quest: Gathering a Regeneration Globe increases Rexxar and Misha's Health Regeneration by 1 per second, up to 25 per second.   Reward: After gathering 25 Globes, Rexxar and Misha gain 15 Armor.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_talent_regenerationmaster.png",
+          "position": 2,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "RexxarHunterGatherer|RexxarHunterGathererTalent|Passive|Level4",
+          "talent_id": "RexxarHunterGatherer",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_talent_regenerationmaster_mini.png"
+        },
+        {
+          "id": "grizzled_fortitude",
+          "name": "Grizzled Fortitude",
+          "description": "Every 6 seconds, Rexxar and Misha gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%.  Stores up to 2 charges. Both Rexxar and Misha have their own charges.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_talent_block.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "RexxarSpiritBondGrizzledFortitude|RexxarSpiritBondGrizzledFortitudeTalent|Passive|Level4",
+          "talent_id": "RexxarSpiritBondGrizzledFortitude",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_talent_block_mini.png"
+        },
+        {
+          "id": "animal_husbandry",
+          "name": "Animal Husbandry",
+          "description": "Rexxar and Misha gain 2 Maximum Health every second Rexxar remains alive. These bonuses are lost on Rexxar's death.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_rexxar_stayinalive.png",
+          "position": 4,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "RexxarAnimalHusbandry|RexxarAnimalHusbandry|Passive|Level4",
+          "talent_id": "RexxarAnimalHusbandry",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_rexxar_stayinalive_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "crippling_talons",
+          "name": "Crippling Talons",
+          "description": "Increases Spirit Swoop's slow amount to 50% and its duration to 3.5 seconds.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_rexxar_spiritswoop.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "RexxarSpiritSwoopCripplingTalons|RexxarCripplingTalonsTalent|Q|Level7",
+          "talent_id": "RexxarSpiritSwoopCripplingTalons",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_rexxar_spiritswoop_mini.png"
+        },
+        {
+          "id": "taking_flight",
+          "name": "Taking Flight",
+          "description": "Increases Spirit Swoop's range by 20%. If Spirit Swoop hits an enemy Hero, the Mana cost is refunded and its cooldown is reduced by 2 seconds.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_rexxar_spiritswoop_var1.png",
+          "position": 2,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "RexxarTakingFlightSpiritSwoop|RexxarTakingFlightTalent|Q|Level7",
+          "talent_id": "RexxarTakingFlightSpiritSwoop",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_rexxar_spiritswoop_var1_mini.png"
+        },
+        {
+          "id": "aspect_of_the_beast",
+          "name": "Aspect of the Beast",
+          "description": "Misha's Basic Attacks lower the cooldown of Misha, Charge! by 1 second.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_rexxar_mishacharge.png",
+          "position": 3,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "RexxarAspectoftheBeastCharge|RexxarAspectoftheBeastTalent|W|Level7",
+          "talent_id": "RexxarAspectoftheBeastCharge",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_rexxar_mishacharge_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "bestial_wrath",
+          "name": "Bestial Wrath",
+          "description": "Mana: 75 Cooldown: 50 seconds Increases Misha's Basic Attack damage by 200% for 12 seconds.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_rexxar_bestialwrath.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "RexxarHeroicAbilityBestialWrath|RexxarBestialWrath|Heroic|Level10",
+          "talent_id": "RexxarHeroicAbilityBestialWrath",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_rexxar_bestialwrath_mini.png"
+        },
+        {
+          "id": "unleash_the_boars",
+          "name": "Unleash the Boars",
+          "description": "Mana: 75 Cooldown: 60 seconds Release a herd of boars that track down all enemy Heroes in a direction, dealing 110 (+4% per level) damage, revealing, and slowing enemies by 40% for 5 seconds.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_rexxar_unleashtheboars.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "RexxarHeroicAbilityUnleashTheBoars|RexxarUnleashTheBoars|Heroic|Level10",
+          "talent_id": "RexxarHeroicAbilityUnleashTheBoars",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_rexxar_unleashtheboars_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "aspect_of_the_hawk",
+          "name": "Aspect of the Hawk",
+          "description": "When Spirit Swoop hits an enemy Hero, Rexxar gains 125% Attack Speed for 4 seconds. Misha's Basic Attacks increase the duration of this buff by 0.75 seconds.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_rexxar_spiritswoop.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "RexxarAspectOfTheHawkSpiritSwoop|RexxarAspectOfTheHawkTalent|Q|Level13",
+          "talent_id": "RexxarAspectOfTheHawkSpiritSwoop",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_rexxar_spiritswoop_mini.png"
+        },
+        {
+          "id": "dire_beast",
+          "name": "Dire Beast",
+          "description": "Rexxar and Misha's Basic Attacks increase the damage of the next Misha, Charge! by 15%, stacking up to a 150% bonus.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_rexxar_mishacharge.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "RexxarDireBeast|RexxarDireBeast|W|Level13",
+          "talent_id": "RexxarDireBeast",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_rexxar_mishacharge_mini.png"
+        },
+        {
+          "id": "wildfire_bear",
+          "name": "Wildfire Bear",
+          "description": "Misha deals 28 (+4% per level) damage per second to nearby enemies.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_talent_burningrage.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "RexxarSpiritBondWildfireBear|RexxarSpiritBondWildfireBearTalent|Passive|Level13",
+          "talent_id": "RexxarSpiritBondWildfireBear",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_talent_burningrage_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "thrill_of_the_hunt",
+          "name": "Thrill of the Hunt",
+          "description": "Rexxar's Basic Attacks increase both his and Misha's Movement Speed by 25% for 2 seconds.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_rexxar_heremishaactive.png",
+          "position": 1,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "RexxarThrilloftheHunt|RexxarThrilloftheHuntTalent|Passive|Level16",
+          "talent_id": "RexxarThrilloftheHunt",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_rexxar_heremishaactive_mini.png"
+        },
+        {
+          "id": "primal_intimidation",
+          "name": "Primal Intimidation",
+          "description": "Cooldown: 20 seconds Activate to Slow the Attack Speed by 50% and Movement Speed by 20% of Heroes and Summons near Rexxar and Misha for 2.5 seconds.  Passive: Heroes and Summons that attack Rexxar or Misha have their Attack Speed slowed by 20% for 2.5 seconds.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_talent_imposingpresence.png",
+          "position": 2,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "RexxarSpiritBondPrimalIntimidation|RexxarSpiritBondPrimalIntimidationTalent|Active|Level16",
+          "talent_id": "RexxarSpiritBondPrimalIntimidation",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2"
+          ],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_talent_imposingpresence_mini.png"
+        },
+        {
+          "id": "feign_death",
+          "name": "Feign Death",
+          "description": "Cooldown: 35 seconds Rexxar fakes his death, becoming Invulnerable and untargetable for 5 seconds. During this time you control Misha.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_rexxar_feigndeath.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "RexxarFeignDeath|RexxarFeignDeath|Active|Level16",
+          "talent_id": "RexxarFeignDeath",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2"
+          ],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_rexxar_feigndeath_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "spirit_bond",
+          "name": "Spirit Bond",
+          "description": "Increases the duration of Bestial Wrath by 50% and Misha's Basic Attacks heal Rexxar for 50% of her damage dealt during Bestial Wrath.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_rexxar_bestialwrath.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "RexxarSpiritBond|RexxarSpiritBondTalent|Heroic|Level20",
+          "talent_id": "RexxarSpiritBond",
+          "prerequisite_talent_ids": [
+            "RexxarHeroicAbilityBestialWrath"
+          ],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_rexxar_bestialwrath_mini.png"
+        },
+        {
+          "id": "kill_command",
+          "name": "Kill Command",
+          "description": "Unleash the Boars deals 50% more damage and Roots for 1.5 seconds.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_rexxar_unleashtheboars.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "RexxarUnleashTheBoarsKillCommand|RexxarUnleashTheBoarsKillCommandTalent|Heroic|Level20",
+          "talent_id": "RexxarUnleashTheBoarsKillCommand",
+          "prerequisite_talent_ids": [
+            "RexxarHeroicAbilityUnleashTheBoars"
+          ],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_rexxar_unleashtheboars_mini.png"
+        },
+        {
+          "id": "frenzy_of_kalimdor",
+          "name": "Frenzy of Kalimdor",
+          "description": "Rexxar's Basic Attacks deal 10% more damage, and Misha's Basic Attacks slow the target by 20% for 1.25 seconds.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_talent_autoattack_slow.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "RexxarFrenzyofKalimdor|RexxarFrenzyofKalimdorTalent|Passive|Level20",
+          "talent_id": "RexxarFrenzyofKalimdor",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_talent_autoattack_slow_mini.png"
+        },
+        {
+          "id": "hardened_skin",
+          "name": "Hardened Skin",
+          "description": "Cooldown: 60 seconds Rexxar and Misha gain 75 Armor for 4 seconds, reducing damage taken by 75%.",
+          "icon": "Heroes/rexxar/talents/storm_ui_icon_talent_hardenedshield.png",
+          "position": 4,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "RexxarHardenedSkin|RexxarHardenedSkin|Active|Level20",
+          "talent_id": "RexxarHardenedSkin",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2",
+            "3"
+          ],
+          "icon_mini": "Heroes/rexxar/talents/storm_ui_icon_talent_hardenedshield_mini.png"
+        }
+      ]
+    }
+  ]
+}

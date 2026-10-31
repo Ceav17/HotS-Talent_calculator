@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/e-t-c/portrait.png",
+  "lines": [
+    {
+      "id": "bang_your_head_acd1fc92",
+      "title": "Bang Your Head!",
+      "variant": null,
+      "audio": "voice_lines/e-t-c/bang_your_head_acd1fc92.ogg"
+    },
+    {
+      "id": "false_metal_35b30e8c",
+      "title": "False Metal",
+      "variant": null,
+      "audio": "voice_lines/e-t-c/false_metal_35b30e8c.ogg"
+    },
+    {
+      "id": "let_s_rock_6144c29a",
+      "title": "Let's Rock!",
+      "variant": null,
+      "audio": "voice_lines/e-t-c/let_s_rock_6144c29a.ogg"
+    },
+    {
+      "id": "not_happening_bro_865a695a",
+      "title": "Not Happening, Bro",
+      "variant": null,
+      "audio": "voice_lines/e-t-c/not_happening_bro_865a695a.ogg"
+    },
+    {
+      "id": "parking_lot_f5711a73",
+      "title": "Parking Lot",
+      "variant": null,
+      "audio": "voice_lines/e-t-c/parking_lot_f5711a73.ogg"
+    }
+  ]
+}

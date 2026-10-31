@@ -1,0 +1,541 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "greymane",
+    "name": "Greymane",
+    "team_role": "Ranged Assassin",
+    "universe": "Warcraft",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "gilnean_cocktail",
+      "name": "Gilnean Cocktail",
+      "description": "Mana: 55 Cooldown: 9 seconds Hurl a flask that deals 55 (+4% per level) damage to the first enemy hit and explodes for 220 (+4% per level) damage to enemies in a cone behind them.  Worgen: Razor Swipe Swipe forward, damaging enemies hit.",
+      "icon": "Heroes/greymane/abilities/storm_ui_icon_greymane_qattack.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "GreymaneGilneanCocktail|GreymaneGilneanCocktail|Q",
+      "ability_id": "GreymaneGilneanCocktail",
+      "button_id": "GreymaneGilneanCocktail",
+      "unit_id": "HeroGreymane",
+      "unit_name": "Greymane",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "inner_beast_e12ee79eeb",
+      "name": "Inner Beast",
+      "description": "Mana: 70 Cooldown: 20 seconds Gain 50% Attack Speed for 3 seconds. Basic Attacks refresh this duration, and reduce the cooldown of Inner Beast by 0.5 seconds.",
+      "icon": "Heroes/greymane/abilities/storm_ui_icon_greymane_beastfocus.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "GreymaneInnerBeast|GreymaneInnerBeast|W",
+      "ability_id": "GreymaneInnerBeast",
+      "button_id": "GreymaneInnerBeast",
+      "unit_id": "HeroGreymane",
+      "unit_name": "Greymane",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "darkflight",
+      "name": "Darkflight",
+      "description": "Mana: 10 Cooldown: 5 seconds Shapeshift into a Worgen and leap at an enemy dealing 88 (+4% per level) damage.  Worgen: Disengage Roll away and shapeshift into a Human.",
+      "icon": "Heroes/greymane/abilities/storm_ui_icon_greymane_darkflight.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "GreymaneDarkflight|GreymaneDarkflight|E",
+      "ability_id": "GreymaneDarkflight",
+      "button_id": "GreymaneDarkflight",
+      "unit_id": "HeroGreymane",
+      "unit_name": "Greymane",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "go_for_the_throat",
+      "name": "Go for the Throat",
+      "description": "Mana: 90 Cooldown: 80 seconds Leap at an enemy Hero and shapeshift into a Worgen, slashing for 355 (+4% per level) damage. If this kills them, the Ability can be used a second time within 10 seconds for free.",
+      "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_goforthethroat.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "GreymaneGoForTheThroat|GreymaneGoForTheThroat|Heroic",
+      "ability_id": "GreymaneGoForTheThroat",
+      "button_id": "GreymaneGoForTheThroat",
+      "unit_id": "HeroGreymane",
+      "unit_name": "Greymane",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_goforthethroat_mini.png"
+    },
+    {
+      "id": "cursed_bullet",
+      "name": "Cursed Bullet",
+      "description": "Mana: 50 Cooldown: 30 seconds Greymane shapeshifts into a Human and fires a bullet that hits the first enemy Hero in its path, dealing 35% of their current Health in damage.  Does not affect Vehicles.",
+      "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_snapshot.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "GreymaneCursedBullet|GreymaneCursedBullet|Heroic",
+      "ability_id": "GreymaneCursedBullet",
+      "button_id": "GreymaneCursedBullet",
+      "unit_id": "HeroGreymane",
+      "unit_name": "Greymane",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_snapshot_mini.png"
+    },
+    {
+      "id": "curse_of_the_worgen",
+      "name": "Curse of the Worgen",
+      "description": "Greymane can use certain Abilities to shapeshift between a Human and a Worgen.  While Human, Greymane's Basic Attacks are ranged.  While Worgen, Greymane gains 10 Armor, and his Basic Attacks become melee but deal 40% more damage.",
+      "icon": "Heroes/greymane/abilities/storm_ui_icon_greymane_curseoftheworgen.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": ":PASSIVE:|GreymaneWorgenForm|Trait",
+      "ability_id": ":PASSIVE:",
+      "button_id": "GreymaneWorgenForm",
+      "unit_id": "HeroGreymane",
+      "unit_name": "Greymane",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds Shapeshift into Human form and increase Greymane's Movement Speed by 40%.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|GreymaneSummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "GreymaneSummonMount",
+      "unit_id": "HeroGreymane",
+      "unit_name": "Greymane",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroGreymane",
+      "unit_name": "Greymane",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "inner_beast_089b292820",
+      "name": "Inner Beast",
+      "description": "Gain 50% Attack Speed for 3 seconds. Basic Attacks refresh this duration, and reduce the cooldown of Inner Beast by 0.5 seconds.",
+      "icon": null,
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": ":PASSIVE:|GreymaneInnerBeastActive|W",
+      "ability_id": ":PASSIVE:",
+      "button_id": "GreymaneInnerBeastActive",
+      "unit_id": "HeroGreymane",
+      "unit_name": "Greymane",
+      "parent_link_ids": [
+        "GreymaneInnerBeast|GreymaneInnerBeast|W"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "razor_swipe",
+      "name": "Razor Swipe",
+      "description": "Mana: 25 Cooldown: 4 seconds Swipe in the targeted direction, dealing 126 (+4% per level) damage to enemies hit.  Human: Gilnean Cocktail Damage the first enemy hit and deal heavy damage behind them.",
+      "icon": "Heroes/greymane/abilities/storm_ui_icon_greymane_swipe.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "GreymaneRazorSwipe|GreymaneRazorSwipe|Q",
+      "ability_id": "GreymaneRazorSwipe",
+      "button_id": "GreymaneRazorSwipe",
+      "unit_id": "HeroGreymane",
+      "unit_name": "Greymane",
+      "parent_link_ids": [
+        "GreymaneDarkflight|GreymaneDarkflight|E"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "disengage",
+      "name": "Disengage",
+      "description": "Cooldown: 5 seconds Roll away and shapeshift into a Human.  Human: Darkflight Leap at an enemy and shapeshift into a Worgen.",
+      "icon": "Heroes/greymane/abilities/storm_ui_icon_greymane_disengage.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "GreymaneDisengage|GreymaneDisengage|E",
+      "ability_id": "GreymaneDisengage",
+      "button_id": "GreymaneDisengage",
+      "unit_id": "HeroGreymane",
+      "unit_name": "Greymane",
+      "parent_link_ids": [
+        "GreymaneDarkflight|GreymaneDarkflight|E"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroGreymane",
+      "unit_name": "Greymane",
+      "parent_link_ids": [
+        "Mount|GreymaneSummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "wolfheart",
+          "name": "Wolfheart",
+          "description": "Increase the cooldown reduction from Basic Attacks during Inner Beast from 0.5 to 1.2 seconds, and Worgen Form's Armor bonus from 10 to 15.",
+          "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_beastfocus.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "GreymaneInnerBeastWolfheart|GreymaneInnerBeastWolfheartTalent|W|Level1",
+          "talent_id": "GreymaneInnerBeastWolfheart",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_beastfocus_mini.png"
+        },
+        {
+          "id": "perfect_aim",
+          "name": "Perfect Aim",
+          "description": "Increases Gilnean Cocktail's range by 30% and refunds 45 Mana if it hits an enemy Hero.",
+          "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_qattack.png",
+          "position": 2,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "GreymaneGilneanCocktailPerfectAim|GreymaneGilneanCocktailPerfectAimTalent|Q|Level1",
+          "talent_id": "GreymaneGilneanCocktailPerfectAim",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_qattack_mini.png"
+        },
+        {
+          "id": "viciousness",
+          "name": "Viciousness",
+          "description": "Increases Inner Beast's duration to 4 seconds, and causes Ability damage to also refresh its duration.",
+          "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_beastfocus_var1.png",
+          "position": 3,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "GreymaneInnerBeastViciousness|GreymaneInnerBeastViciousnessTalent|W|Level1",
+          "talent_id": "GreymaneInnerBeastViciousness",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_beastfocus_var1_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "thick_skin",
+          "name": "Thick Skin",
+          "description": "Using Darkflight grants 50 Physical Armor against the next 2 Hero Basic Attacks while in Worgen Form, reducing the damage taken by 50%.",
+          "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_darkflight.png",
+          "position": 1,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "GreymaneDarkflightThickSkin|GreymaneDarkflightThickSkinTalent|E|Level4",
+          "talent_id": "GreymaneDarkflightThickSkin",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_darkflight_mini.png"
+        },
+        {
+          "id": "eyes_in_the_dark",
+          "name": "Eyes in the Dark",
+          "description": "Disengage grants Stealth for 3 seconds.",
+          "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_disengage.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "GreymaneDisengageEyesInTheDark|GreymaneDisengageEyesInTheDarkTalent|E|Level4",
+          "talent_id": "GreymaneDisengageEyesInTheDark",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_disengage_mini.png"
+        },
+        {
+          "id": "insatiable",
+          "name": "Insatiable",
+          "description": "Inner Beast causes Basic Attacks to restore 10 Mana, and reduce the cooldown of Healing Fountain by 0.5 seconds.",
+          "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_beastfocus.png",
+          "position": 3,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "GreymaneInnerBeastInsatiable|GreymaneInnerBeastInsatiableTalent|W|Level4",
+          "talent_id": "GreymaneInnerBeastInsatiable",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_beastfocus_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "quicksilver_bullets",
+          "name": "Quicksilver Bullets",
+          "description": "Increases Greymane's Human Basic Attack range by 1.1.",
+          "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_curseoftheworgen.png",
+          "position": 1,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "GreymaneWorgenFormQuicksilverBullets|GreymaneQuicksilverBulletsTalent|Trait|Level7",
+          "talent_id": "GreymaneWorgenFormQuicksilverBullets",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_curseoftheworgen_mini.png"
+        },
+        {
+          "id": "incendiary_elixir",
+          "name": "Incendiary Elixir",
+          "description": "Quest: Reduce the cooldown of Gilnean Cocktail by 2 seconds. Every time Greymane hits an enemy Hero with the explosion damage from Gilnean Cocktail, increase its explosion damage by 25, up to 375.  Reward: After hitting 15 Heroes, the cooldown is reduced by an additional 3 seconds.",
+          "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_qattack.png",
+          "position": 2,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "GreymaneGilneanCocktailIncendiaryElixir|GreymaneGilneanCocktailIncendiaryElixirTalent|Q|Level7",
+          "talent_id": "GreymaneGilneanCocktailIncendiaryElixir",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_qattack_mini.png"
+        },
+        {
+          "id": "wizened_duelist",
+          "name": "Wizened Duelist",
+          "description": "Quest: Every 6 Human Basic Attacks against Heroes increase Basic Attack damage by 1%, up to 30%. Worgen Basic Attacks grant credit for 3 Basic Attacks. Half of this bonus is lost upon death.",
+          "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_curseoftheworgen_var1.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "GreymaneWizenedDuelist|GreymaneWizenedDuelistTalent|Trait|Level7",
+          "talent_id": "GreymaneWizenedDuelist",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_curseoftheworgen_var1_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "go_for_the_throat",
+          "name": "Go for the Throat",
+          "description": "Mana: 90 Cooldown: 80 seconds Leap at an enemy Hero and shapeshift into a Worgen, slashing for 355 (+4% per level) damage. If this kills them, the Ability can be used a second time within 10 seconds for free.",
+          "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_goforthethroat.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "GreymaneHeroicAbilityGoForTheThroat|GreymaneGoForTheThroat|Heroic|Level10",
+          "talent_id": "GreymaneHeroicAbilityGoForTheThroat",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_goforthethroat_mini.png"
+        },
+        {
+          "id": "cursed_bullet",
+          "name": "Cursed Bullet",
+          "description": "Mana: 50 Cooldown: 30 seconds Greymane shapeshifts into a Human and fires a bullet that hits the first enemy Hero in its path, dealing 35% of their current Health in damage.  Does not affect Vehicles.",
+          "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_snapshot.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "GreymaneHeroicAbilityCursedBullet|GreymaneCursedBullet|Heroic|Level10",
+          "talent_id": "GreymaneHeroicAbilityCursedBullet",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_snapshot_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "running_wild",
+          "name": "Running Wild",
+          "description": "Increases Darkflight and Disengage's range by 35%, and reduce their cooldowns by 1 second.",
+          "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_darkflight.png",
+          "position": 1,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "GreymaneDarkflightDisengageRunningWild|GreymaneDarkflightRunningWildTalent|E|Level13",
+          "talent_id": "GreymaneDarkflightDisengageRunningWild",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_darkflight_mini.png"
+        },
+        {
+          "id": "unfettered_assault",
+          "name": "Unfettered Assault",
+          "description": "Increases Razor Swipe's lunge distance by 60%, and Worgen Basic Attacks reduce Razor Swipe's cooldown by 1.5 seconds.",
+          "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_swipe.png",
+          "position": 2,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "GreymaneRazorSwipeUnfetteredAssault|GreymaneRazorSwipeUnfetteredAssaultTalent|Q|Level13",
+          "talent_id": "GreymaneRazorSwipeUnfetteredAssault",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_swipe_mini.png"
+        },
+        {
+          "id": "on_the_prowl",
+          "name": "On the Prowl",
+          "description": "Inner Beast increases Movement Speed by 30% once it has been active for 3 seconds.",
+          "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_beastfocus.png",
+          "position": 3,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "GreymaneInnerBeastOnTheProwl|GreymaneInnerBeastOnTheProwlTalent|W|Level13",
+          "talent_id": "GreymaneInnerBeastOnTheProwl",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_beastfocus_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "eager_wolf",
+          "name": "Eager Wolf",
+          "description": "Increases the Attack Speed bonus of Inner Beast by an additional 40% after it has been active for 4 seconds.",
+          "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_beastfocus.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "GreymaneEagerWolf|GreymaneEagerWolf|W|Level16",
+          "talent_id": "GreymaneEagerWolf",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_beastfocus_mini.png"
+        },
+        {
+          "id": "lord_of_his_pack",
+          "name": "Lord of His Pack",
+          "description": "Attacking a Hero that is Slowed, Rooted, or Stunned increases Greymane's Basic Attack damage by 25% for 3 seconds, increased to 50% while in Worgen Form.",
+          "icon": "Heroes/greymane/talents/storm_ui_icon_talent_autoattack_damage.png",
+          "position": 2,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "GreymaneLordofHisPack|GreymaneLordofHisPackTalent|Passive|Level16",
+          "talent_id": "GreymaneLordofHisPack",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/greymane/talents/storm_ui_icon_talent_autoattack_damage_mini.png"
+        },
+        {
+          "id": "alpha_killer",
+          "name": "Alpha Killer",
+          "description": "Worgen Basic Attacks against Heroes deal bonus damage equal to 3% of the Hero's maximum Health.",
+          "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_curseoftheworgen_var1.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "GreymaneWorgenFormAlphaKiller|GreymaneAlphaKillerTalent|Trait|Level16",
+          "talent_id": "GreymaneWorgenFormAlphaKiller",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_curseoftheworgen_var1_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "unleashed",
+          "name": "Unleashed",
+          "description": "Passive: Go For The Throat's damage is increased by 25%.  If Go for the Throat kills its target, refund its Mana cost and reset the cooldowns of Greymane's Abilities.",
+          "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_goforthethroat.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "GreymaneGoForTheThroatUnleashed|GreymaneUnleashed|Heroic|Level20",
+          "talent_id": "GreymaneGoForTheThroatUnleashed",
+          "prerequisite_talent_ids": [
+            "GreymaneHeroicAbilityGoForTheThroat"
+          ],
+          "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_goforthethroat_mini.png"
+        },
+        {
+          "id": "gilnean_roulette",
+          "name": "Gilnean Roulette",
+          "description": "Cursed Bullet's damage is reduced to 30% of current health but its cooldown is reduced by 24 seconds.",
+          "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_snapshot.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "GreymaneCursedBulletGilneanRoulette|GreymaneCursedBulletGilneanRouletteTalent|Heroic|Level20",
+          "talent_id": "GreymaneCursedBulletGilneanRoulette",
+          "prerequisite_talent_ids": [
+            "GreymaneHeroicAbilityCursedBullet"
+          ],
+          "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_snapshot_mini.png"
+        },
+        {
+          "id": "hunter_s_blunderbuss",
+          "name": "Hunter's Blunderbuss",
+          "description": "Human Basic Attacks splash for 100% damage behind the target.",
+          "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_curseoftheworgen.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "GreymaneHuntersBlunderbuss|GreymaneHuntersBlunderbussTalent|Trait|Level20",
+          "talent_id": "GreymaneHuntersBlunderbuss",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_curseoftheworgen_mini.png"
+        },
+        {
+          "id": "tooth_and_claw",
+          "name": "Tooth and Claw",
+          "description": "Worgen Basic Attacks cleave for 100% damage. Increase Razor Swipe's damage by 100%.",
+          "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_curseoftheworgen_var1.png",
+          "position": 4,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "GreymaneToothAndClaw|GreymaneToothAndClawTalent|Trait|Level20",
+          "talent_id": "GreymaneToothAndClaw",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/greymane/talents/storm_ui_icon_greymane_curseoftheworgen_var1_mini.png"
+        }
+      ]
+    }
+  ]
+}

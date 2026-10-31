@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/guldan/portrait.png",
+  "lines": [
+    {
+      "id": "bleed_you_dry_46a243c0",
+      "title": "Bleed You Dry",
+      "variant": null,
+      "audio": "voice_lines/guldan/bleed_you_dry_46a243c0.ogg"
+    },
+    {
+      "id": "i_won_t_be_denied_6a7223d5",
+      "title": "I Won't Be Denied",
+      "variant": null,
+      "audio": "voice_lines/guldan/i_won_t_be_denied_6a7223d5.ogg"
+    },
+    {
+      "id": "my_plans_dfeb82e8",
+      "title": "My Plans",
+      "variant": null,
+      "audio": "voice_lines/guldan/my_plans_dfeb82e8.ogg"
+    },
+    {
+      "id": "the_only_way_235c2395",
+      "title": "The Only Way",
+      "variant": null,
+      "audio": "voice_lines/guldan/the_only_way_235c2395.ogg"
+    },
+    {
+      "id": "your_suffering_has_begun_2cf7c7ed",
+      "title": "Your Suffering Has Begun",
+      "variant": null,
+      "audio": "voice_lines/guldan/your_suffering_has_begun_2cf7c7ed.ogg"
+    }
+  ]
+}

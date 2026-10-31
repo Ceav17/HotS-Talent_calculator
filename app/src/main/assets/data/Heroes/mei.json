@@ -1,0 +1,597 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "mei",
+    "name": "Mei",
+    "team_role": "Tank",
+    "universe": "Overwatch",
+    "icon": "Heroes/mei/storm_ui_glues_draft_portrait_meiow.png",
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "snow_blind",
+      "name": "Snow Blind",
+      "description": "Mana: 35 Cooldown: 10 seconds Throw a snowball that hits all enemies in an area. Enemies hit take 70 (+4% per level) damage, are Slowed by 35%, and are Blinded for 1.75 seconds.",
+      "icon": "Heroes/mei/abilities/storm_ui_icon_mei_q_snowblind.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "MeiOWSnowBlind|MeiOWSnowBlind|Q",
+      "ability_id": "MeiOWSnowBlind",
+      "button_id": "MeiOWSnowBlind",
+      "unit_id": "HeroMeiOW",
+      "unit_name": "Mei",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "blizzard",
+      "name": "Blizzard",
+      "description": "Mana: 70 Cooldown: 14 seconds Command Snowball to create a Blizzard at the target location for 2 seconds. Enemies within the blizzard take 13 (+4% per level) damage every 0.25 seconds and are Slowed by 7%, stacking up to 35%. When the Blizzard ends, enemies within its area take an additional 75 (+4% per level) damage and are Stunned for 1.25 seconds.",
+      "icon": "Heroes/mei/abilities/storm_ui_icon_mei_w_blizzard.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "MeiOWBlizzard|MeiOWBlizzard|W",
+      "ability_id": "MeiOWBlizzard",
+      "button_id": "MeiOWBlizzard",
+      "unit_id": "HeroMeiOW",
+      "unit_name": "Mei",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "icing_4c0eb7ed09",
+      "name": "Icing",
+      "description": "Mana: 70 Cooldown: 14 seconds Slide quickly in the targeted direction. When this effect ends, enemies near Mei are knocked back, take 52 (+4% per level) damage, and are Slowed by 80%, rapidly decaying over 1.5 seconds.  Can be canceled during sliding.",
+      "icon": "Heroes/mei/abilities/storm_ui_icon_mei_e1_slide.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "MeiOWIcing|MeiOWIcing|E",
+      "ability_id": "MeiOWIcing",
+      "button_id": "MeiOWIcing",
+      "unit_id": "HeroMeiOW",
+      "unit_name": "Mei",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "avalanche",
+      "name": "Avalanche",
+      "description": "Mana: 80 Cooldown: 90 seconds After 0.5 seconds, roll a massive snowball that consumes enemy Heroes in its path. At the end of its path, the snowball crumbles, releasing the consumed Heroes, dealing 220 (+4% per level) damage and Stunning them for 0.5 seconds per Hero consumed.",
+      "icon": "Heroes/mei/talents/storm_ui_icon_mei_r1_avalanche.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "MeiOWAvalanche|MeiOWAvalanche|Heroic",
+      "ability_id": "MeiOWAvalanche",
+      "button_id": "MeiOWAvalanche",
+      "unit_id": "HeroMeiOW",
+      "unit_name": "Mei",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/mei/talents/storm_ui_icon_mei_r1_avalanche_mini.png"
+    },
+    {
+      "id": "ice_wall",
+      "name": "Ice Wall",
+      "description": "Mana: 50 Cooldown: 60 seconds Vector Targeting After a 0.75 second delay, create an impassable wall that traps enemy Heroes hit for 2.5 seconds. When the wall expires, trapped Heroes are Slowed by 75%, decaying over 3 seconds.",
+      "icon": "Heroes/mei/talents/storm_ui_icon_mei_r2_icewall.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "MeiOWIceWall|MeiOWIceWall|Heroic",
+      "ability_id": "MeiOWIceWall",
+      "button_id": "MeiOWIceWall",
+      "unit_id": "HeroMeiOW",
+      "unit_name": "Mei",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/mei/talents/storm_ui_icon_mei_r2_icewall_mini.png"
+    },
+    {
+      "id": "cryo_freeze_5f1daaac67",
+      "name": "Cryo-Freeze",
+      "description": "Cooldown: 40 seconds Become encased in ice for 3 seconds, gaining a rapidly decaying Shield that absorbs up to 1104 (+4% per level) damage. While active, this Shield grants Unstoppable and restores up to 35% of Mei's maximum Health.",
+      "icon": "Heroes/mei/abilities/storm_ui_icon_mei_trait.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "MeiOWCryoFreeze|MeiOWCryoFreeze|Trait",
+      "ability_id": "MeiOWCryoFreeze",
+      "button_id": "MeiOWCryoFreeze",
+      "unit_id": "HeroMeiOW",
+      "unit_name": "Mei",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroMeiOW",
+      "unit_name": "Mei",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroMeiOW",
+      "unit_name": "Mei",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "icing_c75c2a16ce",
+      "name": "Icing",
+      "description": "Cooldown: 14 seconds Cancel Icing",
+      "icon": "Heroes/mei/abilities/storm_ui_icon_mei_e2_slide.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "MeiOWIcingCancel|MeiOWIcingCancel|E",
+      "ability_id": "MeiOWIcingCancel",
+      "button_id": "MeiOWIcingCancel",
+      "unit_id": "HeroMeiOW",
+      "unit_name": "Mei",
+      "parent_link_ids": [
+        "MeiOWIcing|MeiOWIcing|E"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "cryo_freeze_8ea3d3659d",
+      "name": "Cryo-Freeze",
+      "description": "Cancel Cryo-Freeze",
+      "icon": null,
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "MeiOWCryoFreezeCancel|MeiOWCryoFreezeCancel|Trait",
+      "ability_id": "MeiOWCryoFreezeCancel",
+      "button_id": "MeiOWCryoFreezeCancel",
+      "unit_id": "HeroMeiOW",
+      "unit_name": "Mei",
+      "parent_link_ids": [
+        "MeiOWCryoFreeze|MeiOWCryoFreeze|Trait"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroMeiOW",
+      "unit_name": "Mei",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "the_big_one",
+      "name": "The Big One",
+      "description": "Cooldown: 15 seconds Every 15 seconds, the next Snow Blind you cast has 67% increased area and 200% increased damage.",
+      "icon": "Heroes/mei/abilities/storm_ui_icon_mei_q_snowblind.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "MeiOWSnowBlindTheBigOneDummyAbility|MeiOWTheBigOneHotbar|Q",
+      "ability_id": "MeiOWSnowBlindTheBigOneDummyAbility",
+      "button_id": "MeiOWTheBigOneHotbar",
+      "unit_id": "HeroMeiOW",
+      "unit_name": "Mei",
+      "parent_link_ids": [
+        "MeiOWTheBigOne|MeiOWTheBigOne|Q|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "MeiOWTheBigOne"
+        ]
+      ]
+    },
+    {
+      "id": "flash_freeze",
+      "name": "Flash Freeze",
+      "description": "Cooldown: 180 seconds When Mei takes fatal damage she instantly gains Cryo-Freeze. This effect has a 180 second cooldown.",
+      "icon": "Heroes/mei/abilities/storm_ui_icon_mei_trait.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "MeiOWCryoFreezeFlashFreezeTalentHotbar|MeiOWFlashFreezeHotbar|Trait",
+      "ability_id": "MeiOWCryoFreezeFlashFreezeTalentHotbar",
+      "button_id": "MeiOWFlashFreezeHotbar",
+      "unit_id": "HeroMeiOW",
+      "unit_name": "Mei",
+      "parent_link_ids": [
+        "MeiOWFlashFreeze|MeiOWFlashFreeze|Trait|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "MeiOWFlashFreeze"
+        ]
+      ]
+    },
+    {
+      "id": "backup_battery",
+      "name": "Backup Battery",
+      "description": "Cooldown: 70 seconds Activate to remove all Roots and Slows and regenerate 20% of maximum Health over 2 seconds. The cooldown of this ability is reduced by 10 seconds each time Mei picks up a Regeneration Globe.",
+      "icon": "Heroes/mei/abilities/storm_ui_icon_mei_battery.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "MeiOWBackupBattery|MeiOWBackupBattery|Active",
+      "ability_id": "MeiOWBackupBattery",
+      "button_id": "MeiOWBackupBattery",
+      "unit_id": "HeroMeiOW",
+      "unit_name": "Mei",
+      "parent_link_ids": [
+        "MeiOWBackupBattery|MeiOWBackupBattery|Active|Level7"
+      ],
+      "unlock_conditions": [
+        [
+          "MeiOWBackupBattery"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "MeiOWBackupBattery",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 7,
+      "unlock_position": 3
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "heavy_pack",
+          "name": "Heavy Pack",
+          "description": "Increases the duration of Snow Blind's Slow by 1.5 seconds. Each time Blizzard damages an enemy Hero, reduce the cooldown of Snow Blind by 0.5 seconds and gain 3 Mana.",
+          "icon": "Heroes/mei/talents/storm_ui_icon_mei_q_snowblind.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "MeiOWHeavyPack|MeiOWHeavyPack|Q|Level1",
+          "talent_id": "MeiOWHeavyPack",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/mei/talents/storm_ui_icon_mei_q_snowblind_mini.png"
+        },
+        {
+          "id": "ice_storm",
+          "name": "Ice Storm",
+          "description": "Every 3rd hit of Blizzard against enemy Heroes deals an additional 42 (+4% per level) damage. Blizzard's final Stun damage is increased by 150% against all enemies.",
+          "icon": "Heroes/mei/talents/storm_ui_icon_mei_w_blizzard.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "MeiOWIceStorm|MeiOWBlizzardIceStorm|W|Level1",
+          "talent_id": "MeiOWIceStorm",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/mei/talents/storm_ui_icon_mei_w_blizzard_mini.png"
+        },
+        {
+          "id": "heat_transfer",
+          "name": "Heat Transfer",
+          "description": "Basic Attacks against Stunned, Rooted, or Slowed Heroes deal 33% more damage. Each time Mei Stuns or Slows an enemy Hero she heals for 16 (+4% per level) Health.",
+          "icon": "Heroes/mei/talents/storm_ui_icon_talent_autoattack_damage.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "MeiOWHeatTransfer|MeiOWHeatTransfer|Passive|Level1",
+          "talent_id": "MeiOWHeatTransfer",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/mei/talents/storm_ui_icon_talent_autoattack_damage_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "slushball",
+          "name": "Slushball",
+          "description": "Snow Blind deals 75% increased damage and Structures hit are disabled for 3 seconds.",
+          "icon": "Heroes/mei/talents/storm_ui_icon_mei_q_snowblind.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "MeiOWSlushball|MeiOWSlushball|Q|Level4",
+          "talent_id": "MeiOWSlushball",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/mei/talents/storm_ui_icon_mei_q_snowblind_mini.png"
+        },
+        {
+          "id": "cold_front",
+          "name": "Cold Front",
+          "description": "Reduce the cooldown of Icing by 3 seconds. If Mei enters her own Blizzard while Icing is active, the cooldown of Icing is reduced by 5 seconds and she gains 80 Mana.",
+          "icon": "Heroes/mei/talents/storm_ui_icon_mei_e1_slide.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "MeiOWColdFront|MeiOWColdFront|E|Level4",
+          "talent_id": "MeiOWColdFront",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/mei/talents/storm_ui_icon_mei_e1_slide_mini.png"
+        },
+        {
+          "id": "crystallize",
+          "name": "Crystallize",
+          "description": "Reduce the cooldown of Cryo-Freeze by 10 seconds. Mei gains 40 Spell Armor while Cryo-Freeze is active and for 1 second after.",
+          "icon": "Heroes/mei/talents/storm_ui_icon_mei_trait.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "MeiOWCrystallize|MeiOWCrystallize|Trait|Level4",
+          "talent_id": "MeiOWCrystallize",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/mei/talents/storm_ui_icon_mei_trait_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "induce_hibernation",
+          "name": "Induce Hibernation",
+          "description": "Blizzard reduces the damage dealt by enemy Heroes inside of its area by 40%.   When Blizzard ends, enemy Heroes still within its area gain this effect for an additional 4 seconds.",
+          "icon": "Heroes/mei/talents/storm_ui_icon_mei_w_blizzard.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "MeiOWInduceHibernation|MeiOWInduceHibernation|W|Level7",
+          "talent_id": "MeiOWInduceHibernation",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/mei/talents/storm_ui_icon_mei_w_blizzard_mini.png"
+        },
+        {
+          "id": "skating_away",
+          "name": "Skating Away",
+          "description": "When Icing ends, Mei and all nearby allied Heroes gain 20% Movement Speed and 50 Physical Armor for 3 seconds.",
+          "icon": "Heroes/mei/talents/storm_ui_icon_mei_e1_slide.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "MeiOWSkatingAway|MeiOWSkatingAway|E|Level7",
+          "talent_id": "MeiOWSkatingAway",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/mei/talents/storm_ui_icon_mei_e1_slide_mini.png"
+        },
+        {
+          "id": "backup_battery",
+          "name": "Backup Battery",
+          "description": "Cooldown: 70 seconds Activate to remove all Roots and Slows and regenerate 20% of maximum Health over 2 seconds. The cooldown of this ability is reduced by 10 seconds each time Mei picks up a Regeneration Globe.",
+          "icon": "Heroes/mei/talents/storm_ui_icon_mei_battery.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "MeiOWBackupBattery|MeiOWBackupBattery|Active|Level7",
+          "talent_id": "MeiOWBackupBattery",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/mei/talents/storm_ui_icon_mei_battery_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "avalanche",
+          "name": "Avalanche",
+          "description": "Mana: 80 Cooldown: 90 seconds After 0.5 seconds, roll a massive snowball that consumes enemy Heroes in its path. At the end of its path, the snowball crumbles, releasing the consumed Heroes, dealing 220 (+4% per level) damage and Stunning them for 0.5 seconds per Hero consumed.",
+          "icon": "Heroes/mei/talents/storm_ui_icon_mei_r1_avalanche.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "MeiOWAvalanche|MeiOWAvalanche|Heroic|Level10",
+          "talent_id": "MeiOWAvalanche",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/mei/talents/storm_ui_icon_mei_r1_avalanche_mini.png"
+        },
+        {
+          "id": "ice_wall",
+          "name": "Ice Wall",
+          "description": "Mana: 50 Cooldown: 60 seconds Vector Targeting After a 0.75 second delay, create an impassable wall that traps enemy Heroes hit for 2.5 seconds. When the wall expires, trapped Heroes are Slowed by 75%, decaying over 3 seconds.",
+          "icon": "Heroes/mei/talents/storm_ui_icon_mei_r2_icewall.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "MeiOWIceWall|MeiOWIceWall|Heroic|Level10",
+          "talent_id": "MeiOWIceWall",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/mei/talents/storm_ui_icon_mei_r2_icewall_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "flurry",
+          "name": "Flurry",
+          "description": "While in her own Blizzard, Mei gains 50% increased Attack Speed and Blizzard's cooldown refreshes 125% faster. If Mei is in her own Blizzard when it ends, gain these bonuses for 3 additional seconds.",
+          "icon": "Heroes/mei/talents/storm_ui_icon_mei_w_blizzard.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "MeiOWFlurry|MeiOWFlurry|W|Level13",
+          "talent_id": "MeiOWFlurry",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/mei/talents/storm_ui_icon_mei_w_blizzard_mini.png"
+        },
+        {
+          "id": "cooling_servos",
+          "name": "Cooling Servos",
+          "description": "While Cryo-Freeze is active, Mei's Basic Ability cooldowns recover 200% faster.  Passive: Basic Attacks Slow by 20% for 1.5 seconds.",
+          "icon": "Heroes/mei/talents/storm_ui_icon_mei_trait.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "MeiOWCryoFreezeCoolingServos|MeiOWCryoFreezeCoolingServos|Trait|Level13",
+          "talent_id": "MeiOWCryoFreezeCoolingServos",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/mei/talents/storm_ui_icon_mei_trait_mini.png"
+        },
+        {
+          "id": "polar_vortex",
+          "name": "Polar Vortex",
+          "description": "Using an ability causes Mei to deal 24 (+4% per level) damage a second to nearby enemies for 4 seconds. Enemy Heroes damaged by this effect also have their Movement Speed and Attack Speed Slowed by 20%.",
+          "icon": "Heroes/mei/talents/storm_ui_icon_arthas_frosentempest.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "MeiOWPolarVortex|MeiOWPolarVortex|Passive|Level13",
+          "talent_id": "MeiOWPolarVortex",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/mei/talents/storm_ui_icon_arthas_frosentempest_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "fresh_powder",
+          "name": "Fresh Powder",
+          "description": "Snow Blind gains an additional charge and its range is increased by 33%.",
+          "icon": "Heroes/mei/talents/storm_ui_icon_mei_q_snowblind.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "MeiOWFreshPowder|MeiOWFreshPowder|Q|Level16",
+          "talent_id": "MeiOWFreshPowder",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/mei/talents/storm_ui_icon_mei_q_snowblind_mini.png"
+        },
+        {
+          "id": "black_ice",
+          "name": "Black Ice",
+          "description": "Icing's Slow effect no longer decays over its duration. Icing deals 300% more damage to enemies very close to Mei.",
+          "icon": "Heroes/mei/talents/storm_ui_icon_mei_e1_slide.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "MeiOWBlackIce|MeiOWBlackIce|E|Level16",
+          "talent_id": "MeiOWBlackIce",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/mei/talents/storm_ui_icon_mei_e1_slide_mini.png"
+        },
+        {
+          "id": "acclimation",
+          "name": "Acclimation",
+          "description": "Each time Mei Stuns or Slows an enemy Hero, the damage she deals and healing she receives is increased by 1%, stacking up to 20 times. While at maximum stacks, Mei also gains 10 Armor. Lasts 8 seconds.",
+          "icon": "Heroes/mei/talents/storm_ui_icon_jaina_frostarmor.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "MeiOWAcclimation|MeiOWAcclimation|Passive|Level16",
+          "talent_id": "MeiOWAcclimation",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/mei/talents/storm_ui_icon_jaina_frostarmor_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "cascade",
+          "name": "Cascade",
+          "description": "While traveling, Avalanche constantly launches a volley of untalented Snow Blind snowballs ahead of itself.  Passive: Reduce the cooldown of Avalanche by 30 seconds.",
+          "icon": "Heroes/mei/talents/storm_ui_icon_mei_r1_avalanche.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "MeiOWCascade|MeiOWCascade|Heroic|Level20",
+          "talent_id": "MeiOWCascade",
+          "prerequisite_talent_ids": [
+            "MeiOWAvalanche"
+          ],
+          "icon_mini": "Heroes/mei/talents/storm_ui_icon_mei_r1_avalanche_mini.png"
+        },
+        {
+          "id": "shatter",
+          "name": "Shatter",
+          "description": "When Ice Wall expires, trapped enemy Heroes hit take 210 (+4% per level) damage and have their Armor reduced by 25 for 5 seconds.",
+          "icon": "Heroes/mei/talents/storm_ui_icon_mei_r2_icewall.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "MeiOWShatter|MeiOWShatter|Heroic|Level20",
+          "talent_id": "MeiOWShatter",
+          "prerequisite_talent_ids": [
+            "MeiOWIceWall"
+          ],
+          "icon_mini": "Heroes/mei/talents/storm_ui_icon_mei_r2_icewall_mini.png"
+        },
+        {
+          "id": "the_big_one",
+          "name": "The Big One",
+          "description": "Every 15 seconds, the next Snow Blind you cast has 67% increased area and 200% increased damage.",
+          "icon": "Heroes/mei/talents/storm_ui_icon_mei_q_snowblind.png",
+          "position": 3,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "MeiOWTheBigOne|MeiOWTheBigOne|Q|Level20",
+          "talent_id": "MeiOWTheBigOne",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/mei/talents/storm_ui_icon_mei_q_snowblind_mini.png"
+        },
+        {
+          "id": "flash_freeze",
+          "name": "Flash Freeze",
+          "description": "When Mei takes fatal damage she instantly gains Cryo-Freeze. This effect has a 180 second cooldown.",
+          "icon": "Heroes/mei/talents/storm_ui_icon_mei_trait.png",
+          "position": 4,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "MeiOWFlashFreeze|MeiOWFlashFreeze|Trait|Level20",
+          "talent_id": "MeiOWFlashFreeze",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/mei/talents/storm_ui_icon_mei_trait_mini.png"
+        }
+      ]
+    }
+  ]
+}

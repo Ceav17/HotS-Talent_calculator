@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/cassia/portrait.png",
+  "lines": [
+    {
+      "id": "for_skovos_1f758aea",
+      "title": "For Skovos",
+      "variant": null,
+      "audio": "voice_lines/cassia/for_skovos_1f758aea.ogg"
+    },
+    {
+      "id": "glory_to_the_victorious_883bb1be",
+      "title": "Glory to the Victorious",
+      "variant": null,
+      "audio": "voice_lines/cassia/glory_to_the_victorious_883bb1be.ogg"
+    },
+    {
+      "id": "never_duel_an_amazon_ea17b729",
+      "title": "Never Duel an Amazon",
+      "variant": null,
+      "audio": "voice_lines/cassia/never_duel_an_amazon_ea17b729.ogg"
+    },
+    {
+      "id": "purge_the_land_cf90e175",
+      "title": "Purge the Land",
+      "variant": null,
+      "audio": "voice_lines/cassia/purge_the_land_cf90e175.ogg"
+    },
+    {
+      "id": "queen_s_spear_9f724431",
+      "title": "Queen's Spear",
+      "variant": null,
+      "audio": "voice_lines/cassia/queen_s_spear_9f724431.ogg"
+    }
+  ]
+}

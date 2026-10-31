@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/li-ming/portrait.png",
+  "lines": [
+    {
+      "id": "just_want_to_have_fun_9f290960",
+      "title": "Just Want to Have Fun",
+      "variant": null,
+      "audio": "voice_lines/li-ming/just_want_to_have_fun_9f290960.ogg"
+    },
+    {
+      "id": "magic_trick_a97eea83",
+      "title": "Magic Trick",
+      "variant": null,
+      "audio": "voice_lines/li-ming/magic_trick_a97eea83.ogg"
+    },
+    {
+      "id": "that_was_entertaining_c4282fb4",
+      "title": "That Was Entertaining",
+      "variant": null,
+      "audio": "voice_lines/li-ming/that_was_entertaining_c4282fb4.ogg"
+    },
+    {
+      "id": "you_dare_3f73ee72",
+      "title": "You Dare?",
+      "variant": null,
+      "audio": "voice_lines/li-ming/you_dare_3f73ee72.ogg"
+    },
+    {
+      "id": "your_grave_awaits_e0cacb67",
+      "title": "Your Grave Awaits",
+      "variant": null,
+      "audio": "voice_lines/li-ming/your_grave_awaits_e0cacb67.ogg"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/alarak/portrait.png",
+  "lines": [
+    {
+      "id": "acceptable_304221d5",
+      "title": "Acceptable",
+      "variant": null,
+      "audio": "voice_lines/alarak/acceptable_304221d5.ogg"
+    },
+    {
+      "id": "glorious_c20d3155",
+      "title": "Glorious",
+      "variant": null,
+      "audio": "voice_lines/alarak/glorious_c20d3155.ogg"
+    },
+    {
+      "id": "no_challenge_c255b122",
+      "title": "No Challenge?",
+      "variant": null,
+      "audio": "voice_lines/alarak/no_challenge_c255b122.ogg"
+    },
+    {
+      "id": "serve_me_e76d747d",
+      "title": "Serve Me",
+      "variant": null,
+      "audio": "voice_lines/alarak/serve_me_e76d747d.ogg"
+    },
+    {
+      "id": "you_address_the_highlord_8d503737",
+      "title": "You Address the Highlord?",
+      "variant": null,
+      "audio": "voice_lines/alarak/you_address_the_highlord_8d503737.ogg"
+    }
+  ]
+}

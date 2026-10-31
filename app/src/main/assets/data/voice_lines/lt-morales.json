@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/lt-morales/portrait.png",
+  "lines": [
+    {
+      "id": "don_t_mess_with_my_squad_6a68387b",
+      "title": "Don't Mess With My Squad",
+      "variant": null,
+      "audio": "voice_lines/lt-morales/don_t_mess_with_my_squad_6a68387b.ogg"
+    },
+    {
+      "id": "medical_emergency_e8181c58",
+      "title": "Medical Emergency",
+      "variant": null,
+      "audio": "voice_lines/lt-morales/medical_emergency_e8181c58.ogg"
+    },
+    {
+      "id": "not_everyone_9def27f6",
+      "title": "Not Everyone",
+      "variant": null,
+      "audio": "voice_lines/lt-morales/not_everyone_9def27f6.ogg"
+    },
+    {
+      "id": "this_will_hurt_2e9ac166",
+      "title": "This Will Hurt",
+      "variant": null,
+      "audio": "voice_lines/lt-morales/this_will_hurt_2e9ac166.ogg"
+    },
+    {
+      "id": "you_could_use_a_medic_2787d63e",
+      "title": "You Could Use a Medic",
+      "variant": null,
+      "audio": "voice_lines/lt-morales/you_could_use_a_medic_2787d63e.ogg"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/junkrat/portrait.png",
+  "lines": [
+    {
+      "id": "coming_up_explodey_8d1607df",
+      "title": "Coming Up Explodey",
+      "variant": null,
+      "audio": "voice_lines/junkrat/coming_up_explodey_8d1607df.ogg"
+    },
+    {
+      "id": "have_a_nice_day_6e74f893",
+      "title": "Have a Nice Day!",
+      "variant": null,
+      "audio": "voice_lines/junkrat/have_a_nice_day_6e74f893.ogg"
+    },
+    {
+      "id": "i_ve_got_a_short_fuse_b6756f6a",
+      "title": "I've Got a Short Fuse",
+      "variant": null,
+      "audio": "voice_lines/junkrat/i_ve_got_a_short_fuse_b6756f6a.ogg"
+    },
+    {
+      "id": "smile_f0b9594e",
+      "title": "Smile!",
+      "variant": null,
+      "audio": "voice_lines/junkrat/smile_f0b9594e.ogg"
+    },
+    {
+      "id": "wait_sorry_744c0404",
+      "title": "Wait, Sorry...",
+      "variant": null,
+      "audio": "voice_lines/junkrat/wait_sorry_744c0404.ogg"
+    }
+  ]
+}

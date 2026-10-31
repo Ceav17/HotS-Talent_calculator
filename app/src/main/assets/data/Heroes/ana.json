@@ -1,0 +1,649 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "ana",
+    "name": "Ana",
+    "team_role": "Healer",
+    "universe": "Overwatch",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "healing_dart",
+      "name": "Healing Dart",
+      "description": "Mana: 10 Cooldown: 2 seconds Fire a dart which heals the first allied Hero hit for 195 (+4% per level) Health. Does not affect full Health Heroes.",
+      "icon": "Heroes/ana/abilities/storm_ui_icon_ana_healing_dart.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "AnaHealingDart|AnaHealingDart|Q",
+      "ability_id": "AnaHealingDart",
+      "button_id": "AnaHealingDart",
+      "unit_id": "HeroAna",
+      "unit_name": "Ana",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "biotic_grenade",
+      "name": "Biotic Grenade",
+      "description": "Mana: 50 Cooldown: 16 seconds Toss a grenade at the target area. Allied Heroes hit are healed for 152 (+4% per level) Health and receive 25% increased healing from Ana for 4 seconds. Enemies hit take 60 (+4% per level) damage and receive 100% less healing for 1.75 seconds.  If Biotic Grenade does not hit any enemies, reduce its cooldown by 3 seconds, and if Ana is the only target hit, reduce its cooldown by an additional 2 seconds.",
+      "icon": "Heroes/ana/abilities/storm_ui_icon_ana_biotic_grenade.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "AnaBioticGrenade|AnaBioticGrenade|W",
+      "ability_id": "AnaBioticGrenade",
+      "button_id": "AnaBioticGrenade",
+      "unit_id": "HeroAna",
+      "unit_name": "Ana",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "sleep_dart",
+      "name": "Sleep Dart",
+      "description": "Mana: 50 Cooldown: 14 seconds Fire a dart that puts the first enemy Hero hit to Sleep, Stunning them for 3 seconds. Sleep's effects end instantly if the target takes damage after the first 0.5 seconds.  Cannot be used on Vehicles.",
+      "icon": "Heroes/ana/abilities/storm_ui_icon_ana_sleep_dart.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "AnaSleepDart|AnaSleepDart|E",
+      "ability_id": "AnaSleepDart",
+      "button_id": "AnaSleepDart",
+      "unit_id": "HeroAna",
+      "unit_name": "Ana",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "nano_boost",
+      "name": "Nano Boost",
+      "description": "Mana: 60 Cooldown: 70 seconds Instantly boost an allied Hero, restoring 200 Mana. For the next 8 seconds, they gain 30% Spell Power and their Basic Ability cooldowns recharge 150% faster.  Cannot be used on Ana.",
+      "icon": "Heroes/ana/talents/storm_ui_icon_ana_nano_bost.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "AnaNanoBoost|AnaNanoBoost|Heroic",
+      "ability_id": "AnaNanoBoost",
+      "button_id": "AnaNanoBoost",
+      "unit_id": "HeroAna",
+      "unit_name": "Ana",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_nano_bost_mini.png"
+    },
+    {
+      "id": "eye_of_horus",
+      "name": "Eye of Horus",
+      "description": "Mana: 45 Cooldown: 60 seconds Assume a sniping position, gaining the ability to fire up to 6 specialized rounds with unlimited range. Rounds pierce allied and enemy Heroes but collide with enemy Structures in their path. Allies are healed for 225 (+4% per level) and enemies are damaged for 135 (+4% per level). Deals 50% less damage to Structures.  Ana is unable to move while Eye of Horus is active.",
+      "icon": "Heroes/ana/talents/storm_ui_icon_ana_overwatch.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "AnaEyeOfHorusActivate|AnaEyeOfHorusActivate|Heroic",
+      "ability_id": "AnaEyeOfHorusActivate",
+      "button_id": "AnaEyeOfHorusActivate",
+      "unit_id": "HeroAna",
+      "unit_name": "Ana",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_overwatch_mini.png"
+    },
+    {
+      "id": "shrike",
+      "name": "Shrike",
+      "description": "Cooldown: 4 seconds Basic Attacks apply a Dose to enemies, dealing 40 (+4% per level) damage over 5 seconds, plus additional damage equal to the current number of stacks on the target, stacking up to 5 times. Every 0.5 seconds, Ana is healed for 60% of the damage dealt by Shrike.  Aim Down Sights  Activating Shrike reduces your Movement Speed by 25%, but increases the Range of Healing Dart and Sleep Dart by 25% while also allowing them to pierce one Hero. Lasts until canceled.",
+      "icon": "Heroes/ana/abilities/storm_ui_icon_ana_aim_down_sights.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "AnaAimDownSightsActivate|AnaAimDownSightsActivate|Trait",
+      "ability_id": "AnaAimDownSightsActivate",
+      "button_id": "AnaAimDownSightsActivate",
+      "unit_id": "HeroAna",
+      "unit_name": "Ana",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroAna",
+      "unit_name": "Ana",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroAna",
+      "unit_name": "Ana",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "high_powered_round_130330606a",
+      "name": "High Powered Round",
+      "description": "Cooldown: 1 second Fire a specialized round with unlimited range, piercing all allied and enemy Heroes in its path. Allies are healed for 225 (+4% per level) and enemies are damaged for 135 (+4% per level). Deals 50% less damage to Structures.",
+      "icon": "Heroes/ana/talents/storm_ui_icon_ana_overwatch.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "AnaEyeOfHorusAttackDummy|AnaEyeOfHorusHighPoweredRound|Q",
+      "ability_id": "AnaEyeOfHorusAttackDummy",
+      "button_id": "AnaEyeOfHorusHighPoweredRound",
+      "unit_id": "HeroAna",
+      "unit_name": "Ana",
+      "parent_link_ids": [
+        "AnaEyeOfHorusActivate|AnaEyeOfHorusActivate|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_overwatch_mini.png"
+    },
+    {
+      "id": "cancel_eye_of_horus_78e58ae7ae",
+      "name": "Cancel Eye of Horus",
+      "description": "Cancels Eye of Horus.",
+      "icon": null,
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "AnaEyeOfHorusCancel|AnaEyeOfHorusCancel|W",
+      "ability_id": "AnaEyeOfHorusCancel",
+      "button_id": "AnaEyeOfHorusCancel",
+      "unit_id": "HeroAna",
+      "unit_name": "Ana",
+      "parent_link_ids": [
+        "AnaEyeOfHorusActivate|AnaEyeOfHorusActivate|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "cancel_eye_of_horus_c8a977a300",
+      "name": "Cancel Eye of Horus",
+      "description": "Cancels Eye of Horus.",
+      "icon": null,
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "AnaEyeOfHorusCancel|AnaEyeOfHorusCancel|E",
+      "ability_id": "AnaEyeOfHorusCancel",
+      "button_id": "AnaEyeOfHorusCancel",
+      "unit_id": "HeroAna",
+      "unit_name": "Ana",
+      "parent_link_ids": [
+        "AnaEyeOfHorusActivate|AnaEyeOfHorusActivate|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "high_powered_round_53a6c1e81c",
+      "name": "High Powered Round",
+      "description": "Cooldown: 1 second Fire a specialized round with unlimited range, piercing all allied and enemy Heroes in its path. Allies are healed for 225 (+4% per level) and enemies are damaged for 135 (+4% per level). Deals 50% less damage to Structures.",
+      "icon": "Heroes/ana/talents/storm_ui_icon_ana_overwatch.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "AnaEyeOfHorusAttackDummy|AnaEyeOfHorusHighPoweredRound|Heroic",
+      "ability_id": "AnaEyeOfHorusAttackDummy",
+      "button_id": "AnaEyeOfHorusHighPoweredRound",
+      "unit_id": "HeroAna",
+      "unit_name": "Ana",
+      "parent_link_ids": [
+        "AnaEyeOfHorusActivate|AnaEyeOfHorusActivate|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_overwatch_mini.png"
+    },
+    {
+      "id": "cancel_shrike",
+      "name": "Cancel Shrike",
+      "description": "Cooldown: 4 seconds Basic Attacks apply a Dose to enemies, dealing 40 (+4% per level) damage over 5 seconds, plus additional damage equal to the current number of stacks on the target, stacking up to 5 times. Every 0.5 seconds, Ana is healed for 60% of the damage dealt by Shrike.  Aim Down Sights  Activating Shrike reduces your Movement Speed by 25%, but increases the Range of Healing Dart and Sleep Dart by 25% while also allowing them to pierce one Hero. Lasts until canceled.",
+      "icon": null,
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "AnaAimDownSightsDeactivate|AnaAimDownSightsDeactivate|Trait",
+      "ability_id": "AnaAimDownSightsDeactivate",
+      "button_id": "AnaAimDownSightsDeactivate",
+      "unit_id": "HeroAna",
+      "unit_name": "Ana",
+      "parent_link_ids": [
+        "AnaAimDownSightsActivate|AnaAimDownSightsActivate|Trait"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroAna",
+      "unit_name": "Ana",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "debilitating_dart",
+      "name": "Debilitating Dart",
+      "description": "Cooldown: 20 seconds Fire a dart which Slows the Movement Speed and reduces the damage dealt by the first enemy Hero it hits by 50% for 4 seconds. If no Heroes are hit, reduce this cooldown by 8 seconds.",
+      "icon": "Heroes/ana/abilities/storm_ui_icon_ana_debilitatingdart.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "AnaDebilitatingDart|AnaDebilitatingDart|Active",
+      "ability_id": "AnaDebilitatingDart",
+      "button_id": "AnaDebilitatingDart",
+      "unit_id": "HeroAna",
+      "unit_name": "Ana",
+      "parent_link_ids": [
+        "AnaDebilitatingDart|AnaDebilitatingDart|Active|Level4"
+      ],
+      "unlock_conditions": [
+        [
+          "AnaDebilitatingDart"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "AnaDebilitatingDart",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 4,
+      "unlock_position": 3
+    },
+    {
+      "id": "active_reload",
+      "name": "Active Reload",
+      "description": "Cooldown: 60 seconds Activate to instantly gain 3 charges of Healing Dart.",
+      "icon": "Heroes/ana/abilities/storm_ui_icon_ana_healing_dart_b.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "AnaDetachableBoxMagazine|AnaDetachableBoxMagazineActive|Active",
+      "ability_id": "AnaDetachableBoxMagazine",
+      "button_id": "AnaDetachableBoxMagazineActive",
+      "unit_id": "HeroAna",
+      "unit_name": "Ana",
+      "parent_link_ids": [
+        "AnaDetachableBoxMagazine|AnaDetachableBoxMagazineActive|Active|Level16"
+      ],
+      "unlock_conditions": [
+        [
+          "AnaDetachableBoxMagazine"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "AnaDetachableBoxMagazine",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 16,
+      "unlock_position": 3
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "contact_healing",
+          "name": "Contact Healing",
+          "description": "Hitting Heroes with Biotic Grenade increases its damage and healing by 30% per Hero hit.",
+          "icon": "Heroes/ana/talents/storm_ui_icon_ana_biotic_grenade.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "AnaBioticGrenadeContactHealing|AnaBioticGrenadeContactHealing|W|Level1",
+          "talent_id": "AnaBioticGrenadeContactHealing",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_biotic_grenade_mini.png"
+        },
+        {
+          "id": "slumber_shells",
+          "name": "Slumber Shells",
+          "description": "Reduce the cooldown of Sleep Dart by 2 seconds. Upon waking, enemy Heroes are Slowed by 25% for 3 seconds.",
+          "icon": "Heroes/ana/talents/storm_ui_icon_ana_sleep_dart.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "AnaSleepingDartSlumberShells|AnaSleepingDartSlumberShells|E|Level1",
+          "talent_id": "AnaSleepingDartSlumberShells",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_sleep_dart_mini.png"
+        },
+        {
+          "id": "vampiric_rounds",
+          "name": "Vampiric Rounds",
+          "description": "Increase Shrike's healing by 15%.  Repeatable Quest: Stack 5 Doses to increase Shrike's healing by 1%.  Repeatable Quest: Basic Attack a Hero with 5 Doses to increase Shrike's healing by 0.25%.",
+          "icon": "Heroes/ana/talents/storm_ui_icon_ana_shrike.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "AnaShrikeVampiricRounds|AnaShrikeVampiricRounds|Trait|Level1",
+          "talent_id": "AnaShrikeVampiricRounds",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_shrike_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "biotic_enhancements",
+          "name": "Biotic Enhancements",
+          "description": "Increase the bonus healing duration of Biotic Grenade by 50% and reduce its cooldown by 3 seconds.",
+          "icon": "Heroes/ana/talents/storm_ui_icon_ana_biotic_grenade.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "AnaBioticGrenadeBioticEnhancements|AnaBioticGrenadeBioticEnhancements|W|Level4",
+          "talent_id": "AnaBioticGrenadeBioticEnhancements",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_biotic_grenade_mini.png"
+        },
+        {
+          "id": "overdose",
+          "name": "Overdose",
+          "description": "Sleep Dart applies 4 Doses. While Aim Down Sights is active, Sleep Dart pierces all enemy Heroes.",
+          "icon": "Heroes/ana/talents/storm_ui_icon_ana_sleep_dart.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "AnaOverdose|AnaOverdose|E|Level4",
+          "talent_id": "AnaOverdose",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_sleep_dart_mini.png"
+        },
+        {
+          "id": "debilitating_dart",
+          "name": "Debilitating Dart",
+          "description": "Cooldown: 20 seconds Fire a dart which Slows the Movement Speed and reduces the damage dealt by the first enemy Hero it hits by 50% for 4 seconds. If no Heroes are hit, reduce this cooldown by 8 seconds.",
+          "icon": "Heroes/ana/talents/storm_ui_icon_ana_debilitatingdart.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "AnaDebilitatingDart|AnaDebilitatingDart|Active|Level4",
+          "talent_id": "AnaDebilitatingDart",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_debilitatingdart_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "anti_healer",
+          "name": "Anti-Healer",
+          "description": "Increase the area of Biotic Grenade by 25% and the duration of the healing reduction by 0.75 seconds.",
+          "icon": "Heroes/ana/talents/storm_ui_icon_ana_biotic_grenade.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "AnaBioticGrenadeAntiHealer|AnaBioticGrenadeAntiHealer|W|Level7",
+          "talent_id": "AnaBioticGrenadeAntiHealer",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_biotic_grenade_mini.png"
+        },
+        {
+          "id": "night_terrors",
+          "name": "Night Terrors",
+          "description": "Gain 25% Movement Speed for 2 seconds for every Hero hit by Sleep Dart. Upon waking, enemy Heroes take 8% of their Maximum Health in damage.",
+          "icon": "Heroes/ana/talents/storm_ui_icon_ana_sleep_dart.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "AnaSleepDartNightTerrors|AnaSleepDartNightTerrors|E|Level7",
+          "talent_id": "AnaSleepDartNightTerrors",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_sleep_dart_mini.png"
+        },
+        {
+          "id": "mind_numbing_agent",
+          "name": "Mind-Numbing Agent",
+          "description": "Every Dose a Hero has reduces their Spell Power by 10%.",
+          "icon": "Heroes/ana/talents/storm_ui_icon_ana_shrike.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "AnaMindNumbingAgent|AnaMindNumbingAgent|Trait|Level7",
+          "talent_id": "AnaMindNumbingAgent",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_shrike_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "nano_boost",
+          "name": "Nano Boost",
+          "description": "Mana: 60 Cooldown: 70 seconds Instantly boost an allied Hero, restoring 200 Mana. For the next 8 seconds, they gain 30% Spell Power and their Basic Ability cooldowns recharge 150% faster.  Cannot be used on Ana.",
+          "icon": "Heroes/ana/talents/storm_ui_icon_ana_nano_bost.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "AnaHeroicAbilityNanaBoost|AnaNanoBoost|Heroic|Level10",
+          "talent_id": "AnaHeroicAbilityNanaBoost",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_nano_bost_mini.png"
+        },
+        {
+          "id": "eye_of_horus",
+          "name": "Eye of Horus",
+          "description": "Mana: 45 Cooldown: 60 seconds Assume a sniping position, gaining the ability to fire up to 6 specialized rounds with unlimited range. Rounds pierce allied and enemy Heroes but collide with enemy Structures in their path. Allies are healed for 225 (+4% per level) and enemies are damaged for 135 (+4% per level). Deals 50% less damage to Structures.  Ana is unable to move while Eye of Horus is active.",
+          "icon": "Heroes/ana/talents/storm_ui_icon_ana_overwatch.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "AnaHeroicAbilityEyeOfHorus|AnaEyeOfHorusActivate|Heroic|Level10",
+          "talent_id": "AnaHeroicAbilityEyeOfHorus",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_overwatch_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "speed_serum",
+          "name": "Speed Serum",
+          "description": "Healing Dart grants 25% Movement Speed to affected Heroes for 2 seconds.",
+          "icon": "Heroes/ana/talents/storm_ui_icon_ana_healing_dart.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "AnaHealingDartSpeedSerum|AnaHealingDartSpeedSerum|Q|Level13",
+          "talent_id": "AnaHealingDartSpeedSerum",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_healing_dart_mini.png"
+        },
+        {
+          "id": "purifying_darts",
+          "name": "Purifying Darts",
+          "description": "Healing Dart removes Roots and Slows from the target, and heals for 20% more when doing so.",
+          "icon": "Heroes/ana/talents/storm_ui_icon_ana_healing_dart_a.png",
+          "position": 2,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "AnaHealingDartPurifyingDarts|AnaHealingDartPurifyingDarts|Q|Level13",
+          "talent_id": "AnaHealingDartPurifyingDarts",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_healing_dart_a_mini.png"
+        },
+        {
+          "id": "smelling_salts",
+          "name": "Smelling Salts",
+          "description": "Healing Dart removes Stuns from the target, and grants them 50 Armor for 2 seconds when doing so.",
+          "icon": "Heroes/ana/talents/storm_ui_icon_ana_healing_dart_b.png",
+          "position": 3,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "AnaHealingDartSmellingSalts|AnaHealingDartSmellingSalts|Q|Level13",
+          "talent_id": "AnaHealingDartSmellingSalts",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_healing_dart_b_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "sharpshooter",
+          "name": "Sharpshooter",
+          "description": "Healing Dart's healing is increased by 5% if it heals a Hero, up to 50%. At maximum bonus, further increase its healing by 35%. This bonus is reset if Healing Dart fails to hit a Hero.",
+          "icon": "Heroes/ana/talents/storm_ui_icon_ana_healing_dart.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "AnaHealingDartSharpshooter|AnaHealingDartSharpshooter|Q|Level16",
+          "talent_id": "AnaHealingDartSharpshooter",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_healing_dart_mini.png"
+        },
+        {
+          "id": "concentrated_doses",
+          "name": "Concentrated Doses",
+          "description": "Increase Healing Dart's healing by 12% for each Dose active on enemy Heroes.",
+          "icon": "Heroes/ana/talents/storm_ui_icon_ana_healing_dart_a.png",
+          "position": 2,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "AnaHealingDartConcentratedDoses|AnaHealingDartConcentratedDoses|Q|Level16",
+          "talent_id": "AnaHealingDartConcentratedDoses",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_healing_dart_a_mini.png"
+        },
+        {
+          "id": "active_reload",
+          "name": "Active Reload",
+          "description": "Cooldown: 60 seconds Activate to instantly gain 3 charges of Healing Dart.",
+          "icon": "Heroes/ana/talents/storm_ui_icon_ana_healing_dart_b.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "AnaDetachableBoxMagazine|AnaDetachableBoxMagazineActive|Active|Level16",
+          "talent_id": "AnaDetachableBoxMagazine",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2"
+          ],
+          "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_healing_dart_b_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "nano_infusion",
+          "name": "Nano Infusion",
+          "description": "Allies affected by Nano Boost heal for 50% of Spell Damage dealt.",
+          "icon": "Heroes/ana/talents/storm_ui_icon_ana_nano_bost.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "AnaNanoInfusion|AnaNanoInfusion|Heroic|Level20",
+          "talent_id": "AnaNanoInfusion",
+          "prerequisite_talent_ids": [
+            "AnaHeroicAbilityNanaBoost"
+          ],
+          "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_nano_bost_mini.png"
+        },
+        {
+          "id": "deadeye",
+          "name": "Deadeye",
+          "description": "Eye of Horus cooldown reduced to 6 seconds, but it only regains new rounds every 10 seconds. Remaining cooldown is converted to rounds.  For every Hero Eye of Horus hits, increases its damage and healing by 5%. This bonus resets after leaving Eye of Horus or after 4 seconds.",
+          "icon": "Heroes/ana/talents/storm_ui_icon_ana_overwatch.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "AnaEyeOfHorusDeadeye|AnaEyeOfHorusDeadeye|Heroic|Level20",
+          "talent_id": "AnaEyeOfHorusDeadeye",
+          "prerequisite_talent_ids": [
+            "AnaHeroicAbilityEyeOfHorus"
+          ],
+          "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_overwatch_mini.png"
+        },
+        {
+          "id": "armored_stance",
+          "name": "Armored Stance",
+          "description": "Increase Shrike's damage by 50%. While Aim Down Sights is active, gain 25 Armor.",
+          "icon": "Heroes/ana/talents/storm_ui_icon_ana_aim_down_sights.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "AnaShrikeArmoredStance|AnaShrikeArmoredStance|Trait|Level20",
+          "talent_id": "AnaShrikeArmoredStance",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_aim_down_sights_mini.png"
+        },
+        {
+          "id": "dynamic_optics",
+          "name": "Dynamic Optics",
+          "description": "Basic Attacks increase Attack Speed by 10% for 3 seconds, up to 100%. While Aim Down Sights is active, increase your Basic Attack Range by 4.",
+          "icon": "Heroes/ana/talents/storm_ui_icon_ana_aim_down_sights_a.png",
+          "position": 4,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "AnaDynamicOptics|AnaDynamicOptics|Trait|Level20",
+          "talent_id": "AnaDynamicOptics",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/ana/talents/storm_ui_icon_ana_aim_down_sights_a_mini.png"
+        }
+      ]
+    }
+  ]
+}

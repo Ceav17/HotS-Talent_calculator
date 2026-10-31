@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/mei/portrait.png",
+  "lines": [
+    {
+      "id": "chugga_chugga_chugga_eb60de66",
+      "title": "Chugga Chugga Chugga",
+      "variant": null,
+      "audio": "voice_lines/mei/chugga_chugga_chugga_eb60de66.ogg"
+    },
+    {
+      "id": "do_you_want_to_build_a_snowman_a902c61b",
+      "title": "Do You Want To Build A Snowman?",
+      "variant": null,
+      "audio": "voice_lines/mei/do_you_want_to_build_a_snowman_a902c61b.ogg"
+    },
+    {
+      "id": "is_it_cold_in_here_or_is_that_just_me_73eaeb09",
+      "title": "Is It Cold In Here Or Is That Just Me?",
+      "variant": null,
+      "audio": "voice_lines/mei/is_it_cold_in_here_or_is_that_just_me_73eaeb09.ogg"
+    },
+    {
+      "id": "sorry_sorry_i_m_sorry_sorry_2a75c647",
+      "title": "Sorry... Sorry! I'm Sorry... Sorry",
+      "variant": null,
+      "audio": "voice_lines/mei/sorry_sorry_i_m_sorry_sorry_2a75c647.ogg"
+    },
+    {
+      "id": "that_s_ameizing_74d61621",
+      "title": "That's AMEIzing!",
+      "variant": null,
+      "audio": "voice_lines/mei/that_s_ameizing_74d61621.ogg"
+    }
+  ]
+}

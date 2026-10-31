@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/sgt-hammer/portrait.png",
+  "lines": [
+    {
+      "id": "gotta_love_that_6720d338",
+      "title": "Gotta Love That",
+      "variant": null,
+      "audio": "voice_lines/sgt-hammer/gotta_love_that_6720d338.ogg"
+    },
+    {
+      "id": "kablammo_8e2cde92",
+      "title": "Kablammo!",
+      "variant": null,
+      "audio": "voice_lines/sgt-hammer/kablammo_8e2cde92.ogg"
+    },
+    {
+      "id": "need_something_blown_up_d5802378",
+      "title": "Need Something Blown Up?",
+      "variant": null,
+      "audio": "voice_lines/sgt-hammer/need_something_blown_up_d5802378.ogg"
+    },
+    {
+      "id": "one_fine_crater_4dd49369",
+      "title": "One Fine Crater",
+      "variant": null,
+      "audio": "voice_lines/sgt-hammer/one_fine_crater_4dd49369.ogg"
+    },
+    {
+      "id": "this_ll_be_a_blast_ea47c46c",
+      "title": "This'll Be a Blast",
+      "variant": null,
+      "audio": "voice_lines/sgt-hammer/this_ll_be_a_blast_ea47c46c.ogg"
+    }
+  ]
+}

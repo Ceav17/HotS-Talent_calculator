@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/gazlowe/portrait.png",
+  "lines": [
+    {
+      "id": "grindin_gears_3052413c",
+      "title": "Grindin' Gears",
+      "variant": null,
+      "audio": "voice_lines/gazlowe/grindin_gears_3052413c.ogg"
+    },
+    {
+      "id": "let_me_check_1988e192",
+      "title": "Let Me Check",
+      "variant": null,
+      "audio": "voice_lines/gazlowe/let_me_check_1988e192.ogg"
+    },
+    {
+      "id": "totally_worth_it_f38d8e19",
+      "title": "Totally Worth It",
+      "variant": null,
+      "audio": "voice_lines/gazlowe/totally_worth_it_f38d8e19.ogg"
+    },
+    {
+      "id": "wazzup_32de53ef",
+      "title": "Wazzup?",
+      "variant": null,
+      "audio": "voice_lines/gazlowe/wazzup_32de53ef.ogg"
+    },
+    {
+      "id": "who_s_the_man_f20ff5fd",
+      "title": "Who's the Man!?",
+      "variant": null,
+      "audio": "voice_lines/gazlowe/who_s_the_man_f20ff5fd.ogg"
+    }
+  ]
+}

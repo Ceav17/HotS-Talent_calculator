@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/lunara/portrait.png",
+  "lines": [
+    {
+      "id": "for_the_wilds_2595b21e",
+      "title": "For the Wilds",
+      "variant": null,
+      "audio": "voice_lines/lunara/for_the_wilds_2595b21e.ogg"
+    },
+    {
+      "id": "life_finds_a_way_00c2047d",
+      "title": "Life Finds a Way",
+      "variant": null,
+      "audio": "voice_lines/lunara/life_finds_a_way_00c2047d.ogg"
+    },
+    {
+      "id": "nature_isn_t_kind_25c9c1ae",
+      "title": "Nature Isn't Kind",
+      "variant": null,
+      "audio": "voice_lines/lunara/nature_isn_t_kind_25c9c1ae.ogg"
+    },
+    {
+      "id": "poison_d570210b",
+      "title": "Poison",
+      "variant": null,
+      "audio": "voice_lines/lunara/poison_d570210b.ogg"
+    },
+    {
+      "id": "time_for_some_weeding_d5436cd4",
+      "title": "Time for Some Weeding",
+      "variant": null,
+      "audio": "voice_lines/lunara/time_for_some_weeding_d5436cd4.ogg"
+    }
+  ]
+}

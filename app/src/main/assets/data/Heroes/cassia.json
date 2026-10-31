@@ -1,0 +1,613 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "cassia",
+    "name": "Cassia",
+    "team_role": "Ranged Assassin",
+    "universe": "Diablo",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "lightning_fury",
+      "name": "Lightning Fury",
+      "description": "Mana: 20 Cooldown: 5 seconds Hurl a lightning javelin that deals 158 (+4% per level) damage to the first enemy hit and splits into two lightning bolts that deal 158 (+4% per level) damage to enemies in their path.",
+      "icon": "Heroes/cassia/abilities/storm_ui_icon_cassia_lightningfury.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "AmazonLightningFury|AmazonLightningFury|Q",
+      "ability_id": "AmazonLightningFury",
+      "button_id": "AmazonLightningFury",
+      "unit_id": "HeroAmazon",
+      "unit_name": "Cassia",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "blinding_light",
+      "name": "Blinding Light",
+      "description": "Mana: 50 Cooldown: 15 seconds After 0.5 seconds, deal 50 (+4% per level) damage and Blind enemies in the target area for 2 seconds.  Passive: Cassia deals 15% increased damage to Blinded targets.",
+      "icon": "Heroes/cassia/abilities/storm_ui_icon_cassia_blindinglight.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "AmazonBlindingLight|AmazonBlindingLight|W",
+      "ability_id": "AmazonBlindingLight",
+      "button_id": "AmazonBlindingLight",
+      "unit_id": "HeroAmazon",
+      "unit_name": "Cassia",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "fend",
+      "name": "Fend",
+      "description": "Mana: 50 Cooldown: 10 seconds Charge at an enemy, and upon arriving Channel for up to 1.5 seconds, dealing 64 (+4% per level) damage to enemies in front of Cassia every 0.25 seconds. Deals 50% reduced damage to non-Heroes. Avoidance remains charged while Channeling.",
+      "icon": "Heroes/cassia/abilities/storm_ui_icon_cassia_fend.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "AmazonFend|AmazonFend|E",
+      "ability_id": "AmazonFend",
+      "button_id": "AmazonFend",
+      "unit_id": "HeroAmazon",
+      "unit_name": "Cassia",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "ball_lightning",
+      "name": "Ball Lightning",
+      "description": "Mana: 60 Cooldown: 60 seconds Throw a ball of lightning at an enemy Hero that bounces up to 6 times between nearby enemy Heroes and Cassia, dealing 180 (+4% per level) damage to enemies hit.",
+      "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_balllightning.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "AmazonBallLightning|AmazonBallLightning|Heroic",
+      "ability_id": "AmazonBallLightning",
+      "button_id": "AmazonBallLightning",
+      "unit_id": "HeroAmazon",
+      "unit_name": "Cassia",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_balllightning_mini.png"
+    },
+    {
+      "id": "valkyrie",
+      "name": "Valkyrie",
+      "description": "Mana: 60 Cooldown: 60 seconds Summon a Valkyrie that rushes to Cassia after 0.75 seconds, pulling the first enemy Hero hit, dealing 225 (+4% per level) damage and Stunning them for 0.5 seconds at the end of her path. The Valkyrie knocks back all other enemy Heroes in her way.",
+      "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_valkrie.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "AmazonValkyrie|AmazonValkyrie|Heroic",
+      "ability_id": "AmazonValkyrie",
+      "button_id": "AmazonValkyrie",
+      "unit_id": "HeroAmazon",
+      "unit_name": "Cassia",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_valkrie_mini.png"
+    },
+    {
+      "id": "avoidance_d779d8d01b",
+      "name": "Avoidance",
+      "description": "While moving, Cassia gradually gains up to 30 Armor over 3 seconds. After being stationary for 0.75 seconds, the Armor is rapidly lost over .5 seconds.   Avoidance remains charged while Fending.",
+      "icon": "Heroes/cassia/abilities/storm_ui_icon_cassia_avoidance_b.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": ":PASSIVE:|AmazonAvoidance|Trait",
+      "ability_id": ":PASSIVE:",
+      "button_id": "AmazonAvoidance",
+      "unit_id": "HeroAmazon",
+      "unit_name": "Cassia",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount_47b121fa90",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroAmazon",
+      "unit_name": "Cassia",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroAmazon",
+      "unit_name": "Cassia",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "cancel_fend",
+      "name": "Cancel Fend",
+      "description": "End Fend early.",
+      "icon": null,
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "AmazonFendCancelChannel|AmazonCancelFend|E",
+      "ability_id": "AmazonFendCancelChannel",
+      "button_id": "AmazonCancelFend",
+      "unit_id": "HeroAmazon",
+      "unit_name": "Cassia",
+      "parent_link_ids": [
+        "AmazonFend|AmazonFend|E"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroAmazon",
+      "unit_name": "Cassia",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "avoidance_e00524a426",
+      "name": "Avoidance",
+      "description": "While moving, Cassia gradually gains up to 30 Armor over 3 seconds. After being stationary for 0.75 seconds, the Armor is rapidly lost over .5 seconds.   Avoidance remains charged while Fending.",
+      "icon": "Heroes/cassia/abilities/storm_ui_icon_cassia_avoidance_b.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "AmazonSurgeOfLight|AmazonAvoidance|Trait",
+      "ability_id": "AmazonSurgeOfLight",
+      "button_id": "AmazonAvoidance",
+      "unit_id": "HeroAmazon",
+      "unit_name": "Cassia",
+      "parent_link_ids": [
+        "AmazonSurgeOfLight|AmazonAvoidanceSurgeOfLight|Trait|Level7"
+      ],
+      "unlock_conditions": [
+        [
+          "AmazonSurgeOfLight"
+        ]
+      ]
+    },
+    {
+      "id": "summon_mount_64cf43a23f",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "AmazonWarTravelerSummonMount|AmazonWarTravelerSummonMount|Z",
+      "ability_id": "AmazonWarTravelerSummonMount",
+      "button_id": "AmazonWarTravelerSummonMount",
+      "unit_id": "HeroAmazon",
+      "unit_name": "Cassia",
+      "parent_link_ids": [
+        "AmazonWarTraveler|AmazonAvoidanceWarTraveler|Trait|Level13"
+      ],
+      "unlock_conditions": [
+        [
+          "AmazonWarTraveler"
+        ]
+      ]
+    },
+    {
+      "id": "inner_light",
+      "name": "Inner Light",
+      "description": "Cooldown: 70 seconds Activate to heal for 25% of your maximum Health over 5 seconds. Enemy Heroes hit with Lightning Fury lower the cooldown of this ability by 10 seconds.",
+      "icon": "Heroes/cassia/abilities/storm_ui_icon_cassia_innerlight.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "AmazonInnerLight|AmazonLightningFuryInnerLight|Active",
+      "ability_id": "AmazonInnerLight",
+      "button_id": "AmazonLightningFuryInnerLight",
+      "unit_id": "HeroAmazon",
+      "unit_name": "Cassia",
+      "parent_link_ids": [
+        "AmazonInnerLight|AmazonLightningFuryInnerLight|Active|Level4"
+      ],
+      "unlock_conditions": [
+        [
+          "AmazonInnerLight"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "AmazonInnerLight",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 4,
+      "unlock_position": 3
+    },
+    {
+      "id": "rockstopper",
+      "name": "Rockstopper",
+      "description": "Cooldown: 30 seconds Activate to fully charge Avoidance and increase its Armor value to 60 for 4 seconds.    Losing Avoidance removes this bonus.",
+      "icon": "Heroes/cassia/abilities/storm_ui_icon_cassia_avoidance.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "AmazonAvoidanceRockstopper|AmazonAvoidanceRockstopper|Active",
+      "ability_id": "AmazonAvoidanceRockstopper",
+      "button_id": "AmazonAvoidanceRockstopper",
+      "unit_id": "HeroAmazon",
+      "unit_name": "Cassia",
+      "parent_link_ids": [
+        "Amazon-AvoidanceRockstopper|AmazonAvoidanceRockstopper|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "Amazon-AvoidanceRockstopper"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "AmazonAvoidanceRockstopper",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 4
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "thunderstroke",
+          "name": "Thunderstroke",
+          "description": "Increase the damage of Lightning Fury by 20.  Quest: Lightning Fury's damage is increased by 1.5 every time it hits a Hero.",
+          "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_lightningfury.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "AmazonThunderstroke|AmazonLightningFuryThunderstroke|Q|Level1",
+          "talent_id": "AmazonThunderstroke",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_lightningfury_mini.png"
+        },
+        {
+          "id": "impale",
+          "name": "Impale",
+          "description": "Increase Fend's cast range and radius by 25%. It deals an additional 70% damage to enemies below 50% Health.",
+          "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_fend.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "AmazonImpale|AmazonFendImpale|E|Level1",
+          "talent_id": "AmazonImpale",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_fend_mini.png"
+        },
+        {
+          "id": "charged_strikes",
+          "name": "Charged Strikes",
+          "description": "Gain 15% Attack Speed. Every 3rd Basic Attack deals 20% bonus damage and bounces to nearby enemy Heroes.",
+          "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_new_chargedstrikes.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "AmazonChargedStrikes|AmazonAvoidanceChargedStrikes|Passive|Level1",
+          "talent_id": "AmazonChargedStrikes",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_new_chargedstrikes_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "plate_of_the_whale",
+          "name": "Plate of the Whale",
+          "description": "Regenerate 6 (+4% per level) Health per second while Avoidance is active. If fully charged, gain an additional 12 (+4% per level) Health per second.",
+          "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_avoidance_b.png",
+          "position": 1,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "AmazonPlateoftheWhale|AmazonAvoidancePlateoftheWhale|Trait|Level4",
+          "talent_id": "AmazonPlateoftheWhale",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_avoidance_b_mini.png"
+        },
+        {
+          "id": "ring_of_the_leech",
+          "name": "Ring of the Leech",
+          "description": "Basic Attacks against your primary target heal for 20% of their damage. If an enemy is Blinded, this also affects Lightning Fury and Fend.",
+          "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_ringoftheleech.png",
+          "position": 2,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "AmazonRingoftheLeech|AmazonRingoftheLeech|Passive|Level4",
+          "talent_id": "AmazonRingoftheLeech",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_ringoftheleech_mini.png"
+        },
+        {
+          "id": "inner_light",
+          "name": "Inner Light",
+          "description": "Cooldown: 70 seconds Activate to heal for 25% of your maximum Health over 5 seconds. Enemy Heroes hit with Lightning Fury lower the cooldown of this ability by 10 seconds.",
+          "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_innerlight.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "AmazonInnerLight|AmazonLightningFuryInnerLight|Active|Level4",
+          "talent_id": "AmazonInnerLight",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_innerlight_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "grounding_rod",
+          "name": "Grounding Rod",
+          "description": "Enemies hit by Lightning Fury or Fend are Slowed by 20% for 2 seconds.",
+          "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_combo_q_e.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "AmazonFendGroundingRod|AmazonFendGroundingRod|Q|Level7",
+          "talent_id": "AmazonFendGroundingRod",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_combo_q_e_mini.png"
+        },
+        {
+          "id": "seraph_s_hymn",
+          "name": "Seraph's Hymn",
+          "description": "Basic Attacks against your primary enemy Hero grant 10 Mana and reduce the cooldown of Blinding Light by 2 seconds.  Passive: Increase the passive damage bonus of Blinding Light from 15% to 30%.",
+          "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_blindinglight.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "AmazonSeraphsHymn|AmazonBlindingLightSeraphsHymn|W|Level7",
+          "talent_id": "AmazonSeraphsHymn",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_blindinglight_mini.png"
+        },
+        {
+          "id": "surge_of_light",
+          "name": "Surge of Light",
+          "description": "After taking 650 (+4% per level) damage with Avoidance active, Cassia can activate Avoidance to deal 220 (+4% per level) damage to enemies around her.",
+          "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_avoidance_b.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "AmazonSurgeOfLight|AmazonAvoidanceSurgeOfLight|Trait|Level7",
+          "talent_id": "AmazonSurgeOfLight",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_avoidance_b_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "ball_lightning",
+          "name": "Ball Lightning",
+          "description": "Mana: 60 Cooldown: 60 seconds Throw a ball of lightning at an enemy Hero that bounces up to 6 times between nearby enemy Heroes and Cassia, dealing 180 (+4% per level) damage to enemies hit.",
+          "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_balllightning.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "AmazonBallLightning|AmazonBallLightning|Heroic|Level10",
+          "talent_id": "AmazonBallLightning",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_balllightning_mini.png"
+        },
+        {
+          "id": "valkyrie",
+          "name": "Valkyrie",
+          "description": "Mana: 60 Cooldown: 60 seconds Summon a Valkyrie that rushes to Cassia after 0.75 seconds, pulling the first enemy Hero hit, dealing 225 (+4% per level) damage and Stunning them for 0.5 seconds at the end of her path. The Valkyrie knocks back all other enemy Heroes in her way.",
+          "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_valkrie.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "AmazonValkyrie|AmazonValkyrie|Heroic|Level10",
+          "talent_id": "AmazonValkyrie",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_valkrie_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "war_matron",
+          "name": "War Matron",
+          "description": "Cassia becomes Protected while Channeling Fend and for an additional 1 second if the Channel is completed.",
+          "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_fend.png",
+          "position": 1,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "AmazonFendWarMatron|Amazon-FendWarMatron|E|Level13",
+          "talent_id": "AmazonFendWarMatron",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_fend_mini.png"
+        },
+        {
+          "id": "war_traveler",
+          "name": "War Traveler",
+          "description": "Gain 5% Movement Speed. While Avoidance is fully charged, gain an additional 10% Movement Speed and Mounting is instant.",
+          "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_avoidance_b.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "AmazonWarTraveler|AmazonAvoidanceWarTraveler|Trait|Level13",
+          "talent_id": "AmazonWarTraveler",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_avoidance_b_mini.png"
+        },
+        {
+          "id": "gloves_of_alacrity",
+          "name": "Gloves Of Alacrity",
+          "description": "Gain 1 Basic Attack range. While Avoidance is fully charged, gain an additional 1 Basic Attack range.",
+          "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_new_gloves.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "AmazonFendGlovesOfAlacrity|AmazonFendGlovesOfAlacrity|Trait|Level13",
+          "talent_id": "AmazonFendGlovesOfAlacrity",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_new_gloves_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "power_strike",
+          "name": "Power Strike",
+          "description": "Lightning Fury pierces but only splits on Heroes. Enemy Heroes hit reduce its cooldown by 1 second and become marked for 15 seconds. Upon reaching 3 marks, remove them and cast a Blinding Light at their feet.",
+          "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_combo_q_w.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "AmazonPowerStrike|AmazonPowerStrike|Q|Level16",
+          "talent_id": "AmazonPowerStrike",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_combo_q_w_mini.png"
+        },
+        {
+          "id": "static_electricity",
+          "name": "Static Electricity",
+          "description": "Gain 2 additional charges of Lightning Fury. Fend's impact launches a lightning bolt towards each nearby enemy Hero.",
+          "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_combo_q_e.png",
+          "position": 2,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "AmazonStaticElectricity|AmazonFendStaticElectricity|Q|Level16",
+          "talent_id": "AmazonStaticElectricity",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_combo_q_e_mini.png"
+        },
+        {
+          "id": "martial_law",
+          "name": "Martial Law",
+          "description": "Basic Attacks against enemy Heroes deal bonus damage equal to 1% of their maximum Health. Increase this to 3% if they are Stunned, Rooted, Slowed, or Blinded.",
+          "icon": "Heroes/cassia/talents/storm_ui_icon_talent_autoattack_searing.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "AmazonMartialLaw|AmazonMartialLaw|Passive|Level16",
+          "talent_id": "AmazonMartialLaw",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/cassia/talents/storm_ui_icon_talent_autoattack_searing_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "infinite_lightning",
+          "name": "Infinite Lightning",
+          "description": "Ball Lightning can now bounce indefinitely. Every bounce reduces its cooldown by 4 seconds.",
+          "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_balllightning.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "AmazonInfiniteLightning|AmazonBallLightningInfiniteLightning|Heroic|Level20",
+          "talent_id": "AmazonInfiniteLightning",
+          "prerequisite_talent_ids": [
+            "AmazonBallLightning"
+          ],
+          "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_balllightning_mini.png"
+        },
+        {
+          "id": "imprisoning_light",
+          "name": "Imprisoning Light",
+          "description": "Upon impaling an enemy Hero, they are Blinded for 5 seconds and Cassia's Valkyrie creates a wave of light that deals 200 (+4% per level) damage to nearby enemies. This wave Silences and Roots them for 3 seconds.",
+          "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_valkrie.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "AmazonImprisoningLight|AmazonValkyrieImprisoningLight|Heroic|Level20",
+          "talent_id": "AmazonImprisoningLight",
+          "prerequisite_talent_ids": [
+            "AmazonValkyrie"
+          ],
+          "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_valkrie_mini.png"
+        },
+        {
+          "id": "titan_s_revenge",
+          "name": "Titan's Revenge",
+          "description": "Cassia's Basic Attacks now ignore Armor and while Avoidance is fully charged, they deal an additional 20% bonus damage.",
+          "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_avoidance_b.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "AmazonTitansRevenge|AmazonTitansRevenge|Trait|Level20",
+          "talent_id": "AmazonTitansRevenge",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_avoidance_b_mini.png"
+        },
+        {
+          "id": "rockstopper",
+          "name": "Rockstopper",
+          "description": "Cooldown: 30 seconds Activate to fully charge Avoidance and increase its Armor value to 60 for 4 seconds.    Losing Avoidance removes this bonus.",
+          "icon": "Heroes/cassia/talents/storm_ui_icon_cassia_avoidance.png",
+          "position": 4,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "Amazon-AvoidanceRockstopper|AmazonAvoidanceRockstopper|Active|Level20",
+          "talent_id": "Amazon-AvoidanceRockstopper",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2"
+          ],
+          "icon_mini": "Heroes/cassia/talents/storm_ui_icon_cassia_avoidance_mini.png"
+        }
+      ]
+    }
+  ]
+}

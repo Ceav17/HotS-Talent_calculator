@@ -1,0 +1,111 @@
+package com.github.ceav17.hots_talent_calculator
+
+import androidx.annotation.DrawableRes
+
+internal val HeroPagePortraits = mapOf(
+    "abathur" to R.drawable.hero_page_portrait_abathur,
+    "alarak" to R.drawable.hero_page_portrait_alarak,
+    "alexstrasza" to R.drawable.hero_page_portrait_alexstrasza,
+    "ana" to R.drawable.hero_page_portrait_ana,
+    "anduin" to R.drawable.hero_page_portrait_anduin,
+    "anubarak" to R.drawable.hero_page_portrait_anubarak,
+    "artanis" to R.drawable.hero_page_portrait_artanis,
+    "arthas" to R.drawable.hero_page_portrait_arthas,
+    "auriel" to R.drawable.hero_page_portrait_auriel,
+    "azmodan" to R.drawable.hero_page_portrait_azmodan,
+    "blaze" to R.drawable.hero_page_portrait_blaze,
+    "brightwing" to R.drawable.hero_page_portrait_brightwing,
+    "cassia" to R.drawable.hero_page_portrait_cassia,
+    "chen" to R.drawable.hero_page_portrait_chen,
+    "cho" to R.drawable.hero_page_portrait_cho,
+    "chromie" to R.drawable.hero_page_portrait_chromie,
+    "deathwing" to R.drawable.hero_page_portrait_deathwing,
+    "deckard-cain" to R.drawable.hero_page_portrait_deckard_cain,
+    "dehaka" to R.drawable.hero_page_portrait_dehaka,
+    "diablo" to R.drawable.hero_page_portrait_diablo,
+    "dva" to R.drawable.hero_page_portrait_dva,
+    "e-t-c" to R.drawable.hero_page_portrait_e_t_c,
+    "falstad" to R.drawable.hero_page_portrait_falstad,
+    "fenix" to R.drawable.hero_page_portrait_fenix,
+    "gall" to R.drawable.hero_page_portrait_gall,
+    "garrosh" to R.drawable.hero_page_portrait_garrosh,
+    "gazlowe" to R.drawable.hero_page_portrait_gazlowe,
+    "genji" to R.drawable.hero_page_portrait_genji,
+    "greymane" to R.drawable.hero_page_portrait_greymane,
+    "guldan" to R.drawable.hero_page_portrait_guldan,
+    "hanzo" to R.drawable.hero_page_portrait_hanzo,
+    "hogger" to R.drawable.hero_page_portrait_hogger,
+    "illidan" to R.drawable.hero_page_portrait_illidan,
+    "imperius" to R.drawable.hero_page_portrait_imperius,
+    "jaina" to R.drawable.hero_page_portrait_jaina,
+    "johanna" to R.drawable.hero_page_portrait_johanna,
+    "junkrat" to R.drawable.hero_page_portrait_junkrat,
+    "kaelthas" to R.drawable.hero_page_portrait_kaelthas,
+    "kel-thuzad" to R.drawable.hero_page_portrait_kel_thuzad,
+    "kerrigan" to R.drawable.hero_page_portrait_kerrigan,
+    "kharazim" to R.drawable.hero_page_portrait_kharazim,
+    "leoric" to R.drawable.hero_page_portrait_leoric,
+    "li-li" to R.drawable.hero_page_portrait_li_li,
+    "li-ming" to R.drawable.hero_page_portrait_li_ming,
+    "lt-morales" to R.drawable.hero_page_portrait_lt_morales,
+    "lucio" to R.drawable.hero_page_portrait_lucio,
+    "lunara" to R.drawable.hero_page_portrait_lunara,
+    "maiev" to R.drawable.hero_page_portrait_maiev,
+    "malfurion" to R.drawable.hero_page_portrait_malfurion,
+    "malganis" to R.drawable.hero_page_portrait_malganis,
+    "malthael" to R.drawable.hero_page_portrait_malthael,
+    "medivh" to R.drawable.hero_page_portrait_medivh,
+    "mei" to R.drawable.hero_page_portrait_mei,
+    "mephisto" to R.drawable.hero_page_portrait_mephisto,
+    "muradin" to R.drawable.hero_page_portrait_muradin,
+    "murky" to R.drawable.hero_page_portrait_murky,
+    "nazeebo" to R.drawable.hero_page_portrait_nazeebo,
+    "nova" to R.drawable.hero_page_portrait_nova,
+    "orphea" to R.drawable.hero_page_portrait_orphea,
+    "probius" to R.drawable.hero_page_portrait_probius,
+    "qhira" to R.drawable.hero_page_portrait_qhira,
+    "ragnaros" to R.drawable.hero_page_portrait_ragnaros,
+    "raynor" to R.drawable.hero_page_portrait_raynor,
+    "rehgar" to R.drawable.hero_page_portrait_rehgar,
+    "rexxar" to R.drawable.hero_page_portrait_rexxar,
+    "samuro" to R.drawable.hero_page_portrait_samuro,
+    "sgt-hammer" to R.drawable.hero_page_portrait_sgt_hammer,
+    "sonya" to R.drawable.hero_page_portrait_sonya,
+    "stitches" to R.drawable.hero_page_portrait_stitches,
+    "stukov" to R.drawable.hero_page_portrait_stukov,
+    "sylvanas" to R.drawable.hero_page_portrait_sylvanas,
+    "tassadar" to R.drawable.hero_page_portrait_tassadar,
+    "the-butcher" to R.drawable.hero_page_portrait_the_butcher,
+    "the-lost-vikings" to R.drawable.hero_page_portrait_the_lost_vikings,
+    "thrall" to R.drawable.hero_page_portrait_thrall,
+    "tracer" to R.drawable.hero_page_portrait_tracer,
+    "tychus" to R.drawable.hero_page_portrait_tychus,
+    "tyrael" to R.drawable.hero_page_portrait_tyrael,
+    "tyrande" to R.drawable.hero_page_portrait_tyrande,
+    "uther" to R.drawable.hero_page_portrait_uther,
+    "valeera" to R.drawable.hero_page_portrait_valeera,
+    "valla" to R.drawable.hero_page_portrait_valla,
+    "varian" to R.drawable.hero_page_portrait_varian,
+    "whitemane" to R.drawable.hero_page_portrait_whitemane,
+    "xalatath" to R.drawable.hero_page_portrait_xalatath,
+    "xul" to R.drawable.hero_page_portrait_xul,
+    "yrel" to R.drawable.hero_page_portrait_yrel,
+    "zagara" to R.drawable.hero_page_portrait_zagara,
+    "zarya" to R.drawable.hero_page_portrait_zarya,
+    "zeratul" to R.drawable.hero_page_portrait_zeratul,
+    "zuljin" to R.drawable.hero_page_portrait_zuljin
+)
+
+@DrawableRes
+internal fun heroUniverseIcon(hero: HeroSearchEntry): Int =
+    if (hero.id == "the-lost-vikings") {
+        R.drawable.ui_glues_store_gameicon_retro
+    } else {
+        when (hero.universe) {
+            "Warcraft" -> R.drawable.ui_glues_store_gameicon_wow
+            "StarCraft" -> R.drawable.ui_glues_store_gameicon_sc2
+            "Diablo" -> R.drawable.ui_glues_store_gameicon_d3
+            "Overwatch" -> R.drawable.ui_glues_store_gameicon_ow
+            else -> R.drawable.ui_glues_store_gameicon_nexus
+        }
+    }

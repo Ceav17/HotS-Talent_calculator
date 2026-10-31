@@ -1,0 +1,484 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "dehaka",
+    "name": "Dehaka",
+    "team_role": "Bruiser",
+    "universe": "StarCraft",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "drag",
+      "name": "Drag",
+      "description": "Mana: 75 Cooldown: 15 seconds Dehaka lashes out his tongue, dealing 160 (+4% per level) damage to the first enemy hit, Stunning and dragging them with him for 1.75 seconds.  If Dehaka is Stunned or Silenced while using Drag, the effect ends.",
+      "icon": "Heroes/dehaka/abilities/storm_ui_icon_dehaka_drag.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "DehakaDrag|DehakaDrag|Q",
+      "ability_id": "DehakaDrag",
+      "button_id": "DehakaDrag",
+      "unit_id": "HeroDehaka",
+      "unit_name": "Dehaka",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "dark_swarm",
+      "name": "Dark Swarm",
+      "description": "Mana: 50 Cooldown: 10 seconds Deal 48 (+4% per level) damage every 0.5 seconds to nearby enemies for 3.5 seconds. While active, you are able to move through units. Can be cast during Drag and Burrow.",
+      "icon": "Heroes/dehaka/abilities/storm_ui_icon_dehaka_trample.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "DehakaDarkSwarm|DehakaDarkSwarm|W",
+      "ability_id": "DehakaDarkSwarm",
+      "button_id": "DehakaDarkSwarm",
+      "unit_id": "HeroDehaka",
+      "unit_name": "Dehaka",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "burrow",
+      "name": "Burrow",
+      "description": "Mana: 65 Cooldown: 20 seconds Burrow into the ground, entering Stasis and becoming Invulnerable for 2 seconds. While Burrowed, Dehaka can move at 50% movement speed.",
+      "icon": "Heroes/dehaka/abilities/storm_ui_icon_dehaka_burrow.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "DehakaBurrow|DehakaBurrow|E",
+      "ability_id": "DehakaBurrow",
+      "button_id": "DehakaBurrow",
+      "unit_id": "HeroDehaka",
+      "unit_name": "Dehaka",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "isolation",
+      "name": "Isolation",
+      "description": "Mana: 70 Cooldown: 60 seconds Launch biomass that hits the first enemy Hero dealing 200 (+4% per level) damage, revealing, Silencing, and Slowing them 30% for 3 seconds. Additionally, their vision radius is greatly reduced for 6 seconds.",
+      "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_isolation.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "DehakaIsolation|DehakaIsolation|Heroic",
+      "ability_id": "DehakaIsolation",
+      "button_id": "DehakaIsolation",
+      "unit_id": "HeroDehaka",
+      "unit_name": "Dehaka",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_isolation_mini.png"
+    },
+    {
+      "id": "adaptation",
+      "name": "Adaptation",
+      "description": "Mana: 70 Cooldown: 60 seconds After 4 seconds, heal for 100% of the damage Dehaka took over this period.",
+      "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_adaptation.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "DehakaAdaptation|DehakaAdaptation|Heroic",
+      "ability_id": "DehakaAdaptation",
+      "button_id": "DehakaAdaptation",
+      "unit_id": "HeroDehaka",
+      "unit_name": "Dehaka",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_adaptation_mini.png"
+    },
+    {
+      "id": "essence_collection",
+      "name": "Essence Collection",
+      "description": "Cooldown: 5 seconds Heal Dehaka for 29 (+4% per level) Health per stored Essence over 5 seconds. Can be cast during Drag and Burrow.  Passive: Gain 10 Essence from Takedowns and 2 Essence from nearby Minions dying. Maximum of 50 Essence.",
+      "icon": "Heroes/dehaka/abilities/storm_ui_icon_dehaka_essencecollection.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "DehakaEssenceCollection|DehakaEssenceCollection|Trait",
+      "ability_id": "DehakaEssenceCollection",
+      "button_id": "DehakaEssenceCollection",
+      "unit_id": "HeroDehaka",
+      "unit_name": "Dehaka",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "brushstalker",
+      "name": "Brushstalker",
+      "description": "Cooldown: 240 seconds Activate to burrow to a bush on the Battleground.  Passive: Gain 20% movement speed while in a bush and for 2 seconds after leaving.   Passive: Gathering a Regeneration Globe reduces the cooldown of Brushstalker by 40 seconds.",
+      "icon": "Heroes/dehaka/abilities/storm_ui_icon_dehaka_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "DehakaBrushstalker|DehakaBrushstalker|Z",
+      "ability_id": "DehakaBrushstalker",
+      "button_id": "DehakaBrushstalker",
+      "unit_id": "HeroDehaka",
+      "unit_name": "Dehaka",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroDehaka",
+      "unit_name": "Dehaka",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "cancel_burrow",
+      "name": "Cancel Burrow",
+      "description": "Cancels Burrow",
+      "icon": null,
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "DehakaCancelBurrow|DehakaCancelBurrow|E",
+      "ability_id": "DehakaCancelBurrow",
+      "button_id": "DehakaCancelBurrow",
+      "unit_id": "HeroDehaka",
+      "unit_name": "Dehaka",
+      "parent_link_ids": [
+        "DehakaBurrow|DehakaBurrow|E"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "enduring_swarm",
+          "name": "Enduring Swarm",
+          "description": "Dark Swarm's duration is increased by 0.5 seconds and grants 50 Spell Armor while active.",
+          "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_trample.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "DehakaDarkSwarmTalentEnduringSwarm|DehakaDarkSwarmTalentEnduringSwarm|W|Level1",
+          "talent_id": "DehakaDarkSwarmTalentEnduringSwarm",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_trample_mini.png"
+        },
+        {
+          "id": "tissue_regeneration",
+          "name": "Tissue Regeneration",
+          "description": "Regeneration Globes grant 10 Essence.  Repeatable Quest: Every 50 Essence collected permanently increases Health Regeneration by 4, up to 40, and maximum Essence by 1, up to 10.",
+          "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_essencecollection.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "DehakaEssenceCollectionTalentTissueRegeneration|DehakaEssenceCollectionTalentTissueRegeneration|Trait|Level1",
+          "talent_id": "DehakaEssenceCollectionTalentTissueRegeneration",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_essencecollection_mini.png"
+        },
+        {
+          "id": "enhanced_agility",
+          "name": "Enhanced Agility",
+          "description": "Brushstalker's Movement Speed bonus now lasts for 4 seconds after leaving a bush.  Repeatable Quest: Every 50 Essence collected permanently increases the Movement Speed bonus of Brushstalker by 2%, up to 20%.",
+          "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_brushstalker.png",
+          "position": 3,
+          "hotkey": "Z",
+          "ability_type": "Z",
+          "link_id": "DehakaEssenceCollectionTalentEnhancedAgility|DehakaEssenceCollectionTalentEnhancedAgility|Z|Level1",
+          "talent_id": "DehakaEssenceCollectionTalentEnhancedAgility",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_brushstalker_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "lurker_strain",
+          "name": "Lurker Strain",
+          "description": "Emerging from Burrow grants Dehaka Stealth for 3 seconds and knocks nearby enemies back, dealing 125 (+4% per level) damage and Slowing them by 30% for 3 seconds.  Passive: Reduce the cooldown of Burrow by 2 seconds.",
+          "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_burrow.png",
+          "position": 1,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "DehakaBurrowTalentLurkerStrain|DehakaBurrowTalentLurkerStrain|E|Level4",
+          "talent_id": "DehakaBurrowTalentLurkerStrain",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_burrow_mini.png"
+        },
+        {
+          "id": "one_who_collects",
+          "name": "One-Who-Collects",
+          "description": "Increases Essence collected from Minions by 50%. Dark Swarm deals 40% more damage to Mercenaries.",
+          "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_essencecollection.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "DehakaEssenceCollectionOneWhoCollectsTalent|DehakaEssenceCollectionOneWhoCollectsTalent|Trait|Level4",
+          "talent_id": "DehakaEssenceCollectionOneWhoCollectsTalent",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_essencecollection_mini.png"
+        },
+        {
+          "id": "hero_stalker",
+          "name": "Hero Stalker",
+          "description": "Increases Essence gained from Takedowns by 100%, and gain 1 Essence for each enemy Hero hit by Dark Swarm, up to 3 at once.",
+          "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_essencecollection_var1.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "DehakaEssenceCollectionTalentHeroStalker|DehakaEssenceCollectionTalentHeroStalker|Trait|Level4",
+          "talent_id": "DehakaEssenceCollectionTalentHeroStalker",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_essencecollection_var1_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "feeding_frenzy",
+          "name": "Feeding Frenzy",
+          "description": "Increase Drag's duration by 0.5 seconds.  Gambit: Basic Attacks reduce Drag's cooldown by 1.5 seconds. Every death reduces this cooldown reduction by 0.25 seconds, up to 3 times.",
+          "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_drag.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "DehakaDragTalentFeedingFrenzy|DehakaDragTalentFeedingFrenzy|Q|Level7",
+          "talent_id": "DehakaDragTalentFeedingFrenzy",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_drag_mini.png"
+        },
+        {
+          "id": "paralyzing_enzymes",
+          "name": "Paralyzing Enzymes",
+          "description": "Drag Slows the target by 40% and reduces their healing received by 50% while active and for 2 seconds after ending. Dehaka's Basic Attacks increase the duration of the healing reduction to 2 seconds.",
+          "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_drag_var1.png",
+          "position": 2,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "DehakaDragTalentParalyzingEnzymes|DehakaDragTalentParalyzingEnzymes|Q|Level7",
+          "talent_id": "DehakaDragTalentParalyzingEnzymes",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_drag_var1_mini.png"
+        },
+        {
+          "id": "symbiosis",
+          "name": "Symbiosis",
+          "description": "Every time Dark Swarm damages an enemy Hero, reduce its cooldown by 0.4 seconds.",
+          "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_trample.png",
+          "position": 3,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "DehakaDarkSwarmTalentSymbiosis|DehakaDarkSwarmTalentSymbiosis|W|Level7",
+          "talent_id": "DehakaDarkSwarmTalentSymbiosis",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_trample_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "isolation",
+          "name": "Isolation",
+          "description": "Mana: 70 Cooldown: 60 seconds Launch biomass that hits the first enemy Hero dealing 200 (+4% per level) damage, revealing, Silencing, and Slowing them 30% for 3 seconds. Additionally, their vision radius is greatly reduced for 6 seconds.",
+          "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_isolation.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "DehakaHeroicAbilityIsolation|DehakaIsolation|Heroic|Level10",
+          "talent_id": "DehakaHeroicAbilityIsolation",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_isolation_mini.png"
+        },
+        {
+          "id": "adaptation",
+          "name": "Adaptation",
+          "description": "Mana: 70 Cooldown: 60 seconds After 4 seconds, heal for 100% of the damage Dehaka took over this period.",
+          "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_adaptation.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "DehakaHeroicAbilityAdaptation|DehakaAdaptation|Heroic|Level10",
+          "talent_id": "DehakaHeroicAbilityAdaptation",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_adaptation_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "ferocious_stalker",
+          "name": "Ferocious Stalker",
+          "description": "Dark Swarm Slows enemy Heroes by 15% for 0.75 seconds and deals 50% more damage while Brushstalker's Movement Speed bonus is active.",
+          "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_trample.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "DehakaBrushstalkerFerociousStalker|DehakaBrushstalkerFerociousStalkerTalent|W|Level13",
+          "talent_id": "DehakaBrushstalkerFerociousStalker",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_trample_mini.png"
+        },
+        {
+          "id": "primal_swarm",
+          "name": "Primal Swarm",
+          "description": "Dark Swarm causes enemies hit to lose 10 Armor for 0.75 seconds, causing them to take 10% extra damage.",
+          "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_trample_a.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "DehakaPrimalSwarm|DehakaPrimalSwarm|W|Level13",
+          "talent_id": "DehakaPrimalSwarm",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_trample_a_mini.png"
+        },
+        {
+          "id": "primal_rage",
+          "name": "Primal Rage",
+          "description": "Gain 1.25% increased Attack Damage per Essence stored.",
+          "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_essencecollection.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "DehakaPrimalRage|DehakaPrimalRage|Trait|Level13",
+          "talent_id": "DehakaPrimalRage",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_essencecollection_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "elongated_tongue",
+          "name": "Elongated Tongue",
+          "description": "Increase Drag range by 20%.",
+          "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_drag.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "DehakaDragTalentElongatedTongue|DehakaDragTalentElongatedTongue|Q|Level16",
+          "talent_id": "DehakaDragTalentElongatedTongue",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_drag_mini.png"
+        },
+        {
+          "id": "tunneling_claws",
+          "name": "Tunneling Claws",
+          "description": "Increase movement speed while Burrowing to 120%.",
+          "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_burrow.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "DehakaTunnelingClaws|DehakaTunnelingClaws|E|Level16",
+          "talent_id": "DehakaTunnelingClaws",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_burrow_mini.png"
+        },
+        {
+          "id": "pack_leader",
+          "name": "Pack Leader",
+          "description": "Dehaka gains 40 Armor and 15% increased Attack Speed while in a bush and for 4 seconds after leaving.",
+          "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_brushstalker.png",
+          "position": 3,
+          "hotkey": "Z",
+          "ability_type": "Z",
+          "link_id": "DehakaPackLeaderBrushstalkerTalent|DehakaPackLeaderBrushstalker|Z|Level16",
+          "talent_id": "DehakaPackLeaderBrushstalkerTalent",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_brushstalker_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "contagion",
+          "name": "Contagion",
+          "description": "Isolation hits all Heroes near the first target, but it deals 60% less damage to all targets.",
+          "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_isolation.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "DehakaIsolationTalentContagion|DehakaIsolationTalentContagion|Heroic|Level20",
+          "talent_id": "DehakaIsolationTalentContagion",
+          "prerequisite_talent_ids": [
+            "DehakaHeroicAbilityIsolation"
+          ],
+          "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_isolation_mini.png"
+        },
+        {
+          "id": "change_is_survival",
+          "name": "Change Is Survival",
+          "description": "Increases Adaptation healing to 200% of the damage received and reduces the cooldown by 40 seconds.",
+          "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_adaptation.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "DehakaAdaptationChangeIsSurvivalTalent|DehakaAdaptationChangeIsSurvivalTalent|Heroic|Level20",
+          "talent_id": "DehakaAdaptationChangeIsSurvivalTalent",
+          "prerequisite_talent_ids": [
+            "DehakaHeroicAbilityAdaptation"
+          ],
+          "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_adaptation_mini.png"
+        },
+        {
+          "id": "essence_claws",
+          "name": "Essence Claws",
+          "description": "Dehaka's Basic Attacks slow the target by 20% for 1 second. If the target is a Hero, Dehaka gains 5 Essence.",
+          "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_essencecollection.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "DehakaEssenceClaws|DehakaEssenceClaws|Trait|Level20",
+          "talent_id": "DehakaEssenceClaws",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_essencecollection_mini.png"
+        },
+        {
+          "id": "apex_predator",
+          "name": "Apex Predator",
+          "description": "Reduces Brushstalker's cooldown by 120 seconds and the cast time by 0.5 seconds.",
+          "icon": "Heroes/dehaka/talents/storm_ui_icon_dehaka_brushstalker.png",
+          "position": 4,
+          "hotkey": "Z",
+          "ability_type": "Z",
+          "link_id": "DehakaBrushstalkerApexPredator|DehakaBrushstalkerApexPredatorTalent|Z|Level20",
+          "talent_id": "DehakaBrushstalkerApexPredator",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dehaka/talents/storm_ui_icon_dehaka_brushstalker_mini.png"
+        }
+      ]
+    }
+  ]
+}

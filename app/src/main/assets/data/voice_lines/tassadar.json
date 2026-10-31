@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/tassadar/portrait.png",
+  "lines": [
+    {
+      "id": "as_was_foretold_e2d51514",
+      "title": "As Was Foretold",
+      "variant": null,
+      "audio": "voice_lines/tassadar/as_was_foretold_e2d51514.ogg"
+    },
+    {
+      "id": "en_taro_adun_83f38879",
+      "title": "En Taro Adun",
+      "variant": null,
+      "audio": "voice_lines/tassadar/en_taro_adun_83f38879.ogg"
+    },
+    {
+      "id": "from_order_comes_justice_faba086b",
+      "title": "From Order Comes Justice",
+      "variant": null,
+      "audio": "voice_lines/tassadar/from_order_comes_justice_faba086b.ogg"
+    },
+    {
+      "id": "in_unity_there_is_strength_9d9e9f12",
+      "title": "In Unity, There Is Strength",
+      "variant": null,
+      "audio": "voice_lines/tassadar/in_unity_there_is_strength_9d9e9f12.ogg"
+    },
+    {
+      "id": "that_is_not_destined_b9f70f0c",
+      "title": "That Is Not Destined",
+      "variant": null,
+      "audio": "voice_lines/tassadar/that_is_not_destined_b9f70f0c.ogg"
+    }
+  ]
+}

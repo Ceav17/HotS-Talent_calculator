@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/rexxar/portrait.png",
+  "lines": [
+    {
+      "id": "a_fitting_end_805f9d97",
+      "title": "A Fitting End",
+      "variant": null,
+      "audio": "voice_lines/rexxar/a_fitting_end_805f9d97.ogg"
+    },
+    {
+      "id": "call_of_the_wild_fc1ec887",
+      "title": "Call of the Wild",
+      "variant": null,
+      "audio": "voice_lines/rexxar/call_of_the_wild_fc1ec887.ogg"
+    },
+    {
+      "id": "for_the_horde_9fcbd7d6",
+      "title": "For the Horde!",
+      "variant": null,
+      "audio": "voice_lines/rexxar/for_the_horde_9fcbd7d6.ogg"
+    },
+    {
+      "id": "hunt_you_down_395fc357",
+      "title": "Hunt You Down",
+      "variant": null,
+      "audio": "voice_lines/rexxar/hunt_you_down_395fc357.ogg"
+    },
+    {
+      "id": "right_in_the_face_3f175642",
+      "title": "Right in the Face",
+      "variant": null,
+      "audio": "voice_lines/rexxar/right_in_the_face_3f175642.ogg"
+    }
+  ]
+}

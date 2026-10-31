@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/stukov/portrait.png",
+  "lines": [
+    {
+      "id": "insubordinate_ee0f6146",
+      "title": "Insubordinate",
+      "variant": null,
+      "audio": "voice_lines/stukov/insubordinate_ee0f6146.ogg"
+    },
+    {
+      "id": "more_monster_than_man_556c8a4e",
+      "title": "More Monster Than Man",
+      "variant": null,
+      "audio": "voice_lines/stukov/more_monster_than_man_556c8a4e.ogg"
+    },
+    {
+      "id": "my_eyes_are_open_4709d961",
+      "title": "My Eyes are Open",
+      "variant": null,
+      "audio": "voice_lines/stukov/my_eyes_are_open_4709d961.ogg"
+    },
+    {
+      "id": "say_good_night_a3b6a60d",
+      "title": "Say Good Night",
+      "variant": null,
+      "audio": "voice_lines/stukov/say_good_night_a3b6a60d.ogg"
+    },
+    {
+      "id": "the_infested_shall_rise_cdbff430",
+      "title": "The Infested Shall Rise",
+      "variant": null,
+      "audio": "voice_lines/stukov/the_infested_shall_rise_cdbff430.ogg"
+    }
+  ]
+}

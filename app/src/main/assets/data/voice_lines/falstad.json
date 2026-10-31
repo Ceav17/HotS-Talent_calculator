@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/falstad/portrait.png",
+  "lines": [
+    {
+      "id": "for_khaz_modan_ed2480fd",
+      "title": "For Khaz Modan!",
+      "variant": null,
+      "audio": "voice_lines/falstad/for_khaz_modan_ed2480fd.ogg"
+    },
+    {
+      "id": "i_m_comin_for_ya_dfc08626",
+      "title": "I'm Comin' for Ya!",
+      "variant": null,
+      "audio": "voice_lines/falstad/i_m_comin_for_ya_dfc08626.ogg"
+    },
+    {
+      "id": "it_s_boom_time_b58d3f1a",
+      "title": "It's Boom Time!",
+      "variant": null,
+      "audio": "voice_lines/falstad/it_s_boom_time_b58d3f1a.ogg"
+    },
+    {
+      "id": "vengeance_from_the_skies_768694da",
+      "title": "Vengeance From the Skies",
+      "variant": null,
+      "audio": "voice_lines/falstad/vengeance_from_the_skies_768694da.ogg"
+    },
+    {
+      "id": "who_s_next_465438f2",
+      "title": "Who's Next?",
+      "variant": null,
+      "audio": "voice_lines/falstad/who_s_next_465438f2.ogg"
+    }
+  ]
+}

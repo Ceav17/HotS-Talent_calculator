@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/sonya/portrait.png",
+  "lines": [
+    {
+      "id": "bul_kathos_smiles_31ab4661",
+      "title": "Bul-Kathos Smiles",
+      "variant": null,
+      "audio": "voice_lines/sonya/bul_kathos_smiles_31ab4661.ogg"
+    },
+    {
+      "id": "buzzards_will_feed_well_5e59a190",
+      "title": "Buzzards Will Feed Well",
+      "variant": null,
+      "audio": "voice_lines/sonya/buzzards_will_feed_well_5e59a190.ogg"
+    },
+    {
+      "id": "crumble_before_me_f6558536",
+      "title": "Crumble Before Me",
+      "variant": null,
+      "audio": "voice_lines/sonya/crumble_before_me_f6558536.ogg"
+    },
+    {
+      "id": "sonya_claims_your_life_905d296c",
+      "title": "Sonya Claims Your Life",
+      "variant": null,
+      "audio": "voice_lines/sonya/sonya_claims_your_life_905d296c.ogg"
+    },
+    {
+      "id": "time_to_die_2f423f0b",
+      "title": "Time to Die!",
+      "variant": null,
+      "audio": "voice_lines/sonya/time_to_die_2f423f0b.ogg"
+    }
+  ]
+}

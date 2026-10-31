@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/thrall/portrait.png",
+  "lines": [
+    {
+      "id": "blood_and_thunder_9821ccf4",
+      "title": "Blood and Thunder",
+      "variant": null,
+      "audio": "voice_lines/thrall/blood_and_thunder_9821ccf4.ogg"
+    },
+    {
+      "id": "face_the_warchief_75148ce6",
+      "title": "Face the Warchief",
+      "variant": null,
+      "audio": "voice_lines/thrall/face_the_warchief_75148ce6.ogg"
+    },
+    {
+      "id": "for_doomhammer_7ce46f5d",
+      "title": "For Doomhammer",
+      "variant": null,
+      "audio": "voice_lines/thrall/for_doomhammer_7ce46f5d.ogg"
+    },
+    {
+      "id": "for_the_horde_121eb039",
+      "title": "For the Horde",
+      "variant": null,
+      "audio": "voice_lines/thrall/for_the_horde_121eb039.ogg"
+    },
+    {
+      "id": "is_that_all_2900ed9b",
+      "title": "Is That All?",
+      "variant": null,
+      "audio": "voice_lines/thrall/is_that_all_2900ed9b.ogg"
+    }
+  ]
+}

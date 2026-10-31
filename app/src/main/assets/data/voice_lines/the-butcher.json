@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/the-butcher/portrait.png",
+  "lines": [
+    {
+      "id": "fresh_meat_e0b28e7e",
+      "title": "Fresh Meat",
+      "variant": null,
+      "audio": "voice_lines/the-butcher/fresh_meat_e0b28e7e.ogg"
+    },
+    {
+      "id": "laugh_8ee5e3bb",
+      "title": "Laugh",
+      "variant": null,
+      "audio": "voice_lines/the-butcher/laugh_8ee5e3bb.ogg"
+    },
+    {
+      "id": "roar_0e247539",
+      "title": "Roar",
+      "variant": null,
+      "audio": "voice_lines/the-butcher/roar_0e247539.ogg"
+    },
+    {
+      "id": "seething_c8d23b13",
+      "title": "Seething",
+      "variant": null,
+      "audio": "voice_lines/the-butcher/seething_c8d23b13.ogg"
+    },
+    {
+      "id": "slaughter_1efaa8ed",
+      "title": "Slaughter",
+      "variant": null,
+      "audio": "voice_lines/the-butcher/slaughter_1efaa8ed.ogg"
+    }
+  ]
+}

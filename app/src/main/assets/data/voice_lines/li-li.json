@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/li-li/portrait.png",
+  "lines": [
+    {
+      "id": "awesome_132367ff",
+      "title": "Awesome!",
+      "variant": null,
+      "audio": "voice_lines/li-li/awesome_132367ff.ogg"
+    },
+    {
+      "id": "knock_out_dad4d89c",
+      "title": "Knock Out",
+      "variant": null,
+      "audio": "voice_lines/li-li/knock_out_dad4d89c.ogg"
+    },
+    {
+      "id": "meanie_0ef12710",
+      "title": "Meanie",
+      "variant": null,
+      "audio": "voice_lines/li-li/meanie_0ef12710.ogg"
+    },
+    {
+      "id": "what_i_m_talking_about_cd7c7306",
+      "title": "What I'm Talking About",
+      "variant": null,
+      "audio": "voice_lines/li-li/what_i_m_talking_about_cd7c7306.ogg"
+    },
+    {
+      "id": "you_re_my_favorite_b537cf19",
+      "title": "You're My Favorite",
+      "variant": null,
+      "audio": "voice_lines/li-li/you_re_my_favorite_b537cf19.ogg"
+    }
+  ]
+}

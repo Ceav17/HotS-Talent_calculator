@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/zeratul/portrait.png",
+  "lines": [
+    {
+      "id": "en_taro_adun_61923c14",
+      "title": "En Taro Adun!",
+      "variant": null,
+      "audio": "voice_lines/zeratul/en_taro_adun_61923c14.ogg"
+    },
+    {
+      "id": "enemies_of_shakuras_274409a3",
+      "title": "Enemies of Shakuras",
+      "variant": null,
+      "audio": "voice_lines/zeratul/enemies_of_shakuras_274409a3.ogg"
+    },
+    {
+      "id": "glory_to_the_firstborn_7d202ac8",
+      "title": "Glory to the Firstborn",
+      "variant": null,
+      "audio": "voice_lines/zeratul/glory_to_the_firstborn_7d202ac8.ogg"
+    },
+    {
+      "id": "no_forgiveness_e96af9c9",
+      "title": "No Forgiveness",
+      "variant": null,
+      "audio": "voice_lines/zeratul/no_forgiveness_e96af9c9.ogg"
+    },
+    {
+      "id": "zerashk_gulida_3394763b",
+      "title": "Zerashk Gulida!",
+      "variant": null,
+      "audio": "voice_lines/zeratul/zerashk_gulida_3394763b.ogg"
+    }
+  ]
+}

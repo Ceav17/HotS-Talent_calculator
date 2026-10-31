@@ -1,0 +1,678 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "malthael",
+    "name": "Malthael",
+    "team_role": "Bruiser",
+    "universe": "Diablo",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "soul_rip",
+      "name": "Soul Rip",
+      "description": "Mana: 25 Cooldown: 2 seconds Extract the souls of nearby enemies afflicted by Reaper's Mark, dealing 100 (+4% per level) damage and healing Malthael for 25 (+4% per level) per target hit. Heroic targets heal Malthael for an additional 4% of the Hero's maximum Health.",
+      "icon": "Heroes/malthael/abilities/storm_ui_icon_malthael_soulrip.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "MalthaelSoulRip|MalthaelSoulRip|Q",
+      "ability_id": "MalthaelSoulRip",
+      "button_id": "MalthaelSoulRip",
+      "unit_id": "HeroMalthael",
+      "unit_name": "Malthael",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "wraith_strike",
+      "name": "Wraith Strike",
+      "description": "Mana: 30 Cooldown: 5 seconds Instantly teleport through an enemy afflicted by Reaper's Mark, dealing 59 (+4% per level) damage and refreshing Reaper's Mark.",
+      "icon": "Heroes/malthael/abilities/storm_ui_icon_malthael_wraithstrike.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "MalthaelWraithStrike|MalthaelWraithStrike|W",
+      "ability_id": "MalthaelWraithStrike",
+      "button_id": "MalthaelWraithStrike",
+      "unit_id": "HeroMalthael",
+      "unit_name": "Malthael",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "death_shroud",
+      "name": "Death Shroud",
+      "description": "Mana: 50 Cooldown: 8 seconds After 0.25 seconds, unleash a wave of dark mist that applies Reaper's Mark to enemies it hits.",
+      "icon": "Heroes/malthael/abilities/storm_ui_icon_malthael_deathshroud.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "MalthaelDeathShroud|MalthaelDeathShroud|E",
+      "ability_id": "MalthaelDeathShroud",
+      "button_id": "MalthaelDeathShroud",
+      "unit_id": "HeroMalthael",
+      "unit_name": "Malthael",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "tormented_souls",
+      "name": "Tormented Souls",
+      "description": "Mana: 20 Cooldown: 60 seconds Unleash a torrent of souls, continually applying Reaper's Mark to nearby enemies for 4 seconds.  Tormented Souls resets the cooldown of Wraith Strike when activated, and while active, Wraith Strike costs no Mana its cooldown is reduced to 2 seconds.",
+      "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_tormentedsoul.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "MalthaelTormentedSouls|MalthaelTormentedSouls|Heroic",
+      "ability_id": "MalthaelTormentedSouls",
+      "button_id": "MalthaelTormentedSouls",
+      "unit_id": "HeroMalthael",
+      "unit_name": "Malthael",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_tormentedsoul_mini.png"
+    },
+    {
+      "id": "last_rites",
+      "name": "Last Rites",
+      "description": "Mana: 100 Cooldown: 70 seconds Apply a death sentence to an enemy Hero that, after 2 seconds, deals damage equal to 50% of their missing Health.  Quest: Enemies killed between the application of Last Rites and within 1.5 seconds of it dealing damage permanently reduce its cooldown by 5 seconds, to a minimum of 20 seconds.",
+      "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_lastrites.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "MalthaelLastRites|MalthaelLastRites|Heroic",
+      "ability_id": "MalthaelLastRites",
+      "button_id": "MalthaelLastRites",
+      "unit_id": "HeroMalthael",
+      "unit_name": "Malthael",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_lastrites_mini.png"
+    },
+    {
+      "id": "reaper_s_mark",
+      "name": "Reaper's Mark",
+      "description": "Basic Attacks cleave in an area in front of Malthael and afflict non-Structure targets with Reaper's Mark for 4 seconds. Marked enemies are revealed and take damage equal to 2% of their maximum Health every 1 second.",
+      "icon": "Heroes/malthael/abilities/storm_ui_icon_malthael_reapersmark.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": ":PASSIVE:|MalthaelReapersMark|Trait",
+      "ability_id": ":PASSIVE:",
+      "button_id": "MalthaelReapersMark",
+      "unit_id": "HeroMalthael",
+      "unit_name": "Malthael",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroMalthael",
+      "unit_name": "Malthael",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroMalthael",
+      "unit_name": "Malthael",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroMalthael",
+      "unit_name": "Malthael",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "fear_the_reaper",
+      "name": "Fear the Reaper",
+      "description": "Cooldown: 25 seconds Activate to increase Movement Speed by 25% and pass through other units for 4 seconds.",
+      "icon": "Heroes/malthael/abilities/storm_ui_icon_malthael_fearthereaper.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "MalthaelFearTheReaper|MalthaelFearTheReaper|Active",
+      "ability_id": "MalthaelFearTheReaper",
+      "button_id": "MalthaelFearTheReaper",
+      "unit_id": "HeroMalthael",
+      "unit_name": "Malthael",
+      "parent_link_ids": [
+        "MalthaelFearTheReaper|MalthaelFearTheReaper|Active|Level1"
+      ],
+      "unlock_conditions": [
+        [
+          "MalthaelFearTheReaper"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "MalthaelFearTheReaper",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 1,
+      "unlock_position": 3
+    },
+    {
+      "id": "touch_of_death",
+      "name": "Touch of Death",
+      "description": "Cooldown: 20 seconds Activate to reduce healing received by Heroes afflicted by Reaper's Mark by 50% for 4 seconds.",
+      "icon": "Heroes/malthael/abilities/storm_ui_icon_malthael_touchofdeath.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active",
+      "ability_id": "MalthaelTouchOfDeath",
+      "button_id": "MalthaelTouchOfDeath",
+      "unit_id": "HeroMalthael",
+      "unit_name": "Malthael",
+      "parent_link_ids": [
+        "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active|Level7"
+      ],
+      "unlock_conditions": [
+        [
+          "MalthaelTouchOfDeath"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "MalthaelTouchOfDeath",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 7,
+      "unlock_position": 3
+    },
+    {
+      "id": "inevitable_end",
+      "name": "Inevitable End",
+      "description": "Cooldown: 20 seconds Activate to become Unstoppable for 2 seconds, but remove all active Reaper's Marks.",
+      "icon": "Heroes/malthael/abilities/storm_ui_icon_malthael_inevitableend.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "MalthaelInevitableEnd|MalthaelInevitableEnd|Active",
+      "ability_id": "MalthaelInevitableEnd",
+      "button_id": "MalthaelInevitableEnd",
+      "unit_id": "HeroMalthael",
+      "unit_name": "Malthael",
+      "parent_link_ids": [
+        "MalthaelInevitableEnd|MalthaelInevitableEnd|Active|Level13"
+      ],
+      "unlock_conditions": [
+        [
+          "MalthaelInevitableEnd"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2",
+        "3"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "MalthaelInevitableEnd",
+      "active_order": 3,
+      "active_origin": "talent",
+      "unlock_level": 13,
+      "unlock_position": 3
+    },
+    {
+      "id": "shroud_of_wisdom",
+      "name": "Shroud of Wisdom",
+      "description": "Cooldown: 20 seconds After 2 seconds, gain 50 Spell Armor for 4 seconds.",
+      "icon": "Heroes/malthael/abilities/storm_ui_icon_malthael_shroudofwisdom.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active",
+      "ability_id": "MalthaelShroudOfWisdom",
+      "button_id": "MalthaelShroudOfWisdom",
+      "unit_id": "HeroMalthael",
+      "unit_name": "Malthael",
+      "parent_link_ids": [
+        "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active|Level13"
+      ],
+      "unlock_conditions": [
+        [
+          "MalthaelShroudOfWisdom"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2",
+        "3"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "MalthaelShroudOfWisdom",
+      "active_order": 4,
+      "active_origin": "talent",
+      "unlock_level": 13,
+      "unlock_position": 4
+    },
+    {
+      "id": "no_one_can_stop_death",
+      "name": "No One Can Stop Death",
+      "description": "Cooldown: 180 seconds Activate while dead to immediately respawn at the Hall of Storms but increase Malthael's next respawn time by 25%.",
+      "icon": "Heroes/malthael/abilities/storm_ui_icon_malthael_noonecanstopdeath.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active",
+      "ability_id": "MalthaelNoOneCanStopDeath",
+      "button_id": "MalthaelNoOneCanStopDeath",
+      "unit_id": "HeroMalthael",
+      "unit_name": "Malthael",
+      "parent_link_ids": [
+        "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "MalthaelNoOneCanStopDeath"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "MalthaelNoOneCanStopDeath",
+      "active_order": 5,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 4
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "death_s_reach",
+          "name": "Death's Reach",
+          "description": "Increase Wraith Strike's range by 35%.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_wraithstrike.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "MalthaelDeathsReach|MalthaelDeathsReach|W|Level1",
+          "talent_id": "MalthaelDeathsReach",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_wraithstrike_mini.png"
+        },
+        {
+          "id": "on_a_pale_horse",
+          "name": "On a Pale Horse",
+          "description": "Gain an additional 20% Movement Speed while mounted.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_onpalehorse.png",
+          "position": 2,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "MalthaelOnAPaleHorse|MalthaelOnAPaleHorse|Passive|Level1",
+          "talent_id": "MalthaelOnAPaleHorse",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_onpalehorse_mini.png"
+        },
+        {
+          "id": "fear_the_reaper",
+          "name": "Fear the Reaper",
+          "description": "Cooldown: 25 seconds Activate to increase Movement Speed by 25% and pass through other units for 4 seconds.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_fearthereaper.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "MalthaelFearTheReaper|MalthaelFearTheReaper|Active|Level1",
+          "talent_id": "MalthaelFearTheReaper",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_fearthereaper_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "die_alone",
+          "name": "Die Alone",
+          "description": "Soul Rip deals 50% more damage to Heroes if it hits only one Hero.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_soulrip.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "MalthaelDieAlone|MalthaelDieAlone|Q|Level4",
+          "talent_id": "MalthaelDieAlone",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_soulrip_mini.png"
+        },
+        {
+          "id": "throwing_shade",
+          "name": "Throwing Shade",
+          "description": "Increase Death Shroud's range by 33%, reduce its cooldown by 3 seconds, and reduce its Mana cost from 50 to 30.  Death Shroud's initial impact deals 2% maximum Health as damage to non-Structure enemies.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_deathshroud.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "MalthaelThrowingShade|MalthaelThrowingShade|E|Level4",
+          "talent_id": "MalthaelThrowingShade",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_deathshroud_mini.png"
+        },
+        {
+          "id": "black_harvest",
+          "name": "Black Harvest",
+          "description": "Quest: Apply Reaper's Mark to Heroes for a total of 150 seconds.  Reward: Permanently increase Reaper's Mark's duration by 2 seconds.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_reapersmark.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "MalthaelBlackHarvest|MalthaelBlackHarvest|Trait|Level4",
+          "talent_id": "MalthaelBlackHarvest",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_reapersmark_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "cold_hand",
+          "name": "Cold Hand",
+          "description": "Soul Rip Slows enemies by 20% for 2.5 seconds.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_soulrip.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "MalthaelColdHand|MalthaelColdHand|Q|Level7",
+          "talent_id": "MalthaelColdHand",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_soulrip_mini.png"
+        },
+        {
+          "id": "massacre",
+          "name": "Massacre",
+          "description": "Wraith Strike now damages and applies Reaper's Mark to enemies around its target.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_wraithstrike.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "MalthaelMassacre|MalthaelMassacre|W|Level7",
+          "talent_id": "MalthaelMassacre",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_wraithstrike_mini.png"
+        },
+        {
+          "id": "touch_of_death",
+          "name": "Touch of Death",
+          "description": "Cooldown: 20 seconds Activate to reduce healing received by Heroes afflicted by Reaper's Mark by 50% for 4 seconds.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_touchofdeath.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "MalthaelTouchOfDeath|MalthaelTouchOfDeath|Active|Level7",
+          "talent_id": "MalthaelTouchOfDeath",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2"
+          ],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_touchofdeath_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "tormented_souls",
+          "name": "Tormented Souls",
+          "description": "Mana: 20 Cooldown: 60 seconds Unleash a torrent of souls, continually applying Reaper's Mark to nearby enemies for 4 seconds.  Tormented Souls resets the cooldown of Wraith Strike when activated, and while active, Wraith Strike costs no Mana its cooldown is reduced to 2 seconds.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_tormentedsoul.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "MalthaelTormentedSouls|MalthaelTormentedSouls|Heroic|Level10",
+          "talent_id": "MalthaelTormentedSouls",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_tormentedsoul_mini.png"
+        },
+        {
+          "id": "last_rites",
+          "name": "Last Rites",
+          "description": "Mana: 100 Cooldown: 70 seconds Apply a death sentence to an enemy Hero that, after 2 seconds, deals damage equal to 50% of their missing Health.  Quest: Enemies killed between the application of Last Rites and within 1.5 seconds of it dealing damage permanently reduce its cooldown by 5 seconds, to a minimum of 20 seconds.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_lastrites.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "MalthaelLastRites|MalthaelLastRites|Heroic|Level10",
+          "talent_id": "MalthaelLastRites",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_lastrites_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "soul_siphon",
+          "name": "Soul Siphon",
+          "description": "Increase Soul Rip's bonus healing from Heroes to 4.75% of the Hero's maximum Health.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_soulrip.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "MalthaelSoulSiphon|MalthaelSoulSiphon|Q|Level13",
+          "talent_id": "MalthaelSoulSiphon",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_soulrip_mini.png"
+        },
+        {
+          "id": "ethereal_existence",
+          "name": "Ethereal Existence",
+          "description": "Gain 10 Physical Armor per enemy Hero afflicted by Reaper's Mark, up to a maximum of 30.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_reapersmark.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "MalthaelEtherealExistence|MalthaelEtherealExistence|Trait|Level13",
+          "talent_id": "MalthaelEtherealExistence",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_reapersmark_mini.png"
+        },
+        {
+          "id": "inevitable_end",
+          "name": "Inevitable End",
+          "description": "Cooldown: 20 seconds Activate to become Unstoppable for 2 seconds, but remove all active Reaper's Marks.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_inevitableend.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "MalthaelInevitableEnd|MalthaelInevitableEnd|Active|Level13",
+          "talent_id": "MalthaelInevitableEnd",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2",
+            "3"
+          ],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_inevitableend_mini.png"
+        },
+        {
+          "id": "shroud_of_wisdom",
+          "name": "Shroud of Wisdom",
+          "description": "Cooldown: 20 seconds After 2 seconds, gain 50 Spell Armor for 4 seconds.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_shroudofwisdom.png",
+          "position": 4,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "MalthaelShroudOfWisdom|MalthaelShroudOfWisdom|Active|Level13",
+          "talent_id": "MalthaelShroudOfWisdom",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2",
+            "3"
+          ],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_shroudofwisdom_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "soul_collector",
+          "name": "Soul Collector",
+          "description": "Reduce Soul Rip's cooldown by 0.5 seconds and increase its range by 25%.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_soulrip.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "MalthaelSoulCollector|MalthaelSoulCollector|Q|Level16",
+          "talent_id": "MalthaelSoulCollector",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_soulrip_mini.png"
+        },
+        {
+          "id": "mortality",
+          "name": "Mortality",
+          "description": "When damaging a Hero, Wraith Strike deals bonus damage equal to 8% of the Hero's maximum Health.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_wraithstrike.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "MalthaelMortality|MalthaelMortality|W|Level16",
+          "talent_id": "MalthaelMortality",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_wraithstrike_mini.png"
+        },
+        {
+          "id": "memento_mori",
+          "name": "Memento Mori",
+          "description": "Reaper's Mark deals 60% increased damage after afflicting an enemy for more than 4 seconds.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_reapersmark.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "MalthaelMementoMori|MalthaelMementoMori|Trait|Level16",
+          "talent_id": "MalthaelMementoMori",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_reapersmark_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "reaper_of_souls",
+          "name": "Reaper of Souls",
+          "description": "Increase the duration of Tormented Souls to 6 seconds, and while Tormented Souls is active, Hero Takedowns refresh its duration.  If 2 or more enemy Heroes are in Tormented Souls' radius, it does not decay.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_tormentedsoul.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "MalthaelReaperOfSouls|MalthaelReaperOfSouls|Heroic|Level20",
+          "talent_id": "MalthaelReaperOfSouls",
+          "prerequisite_talent_ids": [
+            "MalthaelTormentedSouls"
+          ],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_tormentedsoul_mini.png"
+        },
+        {
+          "id": "angel_of_death",
+          "name": "Angel of Death",
+          "description": "Last Rites heals for 100% of the damage dealt, and its current and future cooldown reduction bonuses are doubled.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_lastrites.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "MalthaelAngelOfDeath|MalthaelAngelOfDeath|Heroic|Level20",
+          "talent_id": "MalthaelAngelOfDeath",
+          "prerequisite_talent_ids": [
+            "MalthaelLastRites"
+          ],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_lastrites_mini.png"
+        },
+        {
+          "id": "final_curtain",
+          "name": "Final Curtain",
+          "description": "Death Shroud leaves a trail in its wake for 4 seconds, applying Reaper's Mark to enemies in its area.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_deathshroud.png",
+          "position": 3,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "MalthaelFinalCurtain|MalthaelFinalCurtain|E|Level20",
+          "talent_id": "MalthaelFinalCurtain",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_deathshroud_mini.png"
+        },
+        {
+          "id": "no_one_can_stop_death",
+          "name": "No One Can Stop Death",
+          "description": "Cooldown: 180 seconds Activate while dead to immediately respawn at the Hall of Storms but increase Malthael's next respawn time by 25%.",
+          "icon": "Heroes/malthael/talents/storm_ui_icon_malthael_noonecanstopdeath.png",
+          "position": 4,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "MalthaelNoOneCanStopDeath|MalthaelNoOneCanStopDeath|Active|Level20",
+          "talent_id": "MalthaelNoOneCanStopDeath",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "icon_mini": "Heroes/malthael/talents/storm_ui_icon_malthael_noonecanstopdeath_mini.png"
+        }
+      ]
+    }
+  ]
+}

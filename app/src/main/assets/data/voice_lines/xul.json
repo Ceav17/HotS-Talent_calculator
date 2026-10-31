@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/xul/portrait.png",
+  "lines": [
+    {
+      "id": "beware_1b036e44",
+      "title": "Beware",
+      "variant": null,
+      "audio": "voice_lines/xul/beware_1b036e44.ogg"
+    },
+    {
+      "id": "do_not_fear_death_832770d6",
+      "title": "Do Not Fear Death",
+      "variant": null,
+      "audio": "voice_lines/xul/do_not_fear_death_832770d6.ogg"
+    },
+    {
+      "id": "i_sense_death_b3e6297c",
+      "title": "I Sense... Death",
+      "variant": null,
+      "audio": "voice_lines/xul/i_sense_death_b3e6297c.ogg"
+    },
+    {
+      "id": "i_ve_got_your_ear_9aa5cd92",
+      "title": "I've Got Your Ear",
+      "variant": null,
+      "audio": "voice_lines/xul/i_ve_got_your_ear_9aa5cd92.ogg"
+    },
+    {
+      "id": "preserving_the_balance_ce11d1a0",
+      "title": "Preserving the Balance",
+      "variant": null,
+      "audio": "voice_lines/xul/preserving_the_balance_ce11d1a0.ogg"
+    }
+  ]
+}

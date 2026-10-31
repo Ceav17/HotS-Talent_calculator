@@ -1,0 +1,65 @@
+{
+  "portrait": "voice_lines/dva/portrait.png",
+  "lines": [
+    {
+      "id": "voice_27a85047",
+      "title": ";)",
+      "variant": "Mech",
+      "audio": "voice_lines/dva/voice_27a85047.ogg"
+    },
+    {
+      "id": "a_new_challenger_09a336d5",
+      "title": "A New Challenger!",
+      "variant": "Mech",
+      "audio": "voice_lines/dva/a_new_challenger_09a336d5.ogg"
+    },
+    {
+      "id": "gg_dcaaa083",
+      "title": "GG!",
+      "variant": "Mech",
+      "audio": "voice_lines/dva/gg_dcaaa083.ogg"
+    },
+    {
+      "id": "is_this_easy_mode_cff79b88",
+      "title": "Is This Easy Mode?",
+      "variant": "Mech",
+      "audio": "voice_lines/dva/is_this_easy_mode_cff79b88.ogg"
+    },
+    {
+      "id": "love_d_va_bb8c2e35",
+      "title": "Love, D.Va",
+      "variant": "Mech",
+      "audio": "voice_lines/dva/love_d_va_bb8c2e35.ogg"
+    },
+    {
+      "id": "voice_37c94f9c",
+      "title": ";)",
+      "variant": "Pilot",
+      "audio": "voice_lines/dva/voice_37c94f9c.ogg"
+    },
+    {
+      "id": "a_new_challenger_e0fe356a",
+      "title": "A New Challenger!",
+      "variant": "Pilot",
+      "audio": "voice_lines/dva/a_new_challenger_e0fe356a.ogg"
+    },
+    {
+      "id": "gg_6cade674",
+      "title": "GG!",
+      "variant": "Pilot",
+      "audio": "voice_lines/dva/gg_6cade674.ogg"
+    },
+    {
+      "id": "is_this_easy_mode_7bce3f43",
+      "title": "Is This Easy Mode?",
+      "variant": "Pilot",
+      "audio": "voice_lines/dva/is_this_easy_mode_7bce3f43.ogg"
+    },
+    {
+      "id": "love_d_va_ddadb3f3",
+      "title": "Love, D.Va",
+      "variant": "Pilot",
+      "audio": "voice_lines/dva/love_d_va_ddadb3f3.ogg"
+    }
+  ]
+}

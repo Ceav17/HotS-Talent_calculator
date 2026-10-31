@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/chromie/portrait.png",
+  "lines": [
+    {
+      "id": "good_to_see_you_018577b6",
+      "title": "Good to See You",
+      "variant": null,
+      "audio": "voice_lines/chromie/good_to_see_you_018577b6.ogg"
+    },
+    {
+      "id": "make_me_smile_5000d981",
+      "title": "Make Me Smile",
+      "variant": null,
+      "audio": "voice_lines/chromie/make_me_smile_5000d981.ogg"
+    },
+    {
+      "id": "not_going_to_like_it_ce557c6a",
+      "title": "Not Going to Like It",
+      "variant": null,
+      "audio": "voice_lines/chromie/not_going_to_like_it_ce557c6a.ogg"
+    },
+    {
+      "id": "we_have_time_810577ed",
+      "title": "We Have Time",
+      "variant": null,
+      "audio": "voice_lines/chromie/we_have_time_810577ed.ogg"
+    },
+    {
+      "id": "yay_ba8852bd",
+      "title": "Yay!",
+      "variant": null,
+      "audio": "voice_lines/chromie/yay_ba8852bd.ogg"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/hanzo/portrait.png",
+  "lines": [
+    {
+      "id": "from_one_thing_6e71e0ef",
+      "title": "From One Thing...",
+      "variant": null,
+      "audio": "voice_lines/hanzo/from_one_thing_6e71e0ef.ogg"
+    },
+    {
+      "id": "simple_geometry_3afa0d61",
+      "title": "Simple Geometry",
+      "variant": null,
+      "audio": "voice_lines/hanzo/simple_geometry_3afa0d61.ogg"
+    },
+    {
+      "id": "so_predictable_cf1e8333",
+      "title": "So Predictable",
+      "variant": null,
+      "audio": "voice_lines/hanzo/so_predictable_cf1e8333.ogg"
+    },
+    {
+      "id": "spirit_dragon_2b93854e",
+      "title": "Spirit Dragon",
+      "variant": null,
+      "audio": "voice_lines/hanzo/spirit_dragon_2b93854e.ogg"
+    },
+    {
+      "id": "step_into_the_dojo_46cf2e84",
+      "title": "Step Into the Dojo",
+      "variant": null,
+      "audio": "voice_lines/hanzo/step_into_the_dojo_46cf2e84.ogg"
+    }
+  ]
+}

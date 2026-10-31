@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/kaelthas/portrait.png",
+  "lines": [
+    {
+      "id": "extinguished_edcfa49c",
+      "title": "Extinguished",
+      "variant": null,
+      "audio": "voice_lines/kaelthas/extinguished_edcfa49c.ogg"
+    },
+    {
+      "id": "for_the_sin_dorei_988dc7a3",
+      "title": "For the Sin'dorei!",
+      "variant": null,
+      "audio": "voice_lines/kaelthas/for_the_sin_dorei_988dc7a3.ogg"
+    },
+    {
+      "id": "merely_a_setback_2386aa67",
+      "title": "Merely a Setback",
+      "variant": null,
+      "audio": "voice_lines/kaelthas/merely_a_setback_2386aa67.ogg"
+    },
+    {
+      "id": "outstanding_a0ec2994",
+      "title": "Outstanding",
+      "variant": null,
+      "audio": "voice_lines/kaelthas/outstanding_a0ec2994.ogg"
+    },
+    {
+      "id": "selama_ashal_anore_d3e49aec",
+      "title": "Selama Ashal'anore",
+      "variant": null,
+      "audio": "voice_lines/kaelthas/selama_ashal_anore_d3e49aec.ogg"
+    }
+  ]
+}

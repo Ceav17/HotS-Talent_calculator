@@ -1,0 +1,662 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "whitemane",
+    "name": "Whitemane",
+    "team_role": "Healer",
+    "universe": "Warcraft",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "desperate_plea",
+      "name": "Desperate Plea",
+      "description": "Mana: 45 Heal an allied Hero for 140 (+4% per level) and gain Desperation for 4 seconds.  Desperation increases Desperate Plea's Mana cost by 40, and stacks up to 3 times.  Current Mana Cost: 45",
+      "icon": "Heroes/whitemane/abilities/storm_ui_icon_whitemane_desperation.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "WhitemaneDesperatePlea|WhitemaneDesperatePlea|Q",
+      "ability_id": "WhitemaneDesperatePlea",
+      "button_id": "WhitemaneDesperatePlea",
+      "unit_id": "HeroWhitemane",
+      "unit_name": "Whitemane",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "inquisition",
+      "name": "Inquisition",
+      "description": "Cooldown: 12 seconds Channel on an enemy Hero for up to 3 seconds, dealing 50 (+4% per level) damage every 0.5 seconds and Slowing them by 30%. Removes a stack of Desperation.  Shares a cooldown with Clemency.",
+      "icon": "Heroes/whitemane/abilities/storm_ui_icon_whitemane_inquisition.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "WhitemaneInquisition|WhitemaneInquisition|W",
+      "ability_id": "WhitemaneInquisition",
+      "button_id": "WhitemaneInquisition",
+      "unit_id": "HeroWhitemane",
+      "unit_name": "Whitemane",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "searing_lash",
+      "name": "Searing Lash",
+      "description": "Cooldown: 6 seconds After 0.5 seconds, smite enemies in a straight line for 82 (+4% per level) damage.  If the first strike hits an enemy Hero, a second strike will occur after a short delay.  Repeatable Quest: Hit Heroes with Searing Lash. Repeatable Quest: Hit 3 Heroes with Basic Attacks.  Reward: Permanently increase Whitemane's maximum Health by 3 and Mana by 2. Heroes hit with the second strike of Searing Lash count as 2 hits.",
+      "icon": "Heroes/whitemane/abilities/storm_ui_icon_whitemane_lash.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "WhitemaneSearingLash|WhitemaneSearingLash|E",
+      "ability_id": "WhitemaneSearingLash",
+      "button_id": "WhitemaneSearingLash",
+      "unit_id": "HeroWhitemane",
+      "unit_name": "Whitemane",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "scarlet_aegis",
+      "name": "Scarlet Aegis",
+      "description": "Cooldown: 60 seconds Bolster the spirits of nearby allied Heroes, healing them for 300 (+4% per level) and granting them 40 Armor for 4 seconds.",
+      "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_aegis.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "WhitemaneScarletAegis|WhitemaneScarletAegis|Heroic",
+      "ability_id": "WhitemaneScarletAegis",
+      "button_id": "WhitemaneScarletAegis",
+      "unit_id": "HeroWhitemane",
+      "unit_name": "Whitemane",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_aegis_mini.png"
+    },
+    {
+      "id": "divine_reckoning",
+      "name": "Divine Reckoning",
+      "description": "Cooldown: 75 seconds After 1 second, consecrate an area for 4 seconds, dealing 50 (+4% per level) damage every 0.5 seconds to enemies inside. 25% of the damage dealt to Heroes is returned as Mana.",
+      "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_reckoning.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "WhitemaneDivineReckoning|WhitemaneDivineReckoning|Heroic",
+      "ability_id": "WhitemaneDivineReckoning",
+      "button_id": "WhitemaneDivineReckoning",
+      "unit_id": "HeroWhitemane",
+      "unit_name": "Whitemane",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_reckoning_mini.png"
+    },
+    {
+      "id": "zeal",
+      "name": "Zeal",
+      "description": "Cooldown: 40 seconds Whitemane's healing Abilities apply Zeal for 8 seconds. Allies with Zeal are healed for 100% of the damage Whitemane deals to Heroes.  Activate to gain 25% Spell Power and lose 15 Armor for 5 seconds. Can be cast while channeling abilities.",
+      "icon": "Heroes/whitemane/abilities/storm_ui_icon_whitemane_zeal.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "WhitemaneFanaticalPower|WhitemaneTraitZeal|Trait",
+      "ability_id": "WhitemaneFanaticalPower",
+      "button_id": "WhitemaneTraitZeal",
+      "unit_id": "HeroWhitemane",
+      "unit_name": "Whitemane",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroWhitemane",
+      "unit_name": "Whitemane",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroWhitemane",
+      "unit_name": "Whitemane",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "inquisition_cancel_1dc7fcf1ad",
+      "name": "Inquisition (Cancel)",
+      "description": "Stop Channeling Inquisition.",
+      "icon": null,
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "WhitemaneInquisitionCancel|WhitemaneInquisitionCancel|W",
+      "ability_id": "WhitemaneInquisitionCancel",
+      "button_id": "WhitemaneInquisitionCancel",
+      "unit_id": "HeroWhitemane",
+      "unit_name": "Whitemane",
+      "parent_link_ids": [
+        "WhitemaneInquisitionClemency|WhitemaneInquisitionClemency|Active",
+        "WhitemaneInquisition|WhitemaneInquisition|W"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroWhitemane",
+      "unit_name": "Whitemane",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "clemency",
+      "name": "Clemency",
+      "description": "Cooldown: 12 seconds Activate to cast Inquisition on an allied Hero, healing them for up to 329 (+4% per level) over 3 seconds while Channeling. Removes a stack of Desperation  Shares a cooldown with Inquisition.",
+      "icon": "Heroes/whitemane/abilities/storm_ui_icon_whitemane_clemency.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "WhitemaneInquisitionClemency|WhitemaneInquisitionClemency|Active",
+      "ability_id": "WhitemaneInquisitionClemency",
+      "button_id": "WhitemaneInquisitionClemency",
+      "unit_id": "HeroWhitemane",
+      "unit_name": "Whitemane",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "WhitemaneInquisitionClemency",
+      "active_order": 1,
+      "active_origin": "initial",
+      "unlock_level": 0,
+      "unlock_position": 0
+    },
+    {
+      "id": "inquisition_cancel_e761fd7c6b",
+      "name": "Inquisition (Cancel)",
+      "description": "Stop Channeling Inquisition.",
+      "icon": null,
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "WhitemaneInquisitionCancel|WhitemaneInquisitionCancel|Active",
+      "ability_id": "WhitemaneInquisitionCancel",
+      "button_id": "WhitemaneInquisitionCancel",
+      "unit_id": "HeroWhitemane",
+      "unit_name": "Whitemane",
+      "parent_link_ids": [
+        "WhitemaneInquisitionClemency|WhitemaneInquisitionClemency|Active",
+        "WhitemaneInquisition|WhitemaneInquisition|W"
+      ],
+      "unlock_conditions": [
+        []
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "WhitemaneInquisitionClemency",
+      "active_order": 1,
+      "active_origin": "initial",
+      "unlock_level": 0,
+      "unlock_position": 0
+    },
+    {
+      "id": "intercession",
+      "name": "Intercession",
+      "description": "Cooldown: 75 seconds Activate to make an ally Unstoppable for 1 second.",
+      "icon": "Heroes/whitemane/abilities/storm_ui_icon_whitemane_intercession.png",
+      "hotkey": "2",
+      "ability_type": "Active",
+      "link_id": "WhitemaneIntercession|WhitemaneIntercession|Active",
+      "ability_id": "WhitemaneIntercession",
+      "button_id": "WhitemaneIntercession",
+      "unit_id": "HeroWhitemane",
+      "unit_name": "Whitemane",
+      "parent_link_ids": [
+        "WhitemaneIntercession|WhitemaneIntercession|Active|Level7"
+      ],
+      "unlock_conditions": [
+        [
+          "WhitemaneIntercession"
+        ]
+      ],
+      "hotkey_candidates": [
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "WhitemaneIntercession",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 7,
+      "unlock_position": 3
+    },
+    {
+      "id": "guiding_light",
+      "name": "Guiding Light",
+      "description": "Cooldown: 30 seconds Activate to cast a permanent Zeal on an allied Hero that costs no Mana and doesn't grant Desperation. Only one can be active at a time and has global cast range.  Increases the Spell Power bonus provided by Whitemane's trait by 15%.",
+      "icon": "Heroes/whitemane/abilities/storm_ui_icon_whitemane_zeal.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "WhitemaneGuidingLight|WhitemaneGuidingLight|Active",
+      "ability_id": "WhitemaneGuidingLight",
+      "button_id": "WhitemaneGuidingLight",
+      "unit_id": "HeroWhitemane",
+      "unit_name": "Whitemane",
+      "parent_link_ids": [
+        "WhitemaneGuidingLight|WhitemaneGuidingLight|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "WhitemaneGuidingLight"
+        ]
+      ],
+      "hotkey_candidates": [
+        "2",
+        "3"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "WhitemaneGuidingLight",
+      "active_order": 3,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 3
+    },
+    {
+      "id": "purge_the_wicked",
+      "name": "Purge the Wicked",
+      "description": "Cooldown: 40 seconds Activate to blast an enemy Hero with holy fire, reducing their Armor by 25 and dealing 300 (+4% per level) damage over 4 seconds.",
+      "icon": "Heroes/whitemane/abilities/storm_ui_icon_whitemane_purge.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "WhitemanePurgeTheWicked|WhitemanePurgeTheWicked|Active",
+      "ability_id": "WhitemanePurgeTheWicked",
+      "button_id": "WhitemanePurgeTheWicked",
+      "unit_id": "HeroWhitemane",
+      "unit_name": "Whitemane",
+      "parent_link_ids": [
+        "WhitemanePurgeTheWicked|WhitemanePurgeTheWicked|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "WhitemanePurgeTheWicked"
+        ]
+      ],
+      "hotkey_candidates": [
+        "2",
+        "3"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "WhitemanePurgeTheWicked",
+      "active_order": 4,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 4
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "pity_the_frail",
+          "name": "Pity the Frail",
+          "description": "For every Hero hit with Searing Lash, lower the cooldown of Inquisition by 1 seconds. Allies below 30% Health receive 25% more healing from Whitemane.",
+          "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_inquisition_lash.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "WhitemaneZealPityTheFrail|WhitemaneZealPityTheFrail|W|Level1",
+          "talent_id": "WhitemaneZealPityTheFrail",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_inquisition_lash_mini.png"
+        },
+        {
+          "id": "righteous_flame",
+          "name": "Righteous Flame",
+          "description": "Searing Lash deals 25% more damage to enemies. If the second strike hits an enemy Hero, they take an additional 25% damage and Whitemane gains 40% Attack Speed for 3 seconds.",
+          "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_lash.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "WhitemaneSearingLashRighteousFlame|WhitemaneSearingLashRighteousFlame|E|Level1",
+          "talent_id": "WhitemaneSearingLashRighteousFlame",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_lash_mini.png"
+        },
+        {
+          "id": "inquisitor_s_prayer",
+          "name": "Inquisitor's Prayer",
+          "description": "Searing Lash restores 25 Mana for each Hero it hits, and Zeal lasts 2 additional seconds.",
+          "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_lash_alt_1.png",
+          "position": 3,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "WhitemaneInquisitorsPrayer|WhitemaneInquisitor'sPrayer|E|Level1",
+          "talent_id": "WhitemaneInquisitorsPrayer",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_lash_alt_1_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "unwavering_faith",
+          "name": "Unwavering Faith",
+          "description": "Increase Whitemane's Basic Attack range by 1.1. Whitemane gains 20% increased Basic Attack damage for each active Zeal buff.",
+          "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_desperation.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "WhitemaneDesperatePleaUnwaveringFaith|WhitemaneDesperatePleaUnwaveringFaith|Q|Level4",
+          "talent_id": "WhitemaneDesperatePleaUnwaveringFaith",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_desperation_mini.png"
+        },
+        {
+          "id": "martyrdom",
+          "name": "Martyrdom",
+          "description": "Desperate Plea's healing is increased by 30%. Increase this by an additional 10% for each active Zeal.",
+          "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_desperation_alt_1.png",
+          "position": 2,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "WhitemaneDesperatePleaMartyrdom|WhitemaneDesperatePleaMartyrdom|Q|Level4",
+          "talent_id": "WhitemaneDesperatePleaMartyrdom",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_desperation_alt_1_mini.png"
+        },
+        {
+          "id": "indulgence",
+          "name": "Indulgence",
+          "description": "Gain 5% Movement Speed. Increase this by an additional 5% for each active Zeal.",
+          "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_zeal.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "WhitemaneZealIndulgence|WhitemaneZealIndulgence|Trait|Level4",
+          "talent_id": "WhitemaneZealIndulgence",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_zeal_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "zealous_spirit",
+          "name": "Zealous Spirit",
+          "description": "Upon reaching 2 stacks of Desperation, Whitemane gains Zeal.",
+          "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_desperation.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "WhitemaneDesperatePleaZealousSpirit|WhitemaneDesperatePleaZealousSpirit|Q|Level7",
+          "talent_id": "WhitemaneDesperatePleaZealousSpirit",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_desperation_mini.png"
+        },
+        {
+          "id": "saintly_greatstaff",
+          "name": "Saintly Greatstaff",
+          "description": "Enemy Heroes hit by Searing Lash are marked for 3 seconds. Basic Attacks against them deal an additional 55 (+4% per level) Spell damage and remove the mark.",
+          "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_lash.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "WhitemaneSaintlyGreatstaff|WhitemaneSaintlyGreatstaff|E|Level7",
+          "talent_id": "WhitemaneSaintlyGreatstaff",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_lash_mini.png"
+        },
+        {
+          "id": "intercession",
+          "name": "Intercession",
+          "description": "Cooldown: 75 seconds Activate to make an ally Unstoppable for 1 second.",
+          "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_intercession.png",
+          "position": 3,
+          "hotkey": "2",
+          "ability_type": "Active",
+          "link_id": "WhitemaneIntercession|WhitemaneIntercession|Active|Level7",
+          "talent_id": "WhitemaneIntercession",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "2"
+          ],
+          "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_intercession_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "scarlet_aegis",
+          "name": "Scarlet Aegis",
+          "description": "Cooldown: 60 seconds Bolster the spirits of nearby allied Heroes, healing them for 300 (+4% per level) and granting them 40 Armor for 4 seconds.",
+          "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_aegis.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "WhitemaneScarletAegis|WhitemaneScarletAegis|Heroic|Level10",
+          "talent_id": "WhitemaneScarletAegis",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_aegis_mini.png"
+        },
+        {
+          "id": "divine_reckoning",
+          "name": "Divine Reckoning",
+          "description": "Cooldown: 75 seconds After 1 second, consecrate an area for 4 seconds, dealing 50 (+4% per level) damage every 0.5 seconds to enemies inside. 25% of the damage dealt to Heroes is returned as Mana.",
+          "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_reckoning.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "WhitemaneDivineReckoning|WhitemaneDivineReckoning|Heroic|Level10",
+          "talent_id": "WhitemaneDivineReckoning",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_reckoning_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "subjugation",
+          "name": "Subjugation",
+          "description": "Inquisition reduces all damage the target deals by 50%.",
+          "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_inquisition.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "WhitemaneInquisitionSubjugation|WhitemaneInquisitionSubjugation|W|Level13",
+          "talent_id": "WhitemaneInquisitionSubjugation",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_inquisition_mini.png"
+        },
+        {
+          "id": "lashing_out",
+          "name": "Lashing Out",
+          "description": "If Searing Lash's second strike hits an enemy Hero, reduce its cooldown to 1 second.",
+          "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_lash.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "WhitemaneSearingLashLashingOut|WhitemaneSearingLashLashingOut|E|Level13",
+          "talent_id": "WhitemaneSearingLashLashingOut",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_lash_mini.png"
+        },
+        {
+          "id": "scarlet_wrath",
+          "name": "Scarlet Wrath",
+          "description": "Basic Attacks against Heroes increase the duration of all active Zeals by 0.75 seconds, restore 1% Mana to all Zeal targets, and lower the cooldown of Zeals activation by 4 seconds.",
+          "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_zeal.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "WhitemaneZealScarletWrath|WhitemaneZealScarletWrath|Trait|Level13",
+          "talent_id": "WhitemaneZealScarletWrath",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_zeal_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "radiance",
+          "name": "Radiance",
+          "description": "Reaching 3 stacks of Desperation heals for 190 (+4% per level) and reapplies Zeal to allies with Zeal.",
+          "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_desperation.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "WhitemaneDesperatePleaRadiance|WhitemaneDesperatePleaRadiance|Q|Level16",
+          "talent_id": "WhitemaneDesperatePleaRadiance",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_desperation_mini.png"
+        },
+        {
+          "id": "shared_punishment",
+          "name": "Shared Punishment",
+          "description": "Upon casting, Inquisition can chain to an additional enemy Hero near its target, dealing 50 (+4% per level) damage every 0.5 seconds. Affected enemies lose 10 Armor.",
+          "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_inquisition.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "WhitemaneInquisitionSharedPunishment|WhitemaneInquisitionSharedPunishment|W|Level16",
+          "talent_id": "WhitemaneInquisitionSharedPunishment",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_inquisition_mini.png"
+        },
+        {
+          "id": "harsh_discipline",
+          "name": "Harsh Discipline",
+          "description": "Hitting a Hero with Searing Lash while they are being targeted by Inquisition Roots them for 1.5 seconds.  Passive: Reduce Inquisition's cooldown by 2 seconds.",
+          "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_lash.png",
+          "position": 3,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "WhitemaneSearingLashHarshDiscipline|WhitemaneSearingLashHarshDiscipline|E|Level16",
+          "talent_id": "WhitemaneSearingLashHarshDiscipline",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_lash_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "scarlet_crusade",
+          "name": "Scarlet Crusade",
+          "description": "Scarlet Aegis heals for 50% more and makes affected allies Unstoppable for 2 seconds.",
+          "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_aegis.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "WhitemaneScarletAegisScarletCrusade|WhitemaneScarletAegisScarletCrusade|Heroic|Level20",
+          "talent_id": "WhitemaneScarletAegisScarletCrusade",
+          "prerequisite_talent_ids": [
+            "WhitemaneScarletAegis"
+          ],
+          "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_aegis_mini.png"
+        },
+        {
+          "id": "judgment_day",
+          "name": "Judgment Day",
+          "description": "Divine Reckoning deals 50% more damage and pulls enemies to its center the first time it hits them.",
+          "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_reckoning.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "WhitemaneDivineReckoningJudgmentDay|WhitemaneDivineReckoningJudgmentDay|Heroic|Level20",
+          "talent_id": "WhitemaneDivineReckoningJudgmentDay",
+          "prerequisite_talent_ids": [
+            "WhitemaneDivineReckoning"
+          ],
+          "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_reckoning_mini.png"
+        },
+        {
+          "id": "guiding_light",
+          "name": "Guiding Light",
+          "description": "Cooldown: 30 seconds Activate to cast a permanent Zeal on an allied Hero that costs no Mana and doesn't grant Desperation. Only one can be active at a time and has global cast range.  Increases the Spell Power bonus provided by Whitemane's trait by 15%.",
+          "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_zeal.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "WhitemaneGuidingLight|WhitemaneGuidingLight|Active|Level20",
+          "talent_id": "WhitemaneGuidingLight",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "2",
+            "3"
+          ],
+          "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_zeal_mini.png"
+        },
+        {
+          "id": "purge_the_wicked",
+          "name": "Purge the Wicked",
+          "description": "Cooldown: 40 seconds Activate to blast an enemy Hero with holy fire, reducing their Armor by 25 and dealing 300 (+4% per level) damage over 4 seconds.",
+          "icon": "Heroes/whitemane/talents/storm_ui_icon_whitemane_purge.png",
+          "position": 4,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "WhitemanePurgeTheWicked|WhitemanePurgeTheWicked|Active|Level20",
+          "talent_id": "WhitemanePurgeTheWicked",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "2",
+            "3"
+          ],
+          "icon_mini": "Heroes/whitemane/talents/storm_ui_icon_whitemane_purge_mini.png"
+        }
+      ]
+    }
+  ]
+}

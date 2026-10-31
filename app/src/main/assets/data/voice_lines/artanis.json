@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/artanis/portrait.png",
+  "lines": [
+    {
+      "id": "glory_of_the_daelaam_77db16d3",
+      "title": "Glory of the Daelaam",
+      "variant": null,
+      "audio": "voice_lines/artanis/glory_of_the_daelaam_77db16d3.ogg"
+    },
+    {
+      "id": "no_match_for_a_templar_9de3c0a3",
+      "title": "No Match for a Templar",
+      "variant": null,
+      "audio": "voice_lines/artanis/no_match_for_a_templar_9de3c0a3.ogg"
+    },
+    {
+      "id": "order_is_restored_c0ef84df",
+      "title": "Order Is Restored",
+      "variant": null,
+      "audio": "voice_lines/artanis/order_is_restored_c0ef84df.ogg"
+    },
+    {
+      "id": "strength_in_unity_5906b8f8",
+      "title": "Strength in Unity",
+      "variant": null,
+      "audio": "voice_lines/artanis/strength_in_unity_5906b8f8.ogg"
+    },
+    {
+      "id": "you_lack_honor_0216ee90",
+      "title": "You Lack Honor",
+      "variant": null,
+      "audio": "voice_lines/artanis/you_lack_honor_0216ee90.ogg"
+    }
+  ]
+}

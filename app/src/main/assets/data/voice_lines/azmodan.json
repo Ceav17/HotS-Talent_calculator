@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/azmodan/portrait.png",
+  "lines": [
+    {
+      "id": "i_defy_you_2fb9487f",
+      "title": "I Defy You",
+      "variant": null,
+      "audio": "voice_lines/azmodan/i_defy_you_2fb9487f.ogg"
+    },
+    {
+      "id": "intriguing_dc2a39d1",
+      "title": "Intriguing",
+      "variant": null,
+      "audio": "voice_lines/azmodan/intriguing_dc2a39d1.ogg"
+    },
+    {
+      "id": "realms_of_agony_4b0aeadf",
+      "title": "Realms of Agony",
+      "variant": null,
+      "audio": "voice_lines/azmodan/realms_of_agony_4b0aeadf.ogg"
+    },
+    {
+      "id": "sin_is_eternal_fd72dc8b",
+      "title": "Sin Is Eternal",
+      "variant": null,
+      "audio": "voice_lines/azmodan/sin_is_eternal_fd72dc8b.ogg"
+    },
+    {
+      "id": "so_clever_3e0c4a02",
+      "title": "So Clever",
+      "variant": null,
+      "audio": "voice_lines/azmodan/so_clever_3e0c4a02.ogg"
+    }
+  ]
+}

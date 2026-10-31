@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/genji/portrait.png",
+  "lines": [
+    {
+      "id": "don_t_mess_with_me_213a4a45",
+      "title": "Don't Mess With Me",
+      "variant": null,
+      "audio": "voice_lines/genji/don_t_mess_with_me_213a4a45.ogg"
+    },
+    {
+      "id": "measure_twice_cut_once_bd0153d3",
+      "title": "Measure Twice, Cut Once",
+      "variant": null,
+      "audio": "voice_lines/genji/measure_twice_cut_once_bd0153d3.ogg"
+    },
+    {
+      "id": "the_dragon_and_i_e929d72d",
+      "title": "The Dragon and I",
+      "variant": null,
+      "audio": "voice_lines/genji/the_dragon_and_i_e929d72d.ogg"
+    },
+    {
+      "id": "you_are_only_human_4b4b481c",
+      "title": "You Are Only Human",
+      "variant": null,
+      "audio": "voice_lines/genji/you_are_only_human_4b4b481c.ogg"
+    },
+    {
+      "id": "you_seem_nice_9cd3df4d",
+      "title": "You Seem Nice",
+      "variant": null,
+      "audio": "voice_lines/genji/you_seem_nice_9cd3df4d.ogg"
+    }
+  ]
+}

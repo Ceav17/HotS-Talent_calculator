@@ -1,0 +1,571 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "rehgar",
+    "name": "Rehgar",
+    "team_role": "Healer",
+    "universe": "Warcraft",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "chain_heal",
+      "name": "Chain Heal",
+      "description": "Mana: 60 Cooldown: 8 seconds Heal an ally with a wave of healing for 260 (+4% per level) Health. The wave then bounces 2 times to nearby allies within 7 range, restoring 260 (+4% per level) Health to them.",
+      "icon": "Heroes/rehgar/abilities/storm_ui_icon_rehgar_chainheal.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "RehgarChainHeal|RehgarChainHeal|Q",
+      "ability_id": "RehgarChainHeal",
+      "button_id": "RehgarChainHeal",
+      "unit_id": "HeroRehgar",
+      "unit_name": "Rehgar",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "lightning_shield",
+      "name": "Lightning Shield",
+      "description": "Mana: 50 Cooldown: 8 seconds Imbue an ally with lightning dealing 64 (+4% per level) damage a second to nearby enemies. Each enemy hit restores 1 Mana to Rehgar. Lasts 5 seconds.",
+      "icon": "Heroes/rehgar/abilities/storm_ui_icon_rehgar_lightningshield.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "RehgarLightningShield|RehgarLightningShield|W",
+      "ability_id": "RehgarLightningShield",
+      "button_id": "RehgarLightningShield",
+      "unit_id": "HeroRehgar",
+      "unit_name": "Rehgar",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "earthbind_totem",
+      "name": "Earthbind Totem",
+      "description": "Mana: 50 Cooldown: 15 seconds Create a totem that Slows nearby enemies by 35%. The totem has 260 (+4% per level) Health and lasts for 6 seconds.",
+      "icon": "Heroes/rehgar/abilities/storm_ui_icon_rehgar_earthbindtotem.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "RehgarEarthbindTotem|RehgarEarthbindTotem|E",
+      "ability_id": "RehgarEarthbindTotem",
+      "button_id": "RehgarEarthbindTotem",
+      "unit_id": "HeroRehgar",
+      "unit_name": "Rehgar",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "bloodlust",
+      "name": "Bloodlust",
+      "description": "Mana: 70 Cooldown: 90 seconds Grant nearby allied Heroes 40% Attack Speed and 35% Movement Speed and causes them to heal for 30% of the Basic Attack damage to their primary target. Lasts for 6 seconds.",
+      "icon": "Heroes/rehgar/talents/storm_ui_icon_rehgar_bloodlust.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "RehgarBloodlust|RehgarBloodlust|Heroic",
+      "ability_id": "RehgarBloodlust",
+      "button_id": "RehgarBloodlust",
+      "unit_id": "HeroRehgar",
+      "unit_name": "Rehgar",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_rehgar_bloodlust_mini.png"
+    },
+    {
+      "id": "ancestral_healing",
+      "name": "Ancestral Healing",
+      "description": "Mana: 80 Cooldown: 100 seconds After 1 second, heal an allied Hero for 1180 (+4% per level) Health.",
+      "icon": "Heroes/rehgar/talents/storm_ui_icon_rehgar_ancestralhealing.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "RehgarAncestralHealing|RehgarAncestralHealing|Heroic",
+      "ability_id": "RehgarAncestralHealing",
+      "button_id": "RehgarAncestralHealing",
+      "unit_id": "HeroRehgar",
+      "unit_name": "Rehgar",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_rehgar_ancestralhealing_mini.png"
+    },
+    {
+      "id": "purge",
+      "name": "Purge",
+      "description": "Cooldown: 60 seconds When used on an allied Hero, make them Unstoppable for 0.5 seconds. When used on an enemy Hero, Slow them by 80%, decaying over 2 seconds.  Cannot be cast on yourself.",
+      "icon": "Heroes/rehgar/abilities/storm_ui_icon_rehgar_purge.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "RehgarPurge|RehgarPurge|Trait",
+      "ability_id": "RehgarPurge",
+      "button_id": "RehgarPurge",
+      "unit_id": "HeroRehgar",
+      "unit_name": "Rehgar",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "ghost_wolf",
+      "name": "Ghost Wolf",
+      "description": "Cooldown: 4 seconds Instead of using a mount, Rehgar transforms into a Ghost Wolf with 20% increased Movement Speed. Basic Attacks in Ghost Wolf form cause him to lunge at his target and deal 60% bonus damage. Dealing damage, using Abilities, and channeling cancels Ghost Wolf form.",
+      "icon": "Heroes/rehgar/abilities/storm_ui_icon_rehgar_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "RehgarGhostWolfActivate|RehgarGhostWolfActivate|Z",
+      "ability_id": "RehgarGhostWolfActivate",
+      "button_id": "RehgarGhostWolfActivate",
+      "unit_id": "HeroRehgar",
+      "unit_name": "Rehgar",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroRehgar",
+      "unit_name": "Rehgar",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "totemic_projection",
+      "name": "Totemic Projection",
+      "description": "Instantly move Earthbind Totem to a new location.",
+      "icon": "Heroes/rehgar/abilities/storm_ui_icon_rehgar_earthbindtotem_a.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "RehgarTotemicProjection|RehgarTotemicProjection|E",
+      "ability_id": "RehgarTotemicProjection",
+      "button_id": "RehgarTotemicProjection",
+      "unit_id": "HeroRehgar",
+      "unit_name": "Rehgar",
+      "parent_link_ids": [
+        "RehgarEarthbindTotem|RehgarEarthbindTotem|E"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "ghost_wolf_deactivate",
+      "name": "Ghost Wolf Deactivate",
+      "description": "End Ghost Wolf.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "RehgarGhostWolfDeactivate|RehgarGhostWolfDeactivate|Z",
+      "ability_id": "RehgarGhostWolfDeactivate",
+      "button_id": "RehgarGhostWolfDeactivate",
+      "unit_id": "HeroRehgar",
+      "unit_name": "Rehgar",
+      "parent_link_ids": [
+        "RehgarGhostWolfActivate|RehgarGhostWolfActivate|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "healing_totem",
+      "name": "Healing Totem",
+      "description": "Cooldown: 30 seconds Activate to place a Totem that heals allied Heroes in an area for 2% of their maximum Health every second. This Totem has 125 (+4% per level) Health and lasts for 10 seconds.",
+      "icon": "Heroes/rehgar/abilities/storm_ui_icon_talent_healingward.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "RehgarHealingTotem|RehgarHealingTotem|Active",
+      "ability_id": "RehgarHealingTotem",
+      "button_id": "RehgarHealingTotem",
+      "unit_id": "HeroRehgar",
+      "unit_name": "Rehgar",
+      "parent_link_ids": [
+        "RehgarHealingTotem|RehgarHealingTotem|Active|Level4"
+      ],
+      "unlock_conditions": [
+        [
+          "RehgarHealingTotem"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "RehgarHealingTotem",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 4,
+      "unlock_position": 3
+    },
+    {
+      "id": "elemental_conduit",
+      "name": "Elemental Conduit",
+      "description": "Cooldown: 70 seconds Activate to gain Lightning Shield and grant all nearby allied Heroes a Shield equal to 10% of their maximum Health for 5 seconds.   For up to 5 seconds after activating, hitting an enemy Hero with this effects' Lightning Shield gives nearby allies a Shield equal to 1.5% of their maximum Health for 5 seconds.",
+      "icon": "Heroes/rehgar/abilities/storm_ui_icon_talent_stormshield.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "RehgarElementalConduit|RehgarElementalConduit|Active",
+      "ability_id": "RehgarElementalConduit",
+      "button_id": "RehgarElementalConduit",
+      "unit_id": "HeroRehgar",
+      "unit_name": "Rehgar",
+      "parent_link_ids": [
+        "RehgarElementalConduit|RehgarElementalConduit|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "RehgarElementalConduit"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "RehgarElementalConduit",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 3
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "stormcaller",
+          "name": "Stormcaller",
+          "description": "Increase the radius of Lightning Shield by 25%.   Quest: Each time Lightning Shield damages an enemy Hero, permanently increase Rehgar's Health by 2 and Mana by 1, stacking up to 200 times.",
+          "icon": "Heroes/rehgar/talents/storm_ui_icon_rehgar_lightningshield.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "RehgarLightningShieldStormcaller|RehgarLightningShieldStormcaller|W|Level1",
+          "talent_id": "RehgarLightningShieldStormcaller",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_rehgar_lightningshield_mini.png"
+        },
+        {
+          "id": "colossal_totem",
+          "name": "Colossal Totem",
+          "description": "Reactivate Earthbind Totem to move an existing totem to a new location. This can be used once per cast.  Passive: Increase Earthbind Totem's area and duration by 50%, and Health by 25%.",
+          "icon": "Heroes/rehgar/talents/storm_ui_icon_rehgar_earthbindtotem.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "RehgarEarthbindTotemColossalTotem|RehgarEarthbindTotemColossalTotem|E|Level1",
+          "talent_id": "RehgarEarthbindTotemColossalTotem",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_rehgar_earthbindtotem_mini.png"
+        },
+        {
+          "id": "feral_heart",
+          "name": "Feral Heart",
+          "description": "Ghost Wolf's Movement Speed bonus is increased to 40% for the first second, then falls to 30%. Entering or exiting Ghost Wolf form grants 15 Armor for 1 second.",
+          "icon": "Heroes/rehgar/talents/storm_ui_icon_rehgar_ghostwolf.png",
+          "position": 3,
+          "hotkey": "Z",
+          "ability_type": "Z",
+          "link_id": "RehgarFeralHeart|RehgarGhostWolfFeralHeartTalent|Z|Level1",
+          "talent_id": "RehgarFeralHeart",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_rehgar_ghostwolf_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "earthliving_enchant",
+          "name": "Earthliving Enchant",
+          "description": "When Chain Heal heals a Hero below 50% Health, they are healed an additional 160 (+4% per level) Health over 4 seconds.",
+          "icon": "Heroes/rehgar/talents/storm_ui_icon_rehgar_chainheal.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "RehgarEarthlivingEnchant|RehgarEarthlivingEnchant|Q|Level4",
+          "talent_id": "RehgarEarthlivingEnchant",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_rehgar_chainheal_mini.png"
+        },
+        {
+          "id": "electric_charge",
+          "name": "Electric Charge",
+          "description": "The bearer of Lightning Shield Heals for 20% of the damage it deals to enemy Heroes, doubled if the bearer is Rehgar.  While Lightning Shield is damaging an enemy, its bearer gains 10% increased Movement Speed.",
+          "icon": "Heroes/rehgar/talents/storm_ui_icon_rehgar_lightningshield.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "RehgarLightningShieldElectricCharge|RehgarLightningShieldElectricCharge|W|Level4",
+          "talent_id": "RehgarLightningShieldElectricCharge",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_rehgar_lightningshield_mini.png"
+        },
+        {
+          "id": "healing_totem",
+          "name": "Healing Totem",
+          "description": "Cooldown: 30 seconds Activate to place a Totem that heals allied Heroes in an area for 2% of their maximum Health every second. This Totem has 125 (+4% per level) Health and lasts for 10 seconds.",
+          "icon": "Heroes/rehgar/talents/storm_ui_icon_talent_healingward.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "RehgarHealingTotem|RehgarHealingTotem|Active|Level4",
+          "talent_id": "RehgarHealingTotem",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_talent_healingward_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "grounded_totem",
+          "name": "Grounded Totem",
+          "description": "Enemy Heroes in Earthbind Totem's area also have their Attack Speed Slowed by 15% and their Spell Power reduced by 15%.  Passive: Increase Earthbind Totem's cast range by 45%.",
+          "icon": "Heroes/rehgar/talents/storm_ui_icon_rehgar_earthbindtotem.png",
+          "position": 1,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "RehgarEarthbindTotemGroundedTotem|RehgarEarthbindTotemGroundedTotem|E|Level7",
+          "talent_id": "RehgarEarthbindTotemGroundedTotem",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_rehgar_earthbindtotem_mini.png"
+        },
+        {
+          "id": "purification",
+          "name": "Purification",
+          "description": "If Purge removes a Slow, Stun, Root, or Silence effect from an ally, heal them for 220 (+4% per level).  Using Purge on an enemy Hero deals up to 330 (+4% per level) damage to Shields and reduces healing received by 40% for 2 seconds.  Passive: Reduce Purge's cooldown by 15 seconds.",
+          "icon": "Heroes/rehgar/talents/storm_ui_icon_rehgar_purge.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "RehgarPurification|RehgarPurification|Trait|Level7",
+          "talent_id": "RehgarPurification",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_rehgar_purge_mini.png"
+        },
+        {
+          "id": "blood_and_thunder",
+          "name": "Blood and Thunder",
+          "description": "Ghost Wolf attacks reduce Basic Ability cooldowns by 1.5 seconds and restore 4% of Rehgar's maximum Mana.",
+          "icon": "Heroes/rehgar/talents/storm_ui_icon_rehgar_ghostwolf.png",
+          "position": 3,
+          "hotkey": "Z",
+          "ability_type": "Z",
+          "link_id": "RehgarBloodAndThunder|RehgarBloodAndThunder|Z|Level7",
+          "talent_id": "RehgarBloodAndThunder",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_rehgar_ghostwolf_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "ancestral_healing",
+          "name": "Ancestral Healing",
+          "description": "Mana: 80 Cooldown: 100 seconds After 1 second, heal an allied Hero for 1180 (+4% per level) Health.",
+          "icon": "Heroes/rehgar/talents/storm_ui_icon_rehgar_ancestralhealing.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "RehgarAncestralHealing|RehgarAncestralHealing|Heroic|Level10",
+          "talent_id": "RehgarAncestralHealing",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_rehgar_ancestralhealing_mini.png"
+        },
+        {
+          "id": "bloodlust",
+          "name": "Bloodlust",
+          "description": "Mana: 70 Cooldown: 90 seconds Grant nearby allied Heroes 40% Attack Speed and 35% Movement Speed and causes them to heal for 30% of the Basic Attack damage to their primary target. Lasts for 6 seconds.",
+          "icon": "Heroes/rehgar/talents/storm_ui_icon_rehgar_bloodlust.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "RehgarBloodlust|RehgarBloodlust|Heroic|Level10",
+          "talent_id": "RehgarBloodlust",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_rehgar_bloodlust_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "tidal_waves",
+          "name": "Tidal Waves",
+          "description": "Reduces Chain Heal's cooldown by 1 second for each Hero healed, and reduces its Mana cost from 60 to 40.",
+          "icon": "Heroes/rehgar/talents/storm_ui_icon_rehgar_chainheal.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "RehgarMasteryTidalWaves|RehgarChainHealTidalWavesTalent|Q|Level13",
+          "talent_id": "RehgarMasteryTidalWaves",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_rehgar_chainheal_mini.png"
+        },
+        {
+          "id": "earth_shield",
+          "name": "Earth Shield",
+          "description": "Lightning Shield gives Heroes a Shield that absorbs damage equal to 14% of their maximum Health for 3 seconds.",
+          "icon": "Heroes/rehgar/talents/storm_ui_icon_rehgar_lightningshield.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "RehgarLightningShieldEarthShield|RehgarLightningShieldEarthShield|W|Level13",
+          "talent_id": "RehgarLightningShieldEarthShield",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_rehgar_lightningshield_mini.png"
+        },
+        {
+          "id": "wellspring",
+          "name": "Wellspring",
+          "description": "Every 2 seconds, Earthbind Totem will cast an untalented Chain Heal at the nearest allied Hero with the lowest Health. This Chain Heal heals for 35% of its normal amount.",
+          "icon": "Heroes/rehgar/talents/storm_ui_icon_rehgar_earthbindtotem.png",
+          "position": 3,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "RehgarWellspring|RehgarWellspring|E|Level13",
+          "talent_id": "RehgarWellspring",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_rehgar_earthbindtotem_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "rising_storm",
+          "name": "Rising Storm",
+          "description": "Every time a Lightning Shield damages an enemy Hero, increase its damage by 10%. Stacks up to 15 times.  Passive: Increase the duration of Lightning Shield by 3 seconds.",
+          "icon": "Heroes/rehgar/talents/storm_ui_icon_rehgar_lightningshield.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "RehgarLightningShieldRisingStorm|RehgarLightningShieldRisingStorm|W|Level16",
+          "talent_id": "RehgarLightningShieldRisingStorm",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_rehgar_lightningshield_mini.png"
+        },
+        {
+          "id": "earthgrasp_totem",
+          "name": "Earthgrasp Totem",
+          "description": "When Earthbind Totem is first cast, it deals 90 (+4% per level) damage and Slows nearby enemies by 90% for 1 second.",
+          "icon": "Heroes/rehgar/talents/storm_ui_icon_rehgar_earthbindtotem.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "RehgarEarthbindTotemEarthgraspTotem|RehgarEarthbindTotemEarthgraspTotem|E|Level16",
+          "talent_id": "RehgarEarthbindTotemEarthgraspTotem",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_rehgar_earthbindtotem_mini.png"
+        },
+        {
+          "id": "hunger_of_the_wolf",
+          "name": "Hunger of the Wolf",
+          "description": "Ghost Wolf attacks against Heroes deal an additional 6% of the target's maximum Health and heal Rehgar for 6% of his maximum Health.",
+          "icon": "Heroes/rehgar/talents/storm_ui_icon_rehgar_ghostwolf.png",
+          "position": 3,
+          "hotkey": "Z",
+          "ability_type": "Z",
+          "link_id": "RehgarHungerOfTheWolf|RehgarHungeroftheWolf|Z|Level16",
+          "talent_id": "RehgarHungerOfTheWolf",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_rehgar_ghostwolf_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "farseer_s_blessing",
+          "name": "Farseer's Blessing",
+          "description": "After 1.5 seconds, Ancestral Healing is cast a second time on the same target. Allies near the target are healed for 590 (+4% per level).",
+          "icon": "Heroes/rehgar/talents/storm_ui_icon_rehgar_ancestralhealing.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "RehgarAncestralHealingFarseersBlessing|RehgarAncestralHealingFarseersBlessing|Heroic|Level20",
+          "talent_id": "RehgarAncestralHealingFarseersBlessing",
+          "prerequisite_talent_ids": [
+            "RehgarAncestralHealing"
+          ],
+          "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_rehgar_ancestralhealing_mini.png"
+        },
+        {
+          "id": "gladiator_s_war_shout",
+          "name": "Gladiator's War Shout",
+          "description": "Increase the duration and range of Bloodlust by 100%.",
+          "icon": "Heroes/rehgar/talents/storm_ui_icon_rehgar_bloodlust.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "RehgarGladiatorsWarShout|RehgarBloodlustGladiatorsWarShout|Heroic|Level20",
+          "talent_id": "RehgarGladiatorsWarShout",
+          "prerequisite_talent_ids": [
+            "RehgarBloodlust"
+          ],
+          "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_rehgar_bloodlust_mini.png"
+        },
+        {
+          "id": "elemental_conduit",
+          "name": "Elemental Conduit",
+          "description": "Cooldown: 70 seconds Activate to gain Lightning Shield and grant all nearby allied Heroes a Shield equal to 10% of their maximum Health for 5 seconds.   For up to 5 seconds after activating, hitting an enemy Hero with this effects' Lightning Shield gives nearby allies a Shield equal to 1.5% of their maximum Health for 5 seconds.",
+          "icon": "Heroes/rehgar/talents/storm_ui_icon_talent_stormshield.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "RehgarElementalConduit|RehgarElementalConduit|Active|Level20",
+          "talent_id": "RehgarElementalConduit",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2"
+          ],
+          "icon_mini": "Heroes/rehgar/talents/storm_ui_icon_talent_stormshield_mini.png"
+        },
+        {
+          "id": "pit_fighter",
+          "name": "Pit Fighter",
+          "description": "Gain 10% increased Attack Damage and 3 Spell Power. Each nearby ally Hero grants an additional stack of this effect, up to 5 stacks.   While at 2 or more stacks, Purge's cooldown refreshes 50% faster.",
+          "icon": "Heroes/rehgar/talents/storm_ui_ingame_heroselect_btn_rehgar.png",
+          "position": 4,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "RehgarPitFighter|RehgarPitFighter|Passive|Level20",
+          "talent_id": "RehgarPitFighter",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/rehgar/talents/storm_ui_ingame_heroselect_btn_rehgar_mini.png"
+        }
+      ]
+    }
+  ]
+}

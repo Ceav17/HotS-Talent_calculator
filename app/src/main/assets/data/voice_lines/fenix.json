@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/fenix/portrait.png",
+  "lines": [
+    {
+      "id": "easy_prey_f0d09915",
+      "title": "Easy Prey",
+      "variant": null,
+      "audio": "voice_lines/fenix/easy_prey_f0d09915.ogg"
+    },
+    {
+      "id": "en_taro_adun_f8a802ae",
+      "title": "En Taro Adun",
+      "variant": null,
+      "audio": "voice_lines/fenix/en_taro_adun_f8a802ae.ogg"
+    },
+    {
+      "id": "gerr_aht_sutz_2130210f",
+      "title": "Gerr Aht Sutz",
+      "variant": null,
+      "audio": "voice_lines/fenix/gerr_aht_sutz_2130210f.ogg"
+    },
+    {
+      "id": "i_have_returned_657ca47c",
+      "title": "I Have Returned",
+      "variant": null,
+      "audio": "voice_lines/fenix/i_have_returned_657ca47c.ogg"
+    },
+    {
+      "id": "my_life_for_aiur_182d5fba",
+      "title": "My Life for Aiur",
+      "variant": null,
+      "audio": "voice_lines/fenix/my_life_for_aiur_182d5fba.ogg"
+    }
+  ]
+}

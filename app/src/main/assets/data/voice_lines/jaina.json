@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/jaina/portrait.png",
+  "lines": [
+    {
+      "id": "a_good_feeling_99ac268a",
+      "title": "A Good Feeling",
+      "variant": null,
+      "audio": "voice_lines/jaina/a_good_feeling_99ac268a.ogg"
+    },
+    {
+      "id": "for_theramore_966fa095",
+      "title": "For Theramore!",
+      "variant": null,
+      "audio": "voice_lines/jaina/for_theramore_966fa095.ogg"
+    },
+    {
+      "id": "i_hate_violence_but_c08ad1f3",
+      "title": "I Hate Violence, But...",
+      "variant": null,
+      "audio": "voice_lines/jaina/i_hate_violence_but_c08ad1f3.ogg"
+    },
+    {
+      "id": "magic_moment_8d4e6b6f",
+      "title": "Magic Moment",
+      "variant": null,
+      "audio": "voice_lines/jaina/magic_moment_8d4e6b6f.ogg"
+    },
+    {
+      "id": "served_cold_97b0312c",
+      "title": "Served Cold",
+      "variant": null,
+      "audio": "voice_lines/jaina/served_cold_97b0312c.ogg"
+    }
+  ]
+}

@@ -1,0 +1,557 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "the-butcher",
+    "name": "The Butcher",
+    "team_role": "Melee Assassin",
+    "universe": "Diablo",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "hamstring",
+      "name": "Hamstring",
+      "description": "Mana: 40 Cooldown: 4 seconds Deal 110 (+4% per level) damage and Slow enemies by 50%, decaying over 2 seconds. The Butcher's next Basic Attack will strike immediately.",
+      "icon": "Heroes/the-butcher/abilities/storm_ui_icon_butcher_hamstring.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "ButcherHamstring|ButcherHamstring|Q",
+      "ability_id": "ButcherHamstring",
+      "button_id": "ButcherHamstring",
+      "unit_id": "HeroButcher",
+      "unit_name": "The Butcher",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "butcher_s_brand",
+      "name": "Butcher's Brand",
+      "description": "Mana: 60 Cooldown: 14 seconds Deal 37 (+4% per level) damage to an enemy and Brand them for 4 seconds. The Butcher's Basic Attacks against the Branded target heal him for 75% of the damage done.  Basic Attacks against Branded Heroes heal for double and extend the duration of the Brand by 0.5 seconds.",
+      "icon": "Heroes/the-butcher/abilities/storm_ui_icon_butcher_tenderize.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "ButcherButchersBrand|ButcherButchersBrand|W",
+      "ability_id": "ButcherButchersBrand",
+      "button_id": "ButcherButchersBrand",
+      "unit_id": "HeroButcher",
+      "unit_name": "The Butcher",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "ruthless_onslaught",
+      "name": "Ruthless Onslaught",
+      "description": "Mana: 50 Cooldown: 15 seconds Charge at an enemy, becoming Unstoppable and gaining Movement Speed. If The Butcher reaches the target, they are stunned for 1 second and take 119 (+4% per level) damage.",
+      "icon": "Heroes/the-butcher/abilities/storm_ui_icon_butcher_fullboar.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "ButcherRuthlessOnslaught|ButcherRuthlessOnslaught|E",
+      "ability_id": "ButcherRuthlessOnslaught",
+      "button_id": "ButcherRuthlessOnslaught",
+      "unit_id": "HeroButcher",
+      "unit_name": "The Butcher",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "furnace_blast",
+      "name": "Furnace Blast",
+      "description": "Mana: 75 Cooldown: 60 seconds After a 3 second delay, fire explodes around The Butcher dealing 500 (+4% per level) damage to enemies.  Can be cast while using Ruthless Onslaught.",
+      "icon": "Heroes/the-butcher/talents/storm_ui_icon_butcher_furnaceblast.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "ButcherFurnaceBlast|ButcherFurnaceBlast|Heroic",
+      "ability_id": "ButcherFurnaceBlast",
+      "button_id": "ButcherFurnaceBlast",
+      "unit_id": "HeroButcher",
+      "unit_name": "The Butcher",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_butcher_furnaceblast_mini.png"
+    },
+    {
+      "id": "lamb_to_the_slaughter",
+      "name": "Lamb to the Slaughter",
+      "description": "Mana: 75 Cooldown: 90 seconds Throw a hitching post that attaches to the nearest enemy Hero after a 1 second delay. This deals 171 (+4% per level) damage and causes the enemy to be chained to the post and Silenced for 3 seconds.",
+      "icon": "Heroes/the-butcher/talents/storm_ui_icon_butcher_lambtotheslaughter.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "ButcherLambToTheSlaughter|ButcherLambToTheSlaughter|Heroic",
+      "ability_id": "ButcherLambToTheSlaughter",
+      "button_id": "ButcherLambToTheSlaughter",
+      "unit_id": "HeroButcher",
+      "unit_name": "The Butcher",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_butcher_lambtotheslaughter_mini.png"
+    },
+    {
+      "id": "fresh_meat",
+      "name": "Fresh Meat",
+      "description": "Upon dying, nearby enemy Minions drop 1 Fresh Meat and enemy Heroes drop 20 Fresh Meat. Fresh Meat can be picked up to gain 0.5 Attack Damage per Meat. The Butcher loses 15 Fresh Meat upon dying.  Quest: Collect 200 Fresh Meat.  Reward: Gain an additional 125 Attack Damage and 25% increased Attack Speed. Heroes continue to drop 10 Fresh Meat, Minions no longer drop Fresh Meat, and Fresh Meat is no longer lost on death.",
+      "icon": "Heroes/the-butcher/abilities/storm_ui_icon_butcher_freshmeat.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "ButcherFreshMeatDummy|ButcherFreshMeat|Trait",
+      "ability_id": "ButcherFreshMeatDummy",
+      "button_id": "ButcherFreshMeat",
+      "unit_id": "HeroButcher",
+      "unit_name": "The Butcher",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroButcher",
+      "unit_name": "The Butcher",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroButcher",
+      "unit_name": "The Butcher",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "ruthless_onslaught_cancel",
+      "name": "Ruthless Onslaught Cancel",
+      "description": "Cancels the Ruthless Onslaught ability.",
+      "icon": null,
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "RuthlessOnslaughtCancel|ButcherRuthlessOnslaughtCancel|E",
+      "ability_id": "RuthlessOnslaughtCancel",
+      "button_id": "ButcherRuthlessOnslaughtCancel",
+      "unit_id": "HeroButcher",
+      "unit_name": "The Butcher",
+      "parent_link_ids": [
+        "ButcherRuthlessOnslaught|ButcherRuthlessOnslaught|E"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroButcher",
+      "unit_name": "The Butcher",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "enraged",
+      "name": "Enraged",
+      "description": "Cooldown: 25 seconds While below 50% of his maximum Health, taking damage causes The Butcher to become Enraged for 10 seconds, gaining 40% Attack Speed and 25 Armor, reducing damage taken by 25%.  This effect has a 25 second cooldown.",
+      "icon": "Heroes/the-butcher/abilities/storm_ui_icon_butcher_enraged.png",
+      "hotkey": null,
+      "ability_type": "Passive",
+      "link_id": "ButcherEnraged|ButcherEnragedHotbar|Passive",
+      "ability_id": "ButcherEnraged",
+      "button_id": "ButcherEnragedHotbar",
+      "unit_id": "HeroButcher",
+      "unit_name": "The Butcher",
+      "parent_link_ids": [
+        "ButcherTalentEnraged|ButcherEnragedTalent|Passive|Level16"
+      ],
+      "unlock_conditions": [
+        [
+          "ButcherTalentEnraged"
+        ]
+      ]
+    },
+    {
+      "id": "bolt_of_the_storm",
+      "name": "Bolt of the Storm",
+      "description": "Cooldown: 70 seconds Activate to teleport to a nearby location.",
+      "icon": "Heroes/the-butcher/abilities/storm_ui_icon_talent_boltofthestorm.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "FlashoftheStorms|GenericBoltoftheStormTalent|Active",
+      "ability_id": "FlashoftheStorms",
+      "button_id": "GenericBoltoftheStormTalent",
+      "unit_id": "HeroButcher",
+      "unit_name": "The Butcher",
+      "parent_link_ids": [
+        "GenericTalentFlashoftheStorms|GenericBoltoftheStormTalent|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "GenericTalentFlashoftheStorms"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "FlashoftheStorms",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 4
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "invigoration",
+          "name": "Invigoration",
+          "description": "If Hamstring hits a Hero, half of the Mana cost is refunded and the cooldown is reduced by 1 second.",
+          "icon": "Heroes/the-butcher/talents/storm_ui_icon_butcher_hamstring.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "ButcherMasteryHamstringInvigoration|ButcherHamstringInvigorationTalent|Q|Level1",
+          "talent_id": "ButcherMasteryHamstringInvigoration",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_butcher_hamstring_mini.png"
+        },
+        {
+          "id": "chop_meat",
+          "name": "Chop Meat",
+          "description": "Increases Hamstring damage by 100% to Minions, Mercenaries, and Monsters.",
+          "icon": "Heroes/the-butcher/talents/storm_ui_icon_butcher_hamstring_var1.png",
+          "position": 2,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "ButcherMasteryHamstringChopMeat|ButcherHamstringChopMeatTalent|Q|Level1",
+          "talent_id": "ButcherMasteryHamstringChopMeat",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_butcher_hamstring_var1_mini.png"
+        },
+        {
+          "id": "block",
+          "name": "Block",
+          "description": "Every 5 seconds, gain 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%.  Stores up to 2 charges.",
+          "icon": "Heroes/the-butcher/talents/storm_ui_icon_talent_block.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "GenericTalentBlock|GenericBlockTalent|Passive|Level1",
+          "talent_id": "GenericTalentBlock",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_talent_block_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "flail_axe",
+          "name": "Flail Axe",
+          "description": "Increases the length of Hamstring by 40%.",
+          "icon": "Heroes/the-butcher/talents/storm_ui_icon_butcher_hamstring.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "ButcherMasteryHamstringFlailAxe|ButcherHamstringFlailAxeTalent|Q|Level4",
+          "talent_id": "ButcherMasteryHamstringFlailAxe",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_butcher_hamstring_mini.png"
+        },
+        {
+          "id": "cheap_shot",
+          "name": "Cheap Shot",
+          "description": "Hamstring does 100% more damage to targets affected by a Slow, Root, or Stun.",
+          "icon": "Heroes/the-butcher/talents/storm_ui_icon_butcher_hamstring_var1.png",
+          "position": 2,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "ButcherMasteryHamstringCheapShot|ButcherHamstringCheapShotTalent|Q|Level4",
+          "talent_id": "ButcherMasteryHamstringCheapShot",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_butcher_hamstring_var1_mini.png"
+        },
+        {
+          "id": "unrelenting_pursuit",
+          "name": "Unrelenting Pursuit",
+          "description": "Reduces the cooldown of Ruthless Onslaught by 33% upon impact.",
+          "icon": "Heroes/the-butcher/talents/storm_ui_icon_butcher_fullboar.png",
+          "position": 3,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "ButcherMasteryRuthlessOnslaughtUnrelentingPursuit|ButcherRuthlessOnslaughtUnrelentingPursuitTalent|E|Level4",
+          "talent_id": "ButcherMasteryRuthlessOnslaughtUnrelentingPursuit",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_butcher_fullboar_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "insatiable_blade",
+          "name": "Insatiable Blade",
+          "description": "While facing a branded enemy, The Butcher's Movement Speed is increased by 25%.",
+          "icon": "Heroes/the-butcher/talents/storm_ui_icon_butcher_tenderize.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "ButcherMasteryButchersBrandInsatiableBlade|ButcherButchersBrandInsatiableBladeTalent|W|Level7",
+          "talent_id": "ButcherMasteryButchersBrandInsatiableBlade",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_butcher_tenderize_mini.png"
+        },
+        {
+          "id": "meat_shield",
+          "name": "Meat Shield",
+          "description": "When Ruthless Onslaught impacts an enemy Hero, The Butcher gains 50 Spell Armor for 2.5 seconds, reducing Ability Damage taken by 50%.",
+          "icon": "Heroes/the-butcher/talents/storm_ui_icon_butcher_fullboar.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "ButcherMeatShield|ButcherMeatShield|E|Level7",
+          "talent_id": "ButcherMeatShield",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_butcher_fullboar_mini.png"
+        },
+        {
+          "id": "victuals",
+          "name": "Victuals",
+          "description": "Every time a nearby enemy minion dies, The Butcher heals 5% of his maximum health.",
+          "icon": "Heroes/the-butcher/talents/storm_ui_icon_butcher_freshmeat.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "ButcherMasteryFreshMeatVictuals|ButcherFreshMeatVictualsTalent|Trait|Level7",
+          "talent_id": "ButcherMasteryFreshMeatVictuals",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_butcher_freshmeat_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "furnace_blast",
+          "name": "Furnace Blast",
+          "description": "Mana: 75 Cooldown: 60 seconds After a 3 second delay, fire explodes around The Butcher dealing 500 (+4% per level) damage to enemies.  Can be cast while using Ruthless Onslaught.",
+          "icon": "Heroes/the-butcher/talents/storm_ui_icon_butcher_furnaceblast.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "ButcherHeroicAbilityButcherFurnaceBlast|ButcherFurnaceBlast|Heroic|Level10",
+          "talent_id": "ButcherHeroicAbilityButcherFurnaceBlast",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_butcher_furnaceblast_mini.png"
+        },
+        {
+          "id": "lamb_to_the_slaughter",
+          "name": "Lamb to the Slaughter",
+          "description": "Mana: 75 Cooldown: 90 seconds Throw a hitching post that attaches to the nearest enemy Hero after a 1 second delay. This deals 171 (+4% per level) damage and causes the enemy to be chained to the post and Silenced for 3 seconds.",
+          "icon": "Heroes/the-butcher/talents/storm_ui_icon_butcher_lambtotheslaughter.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "ButcherHeroicAbilityLambToTheSlaughter|ButcherLambToTheSlaughter|Heroic|Level10",
+          "talent_id": "ButcherHeroicAbilityLambToTheSlaughter",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_butcher_lambtotheslaughter_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "brutal_strike",
+          "name": "Brutal Strike",
+          "description": "After using Hamstring, The Butcher's next 3 Basic Attacks within 5 seconds deal an additional 15% damage.",
+          "icon": "Heroes/the-butcher/talents/storm_ui_icon_butcher_hamstring.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "ButcherMasteryHamstringBrutalStrike|ButcherHamstringBrutalStrikeTalent|Q|Level13",
+          "talent_id": "ButcherMasteryHamstringBrutalStrike",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_butcher_hamstring_mini.png"
+        },
+        {
+          "id": "savage_charge",
+          "name": "Savage Charge",
+          "description": "Ruthless Onslaught deals bonus damage to Heroes equal to 10% of their maximum Health.",
+          "icon": "Heroes/the-butcher/talents/storm_ui_icon_butcher_fullboar.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "ButcherMasteryRuthlessOnslaughtSavageCharge|ButcherRuthlessOnslaughtSavageChargeTalent|E|Level13",
+          "talent_id": "ButcherMasteryRuthlessOnslaughtSavageCharge",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_butcher_fullboar_mini.png"
+        },
+        {
+          "id": "cleaver",
+          "name": "Cleaver",
+          "description": "Basic Attacks deal 35% of The Butcher's Basic Attack Damage in an area around the target.",
+          "icon": "Heroes/the-butcher/talents/storm_ui_icon_talent_autoattack_aoe.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "ButcherCleaver|ButcherCleaver|Passive|Level13",
+          "talent_id": "ButcherCleaver",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_talent_autoattack_aoe_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "crippling_slam",
+          "name": "Crippling Slam",
+          "description": "Hamstring's Slow no longer decays, and its duration is increased by 30%.",
+          "icon": "Heroes/the-butcher/talents/storm_ui_icon_butcher_hamstring.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "ButcherMasteryHamstringCripplingSlam|ButcherHamstringCripplingSlamTalent|Q|Level16",
+          "talent_id": "ButcherMasteryHamstringCripplingSlam",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_butcher_hamstring_mini.png"
+        },
+        {
+          "id": "enraged",
+          "name": "Enraged",
+          "description": "While below 50% of his maximum Health, taking damage causes The Butcher to become Enraged for 10 seconds, gaining 40% Attack Speed and 25 Armor, reducing damage taken by 25%.  This effect has a 25 second cooldown.",
+          "icon": "Heroes/the-butcher/talents/storm_ui_icon_butcher_enraged.png",
+          "position": 2,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "ButcherTalentEnraged|ButcherEnragedTalent|Passive|Level16",
+          "talent_id": "ButcherTalentEnraged",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_butcher_enraged_mini.png"
+        },
+        {
+          "id": "blood_frenzy",
+          "name": "Blood Frenzy",
+          "description": "Basic Attacks against enemy Heroes grant 5% increased Attack and Movement Speed for 3 seconds, up to 25%.",
+          "icon": "Heroes/the-butcher/talents/storm_ui_icon_talent_autoattack_speed.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "ButcherMasteryFreshMeatBloodFrenzy|ButcherFreshBloodFrenzyMeatTalent|Passive|Level16",
+          "talent_id": "ButcherMasteryFreshMeatBloodFrenzy",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_talent_autoattack_speed_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "fires_of_hell",
+          "name": "Fires of Hell",
+          "description": "Furnace Blast explodes a second time 3 seconds after the initial explosion.",
+          "icon": "Heroes/the-butcher/talents/storm_ui_icon_butcher_furnaceblast.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "ButcherMasteryFiresofHell|ButcherFurnaceBlastFiresofHellTalent|Heroic|Level20",
+          "talent_id": "ButcherMasteryFiresofHell",
+          "prerequisite_talent_ids": [
+            "ButcherHeroicAbilityButcherFurnaceBlast"
+          ],
+          "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_butcher_furnaceblast_mini.png"
+        },
+        {
+          "id": "slaughterhouse",
+          "name": "Slaughterhouse",
+          "description": "Lamb to the Slaughter now chains all enemy Heroes in range.",
+          "icon": "Heroes/the-butcher/talents/storm_ui_icon_butcher_lambtotheslaughter.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "ButcherMasterySlaughterhouse|ButcherLambToTheSlaughterSlaughterhouseTalent|Heroic|Level20",
+          "talent_id": "ButcherMasterySlaughterhouse",
+          "prerequisite_talent_ids": [
+            "ButcherHeroicAbilityLambToTheSlaughter"
+          ],
+          "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_butcher_lambtotheslaughter_mini.png"
+        },
+        {
+          "id": "nexus_blades",
+          "name": "Nexus Blades",
+          "description": "Basic Attacks deal 20% more damage and Slow enemy Movement Speed by 20% for 1 second.",
+          "icon": "Heroes/the-butcher/talents/storm_ui_icon_talent_autoattack_slow.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "GenericTalentNexusBlades|NexusBladesTalent|Passive|Level20",
+          "talent_id": "GenericTalentNexusBlades",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_talent_autoattack_slow_mini.png"
+        },
+        {
+          "id": "bolt_of_the_storm",
+          "name": "Bolt of the Storm",
+          "description": "Cooldown: 70 seconds Activate to teleport to a nearby location.",
+          "icon": "Heroes/the-butcher/talents/storm_ui_icon_talent_boltofthestorm.png",
+          "position": 4,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "GenericTalentFlashoftheStorms|GenericBoltoftheStormTalent|Active|Level20",
+          "talent_id": "GenericTalentFlashoftheStorms",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/the-butcher/talents/storm_ui_icon_talent_boltofthestorm_mini.png"
+        }
+      ]
+    }
+  ]
+}

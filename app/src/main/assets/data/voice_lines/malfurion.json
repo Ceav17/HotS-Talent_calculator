@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/malfurion/portrait.png",
+  "lines": [
+    {
+      "id": "a_shame_8b9ae7ea",
+      "title": "A Shame",
+      "variant": null,
+      "audio": "voice_lines/malfurion/a_shame_8b9ae7ea.ogg"
+    },
+    {
+      "id": "elune_grant_us_strength_7449bc1c",
+      "title": "Elune Grant Us Strength",
+      "variant": null,
+      "audio": "voice_lines/malfurion/elune_grant_us_strength_7449bc1c.ogg"
+    },
+    {
+      "id": "excellent_9a052405",
+      "title": "Excellent",
+      "variant": null,
+      "audio": "voice_lines/malfurion/excellent_9a052405.ogg"
+    },
+    {
+      "id": "for_kalimdor_43f54241",
+      "title": "For Kalimdor!",
+      "variant": null,
+      "audio": "voice_lines/malfurion/for_kalimdor_43f54241.ogg"
+    },
+    {
+      "id": "forced_my_hand_7308b548",
+      "title": "Forced My Hand",
+      "variant": null,
+      "audio": "voice_lines/malfurion/forced_my_hand_7308b548.ogg"
+    }
+  ]
+}

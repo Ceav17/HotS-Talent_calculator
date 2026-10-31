@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/lucio/portrait.png",
+  "lines": [
+    {
+      "id": "in_the_house_b1d8e7c2",
+      "title": "In the House",
+      "variant": null,
+      "audio": "voice_lines/lucio/in_the_house_b1d8e7c2.ogg"
+    },
+    {
+      "id": "jackpot_c09780fe",
+      "title": "Jackpot!",
+      "variant": null,
+      "audio": "voice_lines/lucio/jackpot_c09780fe.ogg"
+    },
+    {
+      "id": "move_to_the_beat_ac12a9bf",
+      "title": "Move to the Beat",
+      "variant": null,
+      "audio": "voice_lines/lucio/move_to_the_beat_ac12a9bf.ogg"
+    },
+    {
+      "id": "oh_yeah_86e240e2",
+      "title": "Oh, Yeah!",
+      "variant": null,
+      "audio": "voice_lines/lucio/oh_yeah_86e240e2.ogg"
+    },
+    {
+      "id": "tinnitus_aa294555",
+      "title": "Tinnitus",
+      "variant": null,
+      "audio": "voice_lines/lucio/tinnitus_aa294555.ogg"
+    }
+  ]
+}

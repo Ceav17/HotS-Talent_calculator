@@ -1,0 +1,601 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "kerrigan",
+    "name": "Kerrigan",
+    "team_role": "Melee Assassin",
+    "universe": "StarCraft",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "ravage",
+      "name": "Ravage",
+      "description": "Mana: 20 Charge Cooldown: 8 seconds Leap to a target, dealing 115 (+4% per level) damage. If the enemy dies within 0.75 seconds, restore 1 charge and refund 20 Mana.  Quest: Kill enemies within a short distance of Kerrigan. Minions grant 1 stack and Heroes grant 7 stacks.   Reward: After reaching 100 stacks, Ravage deals 125 additional damage and Hero kills now provide 14 stacks.  Mythic Reward: After reaching a 250 stacks, Ravage deals a further 200 additional damage.",
+      "icon": "Heroes/kerrigan/abilities/storm_ui_icon_kerrigan_ravage.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "KerriganRavage|KerriganRavage|Q",
+      "ability_id": "KerriganRavage",
+      "button_id": "KerriganRavage",
+      "unit_id": "HeroKerrigan",
+      "unit_name": "Kerrigan",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "impaling_blades",
+      "name": "Impaling Blades",
+      "description": "Mana: 80 Cooldown: 9 seconds After 1.25 seconds, deal 150 (+4% per level) damage to enemies within the target area, Stunning them for 0.75 seconds.",
+      "icon": "Heroes/kerrigan/abilities/storm_ui_icon_kerrigan_impalingblades.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "KerriganImpalingBlades|KerriganImpalingBlades|W",
+      "ability_id": "KerriganImpalingBlades",
+      "button_id": "KerriganImpalingBlades",
+      "unit_id": "HeroKerrigan",
+      "unit_name": "Kerrigan",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "primal_grasp",
+      "name": "Primal Grasp",
+      "description": "Mana: 65 Cooldown: 8 seconds Pulls enemies within the target area towards Kerrigan, dealing 40 (+4% per level) damage. After 2.5 seconds, an explosion occurs around Kerrigan, dealing 160 (+4% per level) damage to nearby enemies.",
+      "icon": "Heroes/kerrigan/abilities/storm_ui_icon_kerrigan_primalgrasp.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "KerriganPrimalGrasp|KerriganPrimalGrasp|E",
+      "ability_id": "KerriganPrimalGrasp",
+      "button_id": "KerriganPrimalGrasp",
+      "unit_id": "HeroKerrigan",
+      "unit_name": "Kerrigan",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_ultralisk",
+      "name": "Summon Ultralisk",
+      "description": "Mana: 75 Cooldown: 80 seconds After 0.5 seconds, summon an Ultralisk that rushes forward upon spawning, dealing 225 (+4% per level) damage to the first enemy Hero hit and Stunning them for 0.5 seconds.  The Ultralisk's Basic Attacks deal 50% of their damage in an area around their target. Reactivate to retarget the Ultralisk.",
+      "icon": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_ultralisk.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "KerriganSummonUltralisk|KerriganSummonUltralisk|Heroic",
+      "ability_id": "KerriganSummonUltralisk",
+      "button_id": "KerriganSummonUltralisk",
+      "unit_id": "HeroKerrigan",
+      "unit_name": "Kerrigan",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_ultralisk_mini.png"
+    },
+    {
+      "id": "maelstrom",
+      "name": "Maelstrom",
+      "description": "Mana: 80 Cooldown: 90 seconds Deals 74 (+4% per level) damage per second to nearby enemies. Lasts for 7 seconds.",
+      "icon": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_maelstrom.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "KerriganMaelstrom|KerriganMaelstrom|Heroic",
+      "ability_id": "KerriganMaelstrom",
+      "button_id": "KerriganMaelstrom",
+      "unit_id": "HeroKerrigan",
+      "unit_name": "Kerrigan",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_maelstrom_mini.png"
+    },
+    {
+      "id": "assimilation",
+      "name": "Assimilation",
+      "description": "Gain 10% of damage dealt from Abilities and 20% from Basic Attacks as Shields for 6 seconds. Shield amount gained doubled against Heroes.  Current maximum: 1004 (+4% per level)",
+      "icon": "Heroes/kerrigan/abilities/storm_ui_icon_kerrigan_assimilation.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": ":PASSIVE:|KerriganAssimilation|Trait",
+      "ability_id": ":PASSIVE:",
+      "button_id": "KerriganAssimilation",
+      "unit_id": "HeroKerrigan",
+      "unit_name": "Kerrigan",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroKerrigan",
+      "unit_name": "Kerrigan",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroKerrigan",
+      "unit_name": "Kerrigan",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "command_ultralisk",
+      "name": "Command Ultralisk",
+      "description": "Order the Ultralisk to attack an enemy or move to an area.",
+      "icon": "Heroes/kerrigan/abilities/storm_ui_icon_kerrigan_command_ultralisk.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "KerriganSummonUltraliskIssueOrder|KerriganUltraliskIssueAttackOrder|Heroic",
+      "ability_id": "KerriganSummonUltraliskIssueOrder",
+      "button_id": "KerriganUltraliskIssueAttackOrder",
+      "unit_id": "HeroKerrigan",
+      "unit_name": "Kerrigan",
+      "parent_link_ids": [
+        "KerriganSummonUltralisk|KerriganSummonUltralisk|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroKerrigan",
+      "unit_name": "Kerrigan",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "cancel_chrysalis",
+      "name": "Cancel Chrysalis",
+      "description": "Cooldown: 90 seconds Cancel Chrysalis, removing the Stasis.",
+      "icon": null,
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "KerriganChrysalisCancel|KerriganCancelChrysalis|Active",
+      "ability_id": "KerriganChrysalisCancel",
+      "button_id": "KerriganCancelChrysalis",
+      "unit_id": "HeroKerrigan",
+      "unit_name": "Kerrigan",
+      "parent_link_ids": [
+        "KerriganChrysalis|KerriganChrysalis|Active"
+      ],
+      "unlock_conditions": [
+        [
+          "KerriganChrysalis"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "KerriganChrysalisCancel",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 13,
+      "unlock_position": 3
+    },
+    {
+      "id": "chrysalis",
+      "name": "Chrysalis",
+      "description": "Cooldown: 90 seconds Activate to place Kerrigan in a Chrysalis with 650 (+4% per level) Health for 5 seconds. While inside, Kerrigan regenerates 4% of her maximum Health per second.  Enemies can destroy the Chrysalis to end its effects early.",
+      "icon": "Heroes/kerrigan/abilities/storm_ui_icon_kerrigan_chrysalis.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "KerriganChrysalis|KerriganChrysalis|Active",
+      "ability_id": "KerriganChrysalis",
+      "button_id": "KerriganChrysalis",
+      "unit_id": "HeroKerrigan",
+      "unit_name": "Kerrigan",
+      "parent_link_ids": [
+        "KerriganChrysalis|KerriganChrysalis|Active|Level13"
+      ],
+      "unlock_conditions": [
+        [
+          "KerriganChrysalis"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "KerriganChrysalisCancel",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 13,
+      "unlock_position": 3
+    },
+    {
+      "id": "psionic_shift",
+      "name": "Psionic Shift",
+      "description": "Cooldown: 70 seconds Activate to teleport to a nearby location, dealing 50 (+4% per level) damage to nearby enemies. Generates 300% increased Assimilation Shields from the damage dealt.",
+      "icon": "Heroes/kerrigan/abilities/storm_ui_icon_talent_boltofthestorm.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "KerriganPsionicShift|KerriganPsionicShift|Active",
+      "ability_id": "KerriganPsionicShift",
+      "button_id": "KerriganPsionicShift",
+      "unit_id": "HeroKerrigan",
+      "unit_name": "Kerrigan",
+      "parent_link_ids": [
+        "KerriganPsionicShift|KerriganPsionicShift|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "KerriganPsionicShift"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "KerriganPsionicShift",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 4
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "siphoning_impact",
+          "name": "Siphoning Impact",
+          "description": "Hitting an enemy Hero with Ravage grants 100 (+4% per level) points of Assimilation Shields.",
+          "icon": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_ravage.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "KerriganRavageSiphoningImpact|KerriganRavageSiphoningImpact|Q|Level1",
+          "talent_id": "KerriganRavageSiphoningImpact",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_ravage_mini.png"
+        },
+        {
+          "id": "assimilation_mastery",
+          "name": "Assimilation Mastery",
+          "description": "Regeneration Globe healing grants 50 (+4% per level) points of Assimilation Shields per second while active. While Assimilation is active, Kerrigan's Health and Mana regeneration is increased by 150%.",
+          "icon": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_assimilation.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "KerriganAssimilationMastery|KerriganAssimilationMasteryTalent|Trait|Level1",
+          "talent_id": "KerriganAssimilationMastery",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_assimilation_mini.png"
+        },
+        {
+          "id": "fury_of_the_swarm",
+          "name": "Fury of the Swarm",
+          "description": "After casting Ravage, Kerrigan's next Basic Attack within 3 seconds splashes for 100% damage around the target.",
+          "icon": "Heroes/kerrigan/talents/storm_ui_icon_talent_autoattack_aoe.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "KerriganFuryOfTheSwarm|KerriganAssimilationFuryOfTheSwarmTalent|Passive|Level1",
+          "talent_id": "KerriganFuryOfTheSwarm",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_talent_autoattack_aoe_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "ravaging_ferocity",
+          "name": "Ravaging Ferocity",
+          "description": "Ravage grants Kerrigan 25% Attack Speed for 3 seconds.",
+          "icon": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_ravage.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "KerriganRavageRavagingFerocity|KerriganRavageRavagingFerocity|Q|Level4",
+          "talent_id": "KerriganRavageRavagingFerocity",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_ravage_mini.png"
+        },
+        {
+          "id": "kinetic_fulmination",
+          "name": "Kinetic Fulmination",
+          "description": "Damaging an enemy increases the damage of Kerrigan's next Impaling Blades within 10 seconds by 10%, up to 100%.",
+          "icon": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_impalingblades.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "KerriganImpalingBladesKineticFulmination|KerriganImpalingBladesKineticFulmination|W|Level4",
+          "talent_id": "KerriganImpalingBladesKineticFulmination",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_impalingblades_mini.png"
+        },
+        {
+          "id": "psionic_pulse",
+          "name": "Psionic Pulse",
+          "description": "Primal Grasp explodes a second time 2 seconds after its first explosion.",
+          "icon": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_primalgrasp.png",
+          "position": 3,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "KerriganPrimalGraspPsionicPulse|KerriganPrimalGraspPsionicPulse|E|Level4",
+          "talent_id": "KerriganPrimalGraspPsionicPulse",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_primalgrasp_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "queen_of_blades",
+          "name": "Queen of Blades",
+          "description": "Reduce the cooldown of Ravage by 4 seconds and increase its damage to Minions and Mercenaries by 100%.",
+          "icon": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_ravage.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "KerriganRavageQueenOfBlades|KerriganRavageQueenOfBlades|Q|Level7",
+          "talent_id": "KerriganRavageQueenOfBlades",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_ravage_mini.png"
+        },
+        {
+          "id": "boundless_fury",
+          "name": "Boundless Fury",
+          "description": "Hitting an enemy Hero with Ravage grants a charge of Ravage. Can only occur once every 12 seconds per Hero.",
+          "icon": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_ravage_b.png",
+          "position": 2,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "KerriganRavageBoundlessFury|KerriganRavageBoundlessFury|Q|Level7",
+          "talent_id": "KerriganRavageBoundlessFury",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_ravage_b_mini.png"
+        },
+        {
+          "id": "bladed_momentum",
+          "name": "Bladed Momentum",
+          "description": "Basic Attacks against enemy Heroes reduce the cooldown of Kerrigan's Basic Abilities by 0.75 seconds.",
+          "icon": "Heroes/kerrigan/talents/storm_ui_icon_talent_autoattack_cooldown.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "KerriganBladedMomentum|KerriganBladedMomentum|Passive|Level7",
+          "talent_id": "KerriganBladedMomentum",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_talent_autoattack_cooldown_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "maelstrom",
+          "name": "Maelstrom",
+          "description": "Mana: 80 Cooldown: 90 seconds Deals 74 (+4% per level) damage per second to nearby enemies. Lasts for 7 seconds.",
+          "icon": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_maelstrom.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "KerriganHeroicAbilityMaelstrom|KerriganMaelstrom|Heroic|Level10",
+          "talent_id": "KerriganHeroicAbilityMaelstrom",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_maelstrom_mini.png"
+        },
+        {
+          "id": "summon_ultralisk",
+          "name": "Summon Ultralisk",
+          "description": "Mana: 75 Cooldown: 80 seconds After 0.5 seconds, summon an Ultralisk that rushes forward upon spawning, dealing 225 (+4% per level) damage to the first enemy Hero hit and Stunning them for 0.5 seconds.  The Ultralisk's Basic Attacks deal 50% of their damage in an area around their target. Reactivate to retarget the Ultralisk.",
+          "icon": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_ultralisk.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "KerriganHeroicAbilitySummonUltralisk|KerriganSummonUltralisk|Heroic|Level10",
+          "talent_id": "KerriganHeroicAbilitySummonUltralisk",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_ultralisk_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "psionic_barrier",
+          "name": "Psionic Barrier",
+          "description": "Each enemy Hero hit by Primal Grasp grants 20 Spell Armor and 4% Movement Speed for 4 seconds, stacking up to 20% Movement Speed.",
+          "icon": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_primalgrasp.png",
+          "position": 1,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "KerriganPrimalGraspPsionicBarrier|KerriganPrimalGraspPsionicBarrier|E|Level13",
+          "talent_id": "KerriganPrimalGraspPsionicBarrier",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_primalgrasp_mini.png"
+        },
+        {
+          "id": "volatile_power",
+          "name": "Volatile Power",
+          "description": "Increase the amount of Assimilation Shields granted from damage dealt by 10%, but reduce duration of Assimilation by 3 seconds.",
+          "icon": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_assimilation.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "KerriganAssimilationVolatilePower|KerriganAssimilationVolatilePower|Trait|Level13",
+          "talent_id": "KerriganAssimilationVolatilePower",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_assimilation_mini.png"
+        },
+        {
+          "id": "chrysalis",
+          "name": "Chrysalis",
+          "description": "Cooldown: 90 seconds Activate to place Kerrigan in a Chrysalis with 650 (+4% per level) Health for 5 seconds. While inside, Kerrigan regenerates 4% of her maximum Health per second.  Enemies can destroy the Chrysalis to end its effects early.",
+          "icon": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_chrysalis.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "KerriganChrysalis|KerriganChrysalis|Active|Level13",
+          "talent_id": "KerriganChrysalis",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_chrysalis_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "mounting_potency",
+          "name": "Mounting Potency",
+          "description": "Ravage grants 5% Spell Power for 5 seconds, up to 40%.",
+          "icon": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_ravage.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "KerriganRavageMountingPotency|KerriganRavageMountingPotency|Q|Level16",
+          "talent_id": "KerriganRavageMountingPotency",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_ravage_mini.png"
+        },
+        {
+          "id": "painful_spikes",
+          "name": "Painful Spikes",
+          "description": "Enemies hit by Impaling Blades take an additional 60 (+4% per level) damage the next 6 times Kerrigan damages them within 5 seconds.",
+          "icon": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_impalingblades.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "KerriganImpalingBladesPainfulSpikes|KerriganImpalingBladesPainfulSpikes|W|Level16",
+          "talent_id": "KerriganImpalingBladesPainfulSpikes",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_impalingblades_mini.png"
+        },
+        {
+          "id": "unbridled_energy",
+          "name": "Unbridled Energy",
+          "description": "Damaging a Hero with a Heroic Ability grants 35% Spell Power for 4 seconds.",
+          "icon": "Heroes/kerrigan/talents/storm_ui_icon_talent_abilitytalent_damage.png",
+          "position": 3,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "KerriganUnbridledEnergy|KerriganUnbridledEnergy|Heroic|Level16",
+          "talent_id": "KerriganUnbridledEnergy",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_talent_abilitytalent_damage_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "omegastorm",
+          "name": "Omegastorm",
+          "description": "Maelstrom's duration is increased by 0.4 seconds every time it damages a Hero.",
+          "icon": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_maelstrom.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "KerriganOmegastormMaelstrom|KerriganMaelstromOmegastormTalent|Heroic|Level20",
+          "talent_id": "KerriganOmegastormMaelstrom",
+          "prerequisite_talent_ids": [
+            "KerriganHeroicAbilityMaelstrom"
+          ],
+          "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_maelstrom_mini.png"
+        },
+        {
+          "id": "torrasque",
+          "name": "Torrasque",
+          "description": "Increase the Health and Basic Attack damage of the Ultralisk by 20%. The Ultralisk morphs into an egg when it dies. If the egg isn't killed within 4 seconds, a new Ultralisk is born.",
+          "icon": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_ultralisk.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "KerriganTorrasqueSummonUltralisk|KerriganSummonUltraliskTorrasqueTalent|Heroic|Level20",
+          "talent_id": "KerriganTorrasqueSummonUltralisk",
+          "prerequisite_talent_ids": [
+            "KerriganHeroicAbilitySummonUltralisk"
+          ],
+          "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_kerrigan_ultralisk_mini.png"
+        },
+        {
+          "id": "assimilation_blades",
+          "name": "Assimilation Blades",
+          "description": "Damaging an enemy increases Basic Attack damage by 2% for 5 seconds, up to 40%.",
+          "icon": "Heroes/kerrigan/talents/storm_ui_icon_talent_autoattack_damage.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "KerriganAssimilationAssimilationBlades|KerriganAssimilationBlades|Passive|Level20",
+          "talent_id": "KerriganAssimilationAssimilationBlades",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_talent_autoattack_damage_mini.png"
+        },
+        {
+          "id": "psionic_shift",
+          "name": "Psionic Shift",
+          "description": "Cooldown: 70 seconds Activate to teleport to a nearby location, dealing 50 (+4% per level) damage to nearby enemies. Generates 300% increased Assimilation Shields from the damage dealt.",
+          "icon": "Heroes/kerrigan/talents/storm_ui_icon_talent_boltofthestorm.png",
+          "position": 4,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "KerriganPsionicShift|KerriganPsionicShift|Active|Level20",
+          "talent_id": "KerriganPsionicShift",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2"
+          ],
+          "icon_mini": "Heroes/kerrigan/talents/storm_ui_icon_talent_boltofthestorm_mini.png"
+        }
+      ]
+    }
+  ]
+}

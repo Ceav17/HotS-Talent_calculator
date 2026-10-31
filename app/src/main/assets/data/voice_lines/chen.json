@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/chen/portrait.png",
+  "lines": [
+    {
+      "id": "a_lesson_for_you_7d757df5",
+      "title": "A Lesson for You",
+      "variant": null,
+      "audio": "voice_lines/chen/a_lesson_for_you_7d757df5.ogg"
+    },
+    {
+      "id": "a_new_challenger_59466e60",
+      "title": "A New Challenger",
+      "variant": null,
+      "audio": "voice_lines/chen/a_new_challenger_59466e60.ogg"
+    },
+    {
+      "id": "endangered_a11b213d",
+      "title": "Endangered",
+      "variant": null,
+      "audio": "voice_lines/chen/endangered_a11b213d.ogg"
+    },
+    {
+      "id": "panda_monium_df223f84",
+      "title": "Panda-monium!",
+      "variant": null,
+      "audio": "voice_lines/chen/panda_monium_df223f84.ogg"
+    },
+    {
+      "id": "that_deserves_a_brew_902054df",
+      "title": "That Deserves a Brew",
+      "variant": null,
+      "audio": "voice_lines/chen/that_deserves_a_brew_902054df.ogg"
+    }
+  ]
+}

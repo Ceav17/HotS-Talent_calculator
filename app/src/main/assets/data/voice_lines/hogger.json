@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/hogger/portrait.png",
+  "lines": [
+    {
+      "id": "best_part_a2796c69",
+      "title": "Best Part",
+      "variant": null,
+      "audio": "voice_lines/hogger/best_part_a2796c69.ogg"
+    },
+    {
+      "id": "bones_to_chew_a85ec2a6",
+      "title": "Bones To Chew",
+      "variant": null,
+      "audio": "voice_lines/hogger/bones_to_chew_a85ec2a6.ogg"
+    },
+    {
+      "id": "escape_stormwind_8ac55cb6",
+      "title": "Escape Stormwind",
+      "variant": null,
+      "audio": "voice_lines/hogger/escape_stormwind_8ac55cb6.ogg"
+    },
+    {
+      "id": "maniacal_laughter_01b8be92",
+      "title": "Maniacal Laughter",
+      "variant": null,
+      "audio": "voice_lines/hogger/maniacal_laughter_01b8be92.ogg"
+    },
+    {
+      "id": "that_why_hogger_king_d8d917bc",
+      "title": "That Why Hogger King",
+      "variant": null,
+      "audio": "voice_lines/hogger/that_why_hogger_king_d8d917bc.ogg"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/xalatath/portrait.png",
+  "lines": [
+    {
+      "id": "darkness_consumes_0d09a967",
+      "title": "Darkness Consumes",
+      "variant": null,
+      "audio": "voice_lines/xalatath/darkness_consumes_0d09a967.ogg"
+    },
+    {
+      "id": "eternal_will_d6d07daa",
+      "title": "Eternal Will",
+      "variant": null,
+      "audio": "voice_lines/xalatath/eternal_will_d6d07daa.ogg"
+    },
+    {
+      "id": "my_realm_6480d9a6",
+      "title": "My Realm",
+      "variant": null,
+      "audio": "voice_lines/xalatath/my_realm_6480d9a6.ogg"
+    },
+    {
+      "id": "power_of_the_void_cce54cdb",
+      "title": "Power of the Void",
+      "variant": null,
+      "audio": "voice_lines/xalatath/power_of_the_void_cce54cdb.ogg"
+    },
+    {
+      "id": "survival_12b11700",
+      "title": "Survival",
+      "variant": null,
+      "audio": "voice_lines/xalatath/survival_12b11700.ogg"
+    }
+  ]
+}

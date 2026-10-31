@@ -1,0 +1,629 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "deckard-cain",
+    "name": "Deckard",
+    "team_role": "Healer",
+    "universe": "Diablo",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "healing_potion",
+      "name": "Healing Potion",
+      "description": "Mana: 25 Cooldown: 4 seconds Throw a Healing Potion on the ground that heals the first allied Hero that comes in contact with it for 285 (+4% per level).  Limit 5 active Potions.",
+      "icon": "Heroes/deckard-cain/abilities/storm_ui_icon_deckard_healing_potion.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "DeckardHealingPotion|DeckardHealingPotion|Q",
+      "ability_id": "DeckardHealingPotion",
+      "button_id": "DeckardHealingPotion",
+      "unit_id": "HeroDeckard",
+      "unit_name": "Deckard",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "horadric_cube",
+      "name": "Horadric Cube",
+      "description": "Mana: 35 Cooldown: 12 seconds Release the Horadric Cube. After 0.5 seconds it explodes, dealing 80 (+4% per level) damage to all enemies in the area and Slowing them by 35% for 2 seconds.",
+      "icon": "Heroes/deckard-cain/abilities/storm_ui_icon_deckard_horadric_cube.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "DeckardHoradricCube|DeckardHoradricCubeCharging|W",
+      "ability_id": "DeckardHoradricCube",
+      "button_id": "DeckardHoradricCubeCharging",
+      "unit_id": "HeroDeckard",
+      "unit_name": "Deckard",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "scroll_of_sealing",
+      "name": "Scroll Of Sealing",
+      "description": "Mana: 40 Cooldown: 16 seconds Unfurl an enchanted scroll over 2.25 seconds, forming a triangle that deals 150 (+4% per level) damage to enemies inside and Roots them for 1.5 seconds.",
+      "icon": "Heroes/deckard-cain/abilities/storm_ui_icon_deckard_scroll_of_sealing.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "DeckardScrollOfSealing|DeckardScrollOfSealing|E",
+      "ability_id": "DeckardScrollOfSealing",
+      "button_id": "DeckardScrollOfSealing",
+      "unit_id": "HeroDeckard",
+      "unit_name": "Deckard",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "stay_awhile_and_listen",
+      "name": "Stay Awhile and Listen",
+      "description": "Mana: 60 Cooldown: 70 seconds After 1 second, Channel for 3 seconds, putting enemy Heroes in front of Deckard to Sleep while Channeling, and for 2 seconds after.  Enemies can only be put to Sleep once per cast, and Sleep's effects end instantly if they take damage.",
+      "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_stay_awhile_and_listen.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "DeckardStayAWhileAndListen|DeckardStayAWhileAndListen|Heroic",
+      "ability_id": "DeckardStayAWhileAndListen",
+      "button_id": "DeckardStayAWhileAndListen",
+      "unit_id": "HeroDeckard",
+      "unit_name": "Deckard",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_stay_awhile_and_listen_mini.png"
+    },
+    {
+      "id": "lorenado",
+      "name": "Lorenado",
+      "description": "Mana: 35 Cooldown: 30 seconds Vector Targeting After 1 second, create a twirling tome tornado that travels towards the targeted direction, continually knocking away enemies that come into contact with it. Deals 20 (+4% per level) damage to Heroes hit.",
+      "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_lorenado.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "DeckardLorenado|DeckardLorenado|Heroic",
+      "ability_id": "DeckardLorenado",
+      "button_id": "DeckardLorenado",
+      "unit_id": "HeroDeckard",
+      "unit_name": "Deckard",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_lorenado_mini.png"
+    },
+    {
+      "id": "fortitude_of_the_faithful_efd4437676",
+      "name": "Fortitude of the Faithful",
+      "description": "When at least 1 other allied Hero is nearby, Deckard gains 10 Armor and his Basic Abilities recharge 50% faster.",
+      "icon": "Heroes/deckard-cain/abilities/storm_ui_icon_deckard_protectors_of_cain.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": ":PASSIVE:|DeckardFortitudeOfTheFaithful|Trait",
+      "ability_id": ":PASSIVE:",
+      "button_id": "DeckardFortitudeOfTheFaithful",
+      "unit_id": "HeroDeckard",
+      "unit_name": "Deckard",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroDeckard",
+      "unit_name": "Deckard",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroDeckard",
+      "unit_name": "Deckard",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "cancel_stay_awhile_and_listen",
+      "name": "Cancel Stay Awhile and Listen",
+      "description": "Stop Channeling.",
+      "icon": null,
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "DeckardStayAWhileAndListenCancel|DeckardStayAWhileAndListenCancel|Heroic",
+      "ability_id": "DeckardStayAWhileAndListenCancel",
+      "button_id": "DeckardStayAWhileAndListenCancel",
+      "unit_id": "HeroDeckard",
+      "unit_name": "Deckard",
+      "parent_link_ids": [
+        "DeckardStayAWhileAndListen|DeckardStayAWhileAndListen|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroDeckard",
+      "unit_name": "Deckard",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "fortitude_of_the_faithful_e904968688",
+      "name": "Fortitude of the Faithful",
+      "description": "Cooldown: 45 seconds When at least 1 other allied Hero is nearby, Deckard gains 10 Armor and his Basic Abilities recharge 50% faster.",
+      "icon": "Heroes/deckard-cain/abilities/storm_ui_icon_deckard_angelic_conduit.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "DeckardAncientBlessings|DeckardFortitudeOfTheFaithfulAncientBlessings|Trait",
+      "ability_id": "DeckardAncientBlessings",
+      "button_id": "DeckardFortitudeOfTheFaithfulAncientBlessings",
+      "unit_id": "HeroDeckard",
+      "unit_name": "Deckard",
+      "parent_link_ids": [
+        "DeckardAncientBlessings|DeckardAncientBlessings|Trait|Level13"
+      ],
+      "unlock_conditions": [
+        [
+          "DeckardAncientBlessings"
+        ]
+      ]
+    },
+    {
+      "id": "sapphire",
+      "name": "Sapphire",
+      "description": "Cooldown: 30 seconds Activate to increase the damage of the next Horadric Cube by 100% and its slow by 30%.  Only 1 Gem may be active at a time.",
+      "icon": "Heroes/deckard-cain/abilities/storm_ui_icon_deckard_sapphire.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "DeckardGemSapphire|DeckardGemSapphire|Active",
+      "ability_id": "DeckardGemSapphire",
+      "button_id": "DeckardGemSapphire",
+      "unit_id": "HeroDeckard",
+      "unit_name": "Deckard",
+      "parent_link_ids": [
+        "DeckardGemSapphire|DeckardGemSapphire|Active|Level1"
+      ],
+      "unlock_conditions": [
+        [
+          "DeckardGemSapphire"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "DeckardGemSapphire",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 1,
+      "unlock_position": 3
+    },
+    {
+      "id": "ruby",
+      "name": "Ruby",
+      "description": "Cooldown: 20 seconds Activate to increase the damage of the next Horadric Cube by 100%  and it spawns 3 Lesser Healing Potions from each enemy Hero hit, healing allied Heroes for 250 (+4% per level) when picked up. Lesser Healing Potions last for 10 seconds.  Only 1 Gem may be active at a time.",
+      "icon": "Heroes/deckard-cain/abilities/storm_ui_icon_deckard_ruby.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "DeckardGemRuby|DeckardGemRuby|Active",
+      "ability_id": "DeckardGemRuby",
+      "button_id": "DeckardGemRuby",
+      "unit_id": "HeroDeckard",
+      "unit_name": "Deckard",
+      "parent_link_ids": [
+        "DeckardGemRuby|DeckardGemRuby|Active|Level4"
+      ],
+      "unlock_conditions": [
+        [
+          "DeckardGemRuby"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "DeckardGemRuby",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 4,
+      "unlock_position": 3
+    },
+    {
+      "id": "emerald",
+      "name": "Emerald",
+      "description": "Cooldown: 30 seconds Activate to increase the damage of the next Horadric Cube by 100% and have it reduce the healing received of enemy Heroes by 75% for 4 seconds.  Only 1 Gem may be active at a time.",
+      "icon": "Heroes/deckard-cain/abilities/storm_ui_icon_deckard_emerald.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "DeckardGemEmerald|DeckardGemEmerald|Active",
+      "ability_id": "DeckardGemEmerald",
+      "button_id": "DeckardGemEmerald",
+      "unit_id": "HeroDeckard",
+      "unit_name": "Deckard",
+      "parent_link_ids": [
+        "DeckardGemEmerald|DeckardGemEmerald|Active|Level7"
+      ],
+      "unlock_conditions": [
+        [
+          "DeckardGemEmerald"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2",
+        "3"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "DeckardGemEmerald",
+      "active_order": 3,
+      "active_origin": "talent",
+      "unlock_level": 7,
+      "unlock_position": 3
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "scroll_of_identify",
+          "name": "Scroll of Identify",
+          "description": "Quest: Hitting an enemy Hero with Scroll of Sealing permanently increases its damage by 2.  Reward: After hitting 15 Heroes, Scroll of Sealing reveals and reduces the Armor of Heroes hit by 10 for 4 seconds.  Reward: After hitting 30 Heroes, this talent's Armor reduction effect is increased to 15 and its duration to 6 seconds.",
+          "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_scroll_of_sealing.png",
+          "position": 1,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "DeckardScrollOfIdentify|DeckardScrollOfIdentify|E|Level1",
+          "talent_id": "DeckardScrollOfIdentify",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_scroll_of_sealing_mini.png"
+        },
+        {
+          "id": "field_study",
+          "name": "Field Study",
+          "description": "Each enemy Hero hit by Scroll of Sealing grants 20% Spell Power for 16 seconds, up to 40%.",
+          "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_scroll_of_sealing_a.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "DeckardFieldStudy|DeckardFieldStudy|E|Level1",
+          "talent_id": "DeckardFieldStudy",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_scroll_of_sealing_a_mini.png"
+        },
+        {
+          "id": "sapphire",
+          "name": "Sapphire",
+          "description": "Cooldown: 30 seconds Activate to increase the damage of the next Horadric Cube by 100% and its slow by 30%.  Only 1 Gem may be active at a time.",
+          "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_sapphire.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "DeckardGemSapphire|DeckardGemSapphire|Active|Level1",
+          "talent_id": "DeckardGemSapphire",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_sapphire_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "potion_of_shielding",
+          "name": "Potion of Shielding",
+          "description": "Whenever an ally is healed by a Healing Potion, they gain a 140 (+4% per level) Shield for 6 seconds.",
+          "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_healing_potion.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "DeckardPotionOfShielding|DeckardPotionOfShielding|Q|Level4",
+          "talent_id": "DeckardPotionOfShielding",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_healing_potion_mini.png"
+        },
+        {
+          "id": "rejuvenation_potion",
+          "name": "Rejuvenation Potion",
+          "description": "Healing Potions restore 15 Mana and heal for an additional 114 (+4% per level) over 3 seconds.",
+          "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_rejuvination_potion.png",
+          "position": 2,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "DeckardRejuvenationPotion|DeckardRejuvenationPotion|Q|Level4",
+          "talent_id": "DeckardRejuvenationPotion",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_rejuvination_potion_mini.png"
+        },
+        {
+          "id": "ruby",
+          "name": "Ruby",
+          "description": "Cooldown: 20 seconds Activate to increase the damage of the next Horadric Cube by 100%  and it spawns 3 Lesser Healing Potions from each enemy Hero hit, healing allied Heroes for 250 (+4% per level) when picked up. Lesser Healing Potions last for 10 seconds.  Only 1 Gem may be active at a time.",
+          "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_ruby.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "DeckardGemRuby|DeckardGemRuby|Active|Level4",
+          "talent_id": "DeckardGemRuby",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2"
+          ],
+          "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_ruby_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "cube_mastery",
+          "name": "Cube Mastery",
+          "description": "Reduce the Mana cost of Scroll of Sealing from 40 to 25. Each enemy Hero hit by Horadric Cube reduces the cooldown of Scroll of Sealing by 4 seconds.",
+          "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_horadric_cube.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "DeckardCubeMastery|DeckardCubeMastery|W|Level7",
+          "talent_id": "DeckardCubeMastery",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_horadric_cube_mini.png"
+        },
+        {
+          "id": "kanai_s_cube",
+          "name": "Kanai's Cube",
+          "description": "Horadric Cube reduces Hero damage dealt by 30% for 4 seconds.",
+          "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_kanais_cube.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "DeckardKanaisCube|DeckardKanaisCube|W|Level7",
+          "talent_id": "DeckardKanaisCube",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_kanais_cube_mini.png"
+        },
+        {
+          "id": "emerald",
+          "name": "Emerald",
+          "description": "Cooldown: 30 seconds Activate to increase the damage of the next Horadric Cube by 100% and have it reduce the healing received of enemy Heroes by 75% for 4 seconds.  Only 1 Gem may be active at a time.",
+          "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_emerald.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "DeckardGemEmerald|DeckardGemEmerald|Active|Level7",
+          "talent_id": "DeckardGemEmerald",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2",
+            "3"
+          ],
+          "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_emerald_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "stay_awhile_and_listen",
+          "name": "Stay Awhile and Listen",
+          "description": "Mana: 60 Cooldown: 70 seconds After 1 second, Channel for 3 seconds, putting enemy Heroes in front of Deckard to Sleep while Channeling, and for 2 seconds after.  Enemies can only be put to Sleep once per cast, and Sleep's effects end instantly if they take damage.",
+          "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_stay_awhile_and_listen.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "DeckardStayAWhileAndListen|DeckardStayAWhileAndListen|Heroic|Level10",
+          "talent_id": "DeckardStayAWhileAndListen",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_stay_awhile_and_listen_mini.png"
+        },
+        {
+          "id": "lorenado",
+          "name": "Lorenado",
+          "description": "Mana: 35 Cooldown: 30 seconds Vector Targeting After 1 second, create a twirling tome tornado that travels towards the targeted direction, continually knocking away enemies that come into contact with it. Deals 20 (+4% per level) damage to Heroes hit.",
+          "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_lorenado.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "DeckardLorenado|DeckardLorenado|Heroic|Level10",
+          "talent_id": "DeckardLorenado",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_lorenado_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "super_healing_potion",
+          "name": "Super Healing Potion",
+          "description": "If a Healing Potion isn't picked up for at least 2 seconds, it heals for 100% more.  Passive: Healing Potion heals for 25% more when the target is under 50% health.",
+          "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_super_healing_potion.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "DeckardSuperHealingPotion|DeckardSuperHealingPotion|Q|Level13",
+          "talent_id": "DeckardSuperHealingPotion",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_super_healing_potion_mini.png"
+        },
+        {
+          "id": "potion_of_revival",
+          "name": "Potion of Revival",
+          "description": "When a Healing Potion is picked up, it also heals all nearby allied Heroes for 75% of the healing amount.",
+          "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_unstable_healing_potion.png",
+          "position": 2,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "DeckardPotionOfRevival|DeckardPotionOfRevival|Q|Level13",
+          "talent_id": "DeckardPotionOfRevival",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_unstable_healing_potion_mini.png"
+        },
+        {
+          "id": "ancient_blessings",
+          "name": "Ancient Blessings",
+          "description": "Cooldown: 45 seconds Activate Fortitude of the Faithful to empower nearby allied Hero Basic Attacks for 8 seconds, causing them to deal an additional 62 (+4% per level) damage in an area and heal for 90 (+4% per level) for each Hero hit. This effect can only occur once per second.",
+          "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_angelic_conduit.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "DeckardAncientBlessings|DeckardAncientBlessings|Trait|Level13",
+          "talent_id": "DeckardAncientBlessings",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_angelic_conduit_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "scroll_of_stone_curse",
+          "name": "Scroll of Stone Curse",
+          "description": "Scroll of Sealing deals 200% more damage when hitting at least 2 Heroes.",
+          "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_scroll_of_sealing.png",
+          "position": 1,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "DeckardScrollOfStoneCurse|DeckardScrollOfStoneCurse|E|Level16",
+          "talent_id": "DeckardScrollOfStoneCurse",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_scroll_of_sealing_mini.png"
+        },
+        {
+          "id": "safety_in_numbers",
+          "name": "Safety in Numbers",
+          "description": "If at least 2 allied Heroes are nearby, Fortitude of the Faithful grants an additional 10 Armor, 50% Mana Regeneration per second, and causes Deckard's Basic Abilities to recharge an additional 50% faster.",
+          "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_study_time.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "DeckardSafetyInNumbers|DeckardSafetyInNumbers|Trait|Level16",
+          "talent_id": "DeckardSafetyInNumbers",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_study_time_mini.png"
+        },
+        {
+          "id": "horadric_staff",
+          "name": "Horadric Staff",
+          "description": "Every 5 seconds, Deckard's next Basic Attack Stuns Heroes for 0.75 seconds.",
+          "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_horadric_staff.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "DeckardHoradricStaff|DeckardHoradricStaff|Passive|Level16",
+          "talent_id": "DeckardHoradricStaff",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_horadric_staff_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "respect_the_elderly",
+          "name": "Respect the Elderly",
+          "description": "Stay Awhile and Listen Silences and Blinds enemies for 3 seconds upon waking up from Sleep.",
+          "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_stay_awhile_and_listen.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "DeckardRespectTheElderly|DeckardRespectTheElderly|Heroic|Level20",
+          "talent_id": "DeckardRespectTheElderly",
+          "prerequisite_talent_ids": [
+            "DeckardStayAWhileAndListen"
+          ],
+          "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_stay_awhile_and_listen_mini.png"
+        },
+        {
+          "id": "morenados",
+          "name": "Morenados!",
+          "description": "Lorenado gains an additional charge and its cooldown is reduced by 10 seconds every time an enemy Hero is knocked back. This effect can only occur once per 0.5 seconds.",
+          "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_lorenado.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "DeckardMorenados|DeckardMorenados|Heroic|Level20",
+          "talent_id": "DeckardMorenados",
+          "prerequisite_talent_ids": [
+            "DeckardLorenado"
+          ],
+          "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_lorenado_mini.png"
+        },
+        {
+          "id": "bottomless_flask",
+          "name": "Bottomless Flask",
+          "description": "After use, Healing Potions recharge after 8 seconds.",
+          "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_healing_potion.png",
+          "position": 3,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "DeckardBottomlessFlask|DeckardBottomlessFlask|Q|Level20",
+          "talent_id": "DeckardBottomlessFlask",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_healing_potion_mini.png"
+        },
+        {
+          "id": "perfect_gems",
+          "name": "Perfect Gems",
+          "description": "Reduce the cooldown of all Gems to 5 seconds and the cooldown of Horadric Cube by 6 seconds.",
+          "icon": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_perfect_gems.png",
+          "position": 4,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "DeckardPerfectGems|DeckardPerfectGems|W|Level20",
+          "talent_id": "DeckardPerfectGems",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/deckard-cain/talents/storm_ui_icon_deckard_perfect_gems_mini.png"
+        }
+      ]
+    }
+  ]
+}

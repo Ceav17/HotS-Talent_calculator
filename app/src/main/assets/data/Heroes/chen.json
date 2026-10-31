@@ -1,0 +1,765 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "chen",
+    "name": "Chen",
+    "team_role": "Bruiser",
+    "universe": "Warcraft",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "flying_kick",
+      "name": "Flying Kick",
+      "description": "Brew: 10 Cooldown: 5 seconds Kick through target enemy, dealing 130 (+4% per level) damage.",
+      "icon": "Heroes/chen/abilities/storm_ui_icon_chen_flyingkick.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "ChenFlyingKick|ChenFlyingKick|Q",
+      "ability_id": "ChenFlyingKick",
+      "button_id": "ChenFlyingKick",
+      "unit_id": "HeroChen",
+      "unit_name": "Chen",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "keg_smash",
+      "name": "Keg Smash",
+      "description": "Brew: 40 Cooldown: 5 seconds Deal 50 (+4% per level) damage and soak enemies in Brew for 3 seconds, Slowing them by 10%. After 1.25 seconds, the Slow is increased to 40%.  After being used, this Ability becomes Breath of Fire.  Breath of Fire Deal damage and Ignite Brew-soaked enemies.",
+      "icon": "Heroes/chen/abilities/storm_ui_icon_chen_kegsmash.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "ChenKegSmash|ChenKegSmash|W",
+      "ability_id": "ChenKegSmash",
+      "button_id": "ChenKegSmash",
+      "unit_id": "HeroChen",
+      "unit_name": "Chen",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "stagger",
+      "name": "Stagger",
+      "description": "Cooldown: 18 seconds Damage taken over the next 3 seconds is prevented.  Once this effect ends, Chen receives 75% of the damage taken over 5 seconds. This damage cannot be modified.",
+      "icon": "Heroes/chen/abilities/storm_ui_icon_chen_stagger.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "ChenStagger|ChenStagger|E",
+      "ability_id": "ChenStagger",
+      "button_id": "ChenStagger",
+      "unit_id": "HeroChen",
+      "unit_name": "Chen",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "storm_earth_fire",
+      "name": "Storm, Earth, Fire",
+      "description": "Cooldown: 120 seconds After 1 second, Chen splits into three elemental spirits for 12 seconds, each with 70% of Chen's maximum Health and a unique Ability.  The last spirit Ability that is cast is empowered. If all three spirits are killed, Chen will die as well.  Storm can grant the spirits a Shield.  Earth can leap to an area and Slow enemies.  Fire can grant the spirits Attack Speed, damage.",
+      "icon": "Heroes/chen/talents/storm_ui_icon_chen_stormearthfire.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "ChenStormEarthFire|ChenStormEarthFire|Heroic",
+      "ability_id": "ChenStormEarthFire",
+      "button_id": "ChenStormEarthFire",
+      "unit_id": "HeroChen",
+      "unit_name": "Chen",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_stormearthfire_mini.png"
+    },
+    {
+      "id": "wandering_keg",
+      "name": "Wandering Keg",
+      "description": "Cooldown: 60 seconds Roll around inside an Unstoppable barrel with 70% increased Movement Speed and 25 Armor, dealing 59 (+4% per level) damage to enemies in the way and knocking them back. Lasts for 5 seconds.",
+      "icon": "Heroes/chen/talents/storm_ui_icon_chen_wanderingkeg.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "ChenWanderingKeg|ChenWanderingKeg|Heroic",
+      "ability_id": "ChenWanderingKeg",
+      "button_id": "ChenWanderingKeg",
+      "unit_id": "HeroChen",
+      "unit_name": "Chen",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_wanderingkeg_mini.png"
+    },
+    {
+      "id": "fortifying_brew",
+      "name": "Fortifying Brew",
+      "description": "Cooldown: 7 seconds Chen drinks from his keg, gaining 50 Brew and 190 (+4% per level) temporary Shields per second, up to a maximum of 570 (+4% per level) while drinking. Shields persist for 4 seconds after he stops drinking.",
+      "icon": "Heroes/chen/abilities/storm_ui_icon_chen_fortifyingbrew.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "ChenFortifyingBrew|ChenFortifyingBrew|Trait",
+      "ability_id": "ChenFortifyingBrew",
+      "button_id": "ChenFortifyingBrew",
+      "unit_id": "HeroChen",
+      "unit_name": "Chen",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount_4942cf785f",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroChen",
+      "unit_name": "Chen",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone_d42d4acf07",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Brew.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|HearthstoneBrew|B",
+      "ability_id": "Hearthstone",
+      "button_id": "HearthstoneBrew",
+      "unit_id": "HeroChen",
+      "unit_name": "Chen",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "breath_of_fire",
+      "name": "Breath of Fire",
+      "description": "Breathe a cone of flames, dealing 40 (+4% per level) damage. Enemies that are soaked in Brew are Ignited, dealing 342 (+4% per level) additional damage over 6 seconds and adding 1.5 seconds to the duration of the Slow from Keg Smash.   After being used or after 6 seconds, this ability becomes Keg Smash.  Keg Smash Damage and Slow enemies.",
+      "icon": "Heroes/chen/abilities/storm_ui_icon_chen_breathoffire.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "ChenBreathOfFire|ChenBreathOfFire|W",
+      "ability_id": "ChenBreathOfFire",
+      "button_id": "ChenBreathOfFire",
+      "unit_id": "HeroChen",
+      "unit_name": "Chen",
+      "parent_link_ids": [
+        "ChenKegSmash|ChenKegSmash|W"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "storm",
+      "name": "Storm",
+      "description": "The spirits gain a Shield for 400 (+4% per level) over 3 seconds.  If this is the final Ability cast, the shield amount is increased to 750 (+4% per level) with no limited duration, and the duration of Storm, Earth, Fire is increased by 5 seconds.",
+      "icon": "Heroes/chen/abilities/storm_temp_war3_btntornado.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "ChenStorm|ChenStorm|Q",
+      "ability_id": "ChenStorm",
+      "button_id": "ChenStorm",
+      "unit_id": "HeroChen",
+      "unit_name": "Chen",
+      "parent_link_ids": [
+        "ChenStormEarthFire|ChenStormEarthFire|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "earth",
+      "name": "Earth",
+      "description": "Fire and Earth leap to the target location, dealing 32 (+4% per level) damage and Slowing enemies in a large area by 70% for 1.5 seconds.  If this is the final Ability cast, increase the damage dealt by 300% and instead of Slowing, the leap Roots enemy Heroes hit for 1.75 seconds.",
+      "icon": "Heroes/chen/abilities/storm_temp_war3_btnearthquake.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "ChenEarth|ChenEarth|W",
+      "ability_id": "ChenEarth",
+      "button_id": "ChenEarth",
+      "unit_id": "HeroChen",
+      "unit_name": "Chen",
+      "parent_link_ids": [
+        "ChenStormEarthFire|ChenStormEarthFire|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "fire",
+      "name": "Fire",
+      "description": "Increase the Attack Speed and Basic Attack damage of the spirits by 50% for 5 seconds.  If this is the final Ability cast, the Attack Speed and damage bonus is increased to 75% and the spirits gain 50% Movement Speed for its duration.",
+      "icon": "Heroes/chen/abilities/storm_temp_war3_btnmarkoffire.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "ChenFire|ChenFire|E",
+      "ability_id": "ChenFire",
+      "button_id": "ChenFire",
+      "unit_id": "HeroChen",
+      "unit_name": "Chen",
+      "parent_link_ids": [
+        "ChenStormEarthFire|ChenStormEarthFire|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount_85be39b81e",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroChen",
+      "unit_name": "Chen",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount_781e1d0545",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroChenEarth",
+      "unit_name": "Chen Earth",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone_609ed55551",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|HearthstoneNoMana|B",
+      "ability_id": "Hearthstone",
+      "button_id": "HearthstoneNoMana",
+      "unit_id": "HeroChenEarth",
+      "unit_name": "Chen Earth",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount_bc111d4478",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroChenEarth",
+      "unit_name": "Chen Earth",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount_77c407980b",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroChenFire",
+      "unit_name": "Chen Fire",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone_7c3a37c0e1",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|HearthstoneNoMana|B",
+      "ability_id": "Hearthstone",
+      "button_id": "HearthstoneNoMana",
+      "unit_id": "HeroChenFire",
+      "unit_name": "Chen Fire",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount_b88dbd5210",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroChenFire",
+      "unit_name": "Chen Fire",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount_be4b744718",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroChenStorm",
+      "unit_name": "Chen Storm",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone_83f7fe2836",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|HearthstoneNoMana|B",
+      "ability_id": "Hearthstone",
+      "button_id": "HearthstoneNoMana",
+      "unit_id": "HeroChenStorm",
+      "unit_name": "Chen Storm",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount_a15da9d6be",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroChenStorm",
+      "unit_name": "Chen Storm",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "elusive_brawler",
+      "name": "Elusive Brawler",
+      "description": "Cooldown: 25 seconds Activate to gain 20% Movement Speed and Evade enemy Basic Attacks for 2 seconds. Chen's Basic Attacks reduce this cooldown by 2 seconds.",
+      "icon": "Heroes/chen/abilities/storm_ui_icon_chen_elusivebrew.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "ChenElusiveBrawler|ChenElusiveBrawlerHotbar|Active",
+      "ability_id": "ChenElusiveBrawler",
+      "button_id": "ChenElusiveBrawlerHotbar",
+      "unit_id": "HeroChen",
+      "unit_name": "Chen",
+      "parent_link_ids": [
+        "ChenElusiveBrawler|ChenElusiveBrawler|Active|Level7"
+      ],
+      "unlock_conditions": [
+        [
+          "ChenElusiveBrawler"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "ChenElusiveBrawler",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 7,
+      "unlock_position": 3
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "accumulating_flame",
+          "name": "Accumulating Flame",
+          "description": "Reward: Damage enemy Heroes with Breath of Fire to permanently increase periodic damage by 0.25. Kills grant 2.  Reward: After gaining 25 damage, increase the range of Keg Smash.  Mythic Reward: Upon gaining 80 damage, Breath of Fire reduces enemy Armor by 20 and its duration is increased by 0.75 seconds each time Chen attacks the Hero.",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_breathoffire.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "ChenAccumulatingFlame|ChenAccumulatingFlame|W|Level1",
+          "talent_id": "ChenAccumulatingFlame",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_breathoffire_mini.png"
+        },
+        {
+          "id": "freshest_ingredients",
+          "name": "Freshest Ingredients",
+          "description": "Increase the healing duration of Regeneration Globes by 150%.  Quest: Gather 15 Regeneration Globes.  Reward: Reduce Fortifying Brew's cooldown by 2 seconds, and 50% of its Shield persists indefinitely after drinking.",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_fortifyingbrew.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "ChenFreshestIngredients|ChenFreshestIngredients|Trait|Level1",
+          "talent_id": "ChenFreshestIngredients",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_fortifyingbrew_mini.png"
+        },
+        {
+          "id": "stormstout_secret_recipe",
+          "name": "Stormstout Secret Recipe",
+          "description": "Chen heals for 3.5% of his maximum Health when his Basic Abilities hit an enemy Hero.",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_stormstoutsecretrecipe.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "ChenStormstoutSecretRecipe|ChenStormstoutSecretRecipe|Passive|Level1",
+          "talent_id": "ChenStormstoutSecretRecipe",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_stormstoutsecretrecipe_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "deadly_strike",
+          "name": "Deadly Strike",
+          "description": "Flying Kick no longer costs Brew. Additionally, its damage is increased by 125% while Chen has Shields from Fortifying Brew.",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_flyingkick.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "ChenDeadlyStrike|ChenFlyingKickDeadlyStrikeTalent|Q|Level4",
+          "talent_id": "ChenDeadlyStrike",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_flyingkick_mini.png"
+        },
+        {
+          "id": "eye_of_the_tiger",
+          "name": "Eye of the Tiger",
+          "description": "Basic Attacks against Brew-soaked enemy Heroes deal 50% more damage and heal Chen for 60% of the damage done.",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_kegsmash.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "ChenEyeOfTheTiger|ChenEyeOfTheTiger|W|Level4",
+          "talent_id": "ChenEyeOfTheTiger",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_kegsmash_mini.png"
+        },
+        {
+          "id": "withering_flames",
+          "name": "Withering Flames",
+          "description": "Igniting an enemy Hero reduces their Spell Power by 60% for 4 seconds.",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_breathoffire_a.png",
+          "position": 3,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "ChenWitheringFlames|ChenWitheringFlames|W|Level4",
+          "talent_id": "ChenWitheringFlames",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_breathoffire_a_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "gift_of_the_ox",
+          "name": "Gift of the Ox",
+          "description": "Increase the duration of Stagger's damage prevention by 2 seconds, and reduce the amount of damage taken over time to 50% of damage taken.",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_stagger.png",
+          "position": 1,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "ChenGiftOfTheOxStagger|ChenGiftOfTheOxStagger|E|Level7",
+          "talent_id": "ChenGiftOfTheOxStagger",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_stagger_mini.png"
+        },
+        {
+          "id": "brewmaster_s_balance",
+          "name": "Brewmaster's Balance",
+          "description": "While at or below 50 Brew, gain 20% Movement Speed. While at or above 50 Brew, regenerate an additional 18 (+4% per level) Health per second.",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_fortifyingbrew.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "ChenBrewmastersBalance|ChenFortifyingBrewBrewmastersBalanceTalent|Trait|Level7",
+          "talent_id": "ChenBrewmastersBalance",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_fortifyingbrew_mini.png"
+        },
+        {
+          "id": "elusive_brawler",
+          "name": "Elusive Brawler",
+          "description": "Cooldown: 25 seconds Activate to gain 20% Movement Speed and Evade enemy Basic Attacks for 2 seconds. Chen's Basic Attacks reduce this cooldown by 2 seconds.",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_elusivebrew.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "ChenElusiveBrawler|ChenElusiveBrawler|Active|Level7",
+          "talent_id": "ChenElusiveBrawler",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_elusivebrew_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "wandering_keg",
+          "name": "Wandering Keg",
+          "description": "Cooldown: 60 seconds Roll around inside an Unstoppable barrel with 70% increased Movement Speed and 25 Armor, dealing 59 (+4% per level) damage to enemies in the way and knocking them back. Lasts for 5 seconds.",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_wanderingkeg.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "ChenHeroicAbilityWanderingKeg|ChenWanderingKeg|Heroic|Level10",
+          "talent_id": "ChenHeroicAbilityWanderingKeg",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_wanderingkeg_mini.png"
+        },
+        {
+          "id": "storm_earth_fire",
+          "name": "Storm, Earth, Fire",
+          "description": "Cooldown: 120 seconds After 1 second, Chen splits into three elemental spirits for 12 seconds, each with 70% of Chen's maximum Health and a unique Ability.  The last spirit Ability that is cast is empowered. If all three spirits are killed, Chen will die as well.  Storm can grant the spirits a Shield.  Earth can leap to an area and Slow enemies.  Fire can grant the spirits Attack Speed, damage.",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_stormearthfire.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "ChenHeroicAbilityStormEarthFire|ChenStormEarthFire|Heroic|Level10",
+          "talent_id": "ChenHeroicAbilityStormEarthFire",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_stormearthfire_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "pressure_point",
+          "name": "Pressure Point",
+          "description": "Flying Kick Slows the target enemy by 40% for 1.5 seconds, or by 80% if Chen has Shields from Fortifying Brew.",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_flyingkick.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "ChenPressurePoint|ChenFlyingKickPressurePointTalent|Q|Level13",
+          "talent_id": "ChenPressurePoint",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_flyingkick_mini.png"
+        },
+        {
+          "id": "a_touch_of_honey",
+          "name": "A Touch of Honey",
+          "description": "Increase the Slows from Keg Smash by 20% and its duration by 0.5 seconds.",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_kegsmash.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "ChenMasteryKegSmashATouchOfHoney|ChenKegSmashATouchOfHoneyTalent|W|Level13",
+          "talent_id": "ChenMasteryKegSmashATouchOfHoney",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_kegsmash_mini.png"
+        },
+        {
+          "id": "ring_of_fire",
+          "name": "Ring of Fire",
+          "description": "After Igniting an enemy, become bathed in a fiery aura, dealing 60 (+4% per level) damage every second to nearby enemies for 6 seconds.",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_breathoffire.png",
+          "position": 3,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "ChenRingofFire|ChenBreathOfFireRingOfFireTalent|W|Level13",
+          "talent_id": "ChenRingofFire",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_breathoffire_mini.png"
+        },
+        {
+          "id": "enough_to_share",
+          "name": "Enough to Share",
+          "description": "Fortifying Brew instantly grants Chen a Shield that absorbs 190 (+4% per level) damage, and each second grants nearby allied Heroes a Shield that absorbs 140 (+4% per level) damage, up to 420 (+4% per level).",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_fortifyingbrew.png",
+          "position": 4,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "ChenMasteryFortifyingBrewEnoughToShare|ChenFortifyingBrewEnoughToShareTalent|Trait|Level13",
+          "talent_id": "ChenMasteryFortifyingBrewEnoughToShare",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_fortifyingbrew_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "flying_leap",
+          "name": "Flying Leap",
+          "description": "Increase Flying Kick's range by 15% and reduce its cooldown by 0.5 seconds each time an enemy Hero takes damage from being Ignited.",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_flyingkick.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "ChenFlyingLeap|ChenFlyingLeap|Q|Level16",
+          "talent_id": "ChenFlyingLeap",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_flyingkick_mini.png"
+        },
+        {
+          "id": "celerity",
+          "name": "Celerity",
+          "description": "Basic Attacks against Stunned, Rooted, or Slowed enemy Heroes reduce the cooldown of Stagger by 2 seconds and grant Chen 30 Armor for 3 seconds.",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_stagger.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "ChenCelerity|ChenCelerityStagger|E|Level16",
+          "talent_id": "ChenCelerity",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_stagger_mini.png"
+        },
+        {
+          "id": "combo_strikes",
+          "name": "Combo Strikes",
+          "description": "Every 3rd Basic Attack against the same target deals 75% bonus damage. While Chen has Shields from Fortifying Brew and for 2 seconds after, he gains 35% Attack Speed.",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_fortifyingbrew.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "ChenComboStrikes|ChenFortifyingBrewComboStrikesTalent|Trait|Level16",
+          "talent_id": "ChenComboStrikes",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_fortifyingbrew_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "untapped_potential",
+          "name": "Untapped Potential",
+          "description": "Increase Wandering Keg's Movement Speed bonus from 70% to 125%, and its Armor bonus to 75 for its duration and 5 seconds afterwards.",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_wanderingkeg.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "ChenMasteryWanderingKegUntappedPotential|ChenWanderingKegUntappedPotentialTalent|Heroic|Level20",
+          "talent_id": "ChenMasteryWanderingKegUntappedPotential",
+          "prerequisite_talent_ids": [
+            "ChenHeroicAbilityWanderingKeg"
+          ],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_wanderingkeg_mini.png"
+        },
+        {
+          "id": "elemental_conduit",
+          "name": "Elemental Conduit",
+          "description": "Increase the spirits' Health to 100% of Chen's maximum Health and all of their Abilities are empowered.",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_stormearthfire.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "ChenElementalConduit|ChenStormEarthFireElementalConduitTalent|Heroic|Level20",
+          "talent_id": "ChenElementalConduit",
+          "prerequisite_talent_ids": [
+            "ChenHeroicAbilityStormEarthFire"
+          ],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_stormearthfire_mini.png"
+        },
+        {
+          "id": "purifying_brew",
+          "name": "Purifying Brew",
+          "description": "Casting Fortifying Brew grants Chen Unstoppable for 1.5 seconds.",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_fortifyingbrew.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "ChenPurifyingBrew|ChenPurifyingBrew|Trait|Level20",
+          "talent_id": "ChenPurifyingBrew",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_fortifyingbrew_mini.png"
+        },
+        {
+          "id": "energizing_brew",
+          "name": "Energizing Brew",
+          "description": "If Chen Channels Fortifying Brew for its full duration, then he gains 20% bonus Health and 20% bonus damage for 25 seconds.",
+          "icon": "Heroes/chen/talents/storm_ui_icon_chen_fortifyingbrew_b.png",
+          "position": 4,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "ChenEnergizingBrew|ChenFortifyingBrewEnergizingBrewTalent|Trait|Level20",
+          "talent_id": "ChenEnergizingBrew",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/chen/talents/storm_ui_icon_chen_fortifyingbrew_b_mini.png"
+        }
+      ]
+    }
+  ]
+}

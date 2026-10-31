@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/qhira/portrait.png",
+  "lines": [
+    {
+      "id": "crude_b2c7842f",
+      "title": "Crude",
+      "variant": null,
+      "audio": "voice_lines/qhira/crude_b2c7842f.ogg"
+    },
+    {
+      "id": "i_can_still_reach_you_054cbc32",
+      "title": "I Can Still Reach You",
+      "variant": null,
+      "audio": "voice_lines/qhira/i_can_still_reach_you_054cbc32.ogg"
+    },
+    {
+      "id": "made_this_personal_5a124495",
+      "title": "Made This Personal",
+      "variant": null,
+      "audio": "voice_lines/qhira/made_this_personal_5a124495.ogg"
+    },
+    {
+      "id": "not_getting_paid_enough_2d2e1153",
+      "title": "Not Getting Paid Enough",
+      "variant": null,
+      "audio": "voice_lines/qhira/not_getting_paid_enough_2d2e1153.ogg"
+    },
+    {
+      "id": "price_i_must_pay_78aebce1",
+      "title": "Price I Must Pay",
+      "variant": null,
+      "audio": "voice_lines/qhira/price_i_must_pay_78aebce1.ogg"
+    }
+  ]
+}

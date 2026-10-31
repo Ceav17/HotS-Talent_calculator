@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/malthael/portrait.png",
+  "lines": [
+    {
+      "id": "all_bow_to_death_19b6848d",
+      "title": "All Bow to Death",
+      "variant": null,
+      "audio": "voice_lines/malthael/all_bow_to_death_19b6848d.ogg"
+    },
+    {
+      "id": "all_conflict_will_end_b4f6adf8",
+      "title": "All Conflict Will End",
+      "variant": null,
+      "audio": "voice_lines/malthael/all_conflict_will_end_b4f6adf8.ogg"
+    },
+    {
+      "id": "beyond_your_reach_efc0ed50",
+      "title": "Beyond Your Reach",
+      "variant": null,
+      "audio": "voice_lines/malthael/beyond_your_reach_efc0ed50.ogg"
+    },
+    {
+      "id": "nephalem_84f177e2",
+      "title": "Nephalem...",
+      "variant": null,
+      "audio": "voice_lines/malthael/nephalem_84f177e2.ogg"
+    },
+    {
+      "id": "no_one_can_stop_death_0e12f88b",
+      "title": "No One Can Stop Death",
+      "variant": null,
+      "audio": "voice_lines/malthael/no_one_can_stop_death_0e12f88b.ogg"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/sylvanas/portrait.png",
+  "lines": [
+    {
+      "id": "beg_for_your_life_520c41a2",
+      "title": "Beg for Your Life",
+      "variant": null,
+      "audio": "voice_lines/sylvanas/beg_for_your_life_520c41a2.ogg"
+    },
+    {
+      "id": "no_time_for_games_aaae3d88",
+      "title": "No Time for Games",
+      "variant": null,
+      "audio": "voice_lines/sylvanas/no_time_for_games_aaae3d88.ogg"
+    },
+    {
+      "id": "slaves_to_this_torment_751c4c1b",
+      "title": "Slaves to This Torment",
+      "variant": null,
+      "audio": "voice_lines/sylvanas/slaves_to_this_torment_751c4c1b.ogg"
+    },
+    {
+      "id": "the_dark_lady_watches_407f702c",
+      "title": "The Dark Lady Watches",
+      "variant": null,
+      "audio": "voice_lines/sylvanas/the_dark_lady_watches_407f702c.ogg"
+    },
+    {
+      "id": "victory_for_the_forsaken_4a35eb1b",
+      "title": "Victory for the Forsaken",
+      "variant": null,
+      "audio": "voice_lines/sylvanas/victory_for_the_forsaken_4a35eb1b.ogg"
+    }
+  ]
+}

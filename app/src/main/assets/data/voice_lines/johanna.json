@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/johanna/portrait.png",
+  "lines": [
+    {
+      "id": "fury_of_akarat_0d4b0729",
+      "title": "Fury of Akarat",
+      "variant": null,
+      "audio": "voice_lines/johanna/fury_of_akarat_0d4b0729.ogg"
+    },
+    {
+      "id": "i_enjoyed_that_0a0b4437",
+      "title": "I Enjoyed That",
+      "variant": null,
+      "audio": "voice_lines/johanna/i_enjoyed_that_0a0b4437.ogg"
+    },
+    {
+      "id": "make_your_peace_c90997c3",
+      "title": "Make Your Peace",
+      "variant": null,
+      "audio": "voice_lines/johanna/make_your_peace_c90997c3.ogg"
+    },
+    {
+      "id": "smite_the_wicked_069857f4",
+      "title": "Smite the Wicked",
+      "variant": null,
+      "audio": "voice_lines/johanna/smite_the_wicked_069857f4.ogg"
+    },
+    {
+      "id": "the_crusade_calls_e1a400ae",
+      "title": "The Crusade Calls",
+      "variant": null,
+      "audio": "voice_lines/johanna/the_crusade_calls_e1a400ae.ogg"
+    }
+  ]
+}

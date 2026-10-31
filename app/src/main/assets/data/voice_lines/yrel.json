@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/yrel/portrait.png",
+  "lines": [
+    {
+      "id": "against_the_darkness_1fa2adba",
+      "title": "Against the Darkness",
+      "variant": null,
+      "audio": "voice_lines/yrel/against_the_darkness_1fa2adba.ogg"
+    },
+    {
+      "id": "faith_is_my_mirror_5cdb2581",
+      "title": "Faith Is My Mirror",
+      "variant": null,
+      "audio": "voice_lines/yrel/faith_is_my_mirror_5cdb2581.ogg"
+    },
+    {
+      "id": "hammer_down_e8e3ba7d",
+      "title": "Hammer Down",
+      "variant": null,
+      "audio": "voice_lines/yrel/hammer_down_e8e3ba7d.ogg"
+    },
+    {
+      "id": "krona_ki_cristorr_13d28c52",
+      "title": "Krona Ki Cristorr",
+      "variant": null,
+      "audio": "voice_lines/yrel/krona_ki_cristorr_13d28c52.ogg"
+    },
+    {
+      "id": "we_are_one_e35343c5",
+      "title": "We Are One",
+      "variant": null,
+      "audio": "voice_lines/yrel/we_are_one_e35343c5.ogg"
+    }
+  ]
+}

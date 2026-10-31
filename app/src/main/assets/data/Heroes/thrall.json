@@ -1,0 +1,673 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "thrall",
+    "name": "Thrall",
+    "team_role": "Bruiser",
+    "universe": "Warcraft",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "chain_lightning",
+      "name": "Chain Lightning",
+      "description": "Mana: 40 Cooldown: 7 seconds Shock an enemy with lightning, dealing 170 (+4% per level) damage. The lightning then bounces 3 times to nearby enemies, dealing 85 (+4% per level) damage to each enemy hit.",
+      "icon": "Heroes/thrall/abilities/storm_ui_icon_thrall_chainlightning.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "ThrallChainLightning|ThrallChainLightning|Q",
+      "ability_id": "ThrallChainLightning",
+      "button_id": "ThrallChainLightning",
+      "unit_id": "HeroThrall",
+      "unit_name": "Thrall",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "feral_spirit",
+      "name": "Feral Spirit",
+      "description": "Mana: 40 Cooldown: 10 seconds Unleash a Feral Spirit that deals 153 (+4% per level) damage to enemies in its path and Roots Heroes hit for 1 second. Each Hero hit increases the distance traveled by 25%.",
+      "icon": "Heroes/thrall/abilities/storm_ui_icon_thrall_feralspirit.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "ThrallFeralSpirit|ThrallFeralSpirit|W",
+      "ability_id": "ThrallFeralSpirit",
+      "button_id": "ThrallFeralSpirit",
+      "unit_id": "HeroThrall",
+      "unit_name": "Thrall",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "windfury",
+      "name": "Windfury",
+      "description": "Mana: 60 Cooldown: 12 seconds Increase Thrall's Movement Speed by 30% for 4 seconds. His next 3 Basic Attacks occur 100% faster and generate stacks of Frostwolf Resilience.",
+      "icon": "Heroes/thrall/abilities/storm_ui_icon_thrall_windfury.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "ThrallWindfury|Windfury|E",
+      "ability_id": "ThrallWindfury",
+      "button_id": "Windfury",
+      "unit_id": "HeroThrall",
+      "unit_name": "Thrall",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "sundering_89505e25a2",
+      "name": "Sundering",
+      "description": "Mana: 75 Cooldown: 70 seconds After 0.5 seconds, sunder the earth in a long line, dealing 290 (+4% per level) damage and shoving enemies to the side, Stunning them for 1 second.",
+      "icon": "Heroes/thrall/talents/storm_ui_icon_thrall_sundering.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "ThrallSundering|Sundering|Heroic",
+      "ability_id": "ThrallSundering",
+      "button_id": "Sundering",
+      "unit_id": "HeroThrall",
+      "unit_name": "Thrall",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/thrall/talents/storm_ui_icon_thrall_sundering_mini.png"
+    },
+    {
+      "id": "earthquake",
+      "name": "Earthquake",
+      "description": "Mana: 90 Cooldown: 100 seconds After 0.5 seconds, summon a massive Earthquake that pulses every 4 seconds. Each pulse lasts 2 seconds, Slowing all enemies in the area by 50%, and deals 50 (+4% per level) damage to enemy Heroes. Does 3 pulses.",
+      "icon": "Heroes/thrall/talents/storm_ui_icon_thrall_earthquake.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "ThrallEarthquake|ThrallEarthquake|Heroic",
+      "ability_id": "ThrallEarthquake",
+      "button_id": "ThrallEarthquake",
+      "unit_id": "HeroThrall",
+      "unit_name": "Thrall",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/thrall/talents/storm_ui_icon_thrall_earthquake_mini.png"
+    },
+    {
+      "id": "frostwolf_resilience_f7bcb59cf9",
+      "name": "Frostwolf Resilience",
+      "description": "Dealing damage with Abilities grants 1 stack of Frostwolf Resilience. At 5 stacks, Thrall is instantly healed for 240 (+4% per level) Health.",
+      "icon": "Heroes/thrall/abilities/storm_ui_icon_thrall_frostwolfresilience.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": ":PASSIVE:|ThrallFrostwolfResilience|Trait",
+      "ability_id": ":PASSIVE:",
+      "button_id": "ThrallFrostwolfResilience",
+      "unit_id": "HeroThrall",
+      "unit_name": "Thrall",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroThrall",
+      "unit_name": "Thrall",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroThrall",
+      "unit_name": "Thrall",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "sundering_2d9ae9e377",
+      "name": "Sundering",
+      "description": "Cancel Sundering",
+      "icon": null,
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "ThrallCancelSundering|ThrallSunderingCancel|Heroic",
+      "ability_id": "ThrallCancelSundering",
+      "button_id": "ThrallSunderingCancel",
+      "unit_id": "HeroThrall",
+      "unit_name": "Thrall",
+      "parent_link_ids": [
+        "ThrallSundering|Sundering|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroThrall",
+      "unit_name": "Thrall",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "frostwolf_resilience_1e909d45d8",
+      "name": "Frostwolf Resilience",
+      "description": "Cooldown: 15 seconds Dealing damage with Abilities grants 1 stack of Frostwolf Resilience. At 5 stacks, Thrall is instantly healed for 240 (+4% per level) Health.",
+      "icon": "Heroes/thrall/abilities/storm_ui_icon_thrall_frostwolfresilience.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "ThrallFrostwolfsGrace|ThrallFrostwolfResilience|Trait",
+      "ability_id": "ThrallFrostwolfsGrace",
+      "button_id": "ThrallFrostwolfResilience",
+      "unit_id": "HeroThrall",
+      "unit_name": "Thrall",
+      "parent_link_ids": [
+        "ThrallMasteryFrostwolfsGrace|ThrallFrostwolfResilienceSurgeOfHealing|Trait|Level13"
+      ],
+      "unlock_conditions": [
+        [
+          "ThrallMasteryFrostwolfsGrace"
+        ]
+      ]
+    },
+    {
+      "id": "ancestral_wrath",
+      "name": "Ancestral Wrath",
+      "description": "Activate to consume 8 stacks of Ancestral Wrath, damaging a target enemy Hero for 15% of their maximum Health over 3 seconds, and healing Thrall for 150% of the damage dealt.  Gain 1 stack of Ancestral Wrath every time Frostwolf Resilience activates.",
+      "icon": "Heroes/thrall/abilities/storm_ui_icon_talent_bloodforblood.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "ThrallAncestralWrath|ThrallAncestralWrath|Active",
+      "ability_id": "ThrallAncestralWrath",
+      "button_id": "ThrallAncestralWrath",
+      "unit_id": "HeroThrall",
+      "unit_name": "Thrall",
+      "parent_link_ids": [
+        "ThrallAncestralWrath|ThrallAncestralWrath|Active|Level7"
+      ],
+      "unlock_conditions": [
+        [
+          "ThrallAncestralWrath"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "ThrallAncestralWrath",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 7,
+      "unlock_position": 2
+    },
+    {
+      "id": "spirit_shield_02d5068da8",
+      "name": "Spirit Shield",
+      "description": "Spirit Shield is disabled and will not trigger.  Click this button to enable Spirit Shield.",
+      "icon": "Heroes/thrall/abilities/storm_ui_icon_talent_spellshield.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "ThrallSpiritShield|ThrallSpiritShieldDisabled|Active",
+      "ability_id": "ThrallSpiritShield",
+      "button_id": "ThrallSpiritShieldDisabled",
+      "unit_id": "HeroThrall",
+      "unit_name": "Thrall",
+      "parent_link_ids": [
+        "ThrallSpiritShield|ThrallSpiritShieldEnabled|Active"
+      ],
+      "unlock_conditions": [
+        [
+          "ThrallSpiritShield"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "ThrallSpiritShield",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 13,
+      "unlock_position": 3
+    },
+    {
+      "id": "spirit_shield_abb843aaac",
+      "name": "Spirit Shield",
+      "description": "Cooldown: 45 seconds Every 45 seconds, gain 70 Spell Armor against the next enemy Ability and subsequent Abilities for 4 seconds. Frostwolf Resilience reduces this cooldown by 10 seconds.  Can be toggled to allow or prevent this talent from triggering automatically.",
+      "icon": null,
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "ThrallSpiritShield|ThrallSpiritShieldEnabled|Active",
+      "ability_id": "ThrallSpiritShield",
+      "button_id": "ThrallSpiritShieldEnabled",
+      "unit_id": "HeroThrall",
+      "unit_name": "Thrall",
+      "parent_link_ids": [
+        "ThrallSpiritShield|ThrallSpiritShield|Active|Level13"
+      ],
+      "unlock_conditions": [
+        [
+          "ThrallSpiritShield"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "ThrallSpiritShield",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 13,
+      "unlock_position": 3
+    },
+    {
+      "id": "wind_rush",
+      "name": "Wind Rush",
+      "description": "Cooldown: 90 seconds Activate to immediately teleport to a target location and gain Windfury.",
+      "icon": "Heroes/thrall/abilities/storm_ui_icon_talent_boltofthestorm.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "ThrallWindRush|ThrallWindRush|Active",
+      "ability_id": "ThrallWindRush",
+      "button_id": "ThrallWindRush",
+      "unit_id": "HeroThrall",
+      "unit_name": "Thrall",
+      "parent_link_ids": [
+        "ThrallWindRush|ThrallWindRush|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "ThrallWindRush"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2",
+        "3"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "ThrallWindRush",
+      "active_order": 3,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 5
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "echo_of_the_elements",
+          "name": "Echo of the Elements",
+          "description": "Quest: Kill Minions or Heroes within 2 seconds of hitting them with Chain Lightning.  Reward: After killing 20 enemies, reduce the Mana cost of Chain Lightning from 40 to 20.  Reward: After killing 50 enemies, Chain Lightning gains an extra charge.  Mythic Reward: After killing 125 enemies, Chain Lightning can now strike the same target multiple times, and also strikes 1 additional target per bounce.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_thrall_chainlightning.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "ThrallEchooftheElements|ThrallEchooftheElements|Q|Level1",
+          "talent_id": "ThrallEchooftheElements",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_thrall_chainlightning_mini.png"
+        },
+        {
+          "id": "crash_lightning",
+          "name": "Crash Lightning",
+          "description": "Quest: Hit at least 2 Heroes with a single use of Chain Lightning. Upon dying, lose 4 stacks. Gained rewards cannot be lost.  Reward: After hitting multiple Heroes 15 times, Chain Lightning deals 270 additional damage on its bounces after the initial strike.  Mythic Reward: After hitting multiple Heroes 30 times, Chain Lightning deals 325 additional damage on its bounces, and prioritizes bouncing to enemy Heroes.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_thrall_chainlightning_var1.png",
+          "position": 2,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "ThrallCrashLightning|ThrallCrashLightning|Q|Level1",
+          "talent_id": "ThrallCrashLightning",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_thrall_chainlightning_var1_mini.png"
+        },
+        {
+          "id": "maelstrom_weapon",
+          "name": "Maelstrom Weapon",
+          "description": "Quest: Basic Attack Heroes while Windfury's Movement Speed bonus is active.  Reward: After hitting 25 Heroes, increase the Movement Speed bonus of Windfury to 40% and Thrall's Basic Attacks deal 40 additional damage.  Reward: After hitting 55 Heroes, Thrall permanently gains 15% increased Movement Speed and his Basic Attacks gain an additional 75 damage.  Mythic Reward: After hitting 100 Heroes, Frostwolf Resilience healing restores 200% more Health.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_thrall_windfury.png",
+          "position": 3,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "ThrallMaelstromWeapon|ThrallMaelstromWeapon|E|Level1",
+          "talent_id": "ThrallMaelstromWeapon",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_thrall_windfury_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "feral_resilience",
+          "name": "Feral Resilience",
+          "description": "Heroes damaged by Feral Spirit grant 4 stacks of Frostwolf Resilience and 2 stacks of Feral Resilience, granting 75 Physical Armor against the next incoming Hero Basic Attack.  Stacks are consumed on the next cast of Feral Spirit.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_thrall_feralspirit.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "ThrallFeralResilience|ThrallFeralResilience|W|Level4",
+          "talent_id": "ThrallFeralResilience",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_thrall_feralspirit_mini.png"
+        },
+        {
+          "id": "frostwolf_pack",
+          "name": "Frostwolf Pack",
+          "description": "Quest: Hit 6 Heroes with Feral Spirit. Progress is lost on death and when Thrall fails to hit a Hero.  Reward: Reduce the cooldown and Mana cost of Feral Spirit by 50%.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_thrall_feralspirit_var1.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "ThrallFrostwolfPack|ThrallFrostwolfPack|W|Level4",
+          "talent_id": "ThrallFrostwolfPack",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_thrall_feralspirit_var1_mini.png"
+        },
+        {
+          "id": "mana_tide",
+          "name": "Mana Tide",
+          "description": "Frostwolf Resilience restores 15 Mana and reduces Basic Ability cooldowns by 0.5 seconds.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_thrall_frostwolfresilience.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "ThrallMasteryManaTide|ThrallManaTideTalent|Trait|Level4",
+          "talent_id": "ThrallMasteryManaTide",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_thrall_frostwolfresilience_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "rolling_thunder",
+          "name": "Rolling Thunder",
+          "description": "Passive: Chain Lightning bounces an additional time.  For 8 seconds after hitting an enemy with Chain Lightning, Thrall's next Basic Attack against them grants a stack of Frostwolf Resilience. If the target is an enemy Hero, then he also deals damage to them equal to 3% of their maximum Health and healing for the same amount.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_thrall_chainlightning_var2.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "ThrallMasteryRollingThunder|ThrallRollingThunderTalent|Q|Level7",
+          "talent_id": "ThrallMasteryRollingThunder",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_thrall_chainlightning_var2_mini.png"
+        },
+        {
+          "id": "ancestral_wrath",
+          "name": "Ancestral Wrath",
+          "description": "Activate to consume 8 stacks of Ancestral Wrath, damaging a target enemy Hero for 15% of their maximum Health over 3 seconds, and healing Thrall for 150% of the damage dealt.  Gain 1 stack of Ancestral Wrath every time Frostwolf Resilience activates.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_talent_bloodforblood.png",
+          "position": 2,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "ThrallAncestralWrath|ThrallAncestralWrath|Active|Level7",
+          "talent_id": "ThrallAncestralWrath",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_talent_bloodforblood_mini.png"
+        },
+        {
+          "id": "elemental_assault",
+          "name": "Elemental Assault",
+          "description": "After using an Ability, Thrall's next Basic Attack within 4 seconds deals 45% more damage.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_talent_autoattack_damage.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "ThrallElementalAssault|ThrallElementalAssault|Passive|Level7",
+          "talent_id": "ThrallElementalAssault",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_talent_autoattack_damage_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "sundering",
+          "name": "Sundering",
+          "description": "Mana: 75 Cooldown: 70 seconds After 0.5 seconds, sunder the earth in a long line, dealing 290 (+4% per level) damage and shoving enemies to the side, Stunning them for 1 second.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_thrall_sundering.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "ThrallHeroicAbilitySundering|Sundering|Heroic|Level10",
+          "talent_id": "ThrallHeroicAbilitySundering",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_thrall_sundering_mini.png"
+        },
+        {
+          "id": "earthquake",
+          "name": "Earthquake",
+          "description": "Mana: 90 Cooldown: 100 seconds After 0.5 seconds, summon a massive Earthquake that pulses every 4 seconds. Each pulse lasts 2 seconds, Slowing all enemies in the area by 50%, and deals 50 (+4% per level) damage to enemy Heroes. Does 3 pulses.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_thrall_earthquake.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "ThrallHeroicAbilityEarthquake|ThrallEarthquake|Heroic|Level10",
+          "talent_id": "ThrallHeroicAbilityEarthquake",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_thrall_earthquake_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "grace_of_air",
+          "name": "Grace Of Air",
+          "description": "Windfury attacks grant twice as many stacks of Frostwolf Resilience.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_thrall_windfury.png",
+          "position": 1,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "ThrallMasteryGraceOfAir|ThrallGraceOfAirTalent|E|Level13",
+          "talent_id": "ThrallMasteryGraceOfAir",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_thrall_windfury_mini.png"
+        },
+        {
+          "id": "frostwolf_s_grace",
+          "name": "Frostwolf's Grace",
+          "description": "Cooldown: 15 seconds Frostwolf Resilience can be activated to instantly heal. This healing is increased by up to 100% based on Thrall's missing health.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_thrall_frostwolfresilience.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "ThrallMasteryFrostwolfsGrace|ThrallFrostwolfResilienceSurgeOfHealing|Trait|Level13",
+          "talent_id": "ThrallMasteryFrostwolfsGrace",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_thrall_frostwolfresilience_mini.png"
+        },
+        {
+          "id": "spirit_shield",
+          "name": "Spirit Shield",
+          "description": "Cooldown: 45 seconds Every 45 seconds, gain 70 Spell Armor against the next enemy Ability and subsequent Abilities for 4 seconds. Frostwolf Resilience reduces this cooldown by 10 seconds.  Can be toggled to allow or prevent this talent from triggering automatically.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_talent_spellshield.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "ThrallSpiritShield|ThrallSpiritShield|Active|Level13",
+          "talent_id": "ThrallSpiritShield",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2"
+          ],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_talent_spellshield_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "tempest_fury",
+          "name": "Tempest Fury",
+          "description": "The final strike of Windfury hits 3 times for 75% normal damage. These hits do not provide quest progress.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_thrall_windfury.png",
+          "position": 1,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "ThrallMasteryTempestFury|ThrallTempestFuryTalent|E|Level16",
+          "talent_id": "ThrallMasteryTempestFury",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_thrall_windfury_mini.png"
+        },
+        {
+          "id": "thunderstorm",
+          "name": "Thunderstorm",
+          "description": "Chain Lightning Slows the primary target by 8% for 2 seconds when used on Heroes.  Quest: Targeting a Hero directly with Chain Lightning increases this Slow by 8%, up to an additional 40%.  Reward: While at a 40% bonus, Chain Lightning's damage is increased by 30%.  Bonuses are reset if Chain Lightning is used on the same Hero it was last used on, or if Thrall dies.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_thrall_chainlightning.png",
+          "position": 2,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "ThrallThunderstorm|ThrallThunderstorm|Q|Level16",
+          "talent_id": "ThrallThunderstorm",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_thrall_chainlightning_mini.png"
+        },
+        {
+          "id": "alpha_wolf",
+          "name": "Alpha Wolf",
+          "description": "For 3 seconds after a Hero is hit by Feral Spirit, Thrall's Basic Attacks against them deal an additional 3% of the target's maximum Health as damage.  Passive: Increase the duration of Feral Spirit's Root to 1.5 seconds.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_thrall_feralspirit.png",
+          "position": 3,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "ThrallAlphaWolf|ThrallAlphaWolf|W|Level16",
+          "talent_id": "ThrallAlphaWolf",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_thrall_feralspirit_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "worldbreaker",
+          "name": "Worldbreaker",
+          "description": "Lower the cooldown of Sundering by 40 seconds. After Sundering impacts, it leaves behind an impassable rift, blocking unit movement for 3 seconds.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_thrall_sundering.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "ThrallMasteryWorldbreaker|ThrallWorldbreakerTalent|Heroic|Level20",
+          "talent_id": "ThrallMasteryWorldbreaker",
+          "prerequisite_talent_ids": [
+            "ThrallHeroicAbilitySundering"
+          ],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_thrall_sundering_mini.png"
+        },
+        {
+          "id": "earthen_shields",
+          "name": "Earthen Shields",
+          "description": "Allies within the Earthquake area gain a Shield equal to 15% of their maximum Health each pulse. This shield lasts 4 seconds.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_thrall_earthquake.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "ThrallMasteryEarthenShields|ThrallEarthenShieldsTalent|Heroic|Level20",
+          "talent_id": "ThrallMasteryEarthenShields",
+          "prerequisite_talent_ids": [
+            "ThrallHeroicAbilityEarthquake"
+          ],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_thrall_earthquake_mini.png"
+        },
+        {
+          "id": "elemental_momentum",
+          "name": "Elemental Momentum",
+          "description": "Basic Attacks reduce Thrall's Basic and Heroic Ability cooldowns by 0.25 seconds, tripled against Heroes.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_talent_autoattack_cooldown.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "ThrallElementalMomentum|ThrallElementalMomentum|Passive|Level20",
+          "talent_id": "ThrallElementalMomentum",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_talent_autoattack_cooldown_mini.png"
+        },
+        {
+          "id": "nexus_blades",
+          "name": "Nexus Blades",
+          "description": "Basic Attacks deal 20% more damage and Slow enemy Movement Speed by 20% for 1 second.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_talent_autoattack_slow.png",
+          "position": 4,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "GenericTalentNexusBlades|NexusBladesTalent|Passive|Level20",
+          "talent_id": "GenericTalentNexusBlades",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_talent_autoattack_slow_mini.png"
+        },
+        {
+          "id": "wind_rush",
+          "name": "Wind Rush",
+          "description": "Cooldown: 90 seconds Activate to immediately teleport to a target location and gain Windfury.",
+          "icon": "Heroes/thrall/talents/storm_ui_icon_talent_boltofthestorm.png",
+          "position": 5,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "ThrallWindRush|ThrallWindRush|Active|Level20",
+          "talent_id": "ThrallWindRush",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2",
+            "3"
+          ],
+          "icon_mini": "Heroes/thrall/talents/storm_ui_icon_talent_boltofthestorm_mini.png"
+        }
+      ]
+    }
+  ]
+}

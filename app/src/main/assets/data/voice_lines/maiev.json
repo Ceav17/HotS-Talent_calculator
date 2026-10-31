@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/maiev/portrait.png",
+  "lines": [
+    {
+      "id": "curse_that_demon_hunter_2b694391",
+      "title": "Curse That Demon Hunter",
+      "variant": null,
+      "audio": "voice_lines/maiev/curse_that_demon_hunter_2b694391.ogg"
+    },
+    {
+      "id": "i_hold_you_in_contempt_86e024e6",
+      "title": "I Hold You in Contempt",
+      "variant": null,
+      "audio": "voice_lines/maiev/i_hold_you_in_contempt_86e024e6.ogg"
+    },
+    {
+      "id": "no_prison_this_time_f720ab71",
+      "title": "No Prison This Time",
+      "variant": null,
+      "audio": "voice_lines/maiev/no_prison_this_time_f720ab71.ogg"
+    },
+    {
+      "id": "swear_to_me_f0e4a8b7",
+      "title": "Swear to Me!",
+      "variant": null,
+      "audio": "voice_lines/maiev/swear_to_me_f0e4a8b7.ogg"
+    },
+    {
+      "id": "where_s_illidan_9c33b635",
+      "title": "Where's Illidan?",
+      "variant": null,
+      "audio": "voice_lines/maiev/where_s_illidan_9c33b635.ogg"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/valeera/portrait.png",
+  "lines": [
+    {
+      "id": "cold_sharp_steel_0192c2d1",
+      "title": "Cold Sharp Steel",
+      "variant": null,
+      "audio": "voice_lines/valeera/cold_sharp_steel_0192c2d1.ogg"
+    },
+    {
+      "id": "for_the_sin_dorei_2619c3d2",
+      "title": "For the Sin'dorei",
+      "variant": null,
+      "audio": "voice_lines/valeera/for_the_sin_dorei_2619c3d2.ogg"
+    },
+    {
+      "id": "here_we_go_946e6fe7",
+      "title": "Here We Go!",
+      "variant": null,
+      "audio": "voice_lines/valeera/here_we_go_946e6fe7.ogg"
+    },
+    {
+      "id": "i_m_gone_372740a4",
+      "title": "I'm Gone",
+      "variant": null,
+      "audio": "voice_lines/valeera/i_m_gone_372740a4.ogg"
+    },
+    {
+      "id": "not_happening_1f7a4d39",
+      "title": "Not Happening",
+      "variant": null,
+      "audio": "voice_lines/valeera/not_happening_1f7a4d39.ogg"
+    }
+  ]
+}

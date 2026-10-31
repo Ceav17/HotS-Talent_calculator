@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/deckard-cain/portrait.png",
+  "lines": [
+    {
+      "id": "a_quest_for_you_1d9fcd78",
+      "title": "A Quest for You!",
+      "variant": null,
+      "audio": "voice_lines/deckard-cain/a_quest_for_you_1d9fcd78.ogg"
+    },
+    {
+      "id": "good_day_my_friend_e9472563",
+      "title": "Good Day, My Friend",
+      "variant": null,
+      "audio": "voice_lines/deckard-cain/good_day_my_friend_e9472563.ogg"
+    },
+    {
+      "id": "quite_a_scoundrel_69f0dd05",
+      "title": "Quite a Scoundrel",
+      "variant": null,
+      "audio": "voice_lines/deckard-cain/quite_a_scoundrel_69f0dd05.ogg"
+    },
+    {
+      "id": "the_last_of_the_horadrim_23508734",
+      "title": "The Last of the Horadrim",
+      "variant": null,
+      "audio": "voice_lines/deckard-cain/the_last_of_the_horadrim_23508734.ogg"
+    },
+    {
+      "id": "the_world_must_be_told_b372f64e",
+      "title": "The World Must be Told",
+      "variant": null,
+      "audio": "voice_lines/deckard-cain/the_world_must_be_told_b372f64e.ogg"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/diablo/portrait.png",
+  "lines": [
+    {
+      "id": "how_tastes_your_fear_92d84c4f",
+      "title": "How Tastes Your Fear?",
+      "variant": null,
+      "audio": "voice_lines/diablo/how_tastes_your_fear_92d84c4f.ogg"
+    },
+    {
+      "id": "i_will_feast_522234b3",
+      "title": "I Will Feast",
+      "variant": null,
+      "audio": "voice_lines/diablo/i_will_feast_522234b3.ogg"
+    },
+    {
+      "id": "lord_of_terror_4b8db83d",
+      "title": "Lord of Terror",
+      "variant": null,
+      "audio": "voice_lines/diablo/lord_of_terror_4b8db83d.ogg"
+    },
+    {
+      "id": "not_even_death_13901d38",
+      "title": "Not Even Death",
+      "variant": null,
+      "audio": "voice_lines/diablo/not_even_death_13901d38.ogg"
+    },
+    {
+      "id": "suffering_0137534b",
+      "title": "Suffering",
+      "variant": null,
+      "audio": "voice_lines/diablo/suffering_0137534b.ogg"
+    }
+  ]
+}

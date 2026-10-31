@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/kharazim/portrait.png",
+  "lines": [
+    {
+      "id": "beneath_the_endless_tide_a4bedc23",
+      "title": "Beneath the Endless Tide",
+      "variant": null,
+      "audio": "voice_lines/kharazim/beneath_the_endless_tide_a4bedc23.ogg"
+    },
+    {
+      "id": "glory_of_ivgorod_4beb89b6",
+      "title": "Glory of Ivgorod",
+      "variant": null,
+      "audio": "voice_lines/kharazim/glory_of_ivgorod_4beb89b6.ogg"
+    },
+    {
+      "id": "meditate_aa66cc2c",
+      "title": "Meditate",
+      "variant": null,
+      "audio": "voice_lines/kharazim/meditate_aa66cc2c.ogg"
+    },
+    {
+      "id": "rethink_your_intent_89ec263d",
+      "title": "Rethink Your Intent",
+      "variant": null,
+      "audio": "voice_lines/kharazim/rethink_your_intent_89ec263d.ogg"
+    },
+    {
+      "id": "your_flaws_are_revealed_b9c29eee",
+      "title": "Your Flaws Are Revealed",
+      "variant": null,
+      "audio": "voice_lines/kharazim/your_flaws_are_revealed_b9c29eee.ogg"
+    }
+  ]
+}

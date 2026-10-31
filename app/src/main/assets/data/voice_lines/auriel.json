@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/auriel/portrait.png",
+  "lines": [
+    {
+      "id": "find_peace_c63e1434",
+      "title": "Find Peace",
+      "variant": null,
+      "audio": "voice_lines/auriel/find_peace_c63e1434.ogg"
+    },
+    {
+      "id": "our_fates_are_united_e557a65e",
+      "title": "Our Fates Are United",
+      "variant": null,
+      "audio": "voice_lines/auriel/our_fates_are_united_e557a65e.ogg"
+    },
+    {
+      "id": "sublime_5989b697",
+      "title": "Sublime",
+      "variant": null,
+      "audio": "voice_lines/auriel/sublime_5989b697.ogg"
+    },
+    {
+      "id": "there_is_always_hope_98c7623a",
+      "title": "There Is Always Hope",
+      "variant": null,
+      "audio": "voice_lines/auriel/there_is_always_hope_98c7623a.ogg"
+    },
+    {
+      "id": "your_evil_ends_here_bfaa8f89",
+      "title": "Your Evil Ends Here",
+      "variant": null,
+      "audio": "voice_lines/auriel/your_evil_ends_here_bfaa8f89.ogg"
+    }
+  ]
+}

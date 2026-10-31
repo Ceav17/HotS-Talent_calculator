@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/blaze/portrait.png",
+  "lines": [
+    {
+      "id": "let_s_get_cooking_05de4572",
+      "title": "Let's Get Cooking",
+      "variant": null,
+      "audio": "voice_lines/blaze/let_s_get_cooking_05de4572.ogg"
+    },
+    {
+      "id": "need_a_light_ac78f24b",
+      "title": "Need a Light?",
+      "variant": null,
+      "audio": "voice_lines/blaze/need_a_light_ac78f24b.ogg"
+    },
+    {
+      "id": "original_or_extra_crispy_ef43b1ca",
+      "title": "Original or Extra Crispy?",
+      "variant": null,
+      "audio": "voice_lines/blaze/original_or_extra_crispy_ef43b1ca.ogg"
+    },
+    {
+      "id": "ready_to_fry_2c995b2f",
+      "title": "Ready to Fry",
+      "variant": null,
+      "audio": "voice_lines/blaze/ready_to_fry_2c995b2f.ogg"
+    },
+    {
+      "id": "smokin_0fa111b3",
+      "title": "Smokin'!",
+      "variant": null,
+      "audio": "voice_lines/blaze/smokin_0fa111b3.ogg"
+    }
+  ]
+}

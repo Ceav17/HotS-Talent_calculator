@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/tyrael/portrait.png",
+  "lines": [
+    {
+      "id": "ensured_doom_edf47aa6",
+      "title": "Ensured Doom",
+      "variant": null,
+      "audio": "voice_lines/tyrael/ensured_doom_edf47aa6.ogg"
+    },
+    {
+      "id": "indeed_6307747a",
+      "title": "Indeed",
+      "variant": null,
+      "audio": "voice_lines/tyrael/indeed_6307747a.ogg"
+    },
+    {
+      "id": "justice_be_done_b5890c7e",
+      "title": "Justice Be Done",
+      "variant": null,
+      "audio": "voice_lines/tyrael/justice_be_done_b5890c7e.ogg"
+    },
+    {
+      "id": "reckoning_is_at_hand_14fded87",
+      "title": "Reckoning Is at Hand",
+      "variant": null,
+      "audio": "voice_lines/tyrael/reckoning_is_at_hand_14fded87.ogg"
+    },
+    {
+      "id": "so_it_is_done_9c0a9d20",
+      "title": "So It Is Done",
+      "variant": null,
+      "audio": "voice_lines/tyrael/so_it_is_done_9c0a9d20.ogg"
+    }
+  ]
+}

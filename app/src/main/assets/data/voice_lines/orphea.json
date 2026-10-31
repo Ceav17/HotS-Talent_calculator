@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/orphea/portrait.png",
+  "lines": [
+    {
+      "id": "embarrassing_both_of_us_6b3e5954",
+      "title": "Embarrassing Both of Us",
+      "variant": null,
+      "audio": "voice_lines/orphea/embarrassing_both_of_us_6b3e5954.ogg"
+    },
+    {
+      "id": "for_the_nexus_e9421ca5",
+      "title": "For the Nexus!",
+      "variant": null,
+      "audio": "voice_lines/orphea/for_the_nexus_e9421ca5.ogg"
+    },
+    {
+      "id": "only_adult_here_570f5a12",
+      "title": "Only Adult Here",
+      "variant": null,
+      "audio": "voice_lines/orphea/only_adult_here_570f5a12.ogg"
+    },
+    {
+      "id": "some_style_e0c5a31b",
+      "title": "Some Style",
+      "variant": null,
+      "audio": "voice_lines/orphea/some_style_e0c5a31b.ogg"
+    },
+    {
+      "id": "someone_must_fight_5e8e460a",
+      "title": "Someone Must Fight",
+      "variant": null,
+      "audio": "voice_lines/orphea/someone_must_fight_5e8e460a.ogg"
+    }
+  ]
+}

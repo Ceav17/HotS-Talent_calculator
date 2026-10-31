@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/cho/portrait.png",
+  "lines": [
+    {
+      "id": "double_trouble_aa7a1ef7",
+      "title": "Double Trouble",
+      "variant": null,
+      "audio": "voice_lines/cho/double_trouble_aa7a1ef7.ogg"
+    },
+    {
+      "id": "get_over_here_38449bef",
+      "title": "Get Over Here!",
+      "variant": null,
+      "audio": "voice_lines/cho/get_over_here_38449bef.ogg"
+    },
+    {
+      "id": "indeed_799d258e",
+      "title": "Indeed",
+      "variant": null,
+      "audio": "voice_lines/cho/indeed_799d258e.ogg"
+    },
+    {
+      "id": "no_piece_of_you_e102743f",
+      "title": "No Piece of You",
+      "variant": null,
+      "audio": "voice_lines/cho/no_piece_of_you_e102743f.ogg"
+    },
+    {
+      "id": "we_are_your_death_2620f7f6",
+      "title": "We Are Your Death",
+      "variant": null,
+      "audio": "voice_lines/cho/we_are_your_death_2620f7f6.ogg"
+    }
+  ]
+}

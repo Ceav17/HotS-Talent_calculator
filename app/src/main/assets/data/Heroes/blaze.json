@@ -1,0 +1,688 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "blaze",
+    "name": "Blaze",
+    "team_role": "Tank",
+    "universe": "StarCraft",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "flame_stream",
+      "name": "Flame Stream",
+      "description": "Mana: 30 Cooldown: 4 seconds Fire two streams that deal 76 (+4% per level) damage to enemies hit, and an additional 120 (+4% per level) damage to non-Structure enemies hit by both streams. Flame Stream Ignites Oil Spills it comes in contact with.",
+      "icon": "Heroes/blaze/abilities/storm_ui_icon_blaze_flame.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "FirebatFlameStream|FirebatFlameStream|Q",
+      "ability_id": "FirebatFlameStream",
+      "button_id": "FirebatFlameStream",
+      "unit_id": "HeroFirebat",
+      "unit_name": "Blaze",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "oil_spill_5e0ca1b261",
+      "name": "Oil Spill",
+      "description": "Mana: 50 Charge Cooldown: 12 seconds Vector Targeting Dispense a slick of oil that lasts for 5 seconds and Slows enemies that come in contact with it by 50%.  Oil Spills are Ignited for 2.5 seconds when hit by Flame Stream. Ignited Oil Spills no longer Slow enemies, but instead deal 16 (+4% per level) damage to them every 0.3 seconds. Additionally, Blaze is healed for 49 (+4% per level) Health every 0.3 seconds while standing in Ignited Oil Spills.  Stores up to 2 charges.",
+      "icon": "Heroes/blaze/abilities/storm_ui_icon_blaze_oil.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "FirebatOilSpill|FirebatOilSpill|W",
+      "ability_id": "FirebatOilSpill",
+      "button_id": "FirebatOilSpill",
+      "unit_id": "HeroFirebat",
+      "unit_name": "Blaze",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "jet_propulsion",
+      "name": "Jet Propulsion",
+      "description": "Mana: 45 Cooldown: 10 seconds After 0.375 seconds, charge forward. Colliding with an enemy Hero deals 52 (+4% per level) damage to all nearby enemy Heroes and Stuns them for 1.25 seconds.",
+      "icon": "Heroes/blaze/abilities/storm_ui_icon_blaze_jet.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "FirebatJetPropulsion|FirebatJetPropulsion|E",
+      "ability_id": "FirebatJetPropulsion",
+      "button_id": "FirebatJetPropulsion",
+      "unit_id": "HeroFirebat",
+      "unit_name": "Blaze",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "bunker_drop",
+      "name": "Bunker Drop",
+      "description": "Mana: 80 Cooldown: 85 seconds After 0.5 seconds, deploy and enter a Bunker with 1435 (+4% per level) Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 150 (+4% per level) damage to enemies in a line.   Exiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed.",
+      "icon": "Heroes/blaze/talents/storm_ui_icon_blaze_bunker.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "FirebatBunkerDrop|FirebatBunkerDrop|Heroic",
+      "ability_id": "FirebatBunkerDrop",
+      "button_id": "FirebatBunkerDrop",
+      "unit_id": "HeroFirebat",
+      "unit_name": "Blaze",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/blaze/talents/storm_ui_icon_blaze_bunker_mini.png"
+    },
+    {
+      "id": "combustion",
+      "name": "Combustion",
+      "description": "Mana: 70 Cooldown: 80 seconds Channel for up to 2.6 seconds. Upon ending, Slow nearby enemies by 60% and deal 55 (+4% per level) damage to them every 0.5 seconds. Combustion's Slow and damage over time duration is extended the longer Blaze Channels, from 1 second up to 5 seconds.  Blaze's Movement Speed is reduced by 40% while Channeling.",
+      "icon": "Heroes/blaze/talents/storm_ui_icon_blaze_combustion.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "FirebatCombustion|FirebatCombustion|Heroic",
+      "ability_id": "FirebatCombustion",
+      "button_id": "FirebatCombustion",
+      "unit_id": "HeroFirebat",
+      "unit_name": "Blaze",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/blaze/talents/storm_ui_icon_blaze_combustion_mini.png"
+    },
+    {
+      "id": "pyromania",
+      "name": "Pyromania",
+      "description": "Cooldown: 90 seconds Gain 40 Armor and deal 40 (+4% per level) damage to nearby enemies every 0.5 seconds for 4 seconds.  Each Hero hit by Flame Stream reduces Pyromania's cooldown by 4 seconds.",
+      "icon": "Heroes/blaze/abilities/storm_ui_icon_blaze_pyromania.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "FirebatIgnite|FirebatIgnite|Trait",
+      "ability_id": "FirebatIgnite",
+      "button_id": "FirebatIgnite",
+      "unit_id": "HeroFirebat",
+      "unit_name": "Blaze",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroFirebat",
+      "unit_name": "Blaze",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroFirebat",
+      "unit_name": "Blaze",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "combustion_cancel",
+      "name": "Combustion Cancel",
+      "description": "Cancel Combustion.",
+      "icon": null,
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "FirebatCombustionCancel|FirebatCombustionCancel|Heroic",
+      "ability_id": "FirebatCombustionCancel",
+      "button_id": "FirebatCombustionCancel",
+      "unit_id": "HeroFirebat",
+      "unit_name": "Blaze",
+      "parent_link_ids": [
+        "FirebatCombustion|FirebatCombustion|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroFirebat",
+      "unit_name": "Blaze",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "flamethrower",
+      "name": "Flamethrower",
+      "description": "Cooldown: 1 second Deal 150 (+4% per level) damage to enemies in a line.",
+      "icon": "Heroes/blaze/abilities/storm_ui_icon_blaze_flame.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "FirebatBunkerDropFlamethrower|FirebatBunkerDropFlamethrower|Q",
+      "ability_id": "FirebatBunkerDropFlamethrower",
+      "button_id": "FirebatBunkerDropFlamethrower",
+      "unit_id": "FirebatBunkerDropBunkerUnit",
+      "unit_name": "Bunker",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "oil_spill_3204f84dac",
+      "name": "Oil Spill",
+      "description": "Cooldown: 6 seconds Vector Targeting Dispense an Oil Spill that Slows enemies and can be set on fire by Blaze.",
+      "icon": "Heroes/blaze/abilities/storm_ui_icon_blaze_oil.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "FirebatBunkerDropFortifiedBunkerOilSpill|FirebatBunkerDropFortifiedBunkerOilSpill|W",
+      "ability_id": "FirebatBunkerDropFortifiedBunkerOilSpill",
+      "button_id": "FirebatBunkerDropFortifiedBunkerOilSpill",
+      "unit_id": "FirebatBunkerDropBunkerUnit",
+      "unit_name": "Bunker",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "exit_bunker",
+      "name": "Exit Bunker",
+      "description": "Exit Bunker.",
+      "icon": null,
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "FirebatBunkerDropExitBunker|FirebatBunkerDropExitBunker|Trait",
+      "ability_id": "FirebatBunkerDropExitBunker",
+      "button_id": "FirebatBunkerDropExitBunker",
+      "unit_id": "FirebatBunkerDropBunkerUnit",
+      "unit_name": "Bunker",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "adrenaline_stimpack",
+      "name": "Adrenaline Stimpack",
+      "description": "Cooldown: 30 seconds Passive: While over 80% Health, gain 20% bonus Attack Speed and 10% bonus Movement Speed.  Activate to gain 85% Attack Speed and 25% Movement Speed for 5 seconds.",
+      "icon": "Heroes/blaze/abilities/storm_ui_icon_blaze_stim_2.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "FirebatAdrenalineStimpack|FirebatAdrenalineStimpack|Active",
+      "ability_id": "FirebatAdrenalineStimpack",
+      "button_id": "FirebatAdrenalineStimpack",
+      "unit_id": "HeroFirebat",
+      "unit_name": "Blaze",
+      "parent_link_ids": [
+        "FirebatAdrenalineStimpack|FirebatAdrenalineStimpack|Active|Level1"
+      ],
+      "unlock_conditions": [
+        [
+          "FirebatAdrenalineStimpack"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "FirebatAdrenalineStimpack",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 1,
+      "unlock_position": 1
+    },
+    {
+      "id": "endurance_stimpack",
+      "name": "Endurance Stimpack",
+      "description": "Cooldown: 30 seconds Activate to gain a Shield that absorbs 590 (+4% per level) damage over 5 seconds.  When taking damage while below 30% maximum Health, Endurance Stimpack will automatically be cast if it is not on cooldown.",
+      "icon": "Heroes/blaze/abilities/storm_ui_icon_blaze_stim_1.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "FirebatEnduranceStimpack|FirebatEnduranceStimpack|Active",
+      "ability_id": "FirebatEnduranceStimpack",
+      "button_id": "FirebatEnduranceStimpack",
+      "unit_id": "HeroFirebat",
+      "unit_name": "Blaze",
+      "parent_link_ids": [
+        "FirebatEnduranceStimpack|FirebatEnduranceStimpack|Active|Level1"
+      ],
+      "unlock_conditions": [
+        [
+          "FirebatEnduranceStimpack"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "FirebatEnduranceStimpack",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 1,
+      "unlock_position": 2
+    },
+    {
+      "id": "neural_stimpack",
+      "name": "Neural Stimpack",
+      "description": "Cooldown: 30 seconds Activate to gain 40 Mana and cause Basic Ability cooldowns to recharge 100% faster for 5 seconds.",
+      "icon": "Heroes/blaze/abilities/storm_ui_icon_blaze_stim_3.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "FirebatNeuralStimpack|FirebatNeuralStimpack|Active",
+      "ability_id": "FirebatNeuralStimpack",
+      "button_id": "FirebatNeuralStimpack",
+      "unit_id": "HeroFirebat",
+      "unit_name": "Blaze",
+      "parent_link_ids": [
+        "FirebatNeuralStimpack|FirebatNeuralStimpack|Active|Level1"
+      ],
+      "unlock_conditions": [
+        [
+          "FirebatNeuralStimpack"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "FirebatNeuralStimpack",
+      "active_order": 3,
+      "active_origin": "talent",
+      "unlock_level": 1,
+      "unlock_position": 3
+    },
+    {
+      "id": "juggernaut_plating",
+      "name": "Juggernaut Plating",
+      "description": "Cooldown: 30 seconds Activate to gain 50 Spell Armor for 3 seconds. Upon expiration, gain a Shield equal to 125% of the Spell Damage taken while Juggernaut Plating was active.",
+      "icon": "Heroes/blaze/abilities/storm_ui_icon_blaze_vanadium_plating.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "FirebatJuggernautPlating|FirebatActiveJuggernautPlating|Active",
+      "ability_id": "FirebatJuggernautPlating",
+      "button_id": "FirebatActiveJuggernautPlating",
+      "unit_id": "HeroFirebat",
+      "unit_name": "Blaze",
+      "parent_link_ids": [
+        "FirebatActiveJuggernautPlating|FirebatActiveJuggernautPlating|Active|Level16"
+      ],
+      "unlock_conditions": [
+        [
+          "FirebatActiveJuggernautPlating"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "FirebatJuggernautPlating",
+      "active_order": 4,
+      "active_origin": "talent",
+      "unlock_level": 16,
+      "unlock_position": 3
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "adrenaline_stimpack",
+          "name": "Adrenaline Stimpack",
+          "description": "Cooldown: 30 seconds Passive: While over 80% Health, gain 20% bonus Attack Speed and 10% bonus Movement Speed.  Activate to gain 85% Attack Speed and 25% Movement Speed for 5 seconds.",
+          "icon": "Heroes/blaze/talents/storm_ui_icon_blaze_stim_2.png",
+          "position": 1,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "FirebatAdrenalineStimpack|FirebatAdrenalineStimpack|Active|Level1",
+          "talent_id": "FirebatAdrenalineStimpack",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/blaze/talents/storm_ui_icon_blaze_stim_2_mini.png"
+        },
+        {
+          "id": "endurance_stimpack",
+          "name": "Endurance Stimpack",
+          "description": "Cooldown: 30 seconds Activate to gain a Shield that absorbs 590 (+4% per level) damage over 5 seconds.  When taking damage while below 30% maximum Health, Endurance Stimpack will automatically be cast if it is not on cooldown.",
+          "icon": "Heroes/blaze/talents/storm_ui_icon_blaze_stim_1.png",
+          "position": 2,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "FirebatEnduranceStimpack|FirebatEnduranceStimpack|Active|Level1",
+          "talent_id": "FirebatEnduranceStimpack",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/blaze/talents/storm_ui_icon_blaze_stim_1_mini.png"
+        },
+        {
+          "id": "neural_stimpack",
+          "name": "Neural Stimpack",
+          "description": "Cooldown: 30 seconds Activate to gain 40 Mana and cause Basic Ability cooldowns to recharge 100% faster for 5 seconds.",
+          "icon": "Heroes/blaze/talents/storm_ui_icon_blaze_stim_3.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "FirebatNeuralStimpack|FirebatNeuralStimpack|Active|Level1",
+          "talent_id": "FirebatNeuralStimpack",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/blaze/talents/storm_ui_icon_blaze_stim_3_mini.png"
+        },
+        {
+          "id": "new_habits",
+          "name": "New Habits",
+          "description": "Collecting Regeneration Globes reduces the cooldown of Pyromania by 6 seconds.  Quest: Collect 15 Regeneration Globes.  Reward: Pyromania grants Unstoppable for 2 seconds.",
+          "icon": "Heroes/blaze/talents/storm_ui_icon_blaze_new_habits.png",
+          "position": 4,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "FirebatNewHabits|FirebatNewHabits|Trait|Level1",
+          "talent_id": "FirebatNewHabits",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/blaze/talents/storm_ui_icon_blaze_new_habits_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "oil_dispersal",
+          "name": "Oil Dispersal",
+          "description": "Increase Oil Spill's area by 20%. Each enemy Hero hit by Flame Stream reduces the cooldown of Oil Spill by 0.75 seconds and refunds 5 Mana.",
+          "icon": "Heroes/blaze/talents/storm_ui_icon_blaze_oil.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "FirebatOilSpillOilDispersal|FirebatOilSpillOilDispersal|W|Level4",
+          "talent_id": "FirebatOilSpillOilDispersal",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/blaze/talents/storm_ui_icon_blaze_oil_mini.png"
+        },
+        {
+          "id": "meltdown",
+          "name": "Meltdown",
+          "description": "Hitting an enemy Hero with Pyromania reduces their damage dealt by 8% for 2.5 seconds, up to 40%.",
+          "icon": "Heroes/blaze/talents/storm_ui_icon_blaze_pyromania.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "FirebatIgniteMeltdown|FirebatIgniteMeltdown|Trait|Level4",
+          "talent_id": "FirebatIgniteMeltdown",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/blaze/talents/storm_ui_icon_blaze_pyromania_mini.png"
+        },
+        {
+          "id": "incinerator_gauntlets",
+          "name": "Incinerator Gauntlets",
+          "description": "Increase Basic Attack area by 15%, and Basic Attack damage to Minions, Mercenaries, and Monsters by 40%.",
+          "icon": "Heroes/blaze/talents/storm_ui_icon_talent_autoattack_building.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "FirebatWeaponIncineratorGauntlets|FirebatWeaponIncineratorGauntlets|Passive|Level4",
+          "talent_id": "FirebatWeaponIncineratorGauntlets",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/blaze/talents/storm_ui_icon_talent_autoattack_building_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "suppressive_fire",
+          "name": "Suppressive Fire",
+          "description": "Each stream of Flame Stream reduces the Spell Power of Heroes hit by 20% for 4 seconds, up to 40%.",
+          "icon": "Heroes/blaze/talents/storm_ui_icon_blaze_flame.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "FirebatFlameStreamSuppressiveFire|FirebatFlameStreamSuppressiveFire|Q|Level7",
+          "talent_id": "FirebatFlameStreamSuppressiveFire",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/blaze/talents/storm_ui_icon_blaze_flame_mini.png"
+        },
+        {
+          "id": "nanomachine_coating",
+          "name": "Nanomachine Coating",
+          "description": "Enemies standing in Oil Spills and Ignited Oil Spills have their Attack Speed reduced by 35% for 4 seconds.",
+          "icon": "Heroes/blaze/talents/storm_ui_icon_blaze_oil.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "FirebatOilSpillNanomachineCoating|FirebatOilSpillNanomachineCoating|W|Level7",
+          "talent_id": "FirebatOilSpillNanomachineCoating",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/blaze/talents/storm_ui_icon_blaze_oil_mini.png"
+        },
+        {
+          "id": "fuel_leak",
+          "name": "Fuel Leak",
+          "description": "Jet Propulsion creates Oil Spills along Blaze's path. If Jet Propulsion impacts an enemy Hero, an additional Oil Spill is created underneath them.",
+          "icon": "Heroes/blaze/talents/storm_ui_icon_blaze_jet.png",
+          "position": 3,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "FirebatJetPropulsionFuelLeak|FirebatJetPropulsionFuelLeak|E|Level7",
+          "talent_id": "FirebatJetPropulsionFuelLeak",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/blaze/talents/storm_ui_icon_blaze_jet_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "bunker_drop",
+          "name": "Bunker Drop",
+          "description": "Mana: 80 Cooldown: 85 seconds After 0.5 seconds, deploy and enter a Bunker with 1435 (+4% per level) Health. Blaze and his allies can enter and exit the Bunker at will. While in the Bunker, occupants gain access to Flamethrower, dealing 150 (+4% per level) damage to enemies in a line.   Exiting the Bunker grants 25 Armor for 2 seconds. Bunkers last 10 seconds, or until destroyed.",
+          "icon": "Heroes/blaze/talents/storm_ui_icon_blaze_bunker.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "FirebatHeroicAbilityBunkerDrop|FirebatBunkerDrop|Heroic|Level10",
+          "talent_id": "FirebatHeroicAbilityBunkerDrop",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/blaze/talents/storm_ui_icon_blaze_bunker_mini.png"
+        },
+        {
+          "id": "combustion",
+          "name": "Combustion",
+          "description": "Mana: 70 Cooldown: 80 seconds Channel for up to 2.6 seconds. Upon ending, Slow nearby enemies by 60% and deal 55 (+4% per level) damage to them every 0.5 seconds. Combustion's Slow and damage over time duration is extended the longer Blaze Channels, from 1 second up to 5 seconds.  Blaze's Movement Speed is reduced by 40% while Channeling.",
+          "icon": "Heroes/blaze/talents/storm_ui_icon_blaze_combustion.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "FirebatHeroicAbilityCombustion|FirebatCombustion|Heroic|Level10",
+          "talent_id": "FirebatHeroicAbilityCombustion",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/blaze/talents/storm_ui_icon_blaze_combustion_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "grill_and_kill",
+          "name": "Grill and Kill",
+          "description": "Increase Ignited Oil Spill damage by 45%.  Quest: Damage enemy Heroes with Ignited Oil Spills 30 times.  Reward: Increase Oil Spill's Ignite duration by 2.5 seconds.",
+          "icon": "Heroes/blaze/talents/storm_ui_icon_blaze_oil.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "FirebatOilSpillGrillandKill|FirebatOilSpillGrillandKill|W|Level13",
+          "talent_id": "FirebatOilSpillGrillandKill",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/blaze/talents/storm_ui_icon_blaze_oil_mini.png"
+        },
+        {
+          "id": "adhesive_petroleum",
+          "name": "Adhesive Petroleum",
+          "description": "Enemies standing in Oil Spill when it is Ignited are Slowed by 40% and take 35% more Basic Attack damage from Blaze for 3 seconds. Additionally, Basic Attack splashes Ignite Oil Spills.",
+          "icon": "Heroes/blaze/talents/storm_ui_icon_blaze_oil_b.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "FirebatOilSpillAdhesivePetroleum|FirebatOilSpillAdhesivePetroleum|W|Level13",
+          "talent_id": "FirebatOilSpillAdhesivePetroleum",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/blaze/talents/storm_ui_icon_blaze_oil_b_mini.png"
+        },
+        {
+          "id": "collision_course",
+          "name": "Collision Course",
+          "description": "Jet Propulsion's collision deals 260 (+4% per level) damage to the first enemy Hero hit.",
+          "icon": "Heroes/blaze/talents/storm_ui_icon_blaze_jet.png",
+          "position": 3,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "FirebatJetPropulsionCollisionCourse|FirebatJetPropulsionCollisionCourse|E|Level13",
+          "talent_id": "FirebatJetPropulsionCollisionCourse",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/blaze/talents/storm_ui_icon_blaze_jet_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "thermal_protection",
+          "name": "Thermal Protection",
+          "description": "Each enemy hit by Jet Propulsion grants 10 Armor for 3 seconds and reduces its cooldown by 1.25 seconds.",
+          "icon": "Heroes/blaze/talents/storm_ui_icon_blaze_jet.png",
+          "position": 1,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "FirebatJetPropulsionThermalProtection|FirebatJetPropulsionThermalProtection|E|Level16",
+          "talent_id": "FirebatJetPropulsionThermalProtection",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/blaze/talents/storm_ui_icon_blaze_jet_mini.png"
+        },
+        {
+          "id": "heat_treatment",
+          "name": "Heat Treatment",
+          "description": "Heal for 75% of the damage dealt by Pyromania.",
+          "icon": "Heroes/blaze/talents/storm_ui_icon_blaze_pyromania.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "FirebatIgniteHeatTreatment|FirebatIgniteHeatTreatment|Trait|Level16",
+          "talent_id": "FirebatIgniteHeatTreatment",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/blaze/talents/storm_ui_icon_blaze_pyromania_mini.png"
+        },
+        {
+          "id": "juggernaut_plating",
+          "name": "Juggernaut Plating",
+          "description": "Cooldown: 30 seconds Activate to gain 50 Spell Armor for 3 seconds. Upon expiration, gain a Shield equal to 125% of the Spell Damage taken while Juggernaut Plating was active.",
+          "icon": "Heroes/blaze/talents/storm_ui_icon_blaze_vanadium_plating.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "FirebatActiveJuggernautPlating|FirebatActiveJuggernautPlating|Active|Level16",
+          "talent_id": "FirebatActiveJuggernautPlating",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2"
+          ],
+          "icon_mini": "Heroes/blaze/talents/storm_ui_icon_blaze_vanadium_plating_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "fortified_bunker",
+          "name": "Fortified Bunker",
+          "description": "Occupants can cast Oil Spill from Bunker Drop every 6 seconds. Additionally, Bunker Drop's Armor bonus upon exiting is increased by 25, and its duration by 1 second.",
+          "icon": "Heroes/blaze/talents/storm_ui_icon_blaze_bunker.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "FirebatBunkerDropFortifiedBunker|FirebatBunkerDropFortifiedBunker|Heroic|Level20",
+          "talent_id": "FirebatBunkerDropFortifiedBunker",
+          "prerequisite_talent_ids": [
+            "FirebatHeroicAbilityBunkerDrop"
+          ],
+          "icon_mini": "Heroes/blaze/talents/storm_ui_icon_blaze_bunker_mini.png"
+        },
+        {
+          "id": "flash_fire",
+          "name": "Flash Fire",
+          "description": "While Channeling Combustion, Blaze's Movement Speed is no longer reduced, and nearby enemies are Slowed by 60%.",
+          "icon": "Heroes/blaze/talents/storm_ui_icon_blaze_combustion.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "FirebatCombustionFlashFire|FirebatCombustionFlashFire|Heroic|Level20",
+          "talent_id": "FirebatCombustionFlashFire",
+          "prerequisite_talent_ids": [
+            "FirebatHeroicAbilityCombustion"
+          ],
+          "icon_mini": "Heroes/blaze/talents/storm_ui_icon_blaze_combustion_mini.png"
+        },
+        {
+          "id": "burn_notice",
+          "name": "Burn Notice",
+          "description": "Basic Attacks Slow enemies by 5% and deal an additional 18 (+4% per level) damage over 2.5 seconds. Stacks up to 5 times.",
+          "icon": "Heroes/blaze/talents/storm_ui_icon_talent_autoattack_slow.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "FirebatWeaponBurnNotice|FirebatWeaponBurnNotice|Passive|Level20",
+          "talent_id": "FirebatWeaponBurnNotice",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/blaze/talents/storm_ui_icon_talent_autoattack_slow_mini.png"
+        }
+      ]
+    }
+  ]
+}

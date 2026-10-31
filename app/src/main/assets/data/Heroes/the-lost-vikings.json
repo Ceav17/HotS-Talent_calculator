@@ -1,0 +1,1235 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "the-lost-vikings",
+    "name": "The Lost Vikings",
+    "team_role": "Support",
+    "universe": "Hots",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "longboat_raid_442ff6d3fd",
+      "name": "Longboat Raid!",
+      "description": "Cooldown: 90 seconds Hop into an Unstoppable Longboat that fires at nearby enemies for 128 (+4% per level) damage per second and can fire a mortar that deals 228 (+4% per level) damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are Stunned for 1 second. Lasts 15 seconds.  Requires all surviving Vikings to be nearby.",
+      "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_longboatraid.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic",
+      "ability_id": "LostVikingsLongboatRaidNewer",
+      "button_id": "LostVikingsLongboatRaid",
+      "unit_id": "HeroLostVikingsController",
+      "unit_name": "The Lost Vikings",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_longboatraid_mini.png"
+    },
+    {
+      "id": "play_again_0480588a0d",
+      "name": "Play Again!",
+      "description": "Cooldown: 100 seconds Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds.   Only one Viking may attempt to summon at a time.",
+      "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_playagain.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "LostVikingsPlayAgain|LostVikingsPlayAgain|Heroic",
+      "ability_id": "LostVikingsPlayAgain",
+      "button_id": "LostVikingsPlayAgain",
+      "unit_id": "HeroLostVikingsController",
+      "unit_name": "The Lost Vikings",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_playagain_mini.png"
+    },
+    {
+      "id": "viking_hoard_f26fd60ceb",
+      "name": "Viking Hoard",
+      "description": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.  Current Bonus: 0 Regen per second",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_vikinghoard.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": ":PASSIVE:|LostVikingsVikingHoardTalent|Trait",
+      "ability_id": ":PASSIVE:",
+      "button_id": "LostVikingsVikingHoardTalent",
+      "unit_id": "HeroLostVikingsController",
+      "unit_name": "The Lost Vikings",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "go_go_go_9786ab6a28",
+      "name": "Go Go Go!",
+      "description": "Cooldown: 30 seconds The Vikings gain 30% increased Movement Speed for 4 seconds.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "LostVikingsGoGoGo|LostVikingsGoGoGo|Z",
+      "ability_id": "LostVikingsGoGoGo",
+      "button_id": "LostVikingsGoGoGo",
+      "unit_id": "HeroLostVikingsController",
+      "unit_name": "The Lost Vikings",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone_da428d10a7",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroLostVikingsController",
+      "unit_name": "The Lost Vikings",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "spin_to_win_ff34be247e",
+      "name": "Spin To Win!",
+      "description": "Cooldown: 10 seconds Activate to have each Viking deal 85 (+4% per level) damage to nearby enemies.  Deals 100% bonus damage to enemy Heroes.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_spintowin.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "LostVikingsSpinToWin|LostVikingsSpinToWin|Q",
+      "ability_id": "LostVikingsSpinToWin",
+      "button_id": "LostVikingsSpinToWin",
+      "unit_id": "HeroBaleog",
+      "unit_name": "Baleog",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "norse_force_3e57180261",
+      "name": "Norse Force!",
+      "description": "Cooldown: 15 seconds All Vikings gain a 140 (+4% per level) to 308 (+4% per level) point Shield, increasing in strength for each Viking alive. Lasts 4 seconds.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_norseforce.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "LostVikingsNorseForce|LostVikingsNorseForce|Q",
+      "ability_id": "LostVikingsNorseForce",
+      "button_id": "LostVikingsNorseForce",
+      "unit_id": "HeroBaleog",
+      "unit_name": "Baleog",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "jump_e82513d988",
+      "name": "Jump!",
+      "description": "Cooldown: 30 seconds Makes all Vikings Invulnerable and able to pass over enemies for 1.5 seconds.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_jump.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "LostVikingsPressA|LostVikingsJump|W",
+      "ability_id": "LostVikingsPressA",
+      "button_id": "LostVikingsJump",
+      "unit_id": "HeroBaleog",
+      "unit_name": "Baleog",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "viking_bribery_027e46513d",
+      "name": "Viking Bribery",
+      "description": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_talent_bribe.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "LostVikingsVikingBribery|LostVikingsVikingBribery|E",
+      "ability_id": "LostVikingsVikingBribery",
+      "button_id": "LostVikingsVikingBribery",
+      "unit_id": "HeroBaleog",
+      "unit_name": "Baleog",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "play_again_bad7f2ddbf",
+      "name": "Play Again!",
+      "description": "Cooldown: 100 seconds Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds.   Only one Viking may attempt to summon at a time.",
+      "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_playagain.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "LostVikingsPlayAgain|LostVikingsPlayAgain|Heroic",
+      "ability_id": "LostVikingsPlayAgain",
+      "button_id": "LostVikingsPlayAgain",
+      "unit_id": "HeroBaleog",
+      "unit_name": "Baleog",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_playagain_mini.png"
+    },
+    {
+      "id": "longboat_raid_93b02e7524",
+      "name": "Longboat Raid!",
+      "description": "Cooldown: 90 seconds Hop into an Unstoppable Longboat that fires at nearby enemies for 128 (+4% per level) damage per second and can fire a mortar that deals 228 (+4% per level) damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are Stunned for 1 second. Lasts 15 seconds.  Requires all surviving Vikings to be nearby.",
+      "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_longboatraid.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic",
+      "ability_id": "LostVikingsLongboatRaidNewer",
+      "button_id": "LostVikingsLongboatRaid",
+      "unit_id": "HeroBaleog",
+      "unit_name": "Baleog",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_longboatraid_mini.png"
+    },
+    {
+      "id": "viking_hoard_2971422add",
+      "name": "Viking Hoard",
+      "description": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.  Current Bonus: 0 Regen per second",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_vikinghoard.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": ":PASSIVE:|LostVikingsVikingHoardTalent|Trait",
+      "ability_id": ":PASSIVE:",
+      "button_id": "LostVikingsVikingHoardTalent",
+      "unit_id": "HeroBaleog",
+      "unit_name": "Baleog",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "go_go_go_ac8193b177",
+      "name": "Go Go Go!",
+      "description": "Cooldown: 30 seconds The Vikings gain 30% increased Movement Speed for 4 seconds.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "LostVikingsGoGoGo|LostVikingsGoGoGo|Z",
+      "ability_id": "LostVikingsGoGoGo",
+      "button_id": "LostVikingsGoGoGo",
+      "unit_id": "HeroBaleog",
+      "unit_name": "Baleog",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone_28685339cb",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|HearthstoneNoMana|B",
+      "ability_id": "Hearthstone",
+      "button_id": "HearthstoneNoMana",
+      "unit_id": "HeroBaleog",
+      "unit_name": "Baleog",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "mortar_8182432523",
+      "name": "Mortar",
+      "description": "Cooldown: 3 seconds Fires a mortar at the targeted location, dealing 228 (+4% per level) damage in a large area.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_mortar.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "LostVikingsLongboatRaidMortar|LostVikingsMortar|Q",
+      "ability_id": "LostVikingsLongboatRaidMortar",
+      "button_id": "LostVikingsMortar",
+      "unit_id": "HeroBaleog",
+      "unit_name": "Baleog",
+      "parent_link_ids": [
+        "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "spin_to_win_e8475a4a8c",
+      "name": "Spin To Win!",
+      "description": "Cooldown: 10 seconds Activate to have each Viking deal 85 (+4% per level) damage to nearby enemies.  Deals 100% bonus damage to enemy Heroes.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_spintowin.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "LostVikingsSpinToWin|LostVikingsSpinToWin|Q",
+      "ability_id": "LostVikingsSpinToWin",
+      "button_id": "LostVikingsSpinToWin",
+      "unit_id": "HeroErik",
+      "unit_name": "Erik",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "norse_force_25af7293bb",
+      "name": "Norse Force!",
+      "description": "Cooldown: 15 seconds All Vikings gain a 140 (+4% per level) to 308 (+4% per level) point Shield, increasing in strength for each Viking alive. Lasts 4 seconds.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_norseforce.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "LostVikingsNorseForce|LostVikingsNorseForce|Q",
+      "ability_id": "LostVikingsNorseForce",
+      "button_id": "LostVikingsNorseForce",
+      "unit_id": "HeroErik",
+      "unit_name": "Erik",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "jump_a20fb4b7ee",
+      "name": "Jump!",
+      "description": "Cooldown: 30 seconds Makes all Vikings Invulnerable and able to pass over enemies for 1.5 seconds.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_jump.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "LostVikingsPressA|LostVikingsJump|W",
+      "ability_id": "LostVikingsPressA",
+      "button_id": "LostVikingsJump",
+      "unit_id": "HeroErik",
+      "unit_name": "Erik",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "viking_bribery_27a5b6d0ce",
+      "name": "Viking Bribery",
+      "description": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_talent_bribe.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "LostVikingsVikingBribery|LostVikingsVikingBribery|E",
+      "ability_id": "LostVikingsVikingBribery",
+      "button_id": "LostVikingsVikingBribery",
+      "unit_id": "HeroErik",
+      "unit_name": "Erik",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "play_again_7cc611923f",
+      "name": "Play Again!",
+      "description": "Cooldown: 100 seconds Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds.   Only one Viking may attempt to summon at a time.",
+      "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_playagain.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "LostVikingsPlayAgain|LostVikingsPlayAgain|Heroic",
+      "ability_id": "LostVikingsPlayAgain",
+      "button_id": "LostVikingsPlayAgain",
+      "unit_id": "HeroErik",
+      "unit_name": "Erik",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_playagain_mini.png"
+    },
+    {
+      "id": "longboat_raid_331a60b372",
+      "name": "Longboat Raid!",
+      "description": "Cooldown: 90 seconds Hop into an Unstoppable Longboat that fires at nearby enemies for 128 (+4% per level) damage per second and can fire a mortar that deals 228 (+4% per level) damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are Stunned for 1 second. Lasts 15 seconds.  Requires all surviving Vikings to be nearby.",
+      "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_longboatraid.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic",
+      "ability_id": "LostVikingsLongboatRaidNewer",
+      "button_id": "LostVikingsLongboatRaid",
+      "unit_id": "HeroErik",
+      "unit_name": "Erik",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_longboatraid_mini.png"
+    },
+    {
+      "id": "viking_hoard_b0ad7a7dba",
+      "name": "Viking Hoard",
+      "description": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.  Current Bonus: 0 Regen per second",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_vikinghoard.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": ":PASSIVE:|LostVikingsVikingHoardTalent|Trait",
+      "ability_id": ":PASSIVE:",
+      "button_id": "LostVikingsVikingHoardTalent",
+      "unit_id": "HeroErik",
+      "unit_name": "Erik",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "go_go_go_0899ba2906",
+      "name": "Go Go Go!",
+      "description": "Cooldown: 30 seconds The Vikings gain 30% increased Movement Speed for 4 seconds.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "LostVikingsGoGoGo|LostVikingsGoGoGo|Z",
+      "ability_id": "LostVikingsGoGoGo",
+      "button_id": "LostVikingsGoGoGo",
+      "unit_id": "HeroErik",
+      "unit_name": "Erik",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone_6fd58cfd44",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|HearthstoneNoMana|B",
+      "ability_id": "Hearthstone",
+      "button_id": "HearthstoneNoMana",
+      "unit_id": "HeroErik",
+      "unit_name": "Erik",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "mortar_255f8bc67d",
+      "name": "Mortar",
+      "description": "Cooldown: 3 seconds Fires a mortar at the targeted location, dealing 228 (+4% per level) damage in a large area.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_mortar.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "LostVikingsLongboatRaidMortar|LostVikingsMortar|Q",
+      "ability_id": "LostVikingsLongboatRaidMortar",
+      "button_id": "LostVikingsMortar",
+      "unit_id": "HeroErik",
+      "unit_name": "Erik",
+      "parent_link_ids": [
+        "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "spin_to_win_d988fb9706",
+      "name": "Spin To Win!",
+      "description": "Cooldown: 10 seconds Activate to have each Viking deal 85 (+4% per level) damage to nearby enemies.  Deals 100% bonus damage to enemy Heroes.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_spintowin.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "LostVikingsSpinToWin|LostVikingsSpinToWin|Q",
+      "ability_id": "LostVikingsSpinToWin",
+      "button_id": "LostVikingsSpinToWin",
+      "unit_id": "HeroOlaf",
+      "unit_name": "Olaf",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "norse_force_eb9dc12c20",
+      "name": "Norse Force!",
+      "description": "Cooldown: 15 seconds All Vikings gain a 140 (+4% per level) to 308 (+4% per level) point Shield, increasing in strength for each Viking alive. Lasts 4 seconds.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_norseforce.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "LostVikingsNorseForce|LostVikingsNorseForce|Q",
+      "ability_id": "LostVikingsNorseForce",
+      "button_id": "LostVikingsNorseForce",
+      "unit_id": "HeroOlaf",
+      "unit_name": "Olaf",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "jump_fa774bff94",
+      "name": "Jump!",
+      "description": "Cooldown: 30 seconds Makes all Vikings Invulnerable and able to pass over enemies for 1.5 seconds.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_jump.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "LostVikingsPressA|LostVikingsJump|W",
+      "ability_id": "LostVikingsPressA",
+      "button_id": "LostVikingsJump",
+      "unit_id": "HeroOlaf",
+      "unit_name": "Olaf",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "viking_bribery_4f5aa844d1",
+      "name": "Viking Bribery",
+      "description": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_talent_bribe.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "LostVikingsVikingBribery|LostVikingsVikingBribery|E",
+      "ability_id": "LostVikingsVikingBribery",
+      "button_id": "LostVikingsVikingBribery",
+      "unit_id": "HeroOlaf",
+      "unit_name": "Olaf",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "play_again_79134cb804",
+      "name": "Play Again!",
+      "description": "Cooldown: 100 seconds Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds.   Only one Viking may attempt to summon at a time.",
+      "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_playagain.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "LostVikingsPlayAgain|LostVikingsPlayAgain|Heroic",
+      "ability_id": "LostVikingsPlayAgain",
+      "button_id": "LostVikingsPlayAgain",
+      "unit_id": "HeroOlaf",
+      "unit_name": "Olaf",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_playagain_mini.png"
+    },
+    {
+      "id": "longboat_raid_cb60054153",
+      "name": "Longboat Raid!",
+      "description": "Cooldown: 90 seconds Hop into an Unstoppable Longboat that fires at nearby enemies for 128 (+4% per level) damage per second and can fire a mortar that deals 228 (+4% per level) damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are Stunned for 1 second. Lasts 15 seconds.  Requires all surviving Vikings to be nearby.",
+      "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_longboatraid.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic",
+      "ability_id": "LostVikingsLongboatRaidNewer",
+      "button_id": "LostVikingsLongboatRaid",
+      "unit_id": "HeroOlaf",
+      "unit_name": "Olaf",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_longboatraid_mini.png"
+    },
+    {
+      "id": "viking_hoard_4686165297",
+      "name": "Viking Hoard",
+      "description": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by 0.5 per second.  Current Bonus: 0 Regen per second",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_vikinghoard.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": ":PASSIVE:|LostVikingsVikingHoardTalent|Trait",
+      "ability_id": ":PASSIVE:",
+      "button_id": "LostVikingsVikingHoardTalent",
+      "unit_id": "HeroOlaf",
+      "unit_name": "Olaf",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "go_go_go_706f31ccc8",
+      "name": "Go Go Go!",
+      "description": "Cooldown: 30 seconds The Vikings gain 30% increased Movement Speed for 4 seconds.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "LostVikingsGoGoGo|LostVikingsGoGoGo|Z",
+      "ability_id": "LostVikingsGoGoGo",
+      "button_id": "LostVikingsGoGoGo",
+      "unit_id": "HeroOlaf",
+      "unit_name": "Olaf",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone_64c6a193a9",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|HearthstoneNoMana|B",
+      "ability_id": "Hearthstone",
+      "button_id": "HearthstoneNoMana",
+      "unit_id": "HeroOlaf",
+      "unit_name": "Olaf",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "mortar_e2b1442592",
+      "name": "Mortar",
+      "description": "Cooldown: 3 seconds Fires a mortar at the targeted location, dealing 228 (+4% per level) damage in a large area.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_mortar.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "LostVikingsLongboatRaidMortar|LostVikingsMortar|Q",
+      "ability_id": "LostVikingsLongboatRaidMortar",
+      "button_id": "LostVikingsMortar",
+      "unit_id": "HeroOlaf",
+      "unit_name": "Olaf",
+      "parent_link_ids": [
+        "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "select_olaf_d382a7856d",
+      "name": "Select Olaf",
+      "description": "Olaf can charge enemies and slow their Movement Speed by 30% for 3 seconds by right-clicking on them. 8 second cooldown.   Olaf gains increased Health Regeneration when out of combat for 4 seconds.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_selectolaf.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": ":PASSIVE:|LostVikingSelectOlaf|Active",
+      "ability_id": ":PASSIVE:",
+      "button_id": "LostVikingSelectOlaf",
+      "unit_id": "HeroLostVikingsController",
+      "unit_name": "The Lost Vikings",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "selection_binding",
+      "active_group": "LostVikingSelectOlaf",
+      "active_order": 1,
+      "active_origin": "initial",
+      "unlock_level": 0,
+      "unlock_position": 0
+    },
+    {
+      "id": "select_olaf_f519c295f8",
+      "name": "Select Olaf",
+      "description": "Olaf can charge enemies and slow their Movement Speed by 30% for 3 seconds by right-clicking on them. 8 second cooldown.   Olaf gains increased Health Regeneration when out of combat for 4 seconds.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_selectolaf.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": ":PASSIVE:|LostVikingSelectOlaf|Active",
+      "ability_id": ":PASSIVE:",
+      "button_id": "LostVikingSelectOlaf",
+      "unit_id": "HeroOlaf",
+      "unit_name": "Olaf",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "selection_binding",
+      "active_group": "LostVikingSelectOlaf",
+      "active_order": 1,
+      "active_origin": "initial",
+      "unlock_level": 0,
+      "unlock_position": 0
+    },
+    {
+      "id": "select_baleog_ccb8682190",
+      "name": "Select Baleog",
+      "description": "Baleog's Basic Attacks deal 50% damage to enemies behind his attack target.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_selectbaleog.png",
+      "hotkey": "2",
+      "ability_type": "Active",
+      "link_id": ":PASSIVE:|LostVikingSelectBaleog|Active",
+      "ability_id": ":PASSIVE:",
+      "button_id": "LostVikingSelectBaleog",
+      "unit_id": "HeroLostVikingsController",
+      "unit_name": "The Lost Vikings",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "hotkey_candidates": [
+        "2"
+      ],
+      "hotkey_source": "selection_binding",
+      "active_group": "LostVikingSelectBaleog",
+      "active_order": 2,
+      "active_origin": "initial",
+      "unlock_level": 0,
+      "unlock_position": 0
+    },
+    {
+      "id": "select_baleog_517daf665a",
+      "name": "Select Baleog",
+      "description": "Baleog's Basic Attacks deal 50% damage to enemies behind his attack target.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_selectbaleog.png",
+      "hotkey": "2",
+      "ability_type": "Active",
+      "link_id": ":PASSIVE:|LostVikingSelectBaleog|Active",
+      "ability_id": ":PASSIVE:",
+      "button_id": "LostVikingSelectBaleog",
+      "unit_id": "HeroBaleog",
+      "unit_name": "Baleog",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "hotkey_candidates": [
+        "2"
+      ],
+      "hotkey_source": "selection_binding",
+      "active_group": "LostVikingSelectBaleog",
+      "active_order": 2,
+      "active_origin": "initial",
+      "unlock_level": 0,
+      "unlock_position": 0
+    },
+    {
+      "id": "select_erik_a0b0895da0",
+      "name": "Select Erik",
+      "description": "Erik moves faster than the other Vikings and has increased Basic Attack range.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_selecterik.png",
+      "hotkey": "3",
+      "ability_type": "Active",
+      "link_id": ":PASSIVE:|LostVikingSelectErik|Active",
+      "ability_id": ":PASSIVE:",
+      "button_id": "LostVikingSelectErik",
+      "unit_id": "HeroLostVikingsController",
+      "unit_name": "The Lost Vikings",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "hotkey_candidates": [
+        "3"
+      ],
+      "hotkey_source": "selection_binding",
+      "active_group": "LostVikingSelectErik",
+      "active_order": 3,
+      "active_origin": "initial",
+      "unlock_level": 0,
+      "unlock_position": 0
+    },
+    {
+      "id": "select_erik_2b5acad0b5",
+      "name": "Select Erik",
+      "description": "Erik moves faster than the other Vikings and has increased Basic Attack range.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_selecterik.png",
+      "hotkey": "3",
+      "ability_type": "Active",
+      "link_id": ":PASSIVE:|LostVikingSelectErik|Active",
+      "ability_id": ":PASSIVE:",
+      "button_id": "LostVikingSelectErik",
+      "unit_id": "HeroErik",
+      "unit_name": "Erik",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "hotkey_candidates": [
+        "3"
+      ],
+      "hotkey_source": "selection_binding",
+      "active_group": "LostVikingSelectErik",
+      "active_order": 3,
+      "active_origin": "initial",
+      "unlock_level": 0,
+      "unlock_position": 0
+    },
+    {
+      "id": "select_all_vikings_10824d540f",
+      "name": "Select All Vikings",
+      "description": "The Lost Vikings can be controlled individually or as a group. Each Viking has particular strengths.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_selectall.png",
+      "hotkey": "4",
+      "ability_type": "Active",
+      "link_id": ":PASSIVE:|LostVikingSelectAll|Active",
+      "ability_id": ":PASSIVE:",
+      "button_id": "LostVikingSelectAll",
+      "unit_id": "HeroLostVikingsController",
+      "unit_name": "The Lost Vikings",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "hotkey_candidates": [
+        "4"
+      ],
+      "hotkey_source": "selection_binding",
+      "active_group": "LostVikingSelectAll",
+      "active_order": 4,
+      "active_origin": "initial",
+      "unlock_level": 0,
+      "unlock_position": 0
+    },
+    {
+      "id": "select_all_vikings_1606fa9bea",
+      "name": "Select All Vikings",
+      "description": "The Lost Vikings can be controlled individually or as a group. Each Viking has particular strengths.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_selectall.png",
+      "hotkey": "4",
+      "ability_type": "Active",
+      "link_id": ":PASSIVE:|LostVikingSelectAll|Active",
+      "ability_id": ":PASSIVE:",
+      "button_id": "LostVikingSelectAll",
+      "unit_id": "HeroBaleog",
+      "unit_name": "Baleog",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "hotkey_candidates": [
+        "4"
+      ],
+      "hotkey_source": "selection_binding",
+      "active_group": "LostVikingSelectAll",
+      "active_order": 4,
+      "active_origin": "initial",
+      "unlock_level": 0,
+      "unlock_position": 0
+    },
+    {
+      "id": "select_all_vikings_1cc4a08613",
+      "name": "Select All Vikings",
+      "description": "The Lost Vikings can be controlled individually or as a group. Each Viking has particular strengths.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_selectall.png",
+      "hotkey": "4",
+      "ability_type": "Active",
+      "link_id": ":PASSIVE:|LostVikingSelectAll|Active",
+      "ability_id": ":PASSIVE:",
+      "button_id": "LostVikingSelectAll",
+      "unit_id": "HeroErik",
+      "unit_name": "Erik",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "hotkey_candidates": [
+        "4"
+      ],
+      "hotkey_source": "selection_binding",
+      "active_group": "LostVikingSelectAll",
+      "active_order": 4,
+      "active_origin": "initial",
+      "unlock_level": 0,
+      "unlock_position": 0
+    },
+    {
+      "id": "select_all_vikings_e71e241c99",
+      "name": "Select All Vikings",
+      "description": "The Lost Vikings can be controlled individually or as a group. Each Viking has particular strengths.",
+      "icon": "Heroes/the-lost-vikings/abilities/storm_ui_icon_lostvikings_selectall.png",
+      "hotkey": "4",
+      "ability_type": "Active",
+      "link_id": ":PASSIVE:|LostVikingSelectAll|Active",
+      "ability_id": ":PASSIVE:",
+      "button_id": "LostVikingSelectAll",
+      "unit_id": "HeroOlaf",
+      "unit_name": "Olaf",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "hotkey_candidates": [
+        "4"
+      ],
+      "hotkey_source": "selection_binding",
+      "active_group": "LostVikingSelectAll",
+      "active_order": 4,
+      "active_origin": "initial",
+      "unlock_level": 0,
+      "unlock_position": 0
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "olaf_the_stout",
+          "name": "Olaf the Stout",
+          "description": "Passive: Olaf gains 20% bonus maximum Health.  Every 5 seconds, Olaf gains 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%.  Stores up to 2 charges.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_selectolaf.png",
+          "position": 1,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "LostVikingsMasteryOlafTheStout|LostVikingsOlafTheStoutTalent|Passive|Level1",
+          "talent_id": "LostVikingsMasteryOlafTheStout",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_selectolaf_mini.png"
+        },
+        {
+          "id": "spy_games",
+          "name": "Spy Games",
+          "description": "After standing still for 3 seconds, Erik gains Stealth and his Sight Radius is increased by 75%. The Stealth persists for 3 seconds after moving and once removed, Erik gains 75% bonus Basic Attack damage for 6 seconds.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_selecterik.png",
+          "position": 2,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "LostVikingsMasterySpyGames|LostVikingsSpyGamesTalent|Passive|Level1",
+          "talent_id": "LostVikingsMasterySpyGames",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_selecterik_mini.png"
+        },
+        {
+          "id": "explosive_attacks",
+          "name": "Explosive Attacks",
+          "description": "Baleog's Basic Attack splash damage against non-Heroes is no longer reduced by 50%.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_selectbaleog.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "LostVikingsMasteryExplosiveAttacks|LostVikingsExplosiveAttacksTalent|Passive|Level1",
+          "talent_id": "LostVikingsMasteryExplosiveAttacks",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_selectbaleog_mini.png"
+        },
+        {
+          "id": "viking_bribery",
+          "name": "Viking Bribery",
+          "description": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use 40 stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: 200.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_talent_bribe.png",
+          "position": 4,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "LostVikingsMasteryVikingBribery|LostVikingsVikingBribery|E|Level1",
+          "talent_id": "LostVikingsMasteryVikingBribery",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_talent_bribe_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "pain_don_t_hurt",
+          "name": "Pain Don't Hurt",
+          "description": "Baleog's Basic Attacks and splash damage heal for 20% of the damage dealt. Healing is doubled against Heroes.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_selectbaleog.png",
+          "position": 1,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "LostVikingsMasteryPainDontHurt|LostVikingsPainDontHurtTalent|Passive|Level4",
+          "talent_id": "LostVikingsMasteryPainDontHurt",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_selectbaleog_mini.png"
+        },
+        {
+          "id": "erik_the_swift",
+          "name": "Erik the Swift",
+          "description": "Permanently increases Erik's base Movement Speed by 10%, and as long as Erik is moving he heals 34 (+4% per level) Health per second.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_selecterik.png",
+          "position": 2,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "LostVikingsMasteryErikTheSwift|LostVikingsErikTheSwiftTalent|Passive|Level4",
+          "talent_id": "LostVikingsMasteryErikTheSwift",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_selecterik_mini.png"
+        },
+        {
+          "id": "it_s_a_sabotage",
+          "name": "It's a Sabotage!",
+          "description": "Erik's Basic Attacks against Structures light them on fire for 3 seconds, causing 225 (+4% per level) damage.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_selecterik_var1.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "LostVikingsMasteryItsASabotage|LostVikingsItsASabotageTalent|Passive|Level4",
+          "talent_id": "LostVikingsMasteryItsASabotage",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_selecterik_var1_mini.png"
+        },
+        {
+          "id": "mercenary_lord",
+          "name": "Mercenary Lord",
+          "description": "Friendly non-Boss Mercenaries near your Hero deal 50% more damage. Gain 50 Armor against Minions and Mercenaries, reducing the damage taken by 50%.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_talent_mercenarylord.png",
+          "position": 4,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "GenericTalentMercenaryLord|GenericMercenaryLordTalent|Passive|Level4",
+          "talent_id": "GenericTalentMercenaryLord",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_talent_mercenarylord_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "baleog_the_fierce",
+          "name": "Baleog the Fierce",
+          "description": "Increase Baleog's attack range by 2.5. While near Olaf and Erik, he becomes inspired by the power of teamwork and his Attack Speed is increased by 50%.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_selectbaleog.png",
+          "position": 1,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "LostVikingsMasteryBaleogTheFierce|LostVikingsBaleogTheFierceTalent|Passive|Level7",
+          "talent_id": "LostVikingsMasteryBaleogTheFierce",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_selectbaleog_mini.png"
+        },
+        {
+          "id": "spin_to_win",
+          "name": "Spin To Win!",
+          "description": "Cooldown: 10 seconds Activate to have each Viking deal 85 (+4% per level) damage to nearby enemies.  Deals 100% bonus damage to enemy Heroes.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_spintowin.png",
+          "position": 2,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "LostVikingsMasterySpinToWin|LostVikingsSpinToWin|Q|Level7",
+          "talent_id": "LostVikingsMasterySpinToWin",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_spintowin_mini.png"
+        },
+        {
+          "id": "norse_force",
+          "name": "Norse Force!",
+          "description": "Cooldown: 15 seconds All Vikings gain a 140 (+4% per level) to 308 (+4% per level) point Shield, increasing in strength for each Viking alive. Lasts 4 seconds.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_norseforce.png",
+          "position": 3,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "LostVikingsMasteryNorseForce|LostVikingsNorseForce|Q|Level7",
+          "talent_id": "LostVikingsMasteryNorseForce",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_norseforce_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "longboat_raid",
+          "name": "Longboat Raid!",
+          "description": "Cooldown: 90 seconds Hop into an Unstoppable Longboat that fires at nearby enemies for 128 (+4% per level) damage per second and can fire a mortar that deals 228 (+4% per level) damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are Stunned for 1 second. Lasts 15 seconds.  Requires all surviving Vikings to be nearby.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_longboatraid.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "LostVikingsHeroicAbilityLongboatRaid|LostVikingsLongboatRaid|Heroic|Level10",
+          "talent_id": "LostVikingsHeroicAbilityLongboatRaid",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_longboatraid_mini.png"
+        },
+        {
+          "id": "play_again",
+          "name": "Play Again!",
+          "description": "Cooldown: 100 seconds Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for 2 seconds.   Only one Viking may attempt to summon at a time.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_playagain.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "LostVikingsHeroicAbilityPlayAgain|LostVikingsPlayAgain|Heroic|Level10",
+          "talent_id": "LostVikingsHeroicAbilityPlayAgain",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_playagain_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "hunka_burning_olaf",
+          "name": "Hunka' Burning Olaf",
+          "description": "Olaf deals 34 (+4% per level) damage every second to nearby enemies.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_selectolaf.png",
+          "position": 1,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "LostVikingsMasteryHunkaBurningOlaf|LostVikingsHunkaBurningOlafTalent|Passive|Level13",
+          "talent_id": "LostVikingsMasteryHunkaBurningOlaf",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_selectolaf_mini.png"
+        },
+        {
+          "id": "jump",
+          "name": "Jump!",
+          "description": "Cooldown: 30 seconds Makes all Vikings Invulnerable and able to pass over enemies for 1.5 seconds.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_jump.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "LostVikingsMasteryJump|LostVikingsJump|W|Level13",
+          "talent_id": "LostVikingsMasteryJump",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_jump_mini.png"
+        },
+        {
+          "id": "nordic_attack_squad",
+          "name": "Nordic Attack Squad",
+          "description": "While Olaf, Baleog, and Erik are near each of the other two Vikings, their Basic Attacks deal bonus damage equal to 1.25% maximum Health to enemy Heroes.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_talent_autoattack_searing.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "LostVikingsMasteryNordicAttackSquad|LostVikingsNordicAttackSquad|Passive|Level13",
+          "talent_id": "LostVikingsMasteryNordicAttackSquad",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_talent_autoattack_searing_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "large_and_in_charge",
+          "name": "Large and In Charge",
+          "description": "When Olaf charges enemies, they are stunned for 1 second.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_selectolaf.png",
+          "position": 1,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "LostVikingsMasteryLargeAndInCharge|LostVikingsLargeAndInChargeTalent|Passive|Level16",
+          "talent_id": "LostVikingsMasteryLargeAndInCharge",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_selectolaf_mini.png"
+        },
+        {
+          "id": "impatience_is_a_virtue",
+          "name": "Impatience Is a Virtue",
+          "description": "Enemies damaged by a Viking's Basic Attack reduce the cooldown of all Viking Abilities by 0.3125 seconds.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_talent_autoattack_cooldown.png",
+          "position": 2,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "LostVikingsMasteryImpatienceIsAVirtue|LostVikingsImpatienceIsAVirtueTalent|Passive|Level16",
+          "talent_id": "LostVikingsMasteryImpatienceIsAVirtue",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_talent_autoattack_cooldown_mini.png"
+        },
+        {
+          "id": "64_kb_marathon",
+          "name": "64 KB Marathon",
+          "description": "Activating Go Go Go! grants an additional 40% Movement Speed and breaks the Vikings out of Roots and Slows.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_64kbmarathon.png",
+          "position": 3,
+          "hotkey": "Z",
+          "ability_type": "Z",
+          "link_id": "LostVikingsGoGoGo64KBMarathon|LostVikingsGoGoGo64KBMarathonTalent|Z|Level16",
+          "talent_id": "LostVikingsGoGoGo64KBMarathon",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_64kbmarathon_mini.png"
+        },
+        {
+          "id": "executioner",
+          "name": "Executioner",
+          "description": "Attacking a Hero that is Slowed, Rooted, or Stunned increases your Basic Attack damage by 30% for 3 seconds.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_talent_autoattack_damage.png",
+          "position": 4,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "HeroGenericExecutionerPassive|GenericExecutionerTalent|Passive|Level16",
+          "talent_id": "HeroGenericExecutionerPassive",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_talent_autoattack_damage_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "ragnarok_n_roll",
+          "name": "Ragnarok 'n' Roll!",
+          "description": "The Longboat can attack two targets at once and the range of its Mortar is increased by 100%. Reduce Longboat Raid!'s cooldown by 30 seconds.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_longboatraid.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "LostVikingsMasteryWereOnABoat|LostVikingsWereOnABoatTalent|Heroic|Level20",
+          "talent_id": "LostVikingsMasteryWereOnABoat",
+          "prerequisite_talent_ids": [
+            "LostVikingsHeroicAbilityLongboatRaid"
+          ],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_longboatraid_mini.png"
+        },
+        {
+          "id": "checkpoint_reached",
+          "name": "Checkpoint Reached",
+          "description": "10 seconds after using Play Again!, any dead Vikings are revived and summoned again, and all are healed to full.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_playagain.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "LostVikingsMasteryCheckpointReached|LostVikingsCheckpointReachedTalent|Heroic|Level20",
+          "talent_id": "LostVikingsMasteryCheckpointReached",
+          "prerequisite_talent_ids": [
+            "LostVikingsHeroicAbilityPlayAgain"
+          ],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_playagain_mini.png"
+        },
+        {
+          "id": "the_sequel",
+          "name": "The Sequel!",
+          "description": "Reduces the Lost Vikings's death timer by 50%.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_fastrestart.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "LostVikingsMasteryTheSequel|LostVikingsTheSequelTalent|Trait|Level20",
+          "talent_id": "LostVikingsMasteryTheSequel",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_lostvikings_fastrestart_mini.png"
+        },
+        {
+          "id": "fury_of_the_storm",
+          "name": "Fury of the Storm",
+          "description": "Every 5 seconds, the next Basic Attack will deal an additional 41 (+4% per level) damage to the target, and 105 (+4% per level) damage to all nearby Minions, Mercenaries and Monsters. Each Viking has their own cooldown.",
+          "icon": "Heroes/the-lost-vikings/talents/storm_ui_icon_talent_autoattack_damage.png",
+          "position": 4,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "LostVikingsTalentFuryoftheStorm|LostVikingsFuryoftheStormTalent|Passive|Level20",
+          "talent_id": "LostVikingsTalentFuryoftheStorm",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/the-lost-vikings/talents/storm_ui_icon_talent_autoattack_damage_mini.png"
+        }
+      ]
+    }
+  ]
+}

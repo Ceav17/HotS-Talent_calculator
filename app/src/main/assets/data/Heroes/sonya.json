@@ -1,0 +1,669 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "sonya",
+    "name": "Sonya",
+    "team_role": "Bruiser",
+    "universe": "Diablo",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "ancient_spear",
+      "name": "Ancient Spear",
+      "description": "Cooldown: 13 seconds Throw out a spear that pulls Sonya to the first enemy hit, dealing 173 (+4% per level) damage and briefly stunning them. If this hits an enemy, generate 40 Fury.",
+      "icon": "Heroes/sonya/abilities/storm_ui_icon_sonya_ancientspear.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "BarbarianAncientSpear|BarbarianAncientSpear|Q",
+      "ability_id": "BarbarianAncientSpear",
+      "button_id": "BarbarianAncientSpear",
+      "unit_id": "HeroBarbarian",
+      "unit_name": "Sonya",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "seismic_slam",
+      "name": "Seismic Slam",
+      "description": "Fury: 25 Cooldown: 1 second Deals 176 (+4% per level) damage to the target enemy, and 44 (+4% per level) to enemies behind the target.",
+      "icon": "Heroes/sonya/abilities/storm_ui_icon_sonya_seismicslam.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "BarbarianSeismicSlam|BarbarianSeismicSlam|W",
+      "ability_id": "BarbarianSeismicSlam",
+      "button_id": "BarbarianSeismicSlam",
+      "unit_id": "HeroBarbarian",
+      "unit_name": "Sonya",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "whirlwind",
+      "name": "Whirlwind",
+      "description": "Fury: 40 Cooldown: 5 seconds Deals 138 (+4% per level) damage a second to nearby enemies for 3 seconds, healing for 25% of damage dealt. Healing tripled versus Heroes.",
+      "icon": "Heroes/sonya/abilities/storm_ui_icon_sonya_whirlwind.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "BarbarianWhirlwind|BarbarianWhirlwind|E",
+      "ability_id": "BarbarianWhirlwind",
+      "button_id": "BarbarianWhirlwind",
+      "unit_id": "HeroBarbarian",
+      "unit_name": "Sonya",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "leap",
+      "name": "Leap",
+      "description": "Cooldown: 60 seconds Leap into the air, dealing 135 (+4% per level) damage to nearby enemies, and stunning them for 1.25 seconds.",
+      "icon": "Heroes/sonya/talents/storm_ui_icon_sonya_leap.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "BarbarianLeap|BarbarianLeap|Heroic",
+      "ability_id": "BarbarianLeap",
+      "button_id": "BarbarianLeap",
+      "unit_id": "HeroBarbarian",
+      "unit_name": "Sonya",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/sonya/talents/storm_ui_icon_sonya_leap_mini.png"
+    },
+    {
+      "id": "wrath_of_the_berserker",
+      "name": "Wrath of the Berserker",
+      "description": "Cooldown: 60 seconds Increase damage dealt by 40%. Reduce the duration of Stuns, Roots, and Slows against Sonya by 50%. Lasts 15 seconds, and extends by 1 second for every 10 Fury gained.",
+      "icon": "Heroes/sonya/talents/storm_ui_icon_sonya_wrathoftheberserker.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "BarbarianWrathoftheBerserker|BarbarianWrathoftheBerserker|Heroic",
+      "ability_id": "BarbarianWrathoftheBerserker",
+      "button_id": "BarbarianWrathoftheBerserker",
+      "unit_id": "HeroBarbarian",
+      "unit_name": "Sonya",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/sonya/talents/storm_ui_icon_sonya_wrathoftheberserker_mini.png"
+    },
+    {
+      "id": "fury_63d0b554c1",
+      "name": "Fury",
+      "description": "Use Fury instead of Mana, which is gained by taking damage or dealing Basic Attack damage. Using a Basic or Heroic Ability grants 10% Movement Speed for 4 seconds.",
+      "icon": "Heroes/sonya/abilities/storm_ui_icon_sonya_fury.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": ":PASSIVE:|BarbarianFury|Trait",
+      "ability_id": ":PASSIVE:",
+      "button_id": "BarbarianFury",
+      "unit_id": "HeroBarbarian",
+      "unit_name": "Sonya",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroBarbarian",
+      "unit_name": "Sonya",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|HearthstoneNoMana|B",
+      "ability_id": "Hearthstone",
+      "button_id": "HearthstoneNoMana",
+      "unit_id": "HeroBarbarian",
+      "unit_name": "Sonya",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "cancel_whirlwind",
+      "name": "Cancel Whirlwind",
+      "description": "Cancels the Whirlwind ability",
+      "icon": null,
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "BarbarianWhirlwindCancel|BarbarianWhirlwindCancel|E",
+      "ability_id": "BarbarianWhirlwindCancel",
+      "button_id": "BarbarianWhirlwindCancel",
+      "unit_id": "HeroBarbarian",
+      "unit_name": "Sonya",
+      "parent_link_ids": [
+        "BarbarianWhirlwind|BarbarianWhirlwind|E"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "cancel_leap",
+      "name": "Cancel Leap",
+      "description": "Cooldown: 1.5 seconds Cancels Arreat Crater",
+      "icon": null,
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "BarbarianCancelLeapArreatCrater|BarbarianLeapArreatCraterCancel|Heroic",
+      "ability_id": "BarbarianCancelLeapArreatCrater",
+      "button_id": "BarbarianLeapArreatCraterCancel",
+      "unit_id": "HeroBarbarian",
+      "unit_name": "Sonya",
+      "parent_link_ids": [
+        "BarbarianLeap|BarbarianLeap|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroBarbarian",
+      "unit_name": "Sonya",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "fury_9fb70d5877",
+      "name": "Fury",
+      "description": "Cooldown: 40 seconds Use Fury instead of Mana, which is gained by taking damage or dealing Basic Attack damage. Using a Basic or Heroic Ability grants 10% Movement Speed for 4 seconds.",
+      "icon": "Heroes/sonya/abilities/storm_ui_icon_sonya_fury.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "BarbarianShotofFury|BarbarianFuryShotOfFury|Trait",
+      "ability_id": "BarbarianShotofFury",
+      "button_id": "BarbarianFuryShotOfFury",
+      "unit_id": "HeroBarbarian",
+      "unit_name": "Sonya",
+      "parent_link_ids": [
+        "BarbarianShotOfFury|BarbarianFuryShotOfFuryTalent|Trait|Level4"
+      ],
+      "unlock_conditions": [
+        [
+          "BarbarianShotOfFury"
+        ]
+      ]
+    },
+    {
+      "id": "striding_giant",
+      "name": "Striding Giant",
+      "description": "Cooldown: 30 seconds Activate to become unstoppable for 2 seconds. Usable only when Wrath Of The Berserker is active.",
+      "icon": "Heroes/sonya/abilities/storm_ui_icon_sonya_wrathoftheberserker_b.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "BarbarianStridingGiant|BarbarianStridingGiantActive|Heroic",
+      "ability_id": "BarbarianStridingGiant",
+      "button_id": "BarbarianStridingGiantActive",
+      "unit_id": "HeroBarbarian",
+      "unit_name": "Sonya",
+      "parent_link_ids": [
+        "BarbarianStridingGiant|BarbarianStridingGiant|Heroic|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "BarbarianStridingGiant"
+        ]
+      ]
+    },
+    {
+      "id": "battle_rage",
+      "name": "Battle Rage",
+      "description": "Charge Cooldown: 30 seconds Activate to instantly restore 10% of Sonya's maximum Health. Stores up to 2 charges. Usable while Whirlwinding.  Passive: Sonya deals 25% more damage to Mercenaries.",
+      "icon": "Heroes/sonya/abilities/storm_ui_icon_talent_mercenarylord.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "BarbarianBattleRage|BarbarianBattleRage|Active",
+      "ability_id": "BarbarianBattleRage",
+      "button_id": "BarbarianBattleRage",
+      "unit_id": "HeroBarbarian",
+      "unit_name": "Sonya",
+      "parent_link_ids": [
+        "BarbarianBattleRage|BarbarianBattleRage|Active|Level7"
+      ],
+      "unlock_conditions": [
+        [
+          "BarbarianBattleRage"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "BarbarianBattleRage",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 7,
+      "unlock_position": 3
+    },
+    {
+      "id": "nerves_of_steel",
+      "name": "Nerves of Steel",
+      "description": "Cooldown: 60 seconds Activate to gain 25% of your maximum Health as a Shield for 3 seconds. Usable while Whirlwinding.",
+      "icon": "Heroes/sonya/abilities/storm_ui_icon_sonya_nervesofsteel.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "BarbarianNervesOfSteel|BarbarianNervesOfSteel|Active",
+      "ability_id": "BarbarianNervesOfSteel",
+      "button_id": "BarbarianNervesOfSteel",
+      "unit_id": "HeroBarbarian",
+      "unit_name": "Sonya",
+      "parent_link_ids": [
+        "BarbarianNervesOfSteel|BarbarianNervesOfSteel|Active|Level16"
+      ],
+      "unlock_conditions": [
+        [
+          "BarbarianNervesOfSteel"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "BarbarianNervesOfSteel",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 16,
+      "unlock_position": 3
+    },
+    {
+      "id": "ignore_pain",
+      "name": "Ignore Pain",
+      "description": "Cooldown: 60 seconds Activate to gain 60 Armor for 4 seconds, taking 60% less damage. Usable while Whirlwinding.",
+      "icon": "Heroes/sonya/abilities/storm_ui_icon_sonya_ignorepain.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "BarbarianIgnorePain|BarbarianIgnorePain|Active",
+      "ability_id": "BarbarianIgnorePain",
+      "button_id": "BarbarianIgnorePain",
+      "unit_id": "HeroBarbarian",
+      "unit_name": "Sonya",
+      "parent_link_ids": [
+        "BarbarianIgnorePain|BarbarianIgnorePain|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "BarbarianIgnorePain"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2",
+        "3"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "BarbarianIgnorePain",
+      "active_order": 3,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 4
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "furious_blow",
+          "name": "Furious Blow",
+          "description": "Every 4th cast of Seismic Slam deals 40% more damage to the primary target and costs no Fury.",
+          "icon": "Heroes/sonya/talents/storm_ui_icon_sonya_seismicslam.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "BarbarianFuriousBlow|BarbarianSeismicSlamFuriousBlowTalent|W|Level1",
+          "talent_id": "BarbarianFuriousBlow",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sonya/talents/storm_ui_icon_sonya_seismicslam_mini.png"
+        },
+        {
+          "id": "war_paint",
+          "name": "War Paint",
+          "description": "Sonya's Basic Attacks heal for 30% of the damage dealt.",
+          "icon": "Heroes/sonya/talents/storm_ui_icon_talent_autoattack_heal.png",
+          "position": 2,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "BarbarianWarPaint|BarbarianFuryWarPaintTalent|Passive|Level1",
+          "talent_id": "BarbarianWarPaint",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sonya/talents/storm_ui_icon_talent_autoattack_heal_mini.png"
+        },
+        {
+          "id": "tough_as_nails",
+          "name": "Tough As Nails",
+          "description": "Every 16 seconds, gain 60 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 60%.  Stores up to 3 charges. Charges refresh 200% faster while Fury's Movement Speed bonus is active.",
+          "icon": "Heroes/sonya/talents/storm_ui_icon_talent_block.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "BarbarianToughAsNails|BarbarianToughAsNails|Passive|Level1",
+          "talent_id": "BarbarianToughAsNails",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sonya/talents/storm_ui_icon_talent_block_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "shattered_ground",
+          "name": "Shattered Ground",
+          "description": "Increase Seismic Slam's splash damage by 250%. Targeting a Hero with Seismic Slam further increases its splash damage by 250%, while targeting other enemies increases the length of its splash by 66%.",
+          "icon": "Heroes/sonya/talents/storm_ui_icon_sonya_seismicslam.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "BarbarianShatteredGround|BarbarianSeismicSlamShatteredGroundTalent|W|Level4",
+          "talent_id": "BarbarianShatteredGround",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sonya/talents/storm_ui_icon_sonya_seismicslam_mini.png"
+        },
+        {
+          "id": "hurricane",
+          "name": "Hurricane",
+          "description": "Reduce the cooldown of Whirlwind by 2 seconds. Casting Whirlwind removes all Slows and Roots from Sonya.",
+          "icon": "Heroes/sonya/talents/storm_ui_icon_sonya_whirlwind.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "BarbarianHurricane|BarbarianHurricaneWhirlwindTalent|E|Level4",
+          "talent_id": "BarbarianHurricane",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sonya/talents/storm_ui_icon_sonya_whirlwind_mini.png"
+        },
+        {
+          "id": "shot_of_fury",
+          "name": "Shot Of Fury",
+          "description": "Cooldown: 40 seconds Activate to gain 50 Fury. Usable while Whirlwinding.  Passive: After casting Seismic Slam, your next Basic Attack deals 40% more damage.",
+          "icon": "Heroes/sonya/talents/storm_ui_icon_sonya_fury.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "BarbarianShotOfFury|BarbarianFuryShotOfFuryTalent|Trait|Level4",
+          "talent_id": "BarbarianShotOfFury",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sonya/talents/storm_ui_icon_sonya_fury_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "poisoned_spear",
+          "name": "Poisoned Spear",
+          "description": "Ancient Spear deals an additional 100% damage over 6 seconds.",
+          "icon": "Heroes/sonya/talents/storm_ui_icon_sonya_ancientspear.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "BarbarianPoisonedSpear|BarbarianAncientSpearPoisonedSpearTalent|Q|Level7",
+          "talent_id": "BarbarianPoisonedSpear",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sonya/talents/storm_ui_icon_sonya_ancientspear_mini.png"
+        },
+        {
+          "id": "life_funnel",
+          "name": "Life Funnel",
+          "description": "Increases the healing of Whirlwind to 35% of damage dealt.",
+          "icon": "Heroes/sonya/talents/storm_ui_icon_sonya_whirlwind.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "BarbarianLifeFunnel|BarbarianWhirlwindLifeFunnelTalent|E|Level7",
+          "talent_id": "BarbarianLifeFunnel",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sonya/talents/storm_ui_icon_sonya_whirlwind_mini.png"
+        },
+        {
+          "id": "battle_rage",
+          "name": "Battle Rage",
+          "description": "Charge Cooldown: 30 seconds Activate to instantly restore 10% of Sonya's maximum Health. Stores up to 2 charges. Usable while Whirlwinding.  Passive: Sonya deals 25% more damage to Mercenaries.",
+          "icon": "Heroes/sonya/talents/storm_ui_icon_talent_mercenarylord.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "BarbarianBattleRage|BarbarianBattleRage|Active|Level7",
+          "talent_id": "BarbarianBattleRage",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/sonya/talents/storm_ui_icon_talent_mercenarylord_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "leap",
+          "name": "Leap",
+          "description": "Cooldown: 60 seconds Leap into the air, dealing 135 (+4% per level) damage to nearby enemies, and stunning them for 1.25 seconds.",
+          "icon": "Heroes/sonya/talents/storm_ui_icon_sonya_leap.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "BarbarianHeroicAbilityLeap|BarbarianLeap|Heroic|Level10",
+          "talent_id": "BarbarianHeroicAbilityLeap",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sonya/talents/storm_ui_icon_sonya_leap_mini.png"
+        },
+        {
+          "id": "wrath_of_the_berserker",
+          "name": "Wrath of the Berserker",
+          "description": "Cooldown: 60 seconds Increase damage dealt by 40%. Reduce the duration of Stuns, Roots, and Slows against Sonya by 50%. Lasts 15 seconds, and extends by 1 second for every 10 Fury gained.",
+          "icon": "Heroes/sonya/talents/storm_ui_icon_sonya_wrathoftheberserker.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "BarbarianHeroicAbilityWrathoftheBerserker|BarbarianWrathoftheBerserker|Heroic|Level10",
+          "talent_id": "BarbarianHeroicAbilityWrathoftheBerserker",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sonya/talents/storm_ui_icon_sonya_wrathoftheberserker_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "mystical_spear",
+          "name": "Mystical Spear",
+          "description": "Ancient Spear always pulls Sonya to the target location even if it doesn't hit an enemy. When used this way, Ancient Spear's cooldown is reduced by 5 seconds.",
+          "icon": "Heroes/sonya/talents/storm_ui_icon_sonya_ancientspear.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "BarbarianMysticalSpear|BarbarianAncientSpearMysticalSpearTalent|Q|Level13",
+          "talent_id": "BarbarianMysticalSpear",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sonya/talents/storm_ui_icon_sonya_ancientspear_mini.png"
+        },
+        {
+          "id": "ruthless",
+          "name": "Ruthless",
+          "description": "Whirlwind deals an additional 50 (+4% per level) damage per second to Heroes below 50% Health. Does not generate additional healing.",
+          "icon": "Heroes/sonya/talents/storm_ui_icon_sonya_whirlwind.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "BarbarianRuthless|BarbarianRuthless|E|Level13",
+          "talent_id": "BarbarianRuthless",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sonya/talents/storm_ui_icon_sonya_whirlwind_mini.png"
+        },
+        {
+          "id": "no_escape",
+          "name": "No Escape",
+          "description": "Increases the Movement Speed bonus from using Basic and Heroic Abilities to 20%.",
+          "icon": "Heroes/sonya/talents/storm_ui_icon_sonya_fury.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "BarbarianNoEscape|BarbarianFuryNoEscapeTalent|Trait|Level13",
+          "talent_id": "BarbarianNoEscape",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sonya/talents/storm_ui_icon_sonya_fury_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "giant_slammer",
+          "name": "Giant Slammer",
+          "description": "Basic Attacks and Seismic Slam deal an additional 1.5% of Heroes' maximum Health as damage and heal Sonya for 60% of the damage dealt.",
+          "icon": "Heroes/sonya/talents/storm_ui_icon_sonya_seismicslam.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "BarbarianGiantSlammer|BarbarianGiantSlammer|W|Level16",
+          "talent_id": "BarbarianGiantSlammer",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sonya/talents/storm_ui_icon_sonya_seismicslam_mini.png"
+        },
+        {
+          "id": "rampage",
+          "name": "Rampage",
+          "description": "Increase Basic Attack damage by 25%. Basic Attacks reduce the cooldown of Ancient Spear by 1.5 seconds.",
+          "icon": "Heroes/sonya/talents/storm_ui_icon_talent_autoattack_cooldown.png",
+          "position": 2,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "BarbarianRampage|BarbarianRampage|Passive|Level16",
+          "talent_id": "BarbarianRampage",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sonya/talents/storm_ui_icon_talent_autoattack_cooldown_mini.png"
+        },
+        {
+          "id": "nerves_of_steel",
+          "name": "Nerves of Steel",
+          "description": "Cooldown: 60 seconds Activate to gain 25% of your maximum Health as a Shield for 3 seconds. Usable while Whirlwinding.",
+          "icon": "Heroes/sonya/talents/storm_ui_icon_sonya_nervesofsteel.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "BarbarianNervesOfSteel|BarbarianNervesOfSteel|Active|Level16",
+          "talent_id": "BarbarianNervesOfSteel",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2"
+          ],
+          "icon_mini": "Heroes/sonya/talents/storm_ui_icon_sonya_nervesofsteel_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "arreat_crater",
+          "name": "Arreat Crater",
+          "description": "Leap leaves behind an impassable crater for 5 seconds.  Reduces Leap's cooldown by 20 seconds.",
+          "icon": "Heroes/sonya/talents/storm_ui_icon_sonya_leap.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "BarbarianArreatCrater|BarbarianLeapArreatCraterTalent|Heroic|Level20",
+          "talent_id": "BarbarianArreatCrater",
+          "prerequisite_talent_ids": [
+            "BarbarianHeroicAbilityLeap"
+          ],
+          "icon_mini": "Heroes/sonya/talents/storm_ui_icon_sonya_leap_mini.png"
+        },
+        {
+          "id": "striding_giant",
+          "name": "Striding Giant",
+          "description": "Wrath of the Berserker increases maximum Health by 10% and grants Striding Giant, which can be activated to become Unstoppable for 2 seconds. 30 second cooldown.",
+          "icon": "Heroes/sonya/talents/storm_ui_icon_sonya_wrathoftheberserker.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "BarbarianStridingGiant|BarbarianStridingGiant|Heroic|Level20",
+          "talent_id": "BarbarianStridingGiant",
+          "prerequisite_talent_ids": [
+            "BarbarianHeroicAbilityWrathoftheBerserker"
+          ],
+          "icon_mini": "Heroes/sonya/talents/storm_ui_icon_sonya_wrathoftheberserker_mini.png"
+        },
+        {
+          "id": "composite_spear",
+          "name": "Composite Spear",
+          "description": "Increases Ancient Spear's range by 50%. Hitting an enemy Hero with Ancient Spear grants 25 Armor for 4 seconds.",
+          "icon": "Heroes/sonya/talents/storm_ui_icon_sonya_ancientspear.png",
+          "position": 3,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "BarbarianCompositeSpear|BarbarianAncientSpearCompositeSpearTalent|Q|Level20",
+          "talent_id": "BarbarianCompositeSpear",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/sonya/talents/storm_ui_icon_sonya_ancientspear_mini.png"
+        },
+        {
+          "id": "ignore_pain",
+          "name": "Ignore Pain",
+          "description": "Cooldown: 60 seconds Activate to gain 60 Armor for 4 seconds, taking 60% less damage. Usable while Whirlwinding.",
+          "icon": "Heroes/sonya/talents/storm_ui_icon_sonya_ignorepain.png",
+          "position": 4,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "BarbarianIgnorePain|BarbarianIgnorePain|Active|Level20",
+          "talent_id": "BarbarianIgnorePain",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2",
+            "3"
+          ],
+          "icon_mini": "Heroes/sonya/talents/storm_ui_icon_sonya_ignorepain_mini.png"
+        }
+      ]
+    }
+  ]
+}

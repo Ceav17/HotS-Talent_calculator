@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/whitemane/portrait.png",
+  "lines": [
+    {
+      "id": "arise_my_champion_97359cce",
+      "title": "Arise, My Champion",
+      "variant": null,
+      "audio": "voice_lines/whitemane/arise_my_champion_97359cce.ogg"
+    },
+    {
+      "id": "burn_in_the_light_8ad19f2f",
+      "title": "Burn in the Light",
+      "variant": null,
+      "audio": "voice_lines/whitemane/burn_in_the_light_8ad19f2f.ogg"
+    },
+    {
+      "id": "for_the_scarlet_crusade_833d504e",
+      "title": "For the Scarlet Crusade",
+      "variant": null,
+      "audio": "voice_lines/whitemane/for_the_scarlet_crusade_833d504e.ogg"
+    },
+    {
+      "id": "the_light_has_spoken_833b4522",
+      "title": "The Light Has Spoken",
+      "variant": null,
+      "audio": "voice_lines/whitemane/the_light_has_spoken_833b4522.ogg"
+    },
+    {
+      "id": "you_will_pay_3446b983",
+      "title": "You Will Pay",
+      "variant": null,
+      "audio": "voice_lines/whitemane/you_will_pay_3446b983.ogg"
+    }
+  ]
+}

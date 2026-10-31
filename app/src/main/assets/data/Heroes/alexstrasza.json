@@ -1,0 +1,763 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "alexstrasza",
+    "name": "Alexstrasza",
+    "team_role": "Healer",
+    "universe": "Warcraft",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "gift_of_life",
+      "name": "Gift of Life",
+      "description": "Health: 15% Cooldown: 7 seconds Sacrifice 15% of Alexstrasza's current Health, healing an allied Hero for 150% of that amount.  Passive: Increase Alexstrasza's Health regeneration by 150%.  Dragonqueen: Breath of Life Cooldown greatly reduced and does not cost Health.",
+      "icon": "Heroes/alexstrasza/abilities/storm_ui_icon_alexstrasza_gift_of_life.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "AlexstraszaGiftOfLife|AlexstraszaGiftOfLife|Q",
+      "ability_id": "AlexstraszaGiftOfLife",
+      "button_id": "AlexstraszaGiftOfLife",
+      "unit_id": "HeroAlexstrasza",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "abundance",
+      "name": "Abundance",
+      "description": "Mana: 75 Cooldown: 14 seconds Plant a seed of healing that blooms after 3 seconds, healing nearby allied Heroes for 20% of their maximum Health.  Dragonqueen: Preservation Heal area and amount greatly increased.",
+      "icon": "Heroes/alexstrasza/abilities/storm_ui_icon_alexstrasza_abundance.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "AlexstraszaAbundance|AlexstraszaAbundance|W",
+      "ability_id": "AlexstraszaAbundance",
+      "button_id": "AlexstraszaAbundance",
+      "unit_id": "HeroAlexstrasza",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "flame_buffet",
+      "name": "Flame Buffet",
+      "description": "Mana: 50 Cooldown: 2 seconds Launch a fireball, Burning enemies hit for 75 (+4% per level) damage over 5.5 seconds.  Hitting enemies that are already Burning deals 125 (+4% per level) bonus damage upon impact, Slows them by 40% decaying over 2 seconds, and refunds the Mana cost.  Dragonqueen: Wing Buffet Damage and Knockback enemies in an arc.",
+      "icon": "Heroes/alexstrasza/abilities/storm_ui_icon_alexstrasza_flame_buffet.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "AlexstraszaFlameBuffet|AlexstraszaFlameBuffet|E",
+      "ability_id": "AlexstraszaFlameBuffet",
+      "button_id": "AlexstraszaFlameBuffet",
+      "unit_id": "HeroAlexstrasza",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "life_binder_903fca212c",
+      "name": "Life-Binder",
+      "description": "Mana: 50 Cooldown: 50 seconds Bind Alexstrasza's life force with an allied Hero. Both her and her target are healed for 480 (+4% per level) Health over 2 seconds. Afterwards, the Hero with a lower percentage of Health is healed to the same Health percentage as the other Hero.  Dragonqueen: Cast range increased by 45%.",
+      "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_life_binder.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "AlexstraszaLifebinder|AlexstraszaLifebinder|Heroic",
+      "ability_id": "AlexstraszaLifebinder",
+      "button_id": "AlexstraszaLifebinder",
+      "unit_id": "HeroAlexstrasza",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_life_binder_mini.png"
+    },
+    {
+      "id": "cleansing_flame_6d82881357",
+      "name": "Cleansing Flame",
+      "description": "Mana: 100 Cooldown: 100 seconds After 1.25 seconds, take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 135 (+4% per level) damage to enemies and heal allied Heroes for 300 (+4% per level) Health.  2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.",
+      "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_cleansing_flame.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "AlexstraszaCleansingFlame|AlexstraszaCleansingFlame|Heroic",
+      "ability_id": "AlexstraszaCleansingFlame",
+      "button_id": "AlexstraszaCleansingFlame",
+      "unit_id": "HeroAlexstrasza",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_cleansing_flame_mini.png"
+    },
+    {
+      "id": "dragonqueen_bc51efaad8",
+      "name": "Dragonqueen",
+      "description": "Cooldown: 130 seconds After 1.25 seconds, transform into a dragon and gain 500 (+4% per level) Health.  While Dragonqueen is active, Alexstrasza's Abilities are empowered, and her Basic Attacks deal 143 (+4% per level) damage and heal allied Heroes for 43 (+4% per level) in an arc in front of her. Additionally, the duration of incoming Stuns, Roots, and Slows, is reduced by 50%.  Lasts 15 seconds.",
+      "icon": "Heroes/alexstrasza/abilities/storm_ui_icon_alexstrasza_dragon_queen.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "AlexstraszaDragonqueen|AlexstraszaDragonqueen|Trait",
+      "ability_id": "AlexstraszaDragonqueen",
+      "button_id": "AlexstraszaDragonqueen",
+      "unit_id": "HeroAlexstrasza",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount_ddd57d69f4",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroAlexstrasza",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone_eb84a08ae4",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroAlexstrasza",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount_516576513a",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroAlexstrasza",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "dragon_scales",
+      "name": "Dragon Scales",
+      "description": "Cooldown: 10 seconds Gain 50 Armor while Stunned, Rooted, or Silenced, and for 2 seconds after. Can only trigger once every 10 seconds.",
+      "icon": "Heroes/alexstrasza/abilities/storm_ui_icon_alexstrasza_dragon_scales.png",
+      "hotkey": null,
+      "ability_type": "Passive",
+      "link_id": "AlexstraszaDragonScales|AlexstraszaDragonScales|Passive",
+      "ability_id": "AlexstraszaDragonScales",
+      "button_id": "AlexstraszaDragonScales",
+      "unit_id": "HeroAlexstrasza",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [
+        "AlexstraszaDragonScales|AlexstraszaDragonScales|Passive|Level13"
+      ],
+      "unlock_conditions": [
+        [
+          "AlexstraszaDragonScales"
+        ]
+      ]
+    },
+    {
+      "id": "breath_of_life",
+      "name": "Breath of Life",
+      "description": "Cooldown: 3 seconds Heal an allied Hero for 15% of Alexstrasza's current Health.  Breath of Life is also empowered by Gift of Life Talents.",
+      "icon": "Heroes/alexstrasza/abilities/storm_ui_icon_alexstrasza_breath_of_life.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "AlexstraszaBreathOfLife|AlexstraszaBreathOfLife|Q",
+      "ability_id": "AlexstraszaBreathOfLife",
+      "button_id": "AlexstraszaBreathOfLife",
+      "unit_id": "HeroAlexstraszaDragon",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "preservation",
+      "name": "Preservation",
+      "description": "Cooldown: 16 seconds Plant a seed of healing that blooms after 3 seconds, healing nearby allied Heroes for 25% of their maximum Health.  Preservation is also empowered by Abundance Talents.",
+      "icon": "Heroes/alexstrasza/abilities/storm_ui_icon_alexstrasza_preservation.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "AlexstraszaPreservation|AlexstraszaPreservation|W",
+      "ability_id": "AlexstraszaPreservation",
+      "button_id": "AlexstraszaPreservation",
+      "unit_id": "HeroAlexstraszaDragon",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "wing_buffet",
+      "name": "Wing Buffet",
+      "description": "Cooldown: 4 seconds Deal 150 (+4% per level) damage to enemies in an area, knocking them back and Slowing them by 50% for 3 seconds.",
+      "icon": "Heroes/alexstrasza/abilities/storm_ui_icon_alexstrasza_wing_buffet.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "AlexstraszaWingBuffet|AlexstraszaWingBuffet|E",
+      "ability_id": "AlexstraszaWingBuffet",
+      "button_id": "AlexstraszaWingBuffet",
+      "unit_id": "HeroAlexstraszaDragon",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "life_binder_d7ef30e944",
+      "name": "Life-Binder",
+      "description": "Mana: 50 Cooldown: 50 seconds Bind Alexstrasza's life force with an allied Hero. Both her and her target are healed for 480 (+4% per level) Health over 2 seconds. Afterwards, the Hero with a lower percentage of Health is healed to the same Health percentage as the other Hero.  Dragonqueen: Cast range increased by 45%.",
+      "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_life_binder.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "AlexstraszaLifebinder|AlexstraszaLifebinder|Heroic",
+      "ability_id": "AlexstraszaLifebinder",
+      "button_id": "AlexstraszaLifebinder",
+      "unit_id": "HeroAlexstraszaDragon",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_life_binder_mini.png"
+    },
+    {
+      "id": "cleansing_flame_6765244a2a",
+      "name": "Cleansing Flame",
+      "description": "Mana: 100 Cooldown: 100 seconds Take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 135 (+4% per level) damage to enemies and heal allied Heroes for 300 (+4% per level) Health.  2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.",
+      "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_cleansing_flame.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "AlexstraszaCleansingFlameDragonqueen|AlexstraszaCleansingFlameDragonqueen|Heroic",
+      "ability_id": "AlexstraszaCleansingFlameDragonqueen",
+      "button_id": "AlexstraszaCleansingFlameDragonqueen",
+      "unit_id": "HeroAlexstraszaDragon",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_cleansing_flame_mini.png"
+    },
+    {
+      "id": "dragonqueen_adfffaf643",
+      "name": "Dragonqueen",
+      "description": "Alexstrasza has transformed into a powerful dragon aspect, gaining 500 (+4% per level) Health, resistance to disabling effects, and empowered Basic Attacks and Abilities.",
+      "icon": "Heroes/alexstrasza/abilities/storm_ui_icon_alexstrasza_dragon_queen.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": ":PASSIVE:|AlexstraszaDragonqueenDragonFormPassive|Trait",
+      "ability_id": ":PASSIVE:",
+      "button_id": "AlexstraszaDragonqueenDragonFormPassive",
+      "unit_id": "HeroAlexstraszaDragon",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount_44a81b2b64",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroAlexstraszaDragon",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone_2aa3b1f561",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroAlexstraszaDragon",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount_a6b27b14b2",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroAlexstraszaDragon",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "pacify",
+      "name": "Pacify",
+      "description": "Cooldown: 60 seconds Activate to Slow and reduce an enemy Hero's damage by 50% for 3 seconds.  Healing a Stunned, Rooted, or Silenced ally reduces Pacify's cooldown by 30 seconds.",
+      "icon": "Heroes/alexstrasza/abilities/storm_ui_icon_alexstrasza_pacify.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "AlexstraszaPacify|AlexstraszaPacify|Active",
+      "ability_id": "AlexstraszaPacify",
+      "button_id": "AlexstraszaPacify",
+      "unit_id": "HeroAlexstrasza",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [
+        "AlexstraszaPacify|AlexstraszaPacify|Active|Level13"
+      ],
+      "unlock_conditions": [
+        [
+          "AlexstraszaPacify"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "AlexstraszaPacify",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 13,
+      "unlock_position": 2
+    },
+    {
+      "id": "life_unbound",
+      "name": "Life Unbound",
+      "description": "Cooldown: 90 seconds Activate to heal an allied Hero for 15% of their maximum Health and deal 200 (+4% per level) damage to nearby enemies.  Healing a Stunned, Rooted, or Silenced ally reduces Life Unbound's cooldown by 30 seconds.  Cannot be used on Alexstrasza.",
+      "icon": "Heroes/alexstrasza/abilities/storm_ui_icon_alexstrasza_life_unbound.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "AlexstraszaLifeUnbound|AlexstraszaLifeUnbound|Active",
+      "ability_id": "AlexstraszaLifeUnbound",
+      "button_id": "AlexstraszaLifeUnbound",
+      "unit_id": "HeroAlexstrasza",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [
+        "AlexstraszaLifeUnbound|AlexstraszaLifeUnbound|Active|Level13"
+      ],
+      "unlock_conditions": [
+        [
+          "AlexstraszaLifeUnbound"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "AlexstraszaLifeUnbound",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 13,
+      "unlock_position": 3
+    },
+    {
+      "id": "blessing_of_the_red",
+      "name": "Blessing of the Red",
+      "description": "Cooldown: 40 seconds Activate to grant an allied Hero 500 bonus maximum Health until they die.  Cannot be used on Alexstrasza, or on a Hero who already has Blessing of the Red.",
+      "icon": "Heroes/alexstrasza/abilities/storm_ui_icon_alexstrasza_blessing_of_the_red.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "AlexstraszaBlessingOfTheRed|AlexstraszaBlessingOfTheRed|Active",
+      "ability_id": "AlexstraszaBlessingOfTheRed",
+      "button_id": "AlexstraszaBlessingOfTheRed",
+      "unit_id": "HeroAlexstrasza",
+      "unit_name": "Alexstrasza",
+      "parent_link_ids": [
+        "AlexstraszaBlessingOfTheRed|AlexstraszaBlessingOfTheRed|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "AlexstraszaBlessingOfTheRed"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "AlexstraszaBlessingOfTheRed",
+      "active_order": 3,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 4
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "live_and_let_live",
+          "name": "Live and Let Live",
+          "description": "While above 75% Health, Gift of Life's cooldown recharges 125% faster.  Dragonqueen: While above 75% Health, Breath of Life's cooldown recharges 25% faster.",
+          "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_gift_of_life.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "AlexstraszaLiveAndLetLiveGiftOfLife|AlexstraszaLiveAndLetLiveGiftOfLife|Q|Level1",
+          "talent_id": "AlexstraszaLiveAndLetLiveGiftOfLife",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_gift_of_life_mini.png"
+        },
+        {
+          "id": "circle_of_life",
+          "name": "Circle of Life",
+          "description": "Quest: Collect Regeneration Globes.  Reward: After collecting 10 Regeneration Globes, Abundance heals for an additional 5% maximum Health.  Reward: After collecting 15 Regeneration Globes, Abundance's healing burst creates a Regeneration Globe.",
+          "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_abundance.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "AlexstraszaCircleOfLifeAbundance|AlexstraszaCircleOfLifeAbundance|W|Level1",
+          "talent_id": "AlexstraszaCircleOfLifeAbundance",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_abundance_mini.png"
+        },
+        {
+          "id": "flames_of_fury",
+          "name": "Flames of Fury",
+          "description": "Reduce the Mana cost of Flame Buffet from 50 to 40.  Quest: Hit Burning enemy Heroes with Flame Buffet. 20 hits unlocks a Mythic Quest.  Reward: After hitting 20 Heroes, hitting a Burning enemy Hero with Flame Buffet reduces Dragonqueen's cooldown by 6 seconds.  Mythic Quest: After hitting 30 more Heroes without dying, Dragonqueen damage against Heroes refreshes its duration.",
+          "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_flame_buffet.png",
+          "position": 3,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "AlexstraszaFlamesOfFuryFlameBuffet|AlexstraszaFlamesOfFuryFlameBuffet|E|Level1",
+          "talent_id": "AlexstraszaFlamesOfFuryFlameBuffet",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_flame_buffet_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "surge_of_vitality",
+          "name": "Surge of Vitality",
+          "description": "Abundance's healing burst grants allied Heroes 30% Movement Speed for 3 seconds.",
+          "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_abundance.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "AlexstraszaSurgeOfVitalityAbundance|AlexstraszaSurgeOfVitalityAbundance|W|Level4",
+          "talent_id": "AlexstraszaSurgeOfVitalityAbundance",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_abundance_mini.png"
+        },
+        {
+          "id": "heat_exhaustion",
+          "name": "Heat Exhaustion",
+          "description": "Increase Flame Buffet's Slow from 40% to 50% and cause it to no longer decay.",
+          "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_flame_buffet.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "AlexstraszaHeatExhaustionFlameBuffet|AlexstraszaHeatExhaustionFlameBuffet|E|Level4",
+          "talent_id": "AlexstraszaHeatExhaustionFlameBuffet",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_flame_buffet_mini.png"
+        },
+        {
+          "id": "exuberance",
+          "name": "Exuberance",
+          "description": "While above 75% Health, gain 15% Movement Speed.",
+          "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_exuberance.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "AlexstraszaExuberance|AlexstraszaExuberance|Passive|Level4",
+          "talent_id": "AlexstraszaExuberance",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_exuberance_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "lifeblossom",
+          "name": "Lifeblossom",
+          "description": "While above 75% Health, casting Gift of Life creates a Lifeblossom at the target's location, Breath of Life instead removes Slows and Roots from the target.  After collecting a Lifeblossom, the next Gift of Life costs no Health.  Passive: Reduces the cost of Gift of Life to 10% of Alexstrasza's current Health.",
+          "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_life_blossom.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "AlexstraszaLifeblossomGiftOfLife|AlexstraszaLifeblossomeGiftOfLife|Q|Level7",
+          "talent_id": "AlexstraszaLifeblossomGiftOfLife",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_life_blossom_mini.png"
+        },
+        {
+          "id": "verdant_flourish",
+          "name": "Verdant Flourish",
+          "description": "Alexstrasza receives 40% more healing from Abundance and 100% more healing from Regeneration Globes.",
+          "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_abundance.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "AlexstraszaVerdantFlourishAbundance|AlexstraszaVerdantFlourishAbundance|W|Level7",
+          "talent_id": "AlexstraszaVerdantFlourishAbundance",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_abundance_mini.png"
+        },
+        {
+          "id": "fire_within",
+          "name": "Fire Within",
+          "description": "Hitting a Burning Hero with Flame Buffet heals Alexstrasza for 10% of her maximum Health.",
+          "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_flame_buffet.png",
+          "position": 3,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "AlexstraszaFireWithinFlameBuffet|AlexstraszaFireWithinFlameBuffet|E|Level7",
+          "talent_id": "AlexstraszaFireWithinFlameBuffet",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_flame_buffet_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "life_binder",
+          "name": "Life-Binder",
+          "description": "Mana: 50 Cooldown: 50 seconds Bind Alexstrasza's life force with an allied Hero. Both her and her target are healed for 480 (+4% per level) Health over 2 seconds. Afterwards, the Hero with a lower percentage of Health is healed to the same Health percentage as the other Hero.  Dragonqueen: Cast range increased by 45%.",
+          "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_life_binder.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "AlexstraszaLifebinder|AlexstraszaLifebinder|Heroic|Level10",
+          "talent_id": "AlexstraszaLifebinder",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_life_binder_mini.png"
+        },
+        {
+          "id": "cleansing_flame",
+          "name": "Cleansing Flame",
+          "description": "Mana: 100 Cooldown: 100 seconds After 1.25 seconds, take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 135 (+4% per level) damage to enemies and heal allied Heroes for 300 (+4% per level) Health.  2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.",
+          "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_cleansing_flame.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "AlexstraszaCleansingFlame|AlexstraszaCleansingFlame|Heroic|Level10",
+          "talent_id": "AlexstraszaCleansingFlame",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_cleansing_flame_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "dragon_scales",
+          "name": "Dragon Scales",
+          "description": "Gain 50 Armor while Stunned, Rooted, or Silenced, and for 2 seconds after. Can only trigger once every 10 seconds.",
+          "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_dragon_scales.png",
+          "position": 1,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "AlexstraszaDragonScales|AlexstraszaDragonScales|Passive|Level13",
+          "talent_id": "AlexstraszaDragonScales",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_dragon_scales_mini.png"
+        },
+        {
+          "id": "pacify",
+          "name": "Pacify",
+          "description": "Cooldown: 60 seconds Activate to Slow and reduce an enemy Hero's damage by 50% for 3 seconds.  Healing a Stunned, Rooted, or Silenced ally reduces Pacify's cooldown by 30 seconds.",
+          "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_pacify.png",
+          "position": 2,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "AlexstraszaPacify|AlexstraszaPacify|Active|Level13",
+          "talent_id": "AlexstraszaPacify",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_pacify_mini.png"
+        },
+        {
+          "id": "life_unbound",
+          "name": "Life Unbound",
+          "description": "Cooldown: 90 seconds Activate to heal an allied Hero for 15% of their maximum Health and deal 200 (+4% per level) damage to nearby enemies.  Healing a Stunned, Rooted, or Silenced ally reduces Life Unbound's cooldown by 30 seconds.  Cannot be used on Alexstrasza.",
+          "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_life_unbound.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "AlexstraszaLifeUnbound|AlexstraszaLifeUnbound|Active|Level13",
+          "talent_id": "AlexstraszaLifeUnbound",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_life_unbound_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "tough_love",
+          "name": "Tough Love",
+          "description": "Gift of Life grants its target 10 Armor for 2.5 seconds, increased to 30 while Alexstrasza is above 75% Health.",
+          "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_gift_of_life.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "AlexstraszaToughLoveGiftOfLife|AlexstraszaToughLoveGiftOfLife|Q|Level16",
+          "talent_id": "AlexstraszaToughLoveGiftOfLife",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_gift_of_life_mini.png"
+        },
+        {
+          "id": "overprotective",
+          "name": "Overprotective",
+          "description": "Heroes healed by Abundance gain a Shield for 6 seconds equal to 50% of the amount healed.",
+          "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_abundance.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "AlexstraszaOverprotectiveAbundance|AlexstraszaOverprotectiveAbundance|W|Level16",
+          "talent_id": "AlexstraszaOverprotectiveAbundance",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_abundance_mini.png"
+        },
+        {
+          "id": "draconic_discipline",
+          "name": "Draconic Discipline",
+          "description": "Increase Dragonqueen Basic Attack healing by  50%. For each allied Hero healed with Dragonqueen Basic Attacks, reduce Preservation's cooldown by 1.25 seconds.",
+          "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_dragon_queen.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "AlexstraszaDraconicDisciplineDragonqueen|AlexstraszaDraconicDisciplineDragonqueen|Trait|Level16",
+          "talent_id": "AlexstraszaDraconicDisciplineDragonqueen",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_dragon_queen_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "ritual_of_life",
+          "name": "Ritual of Life",
+          "description": "Life-Binder activates 3 times over 6 seconds.",
+          "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_life_binder.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "AlexstraszaRitualOfLife|AlexstraszaRitualOfLifeLifebinder|Heroic|Level20",
+          "talent_id": "AlexstraszaRitualOfLife",
+          "prerequisite_talent_ids": [
+            "AlexstraszaLifebinder"
+          ],
+          "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_life_binder_mini.png"
+        },
+        {
+          "id": "on_ruby_wings",
+          "name": "On Ruby Wings",
+          "description": "Healing or damaging 3 or more Heroes with a single Cleansing Flame fireball causes that fireball to not be consumed.",
+          "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_cleansing_flame.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "AlexstraszaOnRubyWingsCleansingFlame|AlexstraszaOnRubyWingsCleansingFlame|Heroic|Level20",
+          "talent_id": "AlexstraszaOnRubyWingsCleansingFlame",
+          "prerequisite_talent_ids": [
+            "AlexstraszaCleansingFlame"
+          ],
+          "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_cleansing_flame_mini.png"
+        },
+        {
+          "id": "ancient_flame",
+          "name": "Ancient Flame",
+          "description": "While Dragonqueen is active, Alexstrasza's Basic Attacks apply Flame Buffet. This does not grant Quest stacks.  Passive: Dragonqueen grants 25% more maxium Health.",
+          "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_dragon_queen_a.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "AlexstraszaAncientFlameFlameBuffet|AlexstraszaAncientFlameFlameBuffet|Trait|Level20",
+          "talent_id": "AlexstraszaAncientFlameFlameBuffet",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_dragon_queen_a_mini.png"
+        },
+        {
+          "id": "blessing_of_the_red",
+          "name": "Blessing of the Red",
+          "description": "Cooldown: 40 seconds Activate to grant an allied Hero 500 bonus maximum Health until they die.  Cannot be used on Alexstrasza, or on a Hero who already has Blessing of the Red.",
+          "icon": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_blessing_of_the_red.png",
+          "position": 4,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "AlexstraszaBlessingOfTheRed|AlexstraszaBlessingOfTheRed|Active|Level20",
+          "talent_id": "AlexstraszaBlessingOfTheRed",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2"
+          ],
+          "icon_mini": "Heroes/alexstrasza/talents/storm_ui_icon_alexstrasza_blessing_of_the_red_mini.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,578 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "nova",
+    "name": "Nova",
+    "team_role": "Ranged Assassin",
+    "universe": "StarCraft",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "snipe",
+      "name": "Snipe",
+      "description": "Mana: 50 Cooldown: 6 seconds Deal 230 (+4% per level) damage to the first enemy hit.  Passive: Hitting an enemy Hero with Snipe permanently increases the damage of Snipe by 6%, stacking up to 30%. Gain an additional 25% damage bonus at maximum stacks. All stacks are lost if Snipe fails to hit an enemy.",
+      "icon": "Heroes/nova/abilities/storm_ui_icon_nova_snipe.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "NovaSnipeStorm|NovaSnipe|Q",
+      "ability_id": "NovaSnipeStorm",
+      "button_id": "NovaSnipe",
+      "unit_id": "HeroNova",
+      "unit_name": "Nova",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "pinning_shot",
+      "name": "Pinning Shot",
+      "description": "Mana: 65 Cooldown: 12 seconds Deal 100 (+4% per level) damage to an enemy and Slow them by 40% for 2.25 seconds.",
+      "icon": "Heroes/nova/abilities/storm_ui_icon_nova_pinningshot.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "NovaPinningShot|NovaPinningShot|W",
+      "ability_id": "NovaPinningShot",
+      "button_id": "NovaPinningShot",
+      "unit_id": "HeroNova",
+      "unit_name": "Nova",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "holo_decoy",
+      "name": "Holo Decoy",
+      "description": "Mana: 50 Cooldown: 15 seconds Create a Decoy for 5 seconds with 100% of Nova's current Health that attacks enemies, dealing 10% of Nova's base damage. Whenever a Decoy takes damage, it deals that amount of damage to itself, effectively doubling the damage it takes.  Using this Ability does not break Stealth.",
+      "icon": "Heroes/nova/abilities/storm_ui_icon_nova_holodecoy.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "NovaHoloDecoy|NovaHoloDecoy|E",
+      "ability_id": "NovaHoloDecoy",
+      "button_id": "NovaHoloDecoy",
+      "unit_id": "HeroNova",
+      "unit_name": "Nova",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "triple_tap",
+      "name": "Triple Tap",
+      "description": "Mana: 100 Cooldown: 100 seconds Locks in on the target Hero, then fires 3 shots that hit the first Hero or Structure they come in contact with for 372 (+4% per level) damage each.",
+      "icon": "Heroes/nova/talents/storm_ui_icon_nova_tripletap.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "NovaTripleTap|NovaTripleTap|Heroic",
+      "ability_id": "NovaTripleTap",
+      "button_id": "NovaTripleTap",
+      "unit_id": "HeroNova",
+      "unit_name": "Nova",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/nova/talents/storm_ui_icon_nova_tripletap_mini.png"
+    },
+    {
+      "id": "precision_strike",
+      "name": "Precision Strike",
+      "description": "Mana: 100 Cooldown: 50 seconds After a 1.5 second delay, deals 435 (+4% per level) damage to enemies within an area. Unlimited range.",
+      "icon": "Heroes/nova/talents/storm_ui_icon_nova_orbitalstrike.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "NovaPrecisionStrike|NovaPrecisionStrike|Heroic",
+      "ability_id": "NovaPrecisionStrike",
+      "button_id": "NovaPrecisionStrike",
+      "unit_id": "HeroNova",
+      "unit_name": "Nova",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/nova/talents/storm_ui_icon_nova_orbitalstrike_mini.png"
+    },
+    {
+      "id": "permanent_cloak",
+      "name": "Permanent Cloak",
+      "description": "Gain Stealth when out of combat for 3 seconds. Taking damage, attacking, using Abilities, or Channeling ends Stealth. Remaining stationary for at least 1.5 seconds while Stealthed grants Invisible.  Passive: Gain 15% Movement Speed while Stealthed.",
+      "icon": "Heroes/nova/abilities/storm_ui_icon_nova_personalcloaking.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": ":PASSIVE:|NovaPermanentCloak|Trait",
+      "ability_id": ":PASSIVE:",
+      "button_id": "NovaPermanentCloak",
+      "unit_id": "HeroNova",
+      "unit_name": "Nova",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroNova",
+      "unit_name": "Nova",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroNova",
+      "unit_name": "Nova",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroNova",
+      "unit_name": "Nova",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "ghost_protocol",
+      "name": "Ghost Protocol",
+      "description": "Cooldown: 60 seconds Activate to instantly grant Stealth to Nova and spawn a Holo Decoy at her location. Nova is Unrevealable for the first 0.5 seconds when Stealthed by Ghost Protocol.",
+      "icon": "Heroes/nova/abilities/storm_ui_icon_nova_personalcloaking.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "NovaGhostProtocol|NovaGhostProtocol|Active",
+      "ability_id": "NovaGhostProtocol",
+      "button_id": "NovaGhostProtocol",
+      "unit_id": "HeroNova",
+      "unit_name": "Nova",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "NovaGhostProtocol",
+      "active_order": 1,
+      "active_origin": "initial",
+      "unlock_level": 0,
+      "unlock_position": 0
+    },
+    {
+      "id": "covert_mission",
+      "name": "Covert Mission",
+      "description": "Enemy Minions killed near Nova grant a stack of Bribe. Hero Takedowns grant 10 stacks of Bribe. Use 25 stacks to bribe a Mercenary, instantly defeating them.  Does not work on Elite Mercenaries.  Maximum of 100 stacks. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.  Current number of Bribe stacks: 0",
+      "icon": "Heroes/nova/abilities/storm_ui_icon_talent_bribe.png",
+      "hotkey": "2",
+      "ability_type": "Active",
+      "link_id": "NovaCovertMission|NovaCovertMission|Active",
+      "ability_id": "NovaCovertMission",
+      "button_id": "NovaCovertMission",
+      "unit_id": "HeroNova",
+      "unit_name": "Nova",
+      "parent_link_ids": [
+        "NovaCovertMission|NovaCovertMissionTalent|Active|Level4"
+      ],
+      "unlock_conditions": [
+        [
+          "NovaCovertMission"
+        ]
+      ],
+      "hotkey_candidates": [
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "NovaCovertMission",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 4,
+      "unlock_position": 3
+    },
+    {
+      "id": "rewind",
+      "name": "Rewind",
+      "description": "Cooldown: 60 seconds Activate to reset the cooldowns of your Basic Abilities.",
+      "icon": "Heroes/nova/abilities/storm_ui_icon_talent_rewind.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "TalentRewind|GenericRewindHotbar|Active",
+      "ability_id": "TalentRewind",
+      "button_id": "GenericRewindHotbar",
+      "unit_id": "HeroNova",
+      "unit_name": "Nova",
+      "parent_link_ids": [
+        "GenericTalentRewind|GenericRewindHotbar|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "GenericTalentRewind"
+        ]
+      ],
+      "hotkey_candidates": [
+        "2",
+        "3"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "TalentRewind",
+      "active_order": 3,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 4
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "longshot",
+          "name": "Longshot",
+          "description": "Increases the cast range of Pinning Shot by 30%. Pinning Shot also increases the range of Nova's next Basic Attack by 2.3.",
+          "icon": "Heroes/nova/talents/storm_ui_icon_nova_pinningshot.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "NovaMasteryLongshot|NovaPinningShotLongshotTalent|W|Level1",
+          "talent_id": "NovaMasteryLongshot",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nova/talents/storm_ui_icon_nova_pinningshot_mini.png"
+        },
+        {
+          "id": "covert_ops",
+          "name": "Covert Ops",
+          "description": "After being Stealthed for 2 seconds, Pinning Shot's Slow is increased to 60% and costs no Mana. Bonus is lost after losing Stealth for 1 second.",
+          "icon": "Heroes/nova/talents/storm_ui_icon_nova_pinningshot_var1.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "NovaCovertOps|NovaCovertOpsTalent|W|Level1",
+          "talent_id": "NovaCovertOps",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nova/talents/storm_ui_icon_nova_pinningshot_var1_mini.png"
+        },
+        {
+          "id": "advanced_cloaking",
+          "name": "Advanced Cloaking",
+          "description": "After being Stealthed for 1 second, gain an additional 10% Movement Speed. While Stealthed, regenerate 6 Mana per second.",
+          "icon": "Heroes/nova/talents/storm_ui_icon_nova_personalcloaking.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "NovaAdvancedCloaking|NovaPermanentCloakSniperAdvancedCloakingTalent|Trait|Level1",
+          "talent_id": "NovaAdvancedCloaking",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nova/talents/storm_ui_icon_nova_personalcloaking_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "rapid_projection",
+          "name": "Rapid Projection",
+          "description": "Reduces Holo Decoy's cooldown and Mana cost by 60%.",
+          "icon": "Heroes/nova/talents/storm_ui_icon_nova_holodecoy.png",
+          "position": 1,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "NovaRapidProjection|NovaHoloDecoyRapidProjectionTalent|E|Level4",
+          "talent_id": "NovaRapidProjection",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nova/talents/storm_ui_icon_nova_holodecoy_mini.png"
+        },
+        {
+          "id": "holo_stability",
+          "name": "Holo Stability",
+          "description": "Increase the cast range of Holo Decoy by 100% and its duration by 120%.  Passive: Reduce the cooldown of Ghost Protocol by 15 seconds.",
+          "icon": "Heroes/nova/talents/storm_ui_icon_nova_holodecoy_var2.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "NovaHoloStability|NovaHoloDecoyHoloStabilityTalent|E|Level4",
+          "talent_id": "NovaHoloStability",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nova/talents/storm_ui_icon_nova_holodecoy_var2_mini.png"
+        },
+        {
+          "id": "covert_mission",
+          "name": "Covert Mission",
+          "description": "Enemy Minions killed near Nova grant a stack of Bribe. Hero Takedowns grant 10 stacks of Bribe. Use 25 stacks to bribe a Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum of 100 stacks. If a camp is defeated entirely with Bribe, the camp respawns 50% faster.",
+          "icon": "Heroes/nova/talents/storm_ui_icon_talent_bribe.png",
+          "position": 3,
+          "hotkey": "2",
+          "ability_type": "Active",
+          "link_id": "NovaCovertMission|NovaCovertMissionTalent|Active|Level4",
+          "talent_id": "NovaCovertMission",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "2"
+          ],
+          "icon_mini": "Heroes/nova/talents/storm_ui_icon_talent_bribe_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "perfect_shot",
+          "name": "Perfect Shot",
+          "description": "Hitting an enemy with Snipe reduces its cooldown by 2 seconds and refunds half its Mana cost, doubled against enemy Heroes.",
+          "icon": "Heroes/nova/talents/storm_ui_icon_nova_snipe.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "NovaMasteryPerfectShotSnipe|NovaPerfectShotTalent|Q|Level7",
+          "talent_id": "NovaMasteryPerfectShotSnipe",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nova/talents/storm_ui_icon_nova_snipe_mini.png"
+        },
+        {
+          "id": "one_in_the_chamber",
+          "name": "One in the Chamber",
+          "description": "After using an Ability, Nova's next Basic Attack within 3 seconds deals 65% additional damage.",
+          "icon": "Heroes/nova/talents/storm_ui_icon_talent_autoattack_damage.png",
+          "position": 2,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "NovaCombatStyleOneintheChamber|NovaOneintheChamberTalent|Passive|Level7",
+          "talent_id": "NovaCombatStyleOneintheChamber",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nova/talents/storm_ui_icon_talent_autoattack_damage_mini.png"
+        },
+        {
+          "id": "anti_armor_shells",
+          "name": "Anti-Armor Shells",
+          "description": "Nova's Basic Attacks deal 250% damage and decrease the Physical Armor of Heroic targets by 15 for 4 seconds, but her Attack Speed is proportionally slower.",
+          "icon": "Heroes/nova/talents/storm_ui_icon_talent_antiarmorshells.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "NovaCombatStyleAntiArmorShells|NovaAntiArmorShellsTalent|Passive|Level7",
+          "talent_id": "NovaCombatStyleAntiArmorShells",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nova/talents/storm_ui_icon_talent_antiarmorshells_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "triple_tap",
+          "name": "Triple Tap",
+          "description": "Mana: 100 Cooldown: 100 seconds Locks in on the target Hero, then fires 3 shots that hit the first Hero or Structure they come in contact with for 372 (+4% per level) damage each.",
+          "icon": "Heroes/nova/talents/storm_ui_icon_nova_tripletap.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "NovaHeroicAbilityTripleTap|NovaTripleTap|Heroic|Level10",
+          "talent_id": "NovaHeroicAbilityTripleTap",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nova/talents/storm_ui_icon_nova_tripletap_mini.png"
+        },
+        {
+          "id": "precision_strike",
+          "name": "Precision Strike",
+          "description": "Mana: 100 Cooldown: 50 seconds After a 1.5 second delay, deals 435 (+4% per level) damage to enemies within an area. Unlimited range.",
+          "icon": "Heroes/nova/talents/storm_ui_icon_nova_orbitalstrike.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "NovaHeroicAbilityPrecisionStrike|NovaPrecisionStrike|Heroic|Level10",
+          "talent_id": "NovaHeroicAbilityPrecisionStrike",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nova/talents/storm_ui_icon_nova_orbitalstrike_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "psionic_efficiency",
+          "name": "Psionic Efficiency",
+          "description": "Snipe's range is increased by 15% and hitting a Hero grants an additional stack of Precision Sniper.",
+          "icon": "Heroes/nova/talents/storm_ui_icon_nova_snipe.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "NovaMasteryPsionicEfficiency|NovaSnipePsionicEfficiencyTalent|Q|Level13",
+          "talent_id": "NovaMasteryPsionicEfficiency",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nova/talents/storm_ui_icon_nova_snipe_mini.png"
+        },
+        {
+          "id": "double_tap",
+          "name": "Double Tap",
+          "description": "Pinning Shot now has 2 charges, but its cooldown is increased by 2 seconds.",
+          "icon": "Heroes/nova/talents/storm_ui_icon_nova_pinningshot.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "NovaMasteryDoubleTap|NovaPinningShotDoubleTapTalent|W|Level13",
+          "talent_id": "NovaMasteryDoubleTap",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nova/talents/storm_ui_icon_nova_pinningshot_mini.png"
+        },
+        {
+          "id": "ionic_force_field",
+          "name": "Ionic Force Field",
+          "description": "Gain 25 Armor for 3 seconds after losing Stealth.",
+          "icon": "Heroes/nova/talents/storm_ui_icon_nova_personalcloaking.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "NovaIonicForceField|NovaIonicForceFieldTalent|Trait|Level13",
+          "talent_id": "NovaIonicForceField",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nova/talents/storm_ui_icon_nova_personalcloaking_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "explosive_round",
+          "name": "Explosive Round",
+          "description": "Snipe also deals 90% damage to enemies near the impact.",
+          "icon": "Heroes/nova/talents/storm_ui_icon_nova_snipe.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "NovaMasteryExplosiveShot|NovaSnipeExplosiveRoundTalent|Q|Level16",
+          "talent_id": "NovaMasteryExplosiveShot",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nova/talents/storm_ui_icon_nova_snipe_mini.png"
+        },
+        {
+          "id": "crippling_shot",
+          "name": "Crippling Shot",
+          "description": "Pinning Shot lowers a Hero's Armor by 20 for the duration of the Slow, causing them to take 20% increased damage.",
+          "icon": "Heroes/nova/talents/storm_ui_icon_nova_pinningshot.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "NovaMasteryCripplingShot|NovaPinningShotCripplingShotTalent|W|Level16",
+          "talent_id": "NovaMasteryCripplingShot",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nova/talents/storm_ui_icon_nova_pinningshot_mini.png"
+        },
+        {
+          "id": "lethal_decoy",
+          "name": "Lethal Decoy",
+          "description": "Increases the damage Holo Decoy deals to 30% of Nova's damage.",
+          "icon": "Heroes/nova/talents/storm_ui_icon_nova_holodecoy.png",
+          "position": 3,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "NovaMasteryLethalDecoy|NovaHoloDecoyLethalDecoyTalent|E|Level16",
+          "talent_id": "NovaMasteryLethalDecoy",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nova/talents/storm_ui_icon_nova_holodecoy_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "fast_reload",
+          "name": "Fast Reload",
+          "description": "Triple Tap's cooldown is reset if it kills an enemy Hero.",
+          "icon": "Heroes/nova/talents/storm_ui_icon_nova_tripletap.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "NovaMasteryFastReload|NovaTripleTapFastReloadTalent|Heroic|Level20",
+          "talent_id": "NovaMasteryFastReload",
+          "prerequisite_talent_ids": [
+            "NovaHeroicAbilityTripleTap"
+          ],
+          "icon_mini": "Heroes/nova/talents/storm_ui_icon_nova_tripletap_mini.png"
+        },
+        {
+          "id": "precision_barrage",
+          "name": "Precision Barrage",
+          "description": "Precision Strike gains a 2nd charge and its cooldown is reduced by 25 seconds.",
+          "icon": "Heroes/nova/talents/storm_ui_icon_nova_orbitalstrike.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "NovaMasteryPrecisionBarrage|NovaPrecisionStrikePrecisionBarrageTalent|Heroic|Level20",
+          "talent_id": "NovaMasteryPrecisionBarrage",
+          "prerequisite_talent_ids": [
+            "NovaHeroicAbilityPrecisionStrike"
+          ],
+          "icon_mini": "Heroes/nova/talents/storm_ui_icon_nova_orbitalstrike_mini.png"
+        },
+        {
+          "id": "apollo_suit",
+          "name": "Apollo Suit",
+          "description": "Reduce the cooldown of Permanent Cloak by 2 seconds.",
+          "icon": "Heroes/nova/talents/storm_ui_icon_nova_personalcloaking.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "NovaApolloSuit|NovaGhostProtocolApolloSuitTalent|Trait|Level20",
+          "talent_id": "NovaApolloSuit",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nova/talents/storm_ui_icon_nova_personalcloaking_mini.png"
+        },
+        {
+          "id": "rewind",
+          "name": "Rewind",
+          "description": "Cooldown: 60 seconds Activate to reset the cooldowns of your Basic Abilities.",
+          "icon": "Heroes/nova/talents/storm_ui_icon_talent_rewind.png",
+          "position": 4,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "GenericTalentRewind|GenericRewindHotbar|Active|Level20",
+          "talent_id": "GenericTalentRewind",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "2",
+            "3"
+          ],
+          "icon_mini": "Heroes/nova/talents/storm_ui_icon_talent_rewind_mini.png"
+        }
+      ]
+    }
+  ]
+}

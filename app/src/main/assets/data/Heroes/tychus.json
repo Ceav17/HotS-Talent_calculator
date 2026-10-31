@@ -1,0 +1,650 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "tychus",
+    "name": "Tychus",
+    "team_role": "Ranged Assassin",
+    "universe": "StarCraft",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "overkill",
+      "name": "Overkill",
+      "description": "Mana: 60 Cooldown: 12 seconds Deal 552 (+4% per level) damage to the target and 276 (+4% per level) damage to nearby targets over 4 seconds. Reactivate to select a new target or direction. Can move and use Abilities while Channeling.",
+      "icon": "Heroes/tychus/abilities/storm_ui_icon_tychus_overkill.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "TychusOverkillTargeted|TychusOverkill|Q",
+      "ability_id": "TychusOverkillTargeted",
+      "button_id": "TychusOverkill",
+      "unit_id": "HeroTychus",
+      "unit_name": "Tychus",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "frag_grenade",
+      "name": "Frag Grenade",
+      "description": "Mana: 50 Cooldown: 10 seconds Lob a grenade that deals 256 (+4% per level) damage, knocking enemies away.",
+      "icon": "Heroes/tychus/abilities/storm_ui_icon_tychus_fraggrenade.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "TychusGrenade|TychusFragGrenade|W",
+      "ability_id": "TychusGrenade",
+      "button_id": "TychusFragGrenade",
+      "unit_id": "HeroTychus",
+      "unit_name": "Tychus",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "run_and_gun_edff99642c",
+      "name": "Run and Gun",
+      "description": "Mana: 50 Cooldown: 10 seconds Dash a short distance.",
+      "icon": "Heroes/tychus/abilities/storm_ui_icon_tychus_runandgun.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "TychusRunAndGun|TychusRunandGun|E",
+      "ability_id": "TychusRunAndGun",
+      "button_id": "TychusRunandGun",
+      "unit_id": "HeroTychus",
+      "unit_name": "Tychus",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "drakken_laser_drill",
+      "name": "Drakken Laser Drill",
+      "description": "Mana: 100 Cooldown: 100 seconds Call down a Laser Drill to attack nearby enemies, dealing 142 (+4% per level) damage every second. Reactivate to assign a new target. Loses Health over 25 seconds.",
+      "icon": "Heroes/tychus/talents/storm_ui_icon_tychus_drakkinlaserdrill.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "TychusDrakkenLaserDrill|TychusDrakkenLaserDrill|Heroic",
+      "ability_id": "TychusDrakkenLaserDrill",
+      "button_id": "TychusDrakkenLaserDrill",
+      "unit_id": "HeroTychus",
+      "unit_name": "Tychus",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/tychus/talents/storm_ui_icon_tychus_drakkinlaserdrill_mini.png"
+    },
+    {
+      "id": "commandeer_odin",
+      "name": "Commandeer Odin",
+      "description": "Mana: 100 Cooldown: 100 seconds Call down an Odin to pilot. The Odin deals increased Damage, has 100% increased Basic Attack range, and uses different Abilities. The Odin has 25 Armor and lasts 23 seconds.",
+      "icon": "Heroes/tychus/talents/storm_ui_icon_tychus_commandeerodin.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "TychusOdinNoHealth|TychusCommandeerOdin|Heroic",
+      "ability_id": "TychusOdinNoHealth",
+      "button_id": "TychusCommandeerOdin",
+      "unit_id": "HeroTychus",
+      "unit_name": "Tychus",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/tychus/talents/storm_ui_icon_tychus_commandeerodin_mini.png"
+    },
+    {
+      "id": "minigun_17300d231a",
+      "name": "Minigun",
+      "description": "Cooldown: 12 seconds Activate to have Basic Attacks against Heroes deal bonus damage equal to 2.5% of their maximum Health. Lasts 3 seconds.",
+      "icon": "Heroes/tychus/abilities/storm_ui_icon_tychus_minigun.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": ":PASSIVE:|TychusMinigun|Trait",
+      "ability_id": ":PASSIVE:",
+      "button_id": "TychusMinigun",
+      "unit_id": "HeroTychus",
+      "unit_name": "Tychus",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroTychus",
+      "unit_name": "Tychus",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroTychus",
+      "unit_name": "Tychus",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "overkill_retarget",
+      "name": "Overkill Retarget",
+      "description": "Focuses Overkill on a different target or direction.",
+      "icon": "Heroes/tychus/abilities/storm_ui_icon_tychus_overkill_target.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "OverkillTargetedRetarget|TychusOverkillRetarget|Q",
+      "ability_id": "OverkillTargetedRetarget",
+      "button_id": "TychusOverkillRetarget",
+      "unit_id": "HeroTychus",
+      "unit_name": "Tychus",
+      "parent_link_ids": [
+        "TychusOverkillTargeted|TychusOverkill|Q"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "run_and_gun_21705a1bbd",
+      "name": "Run and Gun",
+      "description": "Mana: 50 Cooldown: 10 seconds Dash a short distance.",
+      "icon": "Heroes/tychus/abilities/storm_ui_icon_tychus_runandgun.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "TychusRunAndGunOverkill|TychusRunandGun|E",
+      "ability_id": "TychusRunAndGunOverkill",
+      "button_id": "TychusRunandGun",
+      "unit_id": "HeroTychus",
+      "unit_name": "Tychus",
+      "parent_link_ids": [
+        "TychusOverkillTargeted|TychusOverkill|Q"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "laser_drill_issue_order",
+      "name": "Laser Drill Issue Order",
+      "description": "Order the Laser Drill to attack a new target.",
+      "icon": "Heroes/tychus/abilities/storm_ui_icon_tychus_laserdrillissueorder.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "TychusDrakkenLaserDrillIssueOrder|TychusDrakkenLaserDrillIssueOrder|Heroic",
+      "ability_id": "TychusDrakkenLaserDrillIssueOrder",
+      "button_id": "TychusDrakkenLaserDrillIssueOrder",
+      "unit_id": "HeroTychus",
+      "unit_name": "Tychus",
+      "parent_link_ids": [
+        "TychusDrakkenLaserDrill|TychusDrakkenLaserDrill|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "annihilate",
+      "name": "Annihilate",
+      "description": "Cooldown: 7 seconds Fire the Odin's cannons in a straight line, dealing 196 (+4% per level) damage to everything in the path.",
+      "icon": "Heroes/tychus/abilities/storm_ui_icon_tychus_annihilate.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "TychusOdinAnnihilate|TychusCommandeerOdinAnnihilate|Q",
+      "ability_id": "TychusOdinAnnihilate",
+      "button_id": "TychusCommandeerOdinAnnihilate",
+      "unit_id": "HeroTychus",
+      "unit_name": "Tychus",
+      "parent_link_ids": [
+        "TychusOdinNoHealth|TychusCommandeerOdin|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "ragnarok_missiles",
+      "name": "Ragnarok Missiles",
+      "description": "Cooldown: 7 seconds Launches a volley of missiles at target area, dealing 132 (+4% per level) damage and slowing enemy Movement Speed by 30% for 2 seconds.",
+      "icon": "Heroes/tychus/abilities/storm_ui_icon_tychus_ragnarokmissiles.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "TychusOdinRagnarokMissilesTargeted|TychusCommandeerOdinRagnarokMissilesTargeted|W",
+      "ability_id": "TychusOdinRagnarokMissilesTargeted",
+      "button_id": "TychusCommandeerOdinRagnarokMissilesTargeted",
+      "unit_id": "HeroTychus",
+      "unit_name": "Tychus",
+      "parent_link_ids": [
+        "TychusOdinNoHealth|TychusCommandeerOdin|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "thrusters",
+      "name": "Thrusters",
+      "description": "Cooldown: 8 seconds Dash in target direction.",
+      "icon": "Heroes/tychus/abilities/storm_ui_icon_tychus_thrusters.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "TychusOdinThrusters|TychusOdinThrusters|E",
+      "ability_id": "TychusOdinThrusters",
+      "button_id": "TychusOdinThrusters",
+      "unit_id": "HeroTychus",
+      "unit_name": "Tychus",
+      "parent_link_ids": [
+        "TychusOdinNoHealth|TychusCommandeerOdin|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "minigun_2fb2dc9a08",
+      "name": "Minigun",
+      "description": "Cooldown: 12 seconds Activate to have Basic Attacks against Heroes deal bonus damage equal to 2.5% of their maximum Health. Lasts 3 seconds.",
+      "icon": "Heroes/tychus/abilities/storm_ui_icon_tychus_minigun.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "TychusMinigunActive|TychusMinigunActive|Trait",
+      "ability_id": "TychusMinigunActive",
+      "button_id": "TychusMinigunActive",
+      "unit_id": "HeroTychus",
+      "unit_name": "Tychus",
+      "parent_link_ids": [
+        ":PASSIVE:|TychusMinigun|Trait"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroTychus",
+      "unit_name": "Tychus",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "neosteel_coating",
+      "name": "Neosteel Coating",
+      "description": "Cooldown: 30 seconds Activate to gain 75 Spell Armor for 4 seconds, reducing Ability Damage taken by 75%.",
+      "icon": "Heroes/tychus/abilities/storm_temp_btn-upgrade-terran-neosteelframe.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "TychusNeosteelCoating|TychusNeosteelCoatingTalent|Active",
+      "ability_id": "TychusNeosteelCoating",
+      "button_id": "TychusNeosteelCoatingTalent",
+      "unit_id": "HeroTychus",
+      "unit_name": "Tychus",
+      "parent_link_ids": [
+        "TychusNeosteelCoating|TychusNeosteelCoatingTalent|Active|Level13"
+      ],
+      "unlock_conditions": [
+        [
+          "TychusNeosteelCoating"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "TychusNeosteelCoating",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 13,
+      "unlock_position": 3
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "quarterback",
+          "name": "Quarterback",
+          "description": "Increases Frag Grenade's damage by 10% and its range by 45%.",
+          "icon": "Heroes/tychus/talents/storm_ui_icon_tychus_fraggrenade.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "TychusMasteryQuarterback|TychusFragGrenadeQuarterbackTalent|W|Level1",
+          "talent_id": "TychusMasteryQuarterback",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/tychus/talents/storm_ui_icon_tychus_fraggrenade_mini.png"
+        },
+        {
+          "id": "dash",
+          "name": "Dash",
+          "description": "Increase the range of Run and Gun by 50%. When cast, increase Tychus's Movement Speed by 20% for 2.5 seconds.",
+          "icon": "Heroes/tychus/talents/storm_ui_icon_tychus_runandgun.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "TychusMasteryRunandGunDash|TychusRunandGunDashTalent|E|Level1",
+          "talent_id": "TychusMasteryRunandGunDash",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/tychus/talents/storm_ui_icon_tychus_runandgun_mini.png"
+        },
+        {
+          "id": "press_the_advantage",
+          "name": "Press the Advantage",
+          "description": "Increase Tychus's Basic Attack range by 1.",
+          "icon": "Heroes/tychus/talents/storm_ui_icon_talent_autoattack_range.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "TychusPressTheAdvantage|TychusPressTheAdvantage|Passive|Level1",
+          "talent_id": "TychusPressTheAdvantage",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/tychus/talents/storm_ui_icon_talent_autoattack_range_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "in_the_rhythm",
+          "name": "In the Rhythm",
+          "description": "Quest: While Minigun is active, Basic Attacks against Heroes permanently increase future Minigun durations by 0.03 seconds.",
+          "icon": "Heroes/tychus/talents/storm_ui_icon_tychus_minigun.png",
+          "position": 1,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "TychusInTheRhythm|TychusIntheRhythmTalent|Trait|Level4",
+          "talent_id": "TychusInTheRhythm",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/tychus/talents/storm_ui_icon_tychus_minigun_mini.png"
+        },
+        {
+          "id": "the_bigger_they_are",
+          "name": "The Bigger They Are...",
+          "description": "Increase the damage bonus to 4% while enemy Heroes are above 30% Health, but Minigun no longer has any effect on targets below 30%.",
+          "icon": "Heroes/tychus/talents/storm_ui_icon_tychus_minigun_a.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "TychusTheBiggerTheyAre|TychusTheBiggerTheyAre|Trait|Level4",
+          "talent_id": "TychusTheBiggerTheyAre",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/tychus/talents/storm_ui_icon_tychus_minigun_a_mini.png"
+        },
+        {
+          "id": "master_assassin",
+          "name": "Master Assassin",
+          "description": "Passive: Increase Tychus's Attack Speed by 10%.   Reward: After getting 15 Takedowns, Tychus's Attack Speed is increased by an additional 15%.",
+          "icon": "Heroes/tychus/talents/storm_ui_icon_talent_autoattack_speed.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "TychusMasterAssassin|TychusMasterAssassinTalent|Passive|Level4",
+          "talent_id": "TychusMasterAssassin",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/tychus/talents/storm_ui_icon_talent_autoattack_speed_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "melting_point",
+          "name": "Melting Point",
+          "description": "Enemies hit by Frag Grenade take an additional 75 (+4% per level) damage over 3 seconds. This damage is increased by 100% against Minions, Mercenaries, and Monsters.",
+          "icon": "Heroes/tychus/talents/storm_ui_icon_tychus_fraggrenade.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "TychusMeltingPoint|TychusMeltingPoint|W|Level7",
+          "talent_id": "TychusMeltingPoint",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/tychus/talents/storm_ui_icon_tychus_fraggrenade_mini.png"
+        },
+        {
+          "id": "combat_tactician",
+          "name": "Combat Tactician",
+          "description": "Reduce the cooldown of Minigun by 4 seconds. Reduce the cooldown of Minigun by an additional 4 seconds after using Run and Gun.",
+          "icon": "Heroes/tychus/talents/storm_ui_icon_tychus_minigun.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "TychusCombatTactician|TychusCombatTactician|Trait|Level7",
+          "talent_id": "TychusCombatTactician",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/tychus/talents/storm_ui_icon_tychus_minigun_mini.png"
+        },
+        {
+          "id": "relentless_soldier",
+          "name": "Relentless Soldier",
+          "description": "Being Stunned or Rooted grants 30 Armor for 3 seconds, reducing damage taken by 30%.",
+          "icon": "Heroes/tychus/talents/storm_ui_icon_talent_relentless.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "TychusRelentlessSoldier|TychusRelentlessSoldierTalent|Passive|Level7",
+          "talent_id": "TychusRelentlessSoldier",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/tychus/talents/storm_ui_icon_talent_relentless_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "commandeer_odin",
+          "name": "Commandeer Odin",
+          "description": "Mana: 100 Cooldown: 100 seconds Call down an Odin to pilot. The Odin deals increased Damage, has 100% increased Basic Attack range, and uses different Abilities. The Odin has 25 Armor and lasts 23 seconds.",
+          "icon": "Heroes/tychus/talents/storm_ui_icon_tychus_commandeerodin.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "TychusHeroicAbilityCommandeerOdin|TychusCommandeerOdin|Heroic|Level10",
+          "talent_id": "TychusHeroicAbilityCommandeerOdin",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/tychus/talents/storm_ui_icon_tychus_commandeerodin_mini.png"
+        },
+        {
+          "id": "drakken_laser_drill",
+          "name": "Drakken Laser Drill",
+          "description": "Mana: 100 Cooldown: 100 seconds Call down a Laser Drill to attack nearby enemies, dealing 142 (+4% per level) damage every second. Reactivate to assign a new target. Loses Health over 25 seconds.",
+          "icon": "Heroes/tychus/talents/storm_ui_icon_tychus_drakkinlaserdrill.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "TychusHeroicAbilityDrakkenLaserDrill|TychusDrakkenLaserDrill|Heroic|Level10",
+          "talent_id": "TychusHeroicAbilityDrakkenLaserDrill",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/tychus/talents/storm_ui_icon_tychus_drakkinlaserdrill_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "spray_n_pray",
+          "name": "Spray 'n' Pray",
+          "description": "Overkill Slows enemy Movement Speed by 25% and its range is increased by 25%.",
+          "icon": "Heroes/tychus/talents/storm_ui_icon_tychus_overkill.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "TychusMasterySprayNPray|TychusOverkillSprayNPrayTalent|Q|Level13",
+          "talent_id": "TychusMasterySprayNPray",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/tychus/talents/storm_ui_icon_tychus_overkill_mini.png"
+        },
+        {
+          "id": "that_s_the_stuff",
+          "name": "That's the Stuff!",
+          "description": "Minigun heals Tychus for 100% of the bonus damage dealt after it expires.",
+          "icon": "Heroes/tychus/talents/storm_ui_icon_tychus_minigun.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "TychusThatsTheStuff|TychusThatsTheStuff|Trait|Level13",
+          "talent_id": "TychusThatsTheStuff",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/tychus/talents/storm_ui_icon_tychus_minigun_mini.png"
+        },
+        {
+          "id": "neosteel_coating",
+          "name": "Neosteel Coating",
+          "description": "Cooldown: 30 seconds Activate to gain 75 Spell Armor for 4 seconds, reducing Ability Damage taken by 75%.",
+          "icon": "Heroes/tychus/talents/storm_temp_btn-upgrade-terran-neosteelframe.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "TychusNeosteelCoating|TychusNeosteelCoatingTalent|Active|Level13",
+          "talent_id": "TychusNeosteelCoating",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/tychus/talents/storm_temp_btn-upgrade-terran-neosteelframe_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "armor_piercing_rounds",
+          "name": "Armor Piercing Rounds",
+          "description": "Each time Overkill hits an enemy, its damage against them is increased by 15%, stacking up to 60% bonus damage.",
+          "icon": "Heroes/tychus/talents/storm_ui_icon_tychus_overkill.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "TychusMasteryOverkillArmorPiercingRounds|TychusOverkillArmorPiercingRoundsTalent|Q|Level16",
+          "talent_id": "TychusMasteryOverkillArmorPiercingRounds",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/tychus/talents/storm_ui_icon_tychus_overkill_mini.png"
+        },
+        {
+          "id": "titan_grenade",
+          "name": "Titan Grenade",
+          "description": "Frag Grenade deals bonus damage to Heroes equal to 5% of their maximum Health. Each enemy Hero hit by Frag Grenade reduces its cooldown by 1 second.",
+          "icon": "Heroes/tychus/talents/storm_ui_icon_tychus_fraggrenade.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "TychusMasteryFragGrenadeTitanGrenade|TychusFragGrenadeTitanGrenadeTalent|W|Level16",
+          "talent_id": "TychusMasteryFragGrenadeTitanGrenade",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/tychus/talents/storm_ui_icon_tychus_fraggrenade_mini.png"
+        },
+        {
+          "id": "sizzlin_attacks",
+          "name": "Sizzlin' Attacks",
+          "description": "Basic Attacks deal bonus damage to Heroes equal to 1% of their maximum Health. Stacks with Minigun.",
+          "icon": "Heroes/tychus/talents/storm_ui_icon_talent_autoattack_searing.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "TychusSizzlinAttacks|TychusSizzlinAttacks|Trait|Level16",
+          "talent_id": "TychusSizzlinAttacks",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/tychus/talents/storm_ui_icon_talent_autoattack_searing_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "big_red_button",
+          "name": "Big Red Button",
+          "description": "Odin lasts 50% longer and Ragnarok Missiles also launches a Nuclear Missile which lands 2.5 seconds later, dealing 319 (+4% per level) damage in its area.",
+          "icon": "Heroes/tychus/talents/storm_ui_icon_tychus_commandeerodin.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "TychusMasteryOdinBigRedButton|TychusCommandeerOdinBigRedButtonTalent|Heroic|Level20",
+          "talent_id": "TychusMasteryOdinBigRedButton",
+          "prerequisite_talent_ids": [
+            "TychusHeroicAbilityCommandeerOdin"
+          ],
+          "icon_mini": "Heroes/tychus/talents/storm_ui_icon_tychus_commandeerodin_mini.png"
+        },
+        {
+          "id": "focusing_diodes",
+          "name": "Focusing Diodes",
+          "description": "Increases the range of the Drakken Laser Drill by 50%. Deals increasing damage the longer it remains on a single target, up to 100% additional damage.",
+          "icon": "Heroes/tychus/talents/storm_ui_icon_tychus_drakkinlaserdrill.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "TychusMasteryDrakkenLaserFocusingDiodes|TychusDrakkenLaserFocusingDiodesTalent|Heroic|Level20",
+          "talent_id": "TychusMasteryDrakkenLaserFocusingDiodes",
+          "prerequisite_talent_ids": [
+            "TychusHeroicAbilityDrakkenLaserDrill"
+          ],
+          "icon_mini": "Heroes/tychus/talents/storm_ui_icon_tychus_drakkinlaserdrill_mini.png"
+        },
+        {
+          "id": "can_do_this_all_day",
+          "name": "Can Do This All Day",
+          "description": "Reduce Overkill's cooldown by 5 seconds. While Channeling Overkill, Tychus gains 40 Armor.",
+          "icon": "Heroes/tychus/talents/storm_ui_icon_tychus_overkill.png",
+          "position": 3,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "TychusCanDoThisAllDayOverkillTalent|TychusOverkillCanDoThisAllDayTalent|Q|Level20",
+          "talent_id": "TychusCanDoThisAllDayOverkillTalent",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/tychus/talents/storm_ui_icon_tychus_overkill_mini.png"
+        },
+        {
+          "id": "bob_and_weave",
+          "name": "Bob and Weave",
+          "description": "Run and Gun and Odin's Thrusters gain 2 additional charges and reduces Run and Gun's Mana cost from 50 to 25. After using Run and Gun, increase Tychus's Basic Attack range by 1.5 for 4 seconds.",
+          "icon": "Heroes/tychus/talents/storm_ui_icon_tychus_runandgun.png",
+          "position": 4,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "TychusRunAndGunBobAndWeave|TychusRunAndGunBobAndWeaveTalent|E|Level20",
+          "talent_id": "TychusRunAndGunBobAndWeave",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/tychus/talents/storm_ui_icon_tychus_runandgun_mini.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/arthas/portrait.png",
+  "lines": [
+    {
+      "id": "all_shall_suffer_0abcbebf",
+      "title": "All Shall Suffer",
+      "variant": null,
+      "audio": "voice_lines/arthas/all_shall_suffer_0abcbebf.ogg"
+    },
+    {
+      "id": "bow_down_c67923c0",
+      "title": "Bow Down",
+      "variant": null,
+      "audio": "voice_lines/arthas/bow_down_c67923c0.ogg"
+    },
+    {
+      "id": "frostmourne_hungers_429a79ab",
+      "title": "Frostmourne Hungers",
+      "variant": null,
+      "audio": "voice_lines/arthas/frostmourne_hungers_429a79ab.ogg"
+    },
+    {
+      "id": "know_my_cruelty_ea51d6f6",
+      "title": "Know My Cruelty",
+      "variant": null,
+      "audio": "voice_lines/arthas/know_my_cruelty_ea51d6f6.ogg"
+    },
+    {
+      "id": "laugh_7636ff34",
+      "title": "Laugh",
+      "variant": null,
+      "audio": "voice_lines/arthas/laugh_7636ff34.ogg"
+    }
+  ]
+}

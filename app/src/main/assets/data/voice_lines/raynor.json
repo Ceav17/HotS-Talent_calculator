@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/raynor/portrait.png",
+  "lines": [
+    {
+      "id": "askin_the_impossible_3c72ae00",
+      "title": "Askin' the Impossible",
+      "variant": null,
+      "audio": "voice_lines/raynor/askin_the_impossible_3c72ae00.ogg"
+    },
+    {
+      "id": "give_em_some_pepper_f813be60",
+      "title": "Give 'Em Some Pepper",
+      "variant": null,
+      "audio": "voice_lines/raynor/give_em_some_pepper_f813be60.ogg"
+    },
+    {
+      "id": "nighty_night_04cbbb47",
+      "title": "Nighty Night!",
+      "variant": null,
+      "audio": "voice_lines/raynor/nighty_night_04cbbb47.ogg"
+    },
+    {
+      "id": "raiders_roll_1e6a2cee",
+      "title": "Raiders Roll",
+      "variant": null,
+      "audio": "voice_lines/raynor/raiders_roll_1e6a2cee.ogg"
+    },
+    {
+      "id": "this_is_jimmy_359b1577",
+      "title": "This Is Jimmy",
+      "variant": null,
+      "audio": "voice_lines/raynor/this_is_jimmy_359b1577.ogg"
+    }
+  ]
+}

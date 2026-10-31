@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/rehgar/portrait.png",
+  "lines": [
+    {
+      "id": "ancestors_watch_over_you_a90f2160",
+      "title": "Ancestors Watch Over You",
+      "variant": null,
+      "audio": "voice_lines/rehgar/ancestors_watch_over_you_a90f2160.ogg"
+    },
+    {
+      "id": "lok_tar_ogar_ed2be565",
+      "title": "Lok'tar Ogar!",
+      "variant": null,
+      "audio": "voice_lines/rehgar/lok_tar_ogar_ed2be565.ogg"
+    },
+    {
+      "id": "odds_were_in_my_favor_1441f37b",
+      "title": "Odds Were in My Favor",
+      "variant": null,
+      "audio": "voice_lines/rehgar/odds_were_in_my_favor_1441f37b.ogg"
+    },
+    {
+      "id": "the_wrong_shaman_2f8e83e3",
+      "title": "The Wrong Shaman",
+      "variant": null,
+      "audio": "voice_lines/rehgar/the_wrong_shaman_2f8e83e3.ogg"
+    },
+    {
+      "id": "you_have_my_attention_1bebd31c",
+      "title": "You Have My Attention",
+      "variant": null,
+      "audio": "voice_lines/rehgar/you_have_my_attention_1bebd31c.ogg"
+    }
+  ]
+}

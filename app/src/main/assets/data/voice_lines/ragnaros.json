@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/ragnaros/portrait.png",
+  "lines": [
+    {
+      "id": "bow_before_me_285708f5",
+      "title": "BOW BEFORE ME",
+      "variant": null,
+      "audio": "voice_lines/ragnaros/bow_before_me_285708f5.ogg"
+    },
+    {
+      "id": "burn_baby_burn_23f21832",
+      "title": "BURN BABY BURN!",
+      "variant": null,
+      "audio": "voice_lines/ragnaros/burn_baby_burn_23f21832.ogg"
+    },
+    {
+      "id": "feeling_hot_ae6adbd4",
+      "title": "FEELING... HOT!",
+      "variant": null,
+      "audio": "voice_lines/ragnaros/feeling_hot_ae6adbd4.ogg"
+    },
+    {
+      "id": "i_m_on_fire_aa42d247",
+      "title": "I'M ON FIRE!",
+      "variant": null,
+      "audio": "voice_lines/ragnaros/i_m_on_fire_aa42d247.ogg"
+    },
+    {
+      "id": "now_for_you_4477c205",
+      "title": "NOW FOR YOU!",
+      "variant": null,
+      "audio": "voice_lines/ragnaros/now_for_you_4477c205.ogg"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/anubarak/portrait.png",
+  "lines": [
+    {
+      "id": "a_fatal_mistake_64341c63",
+      "title": "A Fatal Mistake",
+      "variant": null,
+      "audio": "voice_lines/anubarak/a_fatal_mistake_64341c63.ogg"
+    },
+    {
+      "id": "feed_upon_anguish_90c4dcad",
+      "title": "Feed Upon Anguish",
+      "variant": null,
+      "audio": "voice_lines/anubarak/feed_upon_anguish_90c4dcad.ogg"
+    },
+    {
+      "id": "for_the_frozen_throne_0aa45d0d",
+      "title": "For the Frozen Throne",
+      "variant": null,
+      "audio": "voice_lines/anubarak/for_the_frozen_throne_0aa45d0d.ogg"
+    },
+    {
+      "id": "i_yearn_for_battle_2ab8ed5d",
+      "title": "I Yearn for Battle",
+      "variant": null,
+      "audio": "voice_lines/anubarak/i_yearn_for_battle_2ab8ed5d.ogg"
+    },
+    {
+      "id": "venom_of_nerub_aa757007",
+      "title": "Venom of Nerub",
+      "variant": null,
+      "audio": "voice_lines/anubarak/venom_of_nerub_aa757007.ogg"
+    }
+  ]
+}

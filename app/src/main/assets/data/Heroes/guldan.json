@@ -1,0 +1,661 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "guldan",
+    "name": "Gul'dan",
+    "team_role": "Ranged Assassin",
+    "universe": "Warcraft",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "fel_flame",
+      "name": "Fel Flame",
+      "description": "Mana: 75 Cooldown: 1.5 seconds Release a wave of flame, dealing 210 (+4.5% per level) damage to enemies.",
+      "icon": "Heroes/guldan/abilities/storm_ui_icon_guldan_felflame.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "GuldanFelFlame|GuldanFelFlame|Q",
+      "ability_id": "GuldanFelFlame",
+      "button_id": "GuldanFelFlame",
+      "unit_id": "HeroGuldan",
+      "unit_name": "Gul'dan",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "drain_life",
+      "name": "Drain Life",
+      "description": "Cooldown: 10 seconds Drain the life from an enemy over 3 seconds, dealing 132 (+4% per level) damage per second and healing Gul'dan for 188 (+4% per level) Health per second.",
+      "icon": "Heroes/guldan/abilities/storm_ui_icon_guldan_healthfunnel.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "GuldanDrainLife|GuldanDrainLife|W",
+      "ability_id": "GuldanDrainLife",
+      "button_id": "GuldanDrainLife",
+      "unit_id": "HeroGuldan",
+      "unit_name": "Gul'dan",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "corruption",
+      "name": "Corruption",
+      "description": "Mana: 90 Cooldown: 14 seconds Call forth three bursts of shadow energy, dealing 204 (+4.5% per level) damage over 6 seconds. Corruption can stack up to 3 times on an enemy.",
+      "icon": "Heroes/guldan/abilities/storm_ui_icon_guldan_handofguldan.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "GuldanCorruption|GuldanCorruption|E",
+      "ability_id": "GuldanCorruption",
+      "button_id": "GuldanCorruption",
+      "unit_id": "HeroGuldan",
+      "unit_name": "Gul'dan",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "horrify",
+      "name": "Horrify",
+      "description": "Mana: 90 Cooldown: 80 seconds After 0.5 seconds, deal 120 (+4% per level) damage to enemy Heroes in an area and Fear them for 2 seconds. While Feared, Heroes are Silenced and are forced to run away from Horrify's center.",
+      "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_horrify.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "GuldanHorrify|GuldanHorrify|Heroic",
+      "ability_id": "GuldanHorrify",
+      "button_id": "GuldanHorrify",
+      "unit_id": "HeroGuldan",
+      "unit_name": "Gul'dan",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_horrify_mini.png"
+    },
+    {
+      "id": "rain_of_destruction",
+      "name": "Rain of Destruction",
+      "description": "Mana: 80 Cooldown: 70 seconds After 1.5 seconds, summon a rain of meteors in an area for 7 seconds. Each meteor deals 165 (+4% per level) damage in a small area.",
+      "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_rainoffire.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "GuldanRainOfDestruction|GuldanRainOfDestruction|Heroic",
+      "ability_id": "GuldanRainOfDestruction",
+      "button_id": "GuldanRainOfDestruction",
+      "unit_id": "HeroGuldan",
+      "unit_name": "Gul'dan",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_rainoffire_mini.png"
+    },
+    {
+      "id": "life_tap_8a26cd07e5",
+      "name": "Life Tap",
+      "description": "Life: 222 Gul'dan does not regenerate Mana.  Activate to restore 25% of Gul'dan's Mana.",
+      "icon": "Heroes/guldan/abilities/storm_ui_icon_guldan_lifetap.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "GuldanLifeTap|GuldanLifeTap|Trait",
+      "ability_id": "GuldanLifeTap",
+      "button_id": "GuldanLifeTap",
+      "unit_id": "HeroGuldan",
+      "unit_name": "Gul'dan",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroGuldan",
+      "unit_name": "Gul'dan",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroGuldan",
+      "unit_name": "Gul'dan",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "cancel_drain_life",
+      "name": "Cancel Drain Life",
+      "description": "Stop channeling Drain Life.",
+      "icon": null,
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "GuldanDrainLifeCancel|GuldanDrainLifeCancel|W",
+      "ability_id": "GuldanDrainLifeCancel",
+      "button_id": "GuldanDrainLifeCancel",
+      "unit_id": "HeroGuldan",
+      "unit_name": "Gul'dan",
+      "parent_link_ids": [
+        "GuldanDrainLife|GuldanDrainLife|W"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroGuldan",
+      "unit_name": "Gul'dan",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "life_tap_d716f5b980",
+      "name": "Life Tap",
+      "description": "Gul'dan does not regenerate Mana.  Activate to restore 25% of Gul'dan's Mana.",
+      "icon": "Heroes/guldan/abilities/storm_ui_icon_guldan_lifetap.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "GuldanLifeTapFree|GuldanLifeTapFree|Trait",
+      "ability_id": "GuldanLifeTapFree",
+      "button_id": "GuldanLifeTapFree",
+      "unit_id": "HeroGuldan",
+      "unit_name": "Gul'dan",
+      "parent_link_ids": [
+        "GuldanLifeTapDarknessWithin|GuldanLifeTapDarknessWithin|Trait|Level16"
+      ],
+      "unlock_conditions": [
+        [
+          "GuldanLifeTapDarknessWithin"
+        ]
+      ]
+    },
+    {
+      "id": "consume_soul",
+      "name": "Consume Soul",
+      "description": "Charge Cooldown: 25 seconds Instantly kill an enemy Minion and heal for 365 (+4% per level) Health.  Stores up to 3 charges.",
+      "icon": "Heroes/guldan/abilities/storm_ui_icon_guldan_darkpact.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "GuldanConsumeSoul|GuldanConsumeSoul|Active",
+      "ability_id": "GuldanConsumeSoul",
+      "button_id": "GuldanConsumeSoul",
+      "unit_id": "HeroGuldan",
+      "unit_name": "Gul'dan",
+      "parent_link_ids": [
+        "GuldanConsumeSoul|GuldanConsumeSoul|Active|Level4"
+      ],
+      "unlock_conditions": [
+        [
+          "GuldanConsumeSoul"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "GuldanConsumeSoul",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 4,
+      "unlock_position": 3
+    },
+    {
+      "id": "healthstone",
+      "name": "Healthstone",
+      "description": "Cooldown: 45 seconds Activate to heal for 25% of Gul'dan's maximum Health.",
+      "icon": "Heroes/guldan/abilities/storm_ui_icon_guldan_healthstone.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "GuldanHealthstone|GuldanHealthstone|Active",
+      "ability_id": "GuldanHealthstone",
+      "button_id": "GuldanHealthstone",
+      "unit_id": "HeroGuldan",
+      "unit_name": "Gul'dan",
+      "parent_link_ids": [
+        "GuldanHealthstone|GuldanHealthstone|Active|Level13"
+      ],
+      "unlock_conditions": [
+        [
+          "GuldanHealthstone"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "GuldanHealthstone",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 13,
+      "unlock_position": 4
+    },
+    {
+      "id": "teleport_to_demonic_circle",
+      "name": "Teleport To Demonic Circle",
+      "description": "Cooldown: 60 seconds Instantly teleport Gul'dan to the Demonic Circle.",
+      "icon": "Heroes/guldan/abilities/storm_ui_icon_guldan_demoniccircle_a.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "GuldanDemonicCircleTeleport|GuldanDemonicCircleTeleport|Active",
+      "ability_id": "GuldanDemonicCircleTeleport",
+      "button_id": "GuldanDemonicCircleTeleport",
+      "unit_id": "HeroGuldan",
+      "unit_name": "Gul'dan",
+      "parent_link_ids": [
+        "GuldanDemonicCircleSummon|GuldanDemonicCircleSummon|Active"
+      ],
+      "unlock_conditions": [
+        [
+          "GuldanDemonicCircle"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2",
+        "3"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "GuldanDemonicCircleTeleport",
+      "active_order": 3,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 3
+    },
+    {
+      "id": "summon_demonic_circle",
+      "name": "Summon Demonic Circle",
+      "description": "Cooldown: 1 second After 1 second, create a Demonic Circle at Gul'dan's location.",
+      "icon": "Heroes/guldan/abilities/storm_ui_icon_guldan_demoniccircle.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "GuldanDemonicCircleSummon|GuldanDemonicCircleSummon|Active",
+      "ability_id": "GuldanDemonicCircleSummon",
+      "button_id": "GuldanDemonicCircleSummon",
+      "unit_id": "HeroGuldan",
+      "unit_name": "Gul'dan",
+      "parent_link_ids": [
+        "GuldanDemonicCircle|GuldanDemonicCircle|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "GuldanDemonicCircle"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2",
+        "3"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "GuldanDemonicCircleTeleport",
+      "active_order": 3,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 3
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "pursuit_of_flame",
+          "name": "Pursuit of Flame",
+          "description": "Quest: Hit 30 enemy Heroes with Fel Flame without dying.  Reward: Permanently increase Fel Flame's area by 33%.",
+          "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_felflame.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "GuldanFelFlamePursuitOfFlame|GuldanFelFlameTalentPursuitOfFlame|Q|Level1",
+          "talent_id": "GuldanFelFlamePursuitOfFlame",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_felflame_mini.png"
+        },
+        {
+          "id": "chaotic_energy",
+          "name": "Chaotic Energy",
+          "description": "Increases the cast range of Drain Life by 25%, and Regen Globes heal for 50% more.  Quest: Gather 15 Regen Globes.  Reward: Basic Ability Mana costs are permanently reduced by 20.",
+          "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_healthfunnel.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "GuldanChaoticEnergy|GuldanChaoticEnergy|W|Level1",
+          "talent_id": "GuldanChaoticEnergy",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_healthfunnel_mini.png"
+        },
+        {
+          "id": "echoed_corruption",
+          "name": "Echoed Corruption",
+          "description": "Quest: Hit enemy Heroes with Corruption.  Reward: After hitting 40 heroes, Corruption gains new functionality. After the third strike, Corruption strikes 3 times in the opposite direction.  Mythic Reward: After 85 hits, Corruption heals for 100% of the damage dealt.",
+          "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_handofguldan.png",
+          "position": 3,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "GuldanCorruptionEchoedCorruption|GuldanCorruptionEchoedCorruption|E|Level1",
+          "talent_id": "GuldanCorruptionEchoedCorruption",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_handofguldan_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "health_funnel",
+          "name": "Health Funnel",
+          "description": "Drain Life's cooldown recharges 100% faster while it is channeling. If an enemy dies while under the effect of Drain Life, the cooldown is instantly refreshed.",
+          "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_healthfunnel.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "GuldanDrainLifeHealthFunnel|GuldanDrainLifeHealthFunnel|W|Level4",
+          "talent_id": "GuldanDrainLifeHealthFunnel",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_healthfunnel_mini.png"
+        },
+        {
+          "id": "improved_life_tap",
+          "name": "Improved Life Tap",
+          "description": "Increase the Mana restored by Life Tap to 40%.",
+          "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_lifetap.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "GuldanLifeTapImprovedLifeTap|GuldanLifeTapImprovedLifeTap|Trait|Level4",
+          "talent_id": "GuldanLifeTapImprovedLifeTap",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_lifetap_mini.png"
+        },
+        {
+          "id": "consume_soul",
+          "name": "Consume Soul",
+          "description": "Charge Cooldown: 25 seconds Instantly kill an enemy Minion and heal for 365 (+4% per level) Health.  Stores up to 3 charges.",
+          "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_darkpact.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "GuldanConsumeSoul|GuldanConsumeSoul|Active|Level4",
+          "talent_id": "GuldanConsumeSoul",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_darkpact_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "bound_by_shadow",
+          "name": "Bound by Shadow",
+          "description": "Each enemy Hero hit with Fel Flame reduces the cooldown of Corruption by 1.75 seconds.",
+          "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_felflame.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "GuldanFelFlameBoundByShadow|GuldanFelFlameBoundByShadow|Q|Level7",
+          "talent_id": "GuldanFelFlameBoundByShadow",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_felflame_mini.png"
+        },
+        {
+          "id": "curse_of_exhaustion",
+          "name": "Curse of Exhaustion",
+          "description": "Drain Life deals 50% more damage and Slows the target's Movement Speed by 40%.",
+          "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_healthfunnel.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "GuldanCorruptionCurseOfExhaustion|GuldanCorruptionCurseOfExhaustion|W|Level7",
+          "talent_id": "GuldanCorruptionCurseOfExhaustion",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_healthfunnel_mini.png"
+        },
+        {
+          "id": "hunger_for_power",
+          "name": "Hunger for Power",
+          "description": "Increases Spell Power by 15% but reduces healing received from allies by 25%.",
+          "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_hungerforpower.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "GuldanLifeTapHungerforPower|GuldanLifeTapHungerforPower|Passive|Level7",
+          "talent_id": "GuldanLifeTapHungerforPower",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_hungerforpower_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "horrify",
+          "name": "Horrify",
+          "description": "Mana: 90 Cooldown: 80 seconds After 0.5 seconds, deal 120 (+4% per level) damage to enemy Heroes in an area and Fear them for 2 seconds. While Feared, Heroes are Silenced and are forced to run away from Horrify's center.",
+          "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_horrify.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "GuldanHorrify|GuldanHorrify|Heroic|Level10",
+          "talent_id": "GuldanHorrify",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_horrify_mini.png"
+        },
+        {
+          "id": "rain_of_destruction",
+          "name": "Rain of Destruction",
+          "description": "Mana: 80 Cooldown: 70 seconds After 1.5 seconds, summon a rain of meteors in an area for 7 seconds. Each meteor deals 165 (+4% per level) damage in a small area.",
+          "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_rainoffire.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "GuldanRainOfDestruction|GuldanRainOfDestruction|Heroic|Level10",
+          "talent_id": "GuldanRainOfDestruction",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_rainoffire_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "fel_armor",
+          "name": "Fel Armor",
+          "description": "Hitting an enemy Hero with Fel Flame grants 50 Spell Armor for 2.5 seconds, reducing Ability Damage taken by 50%.",
+          "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_felflame.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "GuldanFelFlameFelArmor|GuldanFelFlameFelArmor|Q|Level13",
+          "talent_id": "GuldanFelFlameFelArmor",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_felflame_mini.png"
+        },
+        {
+          "id": "harvest_life",
+          "name": "Harvest Life",
+          "description": "Drain Life heals for 75% more Health when used on Heroes.",
+          "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_healthfunnel.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "GuldanDrainLifeHarvestLife|GuldanDrainLifeHarvestLife|W|Level13",
+          "talent_id": "GuldanDrainLifeHarvestLife",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_healthfunnel_mini.png"
+        },
+        {
+          "id": "dark_bargain",
+          "name": "Dark Bargain",
+          "description": "Gul'dan's maximum Health is permanently increased by 40% but his respawn time is increased by 10 seconds.",
+          "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_darkbargain.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "GuldanDarkBargain|GuldanDarkBargain|Passive|Level13",
+          "talent_id": "GuldanDarkBargain",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_darkbargain_mini.png"
+        },
+        {
+          "id": "healthstone",
+          "name": "Healthstone",
+          "description": "Cooldown: 45 seconds Activate to heal for 25% of Gul'dan's maximum Health.",
+          "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_healthstone.png",
+          "position": 4,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "GuldanHealthstone|GuldanHealthstone|Active|Level13",
+          "talent_id": "GuldanHealthstone",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2"
+          ],
+          "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_healthstone_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "rampant_hellfire",
+          "name": "Rampant Hellfire",
+          "description": "Fel Flame's damage is increased by 12% for 5 seconds when hitting an enemy Hero. This can stack up to 5 times.",
+          "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_felflame.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "GuldanFelFlameRampantHellfire|GuldanFelFlameRampantHellfire|Q|Level16",
+          "talent_id": "GuldanFelFlameRampantHellfire",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_felflame_mini.png"
+        },
+        {
+          "id": "ruinous_affliction",
+          "name": "Ruinous Affliction",
+          "description": "Corruption deals an additional 70 (+4% per level) damage on impact. If the enemy is hit by all three strikes, the third strike deals 242 (+4% per level) damage.",
+          "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_handofguldan.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "GuldanCorruptionRuinousAffliction|GuldanCorruptionRuinousAffliction|E|Level16",
+          "talent_id": "GuldanCorruptionRuinousAffliction",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_handofguldan_mini.png"
+        },
+        {
+          "id": "darkness_within",
+          "name": "Darkness Within",
+          "description": "Dealing 600 (+4% per level) damage to enemy Heroes causes the next cast of Life Tap to cost no Health and grant Gul'dan 25% Spell Power for 5 seconds.",
+          "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_lifetap.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "GuldanLifeTapDarknessWithin|GuldanLifeTapDarknessWithin|Trait|Level16",
+          "talent_id": "GuldanLifeTapDarknessWithin",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_lifetap_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "haunt",
+          "name": "Haunt",
+          "description": "Increases the duration of Horrify by 1 second, and while Feared, enemies lose 20 Armor, causing them to take 20% increased damage.",
+          "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_horrify.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "GuldanHorrifyHaunt|GuldanHorrifyHaunt|Heroic|Level20",
+          "talent_id": "GuldanHorrifyHaunt",
+          "prerequisite_talent_ids": [
+            "GuldanHorrify"
+          ],
+          "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_horrify_mini.png"
+        },
+        {
+          "id": "deep_impact",
+          "name": "Deep Impact",
+          "description": "Rain of Destruction Slows enemies Movement Speed by 90% for 0.5 seconds.",
+          "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_rainoffire.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "GuldanRainOfDestructionDeepImpact|GuldanRainOfDestructionDeepImpact|Heroic|Level20",
+          "talent_id": "GuldanRainOfDestructionDeepImpact",
+          "prerequisite_talent_ids": [
+            "GuldanRainOfDestruction"
+          ],
+          "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_rainoffire_mini.png"
+        },
+        {
+          "id": "demonic_circle",
+          "name": "Demonic Circle",
+          "description": "Cooldown: 60 seconds Summon a Demonic Circle at Gul'dan's location. Activate to teleport Gul'dan to the Demonic Circle.",
+          "icon": "Heroes/guldan/talents/storm_ui_icon_guldan_demoniccircle.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "GuldanDemonicCircle|GuldanDemonicCircle|Active|Level20",
+          "talent_id": "GuldanDemonicCircle",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2",
+            "3"
+          ],
+          "icon_mini": "Heroes/guldan/talents/storm_ui_icon_guldan_demoniccircle_mini.png"
+        }
+      ]
+    }
+  ]
+}

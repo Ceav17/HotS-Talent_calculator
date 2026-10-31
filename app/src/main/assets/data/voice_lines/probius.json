@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/probius/portrait.png",
+  "lines": [
+    {
+      "id": "chp_chp_chp_chowuhowha_72ea1889",
+      "title": "Chp Chp Chp Chowuhowha?",
+      "variant": null,
+      "audio": "voice_lines/probius/chp_chp_chp_chowuhowha_72ea1889.ogg"
+    },
+    {
+      "id": "ehn_eh_weh_a6cb2ee8",
+      "title": "Ehn Eh, Weh?",
+      "variant": null,
+      "audio": "voice_lines/probius/ehn_eh_weh_a6cb2ee8.ogg"
+    },
+    {
+      "id": "shoo_wee_cfe9346b",
+      "title": "Shoo-wee!",
+      "variant": null,
+      "audio": "voice_lines/probius/shoo_wee_cfe9346b.ogg"
+    },
+    {
+      "id": "whoa_whoa_7e228f23",
+      "title": "Whoa-whoa!",
+      "variant": null,
+      "audio": "voice_lines/probius/whoa_whoa_7e228f23.ogg"
+    },
+    {
+      "id": "wuh_uh_uh_uh_uh_08dc7f0d",
+      "title": "Wuh-uh-uh-uh-uh!",
+      "variant": null,
+      "audio": "voice_lines/probius/wuh_uh_uh_uh_uh_08dc7f0d.ogg"
+    }
+  ]
+}

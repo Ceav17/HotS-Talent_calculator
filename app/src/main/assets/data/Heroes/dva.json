@@ -1,0 +1,738 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "dva",
+    "name": "D.Va",
+    "team_role": "Bruiser",
+    "universe": "Overwatch",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "boosters",
+      "name": "Boosters",
+      "description": "Cooldown: 10 seconds Increase D.Va's Movement Speed by 115% for 1.75 seconds. Enemies that are hit take 135 (+4% per level) damage and are knocked away.   D.Va cannot be Slowed while Boosters are active, and each enemy can only be hit once per use.",
+      "icon": "Heroes/dva/abilities/storm_ui_icon_dva_boosters.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "DVaBoostersOn|DVaMechBoosters|Q",
+      "ability_id": "DVaBoostersOn",
+      "button_id": "DVaMechBoosters",
+      "unit_id": "HeroDVaMech",
+      "unit_name": "D.Va",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "defense_matrix",
+      "name": "Defense Matrix",
+      "description": "Cooldown: 12 seconds Project a defensive field in the target direction for 3 seconds, reducing the damage dealt by enemy Heroes inside it by 60%.  Activate again to change the angle of projection.  Damage dealt to the Mech from enemies within Defense Matrix still grants the same amount of Self-Destruct Charge.",
+      "icon": "Heroes/dva/abilities/storm_ui_icon_dva_defensematrix.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "DVaMechDefenseMatrixOn|DVaMechDefenseMatrix|W",
+      "ability_id": "DVaMechDefenseMatrixOn",
+      "button_id": "DVaMechDefenseMatrix",
+      "unit_id": "HeroDVaMech",
+      "unit_name": "D.Va",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "self_destruct_cfe3bdcf4a",
+      "name": "Self-Destruct",
+      "description": "Eject from the Mech, setting it to self-destruct after 4 seconds. Deals 400 (+4% per level) to 1100 (+4% per level) damage in a large area, depending on distance from center. Deals 50% damage against Structures.  Gain 1% Charge for every 2 seconds spent Basic Attacking, and 25% Charge per 100% of Mech Health lost.",
+      "icon": "Heroes/dva/abilities/storm_ui_icon_dva_selfdestruct.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "DVaMechSelfDestruct|DVaMechSelfDestruct|E",
+      "ability_id": "DVaMechSelfDestruct",
+      "button_id": "DVaMechSelfDestruct",
+      "unit_id": "HeroDVaMech",
+      "unit_name": "D.Va",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "bunny_hop_5839a09799",
+      "name": "Bunny Hop",
+      "description": "Cooldown: 70 seconds D.Va's Mech becomes Unstoppable and stomps every 0.5 seconds, dealing 78 (+4% per level) damage in a large area. Every 4th consecutive hit on a Hero deals 80% more damage and Stuns them for 0.5 seconds.  Lasts for 4 seconds.  Requires Mech Mode.",
+      "icon": "Heroes/dva/talents/storm_ui_icon_dva_bunnyhop.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "DVaMechBunnyHopHeroic|DVaBunnyHopOn|Heroic",
+      "ability_id": "DVaMechBunnyHopHeroic",
+      "button_id": "DVaBunnyHopOn",
+      "unit_id": "HeroDVaMech",
+      "unit_name": "D.Va",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_bunnyhop_mini.png"
+    },
+    {
+      "id": "micro_missiles",
+      "name": "Micro Missiles",
+      "description": "Charge Cooldown: 19 seconds After .375 seconds, Channel to launch a volley of 12 missiles in a target direction. Each missile impacts the first enemy in its path, dealing 40 (+4% per level) damage in a small area and Slowing by 30% for 2 seconds.  Stores 2 charges with a 3 second cooldown between each use.  Requires Mech Mode.",
+      "icon": "Heroes/dva/talents/storm_ui_icon_dva_micromissiles.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "DVaMicroMissiles|DVaMicroMissiles|Heroic",
+      "ability_id": "DVaMicroMissiles",
+      "button_id": "DVaMicroMissiles",
+      "unit_id": "HeroDVaMech",
+      "unit_name": "D.Va",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_micromissiles_mini.png"
+    },
+    {
+      "id": "mech_mode",
+      "name": "Mech Mode",
+      "description": "When D.Va's Mech dies, she is ejected out after 0.75 seconds and can continue to fight. D.Va's Mech only awards 50% of a normal Hero's experience upon dying.  Fusion Cannons  D.Va's Mech Basic Attacks deal 22 (+4% per level) damage in a large area every 0.25 seconds. Deals 40% bonus damage against enemies very close to the Mech.",
+      "icon": "Heroes/dva/abilities/storm_ui_icon_dva_mechmode.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": ":PASSIVE:|DVaMechMechMode|Trait",
+      "ability_id": ":PASSIVE:",
+      "button_id": "DVaMechMechMode",
+      "unit_id": "HeroDVaMech",
+      "unit_name": "D.Va",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "mechanized_walker",
+      "name": "Mechanized Walker",
+      "description": "D.Va's Mech can shoot while moving. While shooting or channeling an ability, the Mech's Movement Speed is quickly reduced by 25%.",
+      "icon": "Heroes/dva/abilities/storm_ui_icon_dva_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": ":PASSIVE:|DVaMechanizedWalker|Z",
+      "ability_id": ":PASSIVE:",
+      "button_id": "DVaMechanizedWalker",
+      "unit_id": "HeroDVaMech",
+      "unit_name": "D.Va",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone_7f48755823",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroDVaMech",
+      "unit_name": "D.Va",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "cancel_boosters",
+      "name": "Cancel Boosters",
+      "description": "Cancel Boosters",
+      "icon": null,
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "DVaBoostersOff|DVaMechCancelBoosters|Q",
+      "ability_id": "DVaBoostersOff",
+      "button_id": "DVaMechCancelBoosters",
+      "unit_id": "HeroDVaMech",
+      "unit_name": "D.Va",
+      "parent_link_ids": [
+        "DVaBoostersOn|DVaMechBoosters|Q"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "retarget_defense_matrix",
+      "name": "Retarget Defense Matrix",
+      "description": "Retarget Defense Matrix",
+      "icon": "Heroes/dva/abilities/storm_ui_icon_dva_defensematrix_a.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "DVaMechDefenseMatrixRetarget|DVaRetargetDefenseMatrix|W",
+      "ability_id": "DVaMechDefenseMatrixRetarget",
+      "button_id": "DVaRetargetDefenseMatrix",
+      "unit_id": "HeroDVaMech",
+      "unit_name": "D.Va",
+      "parent_link_ids": [
+        "DVaMechDefenseMatrixOn|DVaMechDefenseMatrix|W"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "cancel_defense_matrix",
+      "name": "Cancel Defense Matrix",
+      "description": "Stop channeling Defense Matrix",
+      "icon": null,
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "DvaCancelDefenseMatrix|DvaCancelDefenseMatrix|Trait",
+      "ability_id": "DvaCancelDefenseMatrix",
+      "button_id": "DvaCancelDefenseMatrix",
+      "unit_id": "HeroDVaMech",
+      "unit_name": "D.Va",
+      "parent_link_ids": [
+        "DVaMechDefenseMatrixOn|DVaMechDefenseMatrix|W"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "bunny_hop_25c06e550a",
+      "name": "Bunny Hop",
+      "description": "Cooldown: 70 seconds Cancel Bunny Hop",
+      "icon": null,
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "DVaMechBunnyHopHeroic|DVaBunnyHopOff|Heroic",
+      "ability_id": "DVaMechBunnyHopHeroic",
+      "button_id": "DVaBunnyHopOff",
+      "unit_id": "HeroDVaMech",
+      "unit_name": "D.Va",
+      "parent_link_ids": [
+        "DVaMechBunnyHopHeroic|DVaBunnyHopOn|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "torpedo_dash",
+      "name": "Torpedo Dash",
+      "description": "Cooldown: 10 seconds Dash towards the target location, passing through enemies along the way.",
+      "icon": "Heroes/dva/abilities/storm_ui_icon_dva_jetpackattack.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "DVaPilotTorpedoDash|DVaPilotTorpedoDashAbility|Q",
+      "ability_id": "DVaPilotTorpedoDash",
+      "button_id": "DVaPilotTorpedoDashAbility",
+      "unit_id": "HeroDVaPilot",
+      "unit_name": "D.Va",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "concussive_pulse",
+      "name": "Concussive Pulse",
+      "description": "Cooldown: 10 seconds Deal 120 (+4% per level) damage to enemies in a cone and knock them back.",
+      "icon": "Heroes/dva/abilities/storm_ui_icon_dva_concussivecharge.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "DVaPilotConcussivePulse|DVaPilotConcussivePulseAbility|W",
+      "ability_id": "DVaPilotConcussivePulse",
+      "button_id": "DVaPilotConcussivePulseAbility",
+      "unit_id": "HeroDVaPilot",
+      "unit_name": "D.Va",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "call_mech",
+      "name": "Call Mech",
+      "description": "Cooldown: 45 seconds Call a new Mech and enter Mech Mode.  Basic Attacks lower this cooldown by 0.5 seconds each.",
+      "icon": "Heroes/dva/abilities/storm_ui_icon_dva_callmech.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "DVaPilotCallMech|DVaPilotCallMech|E",
+      "ability_id": "DVaPilotCallMech",
+      "button_id": "DVaPilotCallMech",
+      "unit_id": "HeroDVaPilot",
+      "unit_name": "D.Va",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "big_shot",
+      "name": "Big Shot",
+      "description": "Cooldown: 6 seconds Deal 150 (+4% per level) damage to all enemies in a line. Heroes hit have their Movement Speed Slowed by 25% for 1.5 seconds. The cooldown of Call Mech is reduced by 5 seconds for each enemy Hero hit.  Requires Pilot Mode.",
+      "icon": "Heroes/dva/abilities/storm_ui_icon_dva_bigshot.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "DVaPilotBigShot|DVaPilotBigShot|Heroic",
+      "ability_id": "DVaPilotBigShot",
+      "button_id": "DVaPilotBigShot",
+      "unit_id": "HeroDVaPilot",
+      "unit_name": "D.Va",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "pilot_mode",
+      "name": "Pilot Mode",
+      "description": "Basic Attacks reduce the cooldown of Call Mech by 0.5 seconds. As a Pilot, D.Va only awards 50% of a normal Hero's experience upon dying.",
+      "icon": "Heroes/dva/abilities/storm_ui_icon_dva_pilotmode.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": ":PASSIVE:|DVaPilotPilotMode|Trait",
+      "ability_id": ":PASSIVE:",
+      "button_id": "DVaPilotPilotMode",
+      "unit_id": "HeroDVaPilot",
+      "unit_name": "D.Va",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroDVaPilot",
+      "unit_name": "D.Va",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone_99eaca5a60",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroDVaPilot",
+      "unit_name": "D.Va",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroDVaPilot",
+      "unit_name": "D.Va",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "self_destruct_91c7b9df79",
+      "name": "Self-Destruct",
+      "description": "Eject from the Mech, setting it to self-destruct after 4 seconds. Deals 400 (+4% per level) to 1100 (+4% per level) damage in a large area, depending on distance from center. Deals 50% damage against Structures.  Gain 1% Charge for every 2 seconds spent Basic Attacking, and 25% Charge per 100% of Mech Health lost.",
+      "icon": "Heroes/dva/abilities/storm_ui_icon_dva_selfdestruct.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "DVaMechPilotSelfDestruct|DVaMechSelfDestruct|Active",
+      "ability_id": "DVaMechPilotSelfDestruct",
+      "button_id": "DVaMechSelfDestruct",
+      "unit_id": "HeroDVaPilot",
+      "unit_name": "D.Va",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "DVaMechPilotSelfDestruct",
+      "active_order": 1,
+      "active_origin": "initial",
+      "unlock_level": 0,
+      "unlock_position": 0
+    },
+    {
+      "id": "liquid_cooling",
+      "name": "Liquid Cooling",
+      "description": "Cooldown: 50 seconds Activate to gain the effects of Healing Fountain. Requires Mech Mode.  Passive: While in Mech Mode, Healing Fountain's cooldown is reduced to 50 seconds and its effects last 50% longer.",
+      "icon": "Heroes/dva/abilities/storm_ui_icon_dva_mechmode_b.png",
+      "hotkey": "2",
+      "ability_type": "Active",
+      "link_id": "DVaLiquidCoolingAbility|DVaLiquidCooling|Active",
+      "ability_id": "DVaLiquidCoolingAbility",
+      "button_id": "DVaLiquidCooling",
+      "unit_id": "HeroDVaMech",
+      "unit_name": "D.Va",
+      "parent_link_ids": [
+        "DVaLiquidCooling|DVaLiquidCooling|Active|Level1"
+      ],
+      "unlock_conditions": [
+        [
+          "DVaLiquidCooling"
+        ]
+      ],
+      "hotkey_candidates": [
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "DVaLiquidCoolingAbility",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 1,
+      "unlock_position": 3
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "full_metal",
+          "name": "Full Metal",
+          "description": "D.Va's Mech gains 10% increased Health and its Fusion Cannons heal for 16% of the damage dealt to enemies in its bonus area.",
+          "icon": "Heroes/dva/talents/storm_ui_icon_dva_mechmode.png",
+          "position": 1,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "DVaFullMetal|DVaFullMetal|Trait|Level1",
+          "talent_id": "DVaFullMetal",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_mechmode_mini.png"
+        },
+        {
+          "id": "pro_moves",
+          "name": "Pro Moves",
+          "description": "D.Va's Mech gains 2% Movement Speed and 2 Armor every time it takes damage, stacking up to 15 times. Stacks of this effect decay every 0.5 seconds.  Basic Attacks against enemy Heroes in Pilot Mode reduce the cooldown of Call Mech by 1 additional second.",
+          "icon": "Heroes/dva/talents/storm_ui_icon_dva_mechmode_a.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "DVaMechProMoves|DVaMechProMoves|Trait|Level1",
+          "talent_id": "DVaMechProMoves",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_mechmode_a_mini.png"
+        },
+        {
+          "id": "liquid_cooling",
+          "name": "Liquid Cooling",
+          "description": "Cooldown: 50 seconds Activate to gain the effects of Healing Fountain. Requires Mech Mode.  Passive: While in Mech Mode, Healing Fountain's cooldown is reduced to 50 seconds and its effects last 50% longer.",
+          "icon": "Heroes/dva/talents/storm_ui_icon_dva_mechmode_b.png",
+          "position": 3,
+          "hotkey": "2",
+          "ability_type": "Active",
+          "link_id": "DVaLiquidCooling|DVaLiquidCooling|Active|Level1",
+          "talent_id": "DVaLiquidCooling",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "2"
+          ],
+          "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_mechmode_b_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "rush_down",
+          "name": "Rush-down",
+          "description": "Boosters deals an additional 2% of maximum Health as damage to Heroes and heals D.Va's Mech for the damage dealt. Boosters deals 50% increased damage to non-Heroic enemies.",
+          "icon": "Heroes/dva/talents/storm_ui_icon_dva_boosters.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "DVaBoostersRushdown|DVaBoostersRushdown|Q|Level4",
+          "talent_id": "DVaBoostersRushdown",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_boosters_mini.png"
+        },
+        {
+          "id": "aggression_matrix",
+          "name": "Aggression Matrix",
+          "description": "Enemy Heroes within your Defense Matrix receive 35% less healing.  Passive: Basic Attacks against Heroes lower the cooldown of Defense Matrix by 0.1875 seconds.",
+          "icon": "Heroes/dva/talents/storm_ui_icon_dva_defensematrix.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "DVaDefenseMatrixAggressionMatrix|DVaDefenseMatrixAggressionMatrix|W|Level4",
+          "talent_id": "DVaDefenseMatrixAggressionMatrix",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_defensematrix_mini.png"
+        },
+        {
+          "id": "nuclear_option",
+          "name": "Nuclear Option",
+          "description": "Hitting your self-destructing Mech with Big Shot causes it to self-destruct 40% faster.  Passive: When Fusion Cannons deal bonus damage to an enemy Hero, gain 0.25 Self-Destruct Charge.",
+          "icon": "Heroes/dva/talents/storm_ui_icon_dva_selfdestruct.png",
+          "position": 3,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "DVaSelfDestructNuclearOption|DVaSelfDestructNuclearOption|E|Level4",
+          "talent_id": "DVaSelfDestructNuclearOption",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_selfdestruct_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "get_on_the_point",
+          "name": "Get On The Point!",
+          "description": "Casting Boosters grants nearby allies 20% Movement Speed for 3 seconds.   Passive: If D.Va has not taken damage in the last 2 seconds, Boosters' cooldown refreshes 100% faster.",
+          "icon": "Heroes/dva/talents/storm_ui_icon_dva_boosters.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "DvaGetOnThePoint|DvaGetOnThePoint|Q|Level7",
+          "talent_id": "DvaGetOnThePoint",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_boosters_mini.png"
+        },
+        {
+          "id": "hit_the_nitrous",
+          "name": "Hit the Nitrous",
+          "description": "The initial speed bonus of Boosters is increased to 300%, then decays to normal boost speed over 0.5 seconds. During this time, Boosters Stuns for 0.5 seconds.",
+          "icon": "Heroes/dva/talents/storm_ui_icon_dva_boosters_a.png",
+          "position": 2,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "DVaBoostersHitTheNitrous|DVaBoostersHitTheNitrous|Q|Level7",
+          "talent_id": "DVaBoostersHitTheNitrous",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_boosters_a_mini.png"
+        },
+        {
+          "id": "fusion_generator",
+          "name": "Fusion Generator",
+          "description": "Every time an enemy Hero deals damage while inside Defense Matrix, D.Va's Self-Destruct Charge increases by 1%. Max of 20% Charge gained per use.   Passive: While at full Self-Destruct charge, Fusion Cannons' bonus damage is increased to 100%.",
+          "icon": "Heroes/dva/talents/storm_ui_icon_dva_defensematrix.png",
+          "position": 3,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "DVaDefenseMatrixFusionGenerator|DVaDefenseMatrixFusionGenerator|W|Level7",
+          "talent_id": "DVaDefenseMatrixFusionGenerator",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_defensematrix_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "bunny_hop",
+          "name": "Bunny Hop",
+          "description": "Cooldown: 70 seconds D.Va's Mech becomes Unstoppable and stomps every 0.5 seconds, dealing 78 (+4% per level) damage in a large area. Every 4th consecutive hit on a Hero deals 80% more damage and Stuns them for 0.5 seconds.  Lasts for 4 seconds.  Requires Mech Mode.",
+          "icon": "Heroes/dva/talents/storm_ui_icon_dva_bunnyhop.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "DVaBunnyHop|DVaBunnyHopOn|Heroic|Level10",
+          "talent_id": "DVaBunnyHop",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_bunnyhop_mini.png"
+        },
+        {
+          "id": "micro_missiles",
+          "name": "Micro Missiles",
+          "description": "Charge Cooldown: 19 seconds After .375 seconds, Channel to launch a volley of 12 missiles in a target direction. Each missile impacts the first enemy in its path, dealing 40 (+4% per level) damage in a small area and Slowing by 30% for 2 seconds.  Stores 2 charges with a 3 second cooldown between each use.  Requires Mech Mode.",
+          "icon": "Heroes/dva/talents/storm_ui_icon_dva_micromissiles.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "DVaMicroMissiles|DVaMicroMissiles|Heroic|Level10",
+          "talent_id": "DVaMicroMissiles",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_micromissiles_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "target_locked",
+          "name": "Target Locked",
+          "description": "Enemy Heroes that remain in your Defense Matrix for 0.75 seconds have their Armor reduced by 15 and their Movement Speed reduced by 25% for 3 seconds.",
+          "icon": "Heroes/dva/talents/storm_ui_icon_dva_defensematrix.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "DVaTargetLocked|DVaTargetLocked|W|Level13",
+          "talent_id": "DVaTargetLocked",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_defensematrix_mini.png"
+        },
+        {
+          "id": "good_to_go",
+          "name": "Good To Go",
+          "description": "Pilot Mode: Unlocks the Torpedo Dash and Concussive Pulse abilities.  Torpedo Dash: Dash a short distance. 10 second cooldown.  Concussive Pulse: Deal 120 (+4% per level) damage to enemies in a cone and knock them back. 10 second cooldown.",
+          "icon": "Heroes/dva/talents/storm_ui_icon_dva_pilotmode.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "DVaGoodToGo|DVaGoodToGo|Trait|Level13",
+          "talent_id": "DVaGoodToGo",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_pilotmode_mini.png"
+        },
+        {
+          "id": "pew_pew_pew",
+          "name": "Pew! Pew! Pew!",
+          "description": "Pilot Mode: Instead of a single shot, Big Shot fires 3 shots over 0.5 seconds. Each shot deals 75% damage.",
+          "icon": "Heroes/dva/talents/storm_ui_icon_dva_bigshot.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "DVaBigShotPewPewPew|DVaBigShotPewPewPew|Trait|Level13",
+          "talent_id": "DVaBigShotPewPewPew",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_bigshot_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "in_for_the_kill",
+          "name": "In For The Kill",
+          "description": "Casting Boosters grants a Shield equal to 10% of maximum life for 2.5 seconds. Each Enemy Hero hit by Boosters increases D.Va's Mech's Basic Attack damage by 10% for 5 seconds, stacking up to 5 times.",
+          "icon": "Heroes/dva/talents/storm_ui_icon_dva_boosters.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "DVaInForTheKill|DVaInForTheKill|Q|Level16",
+          "talent_id": "DVaInForTheKill",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_boosters_mini.png"
+        },
+        {
+          "id": "diverting_power",
+          "name": "Diverting Power",
+          "description": "Defense Matrix's area grows drastically in size and each time it reduces damage dealt to Heroes D.Va's Mech is healed for 31 (+4% per level) Health.",
+          "icon": "Heroes/dva/talents/storm_ui_icon_dva_defensematrix.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "DVaDefenseMatrixDivertingPower|DVaDefenseMatrixDivertingPower|W|Level16",
+          "talent_id": "DVaDefenseMatrixDivertingPower",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_defensematrix_mini.png"
+        },
+        {
+          "id": "emergency_shielding",
+          "name": "Emergency Shielding",
+          "description": "When D.Va's Mech would be destroyed, it instead gains a Shield that absorbs 290 (+4% per level) damage over 8 seconds.  This effect has a 30 second cooldown.",
+          "icon": "Heroes/dva/talents/storm_ui_icon_dva_mechmode.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "DVaMechEmergencyShielding|DVaMechEmergencyShielding|Trait|Level16",
+          "talent_id": "DVaMechEmergencyShielding",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_mechmode_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "stop_and_pop",
+          "name": "Stop and Pop",
+          "description": "Increase Bunny Hop's duration by 4 seconds, and it does not decay while D.Va's Mech is stationary.",
+          "icon": "Heroes/dva/talents/storm_ui_icon_dva_bunnyhop.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "DVaBunnyHopStopAndPop|DVaBunnyHopStopAndPop|Heroic|Level20",
+          "talent_id": "DVaBunnyHopStopAndPop",
+          "prerequisite_talent_ids": [
+            "DVaBunnyHop"
+          ],
+          "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_bunnyhop_mini.png"
+        },
+        {
+          "id": "timing_attack",
+          "name": "Timing Attack",
+          "description": "Micro Missiles gains an additional charge. Each time Micro Missiles hits an enemy Hero, reduce its cooldown by 0.5 seconds and charge cooldown by 0.25 seconds.",
+          "icon": "Heroes/dva/talents/storm_ui_icon_dva_micromissiles.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "DVaTimingAttack|DVaTimingAttack|Heroic|Level20",
+          "talent_id": "DVaTimingAttack",
+          "prerequisite_talent_ids": [
+            "DVaMicroMissiles"
+          ],
+          "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_micromissiles_mini.png"
+        },
+        {
+          "id": "headshot",
+          "name": "Headshot!",
+          "description": "Pilot Mode: Increase Big Shot's damage by 75% and reduce its cooldown by 2 seconds.",
+          "icon": "Heroes/dva/talents/storm_ui_icon_dva_bigshot.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "DVaHeadshot|DVaHeadshot|Trait|Level20",
+          "talent_id": "DVaHeadshot",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_bigshot_mini.png"
+        },
+        {
+          "id": "ablative_armor",
+          "name": "Ablative Armor",
+          "description": "45% of Spell damage dealt to D.Va's Mech is returned as healing over 4 seconds.",
+          "icon": "Heroes/dva/talents/storm_ui_icon_dva_mechmode.png",
+          "position": 4,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "DVaMechAblativeArmor|DVaMechAblativeArmor|Trait|Level20",
+          "talent_id": "DVaMechAblativeArmor",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/dva/talents/storm_ui_icon_dva_mechmode_mini.png"
+        }
+      ]
+    }
+  ]
+}

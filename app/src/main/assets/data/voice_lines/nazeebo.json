@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/nazeebo/portrait.png",
+  "lines": [
+    {
+      "id": "haha_yes_0eedf46d",
+      "title": "Haha! Yes!",
+      "variant": null,
+      "audio": "voice_lines/nazeebo/haha_yes_0eedf46d.ogg"
+    },
+    {
+      "id": "i_hear_the_call_e464476c",
+      "title": "I Hear the Call",
+      "variant": null,
+      "audio": "voice_lines/nazeebo/i_hear_the_call_e464476c.ogg"
+    },
+    {
+      "id": "my_curse_upon_you_fb6f156e",
+      "title": "My Curse Upon You",
+      "variant": null,
+      "audio": "voice_lines/nazeebo/my_curse_upon_you_fb6f156e.ogg"
+    },
+    {
+      "id": "not_my_time_4c251740",
+      "title": "Not My Time",
+      "variant": null,
+      "audio": "voice_lines/nazeebo/not_my_time_4c251740.ogg"
+    },
+    {
+      "id": "suffer_well_3b2cc5fc",
+      "title": "Suffer Well",
+      "variant": null,
+      "audio": "voice_lines/nazeebo/suffer_well_3b2cc5fc.ogg"
+    }
+  ]
+}

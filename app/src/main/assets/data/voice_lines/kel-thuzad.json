@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/kel-thuzad/portrait.png",
+  "lines": [
+    {
+      "id": "bow_before_kel_thuzad_04661381",
+      "title": "Bow Before Kel'Thuzad",
+      "variant": null,
+      "audio": "voice_lines/kel-thuzad/bow_before_kel_thuzad_04661381.ogg"
+    },
+    {
+      "id": "it_s_alright_interloper_9aa2bb3e",
+      "title": "It's Alright, Interloper",
+      "variant": null,
+      "audio": "voice_lines/kel-thuzad/it_s_alright_interloper_9aa2bb3e.ogg"
+    },
+    {
+      "id": "maniacal_laughter_06c9d8c3",
+      "title": "Maniacal Laughter",
+      "variant": null,
+      "audio": "voice_lines/kel-thuzad/maniacal_laughter_06c9d8c3.ogg"
+    },
+    {
+      "id": "your_curiosity_a8f48bf0",
+      "title": "Your Curiosity",
+      "variant": null,
+      "audio": "voice_lines/kel-thuzad/your_curiosity_a8f48bf0.ogg"
+    },
+    {
+      "id": "your_soul_is_bound_05330755",
+      "title": "Your Soul Is Bound",
+      "variant": null,
+      "audio": "voice_lines/kel-thuzad/your_soul_is_bound_05330755.ogg"
+    }
+  ]
+}

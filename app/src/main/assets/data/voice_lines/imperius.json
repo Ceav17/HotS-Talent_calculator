@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/imperius/portrait.png",
+  "lines": [
+    {
+      "id": "must_i_do_everything_e0486de7",
+      "title": "Must I Do Everything?",
+      "variant": null,
+      "audio": "voice_lines/imperius/must_i_do_everything_e0486de7.ogg"
+    },
+    {
+      "id": "sacrilege_45048ea5",
+      "title": "Sacrilege!",
+      "variant": null,
+      "audio": "voice_lines/imperius/sacrilege_45048ea5.ogg"
+    },
+    {
+      "id": "silence_db05f978",
+      "title": "Silence!",
+      "variant": null,
+      "audio": "voice_lines/imperius/silence_db05f978.ogg"
+    },
+    {
+      "id": "solarion_burns_ec677b46",
+      "title": "Solarion Burns",
+      "variant": null,
+      "audio": "voice_lines/imperius/solarion_burns_ec677b46.ogg"
+    },
+    {
+      "id": "valor_will_be_victorious_08027606",
+      "title": "Valor Will Be Victorious",
+      "variant": null,
+      "audio": "voice_lines/imperius/valor_will_be_victorious_08027606.ogg"
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "valla",
+    "name": "Valla",
+    "team_role": "Ranged Assassin",
+    "universe": "Diablo",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "hungering_arrow",
+      "name": "Hungering Arrow",
+      "description": "Mana: 60 Cooldown: 10 seconds Fire an arrow that deals 140 (+4% per level) damage to the first target hit, then seeks up to 2 additional enemies, prioritizing Heroes, dealing 80 (+4% per level) damage. Can hit an enemy multiple times.",
+      "icon": "Heroes/valla/abilities/storm_ui_icon_valla_hungeringarrow.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "DemonHunterHungeringArrow|DemonHunterHungeringArrow|Q",
+      "ability_id": "DemonHunterHungeringArrow",
+      "button_id": "DemonHunterHungeringArrow",
+      "unit_id": "HeroDemonHunter",
+      "unit_name": "Valla",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "multishot",
+      "name": "Multishot",
+      "description": "Mana: 75 Cooldown: 13 seconds Deal 159 (+4% per level) damage to enemies within the target area.",
+      "icon": "Heroes/valla/abilities/storm_ui_icon_valla_multishot.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "DemonHunterMultishot|DemonHunterMultishot|W",
+      "ability_id": "DemonHunterMultishot",
+      "button_id": "DemonHunterMultishot",
+      "unit_id": "HeroDemonHunter",
+      "unit_name": "Valla",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "vault",
+      "name": "Vault",
+      "description": "Mana: 50 Cooldown: 10 seconds Dash to the target area. Valla's next Basic Attack within 2 seconds deals 6% increased damage per stack of Hatred.",
+      "icon": "Heroes/valla/abilities/storm_ui_icon_valla_vault.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "DemonHunterVault|DemonHunterVault|E",
+      "ability_id": "DemonHunterVault",
+      "button_id": "DemonHunterVault",
+      "unit_id": "HeroDemonHunter",
+      "unit_name": "Valla",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "strafe",
+      "name": "Strafe",
+      "description": "Mana: 60 Cooldown: 60 seconds Rapidly attack enemies within 10 range for 70 (+4% per level) damage per hit, prioritizing Heroes over Minions. Valla is able to move and use Vault while strafing. Lasts for 4 seconds.",
+      "icon": "Heroes/valla/talents/storm_ui_icon_valla_strafe.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "DemonHunterStrafe|DemonHunterStrafe|Heroic",
+      "ability_id": "DemonHunterStrafe",
+      "button_id": "DemonHunterStrafe",
+      "unit_id": "HeroDemonHunter",
+      "unit_name": "Valla",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_strafe_mini.png"
+    },
+    {
+      "id": "rain_of_vengeance",
+      "name": "Rain of Vengeance",
+      "description": "Mana: 50 Charge Cooldown: 50 seconds Launch a wave of Shadow Beasts that deals 250 (+4% per level) damage and Stuns enemies in the target area for 0.5 seconds.  Stores up to 2 charges.",
+      "icon": "Heroes/valla/talents/storm_ui_icon_valla_rainofvengeance.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "DemonHunterRainOfVengeance|DemonHunterRainOfVengeance|Heroic",
+      "ability_id": "DemonHunterRainOfVengeance",
+      "button_id": "DemonHunterRainOfVengeance",
+      "unit_id": "HeroDemonHunter",
+      "unit_name": "Valla",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_rainofvengeance_mini.png"
+    },
+    {
+      "id": "hatred",
+      "name": "Hatred",
+      "description": "Basic Attacks grant a stack of Hatred, up to 10. Each Hatred stack increases Basic Attack damage by 8% and Movement Speed by 1%. Lasts 5 seconds.",
+      "icon": "Heroes/valla/abilities/storm_ui_icon_valla_hatred.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": ":PASSIVE:|DemonHunterHatred|Trait",
+      "ability_id": ":PASSIVE:",
+      "button_id": "DemonHunterHatred",
+      "unit_id": "HeroDemonHunter",
+      "unit_name": "Valla",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroDemonHunter",
+      "unit_name": "Valla",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroDemonHunter",
+      "unit_name": "Valla",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroDemonHunter",
+      "unit_name": "Valla",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "gloom",
+      "name": "Gloom",
+      "description": "Cooldown: 5 seconds Activate to consume all Hatred, granting 3 Spell Armor per Hatred consumed for 5 seconds.  Passive: Gain 15 Spell Armor, and each stack of Hatred heals for 1.2 (+4% per level) Health per second.",
+      "icon": "Heroes/valla/abilities/storm_ui_icon_valla_hatred_var1.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "DemonHunterGloom|DemonHunterGloomItem|Active",
+      "ability_id": "DemonHunterGloom",
+      "button_id": "DemonHunterGloomItem",
+      "unit_id": "HeroDemonHunter",
+      "unit_name": "Valla",
+      "parent_link_ids": [
+        "DemonHunterGloom|DemonHunterGloom|Active|Level13"
+      ],
+      "unlock_conditions": [
+        [
+          "DemonHunterGloom"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "DemonHunterGloom",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 13,
+      "unlock_position": 3
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "puncturing_arrow",
+          "name": "Puncturing Arrow",
+          "description": "Increase the number of Hungering Arrow bounces by 1.  Quest: Hitting an enemy Hero with the initial impact of Hungering Arrow refunds 40 Mana and permanently increases the damage of its initial impact by 6.",
+          "icon": "Heroes/valla/talents/storm_ui_icon_valla_hungeringarrow.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "DemonHunterMasteryPuncturingArrow|DemonHunterHungeringArrowPuncturingArrowTalent|Q|Level1",
+          "talent_id": "DemonHunterMasteryPuncturingArrow",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_hungeringarrow_mini.png"
+        },
+        {
+          "id": "fire_at_will",
+          "name": "Fire At Will",
+          "description": "Quest: Hitting a Hero with Multishot grants 2 Hatred and permanently increases its damage by 2.  Reward: After hitting 20 Heroes with Multishot, increase its damage by 40.",
+          "icon": "Heroes/valla/talents/storm_ui_icon_valla_multishot.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "DemonHunterMultishotFireAtWill|DemonHunterMultishotFireAtWill|W|Level1",
+          "talent_id": "DemonHunterMultishotFireAtWill",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_multishot_mini.png"
+        },
+        {
+          "id": "creed_of_the_hunter",
+          "name": "Creed of the Hunter",
+          "description": "Quest: Every 50 Basic Attacks against Heroes increases Hatred's damage bonus per stack by 1%, up to 6%.  Gambit: Gain 25% bonus Attack Speed. Every death reduces this bonus by 5%.",
+          "icon": "Heroes/valla/talents/storm_ui_icon_valla_hatred.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "DemonHunterCreedoftheHunter|DemonHunterCreedoftheHunter|Trait|Level1",
+          "talent_id": "DemonHunterCreedoftheHunter",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_hatred_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "arsenal",
+          "name": "Arsenal",
+          "description": "Increase the range of Multishot by 20%. Multishot also fires 3 grenades that deal 100 (+4% per level) damage and refund 25 Mana after hitting enemy Heroes.",
+          "icon": "Heroes/valla/talents/storm_ui_icon_valla_multishot.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "DemonHunterMasteryArsenal|DemonHunterMultishotArsenalTalent|W|Level4",
+          "talent_id": "DemonHunterMasteryArsenal",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_multishot_mini.png"
+        },
+        {
+          "id": "death_dealer",
+          "name": "Death Dealer",
+          "description": "Increase Vaults Basic Attack damage bonus from 6% to 15% per stack of Hatred. If this attack kills its victim within 1.5 seconds, the Mana cost and cooldown of Vault are refunded.  Passive: Reduce the cooldown of Vault by 5 seconds.",
+          "icon": "Heroes/valla/talents/storm_ui_icon_valla_vault.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "DemonHunterDeathDealer|DemonHunterDeathDealer|E|Level4",
+          "talent_id": "DemonHunterDeathDealer",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_vault_mini.png"
+        },
+        {
+          "id": "repeating_arrow",
+          "name": "Repeating Arrow",
+          "description": "Vault no longer has a Mana cost. Casting Vault resets the cooldown of Hungering Arrow.",
+          "icon": "Heroes/valla/talents/storm_ui_icon_valla_repeatingarrow.png",
+          "position": 3,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "DemonHunterMasteryRepeatingArrowVault|DemonHunterVaultRepeatingArrowTalent|E|Level4",
+          "talent_id": "DemonHunterMasteryRepeatingArrowVault",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_repeatingarrow_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "monster_hunter",
+          "name": "Monster Hunter",
+          "description": "Hungering Arrow deals 150% additional damage to Minions, Mercenaries, and Monsters.",
+          "icon": "Heroes/valla/talents/storm_ui_icon_valla_hungeringarrow.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "DemonHunterMasteryMonsterHunterHungeringArrow|DemonHunterHungeringArrowMonsterHunterTalent|Q|Level7",
+          "talent_id": "DemonHunterMasteryMonsterHunterHungeringArrow",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_hungeringarrow_mini.png"
+        },
+        {
+          "id": "frost_shot",
+          "name": "Frost Shot",
+          "description": "Multishot Slows enemies by 20% for 2.5 seconds. Hungering Arrows deals 25% more damage to Slowed enemies.",
+          "icon": "Heroes/valla/talents/storm_ui_icon_valla_siphoningarrow.png",
+          "position": 2,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "DemonHunterMasteryFrostShot|DemonHunterHungeringArrowFrostShotTalent|Q|Level7",
+          "talent_id": "DemonHunterMasteryFrostShot",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_siphoningarrow_mini.png"
+        },
+        {
+          "id": "hot_pursuit",
+          "name": "Hot Pursuit",
+          "description": "Increase the Movement Speed bonus of each stack of Hatred from 1% to 2%.",
+          "icon": "Heroes/valla/talents/storm_ui_icon_valla_hatred.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "DemonHunterCombatStyleHotPursuit|DemonHunterHatredHotPursuitTalent|Trait|Level7",
+          "talent_id": "DemonHunterCombatStyleHotPursuit",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_hatred_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "strafe",
+          "name": "Strafe",
+          "description": "Mana: 60 Cooldown: 60 seconds Rapidly attack enemies within 10 range for 70 (+4% per level) damage per hit, prioritizing Heroes over Minions. Valla is able to move and use Vault while strafing. Lasts for 4 seconds.",
+          "icon": "Heroes/valla/talents/storm_ui_icon_valla_strafe.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "DemonHunterHeroicAbilityStrafe|DemonHunterStrafe|Heroic|Level10",
+          "talent_id": "DemonHunterHeroicAbilityStrafe",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_strafe_mini.png"
+        },
+        {
+          "id": "rain_of_vengeance",
+          "name": "Rain of Vengeance",
+          "description": "Mana: 50 Charge Cooldown: 50 seconds Launch a wave of Shadow Beasts that deals 250 (+4% per level) damage and Stuns enemies in the target area for 0.5 seconds.  Stores up to 2 charges.",
+          "icon": "Heroes/valla/talents/storm_ui_icon_valla_rainofvengeance.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "DemonHunterHeroicAbilityRainofVengeance|DemonHunterRainOfVengeance|Heroic|Level10",
+          "talent_id": "DemonHunterHeroicAbilityRainofVengeance",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_rainofvengeance_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "siphoning_arrows",
+          "name": "Siphoning Arrows",
+          "description": "Hitting a Hero with Hungering Arrow heals Valla for 4% of her maximum Health, and Multishot heals for 2%.",
+          "icon": "Heroes/valla/talents/storm_ui_icon_valla_siphoningarrow.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "DemonHunterMasterySiphoningArrow|DemonHunterHungeringArrowSiphoningArrowTalent|Q|Level13",
+          "talent_id": "DemonHunterMasterySiphoningArrow",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_siphoningarrow_mini.png"
+        },
+        {
+          "id": "tempered_by_discipline",
+          "name": "Tempered by Discipline",
+          "description": "Basic Attacks heal for 10% of the damage dealt, increased by 2% per Hatred stack.",
+          "icon": "Heroes/valla/talents/storm_ui_icon_valla_hatred.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "DemonHunterCombatStyleTemperedByDiscipline|DemonHunterHatredTemperedByDisciplineTalent|Trait|Level13",
+          "talent_id": "DemonHunterCombatStyleTemperedByDiscipline",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_hatred_mini.png"
+        },
+        {
+          "id": "gloom",
+          "name": "Gloom",
+          "description": "Cooldown: 5 seconds Activate to consume all Hatred, granting 3 Spell Armor per Hatred consumed for 5 seconds.  Passive: Gain 15 Spell Armor, and each stack of Hatred heals for 1.2 (+4% per level) Health per second.",
+          "icon": "Heroes/valla/talents/storm_ui_icon_valla_hatred_var1.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "DemonHunterGloom|DemonHunterGloom|Active|Level13",
+          "talent_id": "DemonHunterGloom",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_hatred_var1_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "punishment",
+          "name": "Punishment",
+          "description": "While at max Hatred, Multishot's cooldown recharges 50% faster.  Passive: Reduce Multishot's Mana cost from 75 to 55.",
+          "icon": "Heroes/valla/talents/storm_ui_icon_valla_multishot.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "DemonHunterPunishment|DemonHunterHatredPunishmentTalent|W|Level16",
+          "talent_id": "DemonHunterPunishment",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_multishot_mini.png"
+        },
+        {
+          "id": "seething_hatred",
+          "name": "Seething Hatred",
+          "description": "While at max Hatred, increase all damage dealt by 10%.",
+          "icon": "Heroes/valla/talents/storm_ui_icon_valla_hatred.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "DemonHunterSeethingHatred|DemonHunterSeethingHatred|Trait|Level16",
+          "talent_id": "DemonHunterSeethingHatred",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_hatred_mini.png"
+        },
+        {
+          "id": "manticore",
+          "name": "Manticore",
+          "description": "Every 3rd Basic Attack against the same Hero deals an additional 4% of their maximum Health as damage.",
+          "icon": "Heroes/valla/talents/storm_ui_icon_talent_autoattack_searing.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "DemonHunterManticore|DemonHunterManticore|Passive|Level16",
+          "talent_id": "DemonHunterManticore",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/valla/talents/storm_ui_icon_talent_autoattack_searing_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "death_siphon",
+          "name": "Death Siphon",
+          "description": "Hitting an enemy Hero with Strafe increases its duration by 0.125 seconds. Strafe also fires penetrating bolts in a line for 34 (+4% per level) damage every 0.25 seconds.",
+          "icon": "Heroes/valla/talents/storm_ui_icon_valla_strafe.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "DemonHunterMasteryDeathSiphon|DemonHunterStrafeDeathSiphonTalent|Heroic|Level20",
+          "talent_id": "DemonHunterMasteryDeathSiphon",
+          "prerequisite_talent_ids": [
+            "DemonHunterHeroicAbilityStrafe"
+          ],
+          "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_strafe_mini.png"
+        },
+        {
+          "id": "storm_of_vengeance",
+          "name": "Storm of Vengeance",
+          "description": "Basic Attacks against Heroes reduce the cooldown of Rain of Vengeance by 5 seconds.  Passive: Each stack of Hatred increases your Attack Speed by 2%. While at max Hatred, gain an additional 30% Attack Speed.",
+          "icon": "Heroes/valla/talents/storm_ui_icon_valla_rainofvengeance.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "DemonHunterMasteryStormofVengeance|DemonHunterRainOfVengeanceStormOfVengeanceTalent|Heroic|Level20",
+          "talent_id": "DemonHunterMasteryStormofVengeance",
+          "prerequisite_talent_ids": [
+            "DemonHunterHeroicAbilityRainofVengeance"
+          ],
+          "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_rainofvengeance_mini.png"
+        },
+        {
+          "id": "acrobat",
+          "name": "Acrobat",
+          "description": "Gain 2 additional charges of Vault. Drop 3 Caltrops while Vaulting that deal 60 (+4% per level) damage and Slow enemies by 40% for 1 second.",
+          "icon": "Heroes/valla/talents/storm_ui_icon_valla_vault.png",
+          "position": 3,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "DemonHunterVaultAcrobat|DemonHunterVaultAcrobat|E|Level20",
+          "talent_id": "DemonHunterVaultAcrobat",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_vault_mini.png"
+        },
+        {
+          "id": "farflight_quiver",
+          "name": "Farflight Quiver",
+          "description": "Gain 20% Basic Attack range. While at max Hatred, gain an additional 30% Basic Attack range.",
+          "icon": "Heroes/valla/talents/storm_ui_icon_valla_hatred.png",
+          "position": 4,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "DemonHunterFarflightQuiver|DemonHunterFarflightQuiver|Trait|Level20",
+          "talent_id": "DemonHunterFarflightQuiver",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/valla/talents/storm_ui_icon_valla_hatred_mini.png"
+        }
+      ]
+    }
+  ]
+}

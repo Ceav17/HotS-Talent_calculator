@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/anduin/portrait.png",
+  "lines": [
+    {
+      "id": "light_shall_bring_victory_449eb315",
+      "title": "Light Shall Bring Victory",
+      "variant": null,
+      "audio": "voice_lines/anduin/light_shall_bring_victory_449eb315.ogg"
+    },
+    {
+      "id": "no_honor_d3206524",
+      "title": "No Honor",
+      "variant": null,
+      "audio": "voice_lines/anduin/no_honor_d3206524.ogg"
+    },
+    {
+      "id": "out_of_cards_882ef231",
+      "title": "Out of Cards",
+      "variant": null,
+      "audio": "voice_lines/anduin/out_of_cards_882ef231.ogg"
+    },
+    {
+      "id": "smiles_upon_the_just_8b32746b",
+      "title": "Smiles Upon the Just",
+      "variant": null,
+      "audio": "voice_lines/anduin/smiles_upon_the_just_8b32746b.ogg"
+    },
+    {
+      "id": "trying_to_pull_12db3ba4",
+      "title": "Trying to Pull",
+      "variant": null,
+      "audio": "voice_lines/anduin/trying_to_pull_12db3ba4.ogg"
+    }
+  ]
+}

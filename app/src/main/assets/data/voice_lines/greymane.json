@@ -1,0 +1,65 @@
+{
+  "portrait": "voice_lines/greymane/portrait.png",
+  "lines": [
+    {
+      "id": "denied_c90e9d98",
+      "title": "Denied",
+      "variant": "Human",
+      "audio": "voice_lines/greymane/denied_c90e9d98.ogg"
+    },
+    {
+      "id": "for_gilneas_43183e65",
+      "title": "For Gilneas!",
+      "variant": "Human",
+      "audio": "voice_lines/greymane/for_gilneas_43183e65.ogg"
+    },
+    {
+      "id": "i_shall_bury_you_bfe4b3fc",
+      "title": "I Shall Bury You",
+      "variant": "Human",
+      "audio": "voice_lines/greymane/i_shall_bury_you_bfe4b3fc.ogg"
+    },
+    {
+      "id": "next_11154e7f",
+      "title": "Next?",
+      "variant": "Human",
+      "audio": "voice_lines/greymane/next_11154e7f.ogg"
+    },
+    {
+      "id": "weapon_of_kings_f32c70a0",
+      "title": "Weapon of Kings",
+      "variant": "Human",
+      "audio": "voice_lines/greymane/weapon_of_kings_f32c70a0.ogg"
+    },
+    {
+      "id": "best_at_what_i_do_5768aa4d",
+      "title": "Best at What I Do",
+      "variant": "Worgen",
+      "audio": "voice_lines/greymane/best_at_what_i_do_5768aa4d.ogg"
+    },
+    {
+      "id": "denied_4b6224e3",
+      "title": "Denied",
+      "variant": "Worgen",
+      "audio": "voice_lines/greymane/denied_4b6224e3.ogg"
+    },
+    {
+      "id": "gilneans_never_back_down_493366e4",
+      "title": "Gilneans Never Back Down",
+      "variant": "Worgen",
+      "audio": "voice_lines/greymane/gilneans_never_back_down_493366e4.ogg"
+    },
+    {
+      "id": "i_shall_bury_you_56a879b6",
+      "title": "I Shall Bury You",
+      "variant": "Worgen",
+      "audio": "voice_lines/greymane/i_shall_bury_you_56a879b6.ogg"
+    },
+    {
+      "id": "such_easy_prey_6ecf4311",
+      "title": "Such Easy Prey",
+      "variant": "Worgen",
+      "audio": "voice_lines/greymane/such_easy_prey_6ecf4311.ogg"
+    }
+  ]
+}

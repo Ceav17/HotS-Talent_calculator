@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/nova/portrait.png",
+  "lines": [
+    {
+      "id": "and_that_is_that_226e8ee4",
+      "title": "And That Is That",
+      "variant": null,
+      "audio": "voice_lines/nova/and_that_is_that_226e8ee4.ogg"
+    },
+    {
+      "id": "ghost_reporting_31839081",
+      "title": "Ghost Reporting",
+      "variant": null,
+      "audio": "voice_lines/nova/ghost_reporting_31839081.ogg"
+    },
+    {
+      "id": "never_fail_to_impress_1a53a883",
+      "title": "Never Fail to Impress",
+      "variant": null,
+      "audio": "voice_lines/nova/never_fail_to_impress_1a53a883.ogg"
+    },
+    {
+      "id": "reap_the_whirlwind_6bf2796b",
+      "title": "Reap the Whirlwind",
+      "variant": null,
+      "audio": "voice_lines/nova/reap_the_whirlwind_6bf2796b.ogg"
+    },
+    {
+      "id": "threat_eliminated_67dda48c",
+      "title": "Threat Eliminated",
+      "variant": null,
+      "audio": "voice_lines/nova/threat_eliminated_67dda48c.ogg"
+    }
+  ]
+}

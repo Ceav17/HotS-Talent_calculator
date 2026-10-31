@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/deathwing/portrait.png",
+  "lines": [
+    {
+      "id": "all_life_ends_in_death_608d3bbd",
+      "title": "All Life Ends in Death",
+      "variant": null,
+      "audio": "voice_lines/deathwing/all_life_ends_in_death_608d3bbd.ogg"
+    },
+    {
+      "id": "i_will_not_be_denied_ce6dfdba",
+      "title": "I Will Not Be Denied!",
+      "variant": null,
+      "audio": "voice_lines/deathwing/i_will_not_be_denied_ce6dfdba.ogg"
+    },
+    {
+      "id": "puny_mortals_dc446aca",
+      "title": "Puny Mortals!",
+      "variant": null,
+      "audio": "voice_lines/deathwing/puny_mortals_dc446aca.ogg"
+    },
+    {
+      "id": "show_respect_7b52d0c3",
+      "title": "Show Respect",
+      "variant": null,
+      "audio": "voice_lines/deathwing/show_respect_7b52d0c3.ogg"
+    },
+    {
+      "id": "weak_and_fragile_f696d8b0",
+      "title": "Weak and Fragile",
+      "variant": null,
+      "audio": "voice_lines/deathwing/weak_and_fragile_f696d8b0.ogg"
+    }
+  ]
+}

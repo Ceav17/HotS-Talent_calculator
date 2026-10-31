@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/uther/portrait.png",
+  "lines": [
+    {
+      "id": "for_lordaeron_1be1fea7",
+      "title": "For Lordaeron!",
+      "variant": null,
+      "audio": "voice_lines/uther/for_lordaeron_1be1fea7.ogg"
+    },
+    {
+      "id": "for_the_silver_hand_62814307",
+      "title": "For the Silver Hand",
+      "variant": null,
+      "audio": "voice_lines/uther/for_the_silver_hand_62814307.ogg"
+    },
+    {
+      "id": "nice_try_262451a0",
+      "title": "Nice Try!",
+      "variant": null,
+      "audio": "voice_lines/uther/nice_try_262451a0.ogg"
+    },
+    {
+      "id": "still_got_it_fe6f920f",
+      "title": "Still Got It",
+      "variant": null,
+      "audio": "voice_lines/uther/still_got_it_fe6f920f.ogg"
+    },
+    {
+      "id": "your_life_is_forfeit_6a46d881",
+      "title": "Your Life Is Forfeit",
+      "variant": null,
+      "audio": "voice_lines/uther/your_life_is_forfeit_6a46d881.ogg"
+    }
+  ]
+}

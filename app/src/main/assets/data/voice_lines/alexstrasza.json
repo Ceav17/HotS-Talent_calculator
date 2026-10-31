@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/alexstrasza/portrait.png",
+  "lines": [
+    {
+      "id": "be_prepared_6e05fe02",
+      "title": "Be Prepared",
+      "variant": null,
+      "audio": "voice_lines/alexstrasza/be_prepared_6e05fe02.ogg"
+    },
+    {
+      "id": "i_will_end_you_0eb20193",
+      "title": "I Will End You",
+      "variant": null,
+      "audio": "voice_lines/alexstrasza/i_will_end_you_0eb20193.ogg"
+    },
+    {
+      "id": "let_the_fire_burn_bright_14e68c2f",
+      "title": "Let the Fire Burn Bright",
+      "variant": null,
+      "audio": "voice_lines/alexstrasza/let_the_fire_burn_bright_14e68c2f.ogg"
+    },
+    {
+      "id": "life_is_with_you_0ba8200b",
+      "title": "Life Is With You",
+      "variant": null,
+      "audio": "voice_lines/alexstrasza/life_is_with_you_0ba8200b.ogg"
+    },
+    {
+      "id": "never_mess_with_mother_8389236b",
+      "title": "Never Mess With Mother",
+      "variant": null,
+      "audio": "voice_lines/alexstrasza/never_mess_with_mother_8389236b.ogg"
+    }
+  ]
+}

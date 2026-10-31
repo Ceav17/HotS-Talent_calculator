@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/tychus/portrait.png",
+  "lines": [
+    {
+      "id": "a_bad_bad_man_500000de",
+      "title": "A Bad Bad Man",
+      "variant": null,
+      "audio": "voice_lines/tychus/a_bad_bad_man_500000de.ogg"
+    },
+    {
+      "id": "all_day_8f64e396",
+      "title": "All Day",
+      "variant": null,
+      "audio": "voice_lines/tychus/all_day_8f64e396.ogg"
+    },
+    {
+      "id": "hell_it_s_about_time_3bd67fc9",
+      "title": "Hell, It's About Time",
+      "variant": null,
+      "audio": "voice_lines/tychus/hell_it_s_about_time_3bd67fc9.ogg"
+    },
+    {
+      "id": "how_people_end_up_dead_5db02099",
+      "title": "How People End Up Dead",
+      "variant": null,
+      "audio": "voice_lines/tychus/how_people_end_up_dead_5db02099.ogg"
+    },
+    {
+      "id": "watch_and_learn_13afa3ba",
+      "title": "Watch and Learn",
+      "variant": null,
+      "audio": "voice_lines/tychus/watch_and_learn_13afa3ba.ogg"
+    }
+  ]
+}

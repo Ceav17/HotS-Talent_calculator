@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/varian/portrait.png",
+  "lines": [
+    {
+      "id": "fall_before_the_king_133d25ab",
+      "title": "Fall Before the King",
+      "variant": null,
+      "audio": "voice_lines/varian/fall_before_the_king_133d25ab.ogg"
+    },
+    {
+      "id": "for_azeroth_bbdb6dc9",
+      "title": "For Azeroth!",
+      "variant": null,
+      "audio": "voice_lines/varian/for_azeroth_bbdb6dc9.ogg"
+    },
+    {
+      "id": "for_the_alliance_7339859f",
+      "title": "For the Alliance!",
+      "variant": null,
+      "audio": "voice_lines/varian/for_the_alliance_7339859f.ogg"
+    },
+    {
+      "id": "made_me_angry_a3eefa91",
+      "title": "Made Me Angry",
+      "variant": null,
+      "audio": "voice_lines/varian/made_me_angry_a3eefa91.ogg"
+    },
+    {
+      "id": "no_potions_4cc9692b",
+      "title": "No Potions!",
+      "variant": null,
+      "audio": "voice_lines/varian/no_potions_4cc9692b.ogg"
+    }
+  ]
+}

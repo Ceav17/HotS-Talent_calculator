@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/ana/portrait.png",
+  "lines": [
+    {
+      "id": "adult_supervision_c91b4932",
+      "title": "Adult Supervision",
+      "variant": null,
+      "audio": "voice_lines/ana/adult_supervision_c91b4932.ogg"
+    },
+    {
+      "id": "it_takes_a_woman_to_know_dda3cfb1",
+      "title": "It Takes a Woman to Know",
+      "variant": null,
+      "audio": "voice_lines/ana/it_takes_a_woman_to_know_dda3cfb1.ogg"
+    },
+    {
+      "id": "justice_rains_from_above_f4799509",
+      "title": "Justice Rains From Above",
+      "variant": null,
+      "audio": "voice_lines/ana/justice_rains_from_above_f4799509.ogg"
+    },
+    {
+      "id": "learn_from_the_pain_46446941",
+      "title": "Learn From the Pain",
+      "variant": null,
+      "audio": "voice_lines/ana/learn_from_the_pain_46446941.ogg"
+    },
+    {
+      "id": "mother_knows_best_0d6d8c96",
+      "title": "Mother Knows Best",
+      "variant": null,
+      "audio": "voice_lines/ana/mother_knows_best_0d6d8c96.ogg"
+    }
+  ]
+}

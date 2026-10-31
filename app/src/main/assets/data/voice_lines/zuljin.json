@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/zuljin/portrait.png",
+  "lines": [
+    {
+      "id": "laughter_9881cb43",
+      "title": "Laughter",
+      "variant": null,
+      "audio": "voice_lines/zuljin/laughter_9881cb43.ogg"
+    },
+    {
+      "id": "let_da_killing_begin_5a324e65",
+      "title": "Let Da Killing Begin",
+      "variant": null,
+      "audio": "voice_lines/zuljin/let_da_killing_begin_5a324e65.ogg"
+    },
+    {
+      "id": "nobody_badda_a5d52adf",
+      "title": "Nobody Badda",
+      "variant": null,
+      "audio": "voice_lines/zuljin/nobody_badda_a5d52adf.ogg"
+    },
+    {
+      "id": "say_hello_95c4cd7c",
+      "title": "Say Hello",
+      "variant": null,
+      "audio": "voice_lines/zuljin/say_hello_95c4cd7c.ogg"
+    },
+    {
+      "id": "you_want_axe_f3536a3e",
+      "title": "You Want Axe?",
+      "variant": null,
+      "audio": "voice_lines/zuljin/you_want_axe_f3536a3e.ogg"
+    }
+  ]
+}

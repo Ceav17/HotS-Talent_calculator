@@ -1,0 +1,592 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "li-li",
+    "name": "Li Li",
+    "team_role": "Healer",
+    "universe": "Warcraft",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "healing_brew",
+      "name": "Healing Brew",
+      "description": "Mana: 25 Cooldown: 4 seconds Heal the lowest Health allied Hero within 6 range for 210 (+4% per level) Health.",
+      "icon": "Heroes/li-li/abilities/storm_ui_icon_lili_healingbrew.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "LiLiHealingBrew|LiLiHealingBrew|Q",
+      "ability_id": "LiLiHealingBrew",
+      "button_id": "LiLiHealingBrew",
+      "unit_id": "HeroLiLi",
+      "unit_name": "Li Li",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "cloud_serpent",
+      "name": "Cloud Serpent",
+      "description": "Mana: 35 Cooldown: 11 seconds Summon a Cloud Serpent on an allied Hero that attacks nearby enemies every second. Each attack deals 26 (+4% per level) damage and heals the ally for 20 (+4% per level). Lasts for 8 seconds.",
+      "icon": "Heroes/li-li/abilities/storm_ui_icon_lili_cloudserpent.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "LiLiCloudSerpent|LiLiCloudSerpent|W",
+      "ability_id": "LiLiCloudSerpent",
+      "button_id": "LiLiCloudSerpent",
+      "unit_id": "HeroLiLi",
+      "unit_name": "Li Li",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "blinding_wind",
+      "name": "Blinding Wind",
+      "description": "Mana: 30 Cooldown: 12 seconds Throw a cloud of wind at the 2 nearest enemies (prioritizing Heroes), dealing 133 (+4% per level) damage. Heroes hit are Blinded and Slowed by 15% for 1.5 seconds.",
+      "icon": "Heroes/li-li/abilities/storm_ui_icon_lili_blindingwind.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "LiLiBlindingWind|LiLiBlindingWind|E",
+      "ability_id": "LiLiBlindingWind",
+      "button_id": "LiLiBlindingWind",
+      "unit_id": "HeroLiLi",
+      "unit_name": "Li Li",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "jug_of_1_000_cups",
+      "name": "Jug of 1,000 Cups",
+      "description": "Mana: 80 Cooldown: 20 seconds Channel for up to 6 seconds. Every 0.25 seconds, increase the cooldown of Jug of 1,000 Cups by 2 seconds, up to 50 additional seconds, and heal the lowest Health nearby allied Hero for 75 (+4% per level) Health.",
+      "icon": "Heroes/li-li/talents/storm_ui_icon_lili_jugofathousandcups.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "LiLiJugof1000Cups|LiLiJugof1000Cups|Heroic",
+      "ability_id": "LiLiJugof1000Cups",
+      "button_id": "LiLiJugof1000Cups",
+      "unit_id": "HeroLiLi",
+      "unit_name": "Li Li",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_jugofathousandcups_mini.png"
+    },
+    {
+      "id": "water_dragon",
+      "name": "Water Dragon",
+      "description": "Mana: 60 Cooldown: 50 seconds Li Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 300 (+4% per level) damage and slowing their Movement Speed by 70% for 4 seconds.",
+      "icon": "Heroes/li-li/talents/storm_ui_icon_lili_waterdragon.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "LiLiWaterDragon|LiLiWaterDragon|Heroic",
+      "ability_id": "LiLiWaterDragon",
+      "button_id": "LiLiWaterDragon",
+      "unit_id": "HeroLiLi",
+      "unit_name": "Li Li",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_waterdragon_mini.png"
+    },
+    {
+      "id": "fast_feet_0de3923371",
+      "name": "Fast Feet",
+      "description": "Upon taking damage, your Basic Ability cooldowns refresh 50% faster and you gain 10% Movement Speed for 1 second.",
+      "icon": "Heroes/li-li/abilities/storm_ui_icon_lili_fastfeet.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": ":PASSIVE:|LiLiFastFeet|Trait",
+      "ability_id": ":PASSIVE:",
+      "button_id": "LiLiFastFeet",
+      "unit_id": "HeroLiLi",
+      "unit_name": "Li Li",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroLiLi",
+      "unit_name": "Li Li",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroLiLi",
+      "unit_name": "Li Li",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "cancel_jug_of_1_000_cups",
+      "name": "Cancel Jug of 1,000 Cups",
+      "description": "Stop Channeling Jug of 1,000 Cups.",
+      "icon": null,
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "LiLiCancelJugof1000Cups|LiLiCancelJugof1000Cups|Heroic",
+      "ability_id": "LiLiCancelJugof1000Cups",
+      "button_id": "LiLiCancelJugof1000Cups",
+      "unit_id": "HeroLiLi",
+      "unit_name": "Li Li",
+      "parent_link_ids": [
+        "LiLiJugof1000Cups|LiLiJugof1000Cups|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroLiLi",
+      "unit_name": "Li Li",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "fast_feet_6ccacb535d",
+      "name": "Fast Feet",
+      "description": "Cooldown: 30 seconds Upon taking damage, your Basic Ability cooldowns refresh 50% faster and you gain 10% Movement Speed for 1 second.",
+      "icon": "Heroes/li-li/abilities/storm_ui_icon_lili_fastfeet.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "LiLiSafetySprint|LiLiFastFeet|Trait",
+      "ability_id": "LiLiSafetySprint",
+      "button_id": "LiLiFastFeet",
+      "unit_id": "HeroLiLi",
+      "unit_name": "Li Li",
+      "parent_link_ids": [
+        "LiLiMasteryFastFeetSafetySprint|LiLiSafetySprintTalent|Trait|Level4"
+      ],
+      "unlock_conditions": [
+        [
+          "LiLiMasteryFastFeetSafetySprint"
+        ]
+      ]
+    },
+    {
+      "id": "let_s_go",
+      "name": "Let's Go!",
+      "description": "Cooldown: 40 seconds Activate to heal an allied Hero for 160 (+4% per level) and make them Unstoppable for 1 second. Let's Go's cooldown is affected by Fast Feet.  Cannot be used on Li Li.",
+      "icon": "Heroes/li-li/abilities/storm_ui_icon_talent_cleanse.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "LiLiLetsGo|LiLiLetsGo|Active",
+      "ability_id": "LiLiLetsGo",
+      "button_id": "LiLiLetsGo",
+      "unit_id": "HeroLiLi",
+      "unit_name": "Li Li",
+      "parent_link_ids": [
+        "LiLiLetsGo|LiLiLetsGo|Active|Level7"
+      ],
+      "unlock_conditions": [
+        [
+          "LiLiLetsGo"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "LiLiLetsGo",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 7,
+      "unlock_position": 3
+    },
+    {
+      "id": "mistweaver",
+      "name": "Mistweaver",
+      "description": "Cooldown: 30 seconds Activate to heal nearby allied Heroes for 149 (+4% per level). Basic Attacks and Cloud Serpent attacks reduce the cooldown of Mistweaver by 1 second.",
+      "icon": "Heroes/li-li/abilities/storm_ui_icon_lili_mistweaver.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "LiLiMistweaver|LiLiMistweaver|Active",
+      "ability_id": "LiLiMistweaver",
+      "button_id": "LiLiMistweaver",
+      "unit_id": "HeroLiLi",
+      "unit_name": "Li Li",
+      "parent_link_ids": [
+        "LiLiMistweaver|LiLiMistweaver|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "LiLiMistweaver"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "LiLiMistweaver",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 3
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "free_drinks",
+          "name": "Free Drinks",
+          "description": "When Healing Brew heals a Hero under 50% Health, its cooldown is reduced by 1 second, and its Mana cost is refunded.",
+          "icon": "Heroes/li-li/talents/storm_ui_icon_lili_healingbrew.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "LiLiFreeDrinks|LiLiFreeDrinks|Q|Level1",
+          "talent_id": "LiLiFreeDrinks",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_healingbrew_mini.png"
+        },
+        {
+          "id": "serpent_sidekick",
+          "name": "Serpent Sidekick",
+          "description": "Cloud Serpent no longer costs Mana and while Fast Feet is active its cooldown refreshes an additional 75% faster.",
+          "icon": "Heroes/li-li/talents/storm_ui_icon_lili_cloudserpent.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "LiLiMasteryCloudSerpentSerpentSidekick|LiLiSerpentSidekickTalent|W|Level1",
+          "talent_id": "LiLiMasteryCloudSerpentSerpentSidekick",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_cloudserpent_mini.png"
+        },
+        {
+          "id": "eager_adventurer",
+          "name": "Eager Adventurer",
+          "description": "Increase Fast Feet's duration by 150% and increase Mana regeneration by 150% while Fast Feet is active.",
+          "icon": "Heroes/li-li/talents/storm_ui_icon_lili_fastfeet.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "LiLiEagerAdventurer|LiLiEagerAdventurer|Trait|Level1",
+          "talent_id": "LiLiEagerAdventurer",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_fastfeet_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "wind_serpent",
+          "name": "Wind Serpent",
+          "description": "Cloud Serpent grants its bearer 10% increased Movement Speed. Casting Blinding Wind increases this bonus to 20% for 3 seconds.   Passive: Cloud Serpent attacks 25% faster.",
+          "icon": "Heroes/li-li/talents/storm_ui_icon_lili_cloudserpent.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "LiLiWindSerpent|LiLiWindSerpent|W|Level4",
+          "talent_id": "LiLiWindSerpent",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_cloudserpent_mini.png"
+        },
+        {
+          "id": "surging_winds",
+          "name": "Surging Winds",
+          "description": "If Blinding Wind targets 2 or more Heroes, its cooldown is instantly reduced by 2 seconds and Li Li gains 10% Spell Power for 10 seconds.",
+          "icon": "Heroes/li-li/talents/storm_ui_icon_lili_blindingwind.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "LiLiMasteryBlindingWindSurgingWinds|LiLiSurgingWindsTalent|E|Level4",
+          "talent_id": "LiLiMasteryBlindingWindSurgingWinds",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_blindingwind_mini.png"
+        },
+        {
+          "id": "safety_sprint",
+          "name": "Safety Sprint",
+          "description": "Cooldown: 30 seconds Activate to gain Fast Feet, 30 Armor, and 30% Movement Speed for 3 seconds.  Passive: While Fast Feet is active, Li Li gains 10 Armor.",
+          "icon": "Heroes/li-li/talents/storm_ui_icon_lili_fastfeet.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "LiLiMasteryFastFeetSafetySprint|LiLiSafetySprintTalent|Trait|Level4",
+          "talent_id": "LiLiMasteryFastFeetSafetySprint",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_fastfeet_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "the_good_stuff",
+          "name": "The Good Stuff",
+          "description": "Healing Brew heals for an additional 42 (+4% per level) over 3 seconds. While Fast Feet is active, this heal amount is increased by 100%.",
+          "icon": "Heroes/li-li/talents/storm_ui_icon_lili_healingbrew.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "LiLiMasteryHealingBrewTheGoodStuff|LiLiHealingBrewTheGoodStuffTalent|Q|Level7",
+          "talent_id": "LiLiMasteryHealingBrewTheGoodStuff",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_healingbrew_mini.png"
+        },
+        {
+          "id": "mass_vortex",
+          "name": "Mass Vortex",
+          "description": "Increase the number of enemies hit by Blinding Wind from 2 to 3. Blinding Wind deals 75% more damage when it targets 3 Heroes.",
+          "icon": "Heroes/li-li/talents/storm_ui_icon_lili_blindingwind.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "LiLiMasteryBlindingWindMassVortex|LiLiBlindingWindMassVortexTalent|E|Level7",
+          "talent_id": "LiLiMasteryBlindingWindMassVortex",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_blindingwind_mini.png"
+        },
+        {
+          "id": "let_s_go",
+          "name": "Let's Go!",
+          "description": "Cooldown: 40 seconds Activate to heal an allied Hero for 160 (+4% per level) and make them Unstoppable for 1 second. Let's Go's cooldown is affected by Fast Feet.  Cannot be used on Li Li.",
+          "icon": "Heroes/li-li/talents/storm_ui_icon_talent_cleanse.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "LiLiLetsGo|LiLiLetsGo|Active|Level7",
+          "talent_id": "LiLiLetsGo",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/li-li/talents/storm_ui_icon_talent_cleanse_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "jug_of_1_000_cups",
+          "name": "Jug of 1,000 Cups",
+          "description": "Mana: 80 Cooldown: 20 seconds Channel for up to 6 seconds. Every 0.25 seconds, increase the cooldown of Jug of 1,000 Cups by 2 seconds, up to 50 additional seconds, and heal the lowest Health nearby allied Hero for 75 (+4% per level) Health.",
+          "icon": "Heroes/li-li/talents/storm_ui_icon_lili_jugofathousandcups.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "LiLiHeroicAbilityJugof1000Cups|LiLiJugof1000Cups|Heroic|Level10",
+          "talent_id": "LiLiHeroicAbilityJugof1000Cups",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_jugofathousandcups_mini.png"
+        },
+        {
+          "id": "water_dragon",
+          "name": "Water Dragon",
+          "description": "Mana: 60 Cooldown: 50 seconds Li Li channels for 2 seconds, summoning a Water Dragon that hits the nearest enemy Hero within 12 range and all enemies near them, dealing 300 (+4% per level) damage and slowing their Movement Speed by 70% for 4 seconds.",
+          "icon": "Heroes/li-li/talents/storm_ui_icon_lili_waterdragon.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "LiLiHeroicAbilityWaterDragon|LiLiWaterDragon|Heroic|Level10",
+          "talent_id": "LiLiHeroicAbilityWaterDragon",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_waterdragon_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "lightning_serpent",
+          "name": "Lightning Serpent",
+          "description": "Cloud Serpent attacks bounce to hit 2 additional targets for 13 (+4% per level) damage and 10 (+4% per level) healing.",
+          "icon": "Heroes/li-li/talents/storm_ui_icon_lili_cloudserpent.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "LiLiMasteryCloudSerpentLightningSerpent|LiLiCloudSerpentLightningSerpentTalent|W|Level13",
+          "talent_id": "LiLiMasteryCloudSerpentLightningSerpent",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_cloudserpent_mini.png"
+        },
+        {
+          "id": "gale_force",
+          "name": "Gale Force",
+          "description": "Increase Blinding Wind's Blind duration by 0.75 seconds. Li Li's Basic Attacks against Blinded Heroes deal 100% increased damage.",
+          "icon": "Heroes/li-li/talents/storm_ui_icon_lili_blindingwind.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "LiLiMasteryBlindingWindGaleForce|LiLiBlindingWindGaleForceTalent|E|Level13",
+          "talent_id": "LiLiMasteryBlindingWindGaleForce",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_blindingwind_mini.png"
+        },
+        {
+          "id": "hindering_winds",
+          "name": "Hindering Winds",
+          "description": "Increase Blinding Wind's Slow amount to 30% and its duration to 2 seconds.",
+          "icon": "Heroes/li-li/talents/storm_ui_icon_lili_blindingwind_a.png",
+          "position": 3,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "LiLiHinderingWinds|LiLiHinderingWinds|E|Level13",
+          "talent_id": "LiLiHinderingWinds",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_blindingwind_a_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "two_for_one",
+          "name": "Two For One",
+          "description": "Increases the number of allies healed by Healing Brew to 2, but increases the cooldown by 1 second.",
+          "icon": "Heroes/li-li/talents/storm_ui_icon_lili_healingbrew.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "LiLiMasteryHealingBrewTwoForOne|LiLiHealingBrewTwoForOneTalent|Q|Level16",
+          "talent_id": "LiLiMasteryHealingBrewTwoForOne",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_healingbrew_mini.png"
+        },
+        {
+          "id": "pick_me_up",
+          "name": "Pick Me Up",
+          "description": "Healing Brew heals for 33% more when the target is under 50% Health.",
+          "icon": "Heroes/li-li/talents/storm_ui_icon_lili_healingbrew_a.png",
+          "position": 2,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "LiLiPickMeUp|LiLiPickMeUp|Q|Level16",
+          "talent_id": "LiLiPickMeUp",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_healingbrew_a_mini.png"
+        },
+        {
+          "id": "blessings_of_yulon",
+          "name": "Blessings Of Yu’lon",
+          "description": "Cloud Serpent grants its bearer 10% increased healing received and heals them for an additional 0.5% of their maximum Health each time it attacks.",
+          "icon": "Heroes/li-li/talents/storm_ui_icon_lili_cloudserpent.png",
+          "position": 3,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "LiLiBlessingsOfYulon|LiLiBlessingsOfYulon|W|Level16",
+          "talent_id": "LiLiBlessingsOfYulon",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_cloudserpent_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "jug_of_1_000_000_cups",
+          "name": "Jug of 1,000,000 Cups",
+          "description": "Jug of 1,000 Cups heals two allies at a time.",
+          "icon": "Heroes/li-li/talents/storm_ui_icon_lili_jugofathousandcups.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "LiLiMasteryJugof1000CupsJugof1000000Cups|LiLiJugof1000CupsJugof1000000CupsTalent|Heroic|Level20",
+          "talent_id": "LiLiMasteryJugof1000CupsJugof1000000Cups",
+          "prerequisite_talent_ids": [
+            "LiLiHeroicAbilityJugof1000Cups"
+          ],
+          "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_jugofathousandcups_mini.png"
+        },
+        {
+          "id": "double_dragon",
+          "name": "Double Dragon",
+          "description": "After hitting a target with Water Dragon, another Water Dragon is summoned at the point of impact.",
+          "icon": "Heroes/li-li/talents/storm_ui_icon_lili_waterdragon.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "LiLiMasteryWaterDragonDoubleDragon|LiLiWaterDragonDoubleDragonTalent|Heroic|Level20",
+          "talent_id": "LiLiMasteryWaterDragonDoubleDragon",
+          "prerequisite_talent_ids": [
+            "LiLiHeroicAbilityWaterDragon"
+          ],
+          "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_waterdragon_mini.png"
+        },
+        {
+          "id": "mistweaver",
+          "name": "Mistweaver",
+          "description": "Cooldown: 30 seconds Activate to heal nearby allied Heroes for 149 (+4% per level). Basic Attacks and Cloud Serpent attacks reduce the cooldown of Mistweaver by 1 second.",
+          "icon": "Heroes/li-li/talents/storm_ui_icon_lili_mistweaver.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "LiLiMistweaver|LiLiMistweaver|Active|Level20",
+          "talent_id": "LiLiMistweaver",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2"
+          ],
+          "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_mistweaver_mini.png"
+        },
+        {
+          "id": "shake_it_off",
+          "name": "Shake It Off",
+          "description": "While Stunned, Silenced, or Rooted and for 2 seconds afterwards, Li Li gains 35 Armor.  Passive: Increase Fast Feet's cooldown refresh rate to 75%.",
+          "icon": "Heroes/li-li/talents/storm_ui_icon_lili_fastfeet.png",
+          "position": 4,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "LiLiShakeItOff|LiLiShakeItOffTalent|Trait|Level20",
+          "talent_id": "LiLiShakeItOff",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/li-li/talents/storm_ui_icon_lili_fastfeet_mini.png"
+        }
+      ]
+    }
+  ]
+}

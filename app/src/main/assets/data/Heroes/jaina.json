@@ -1,0 +1,679 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "jaina",
+    "name": "Jaina",
+    "team_role": "Ranged Assassin",
+    "universe": "Warcraft",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "frostbolt",
+      "name": "Frostbolt",
+      "description": "Mana: 30 Cooldown: 4 seconds Deal 184 (+4% per level) damage and Chill the target.",
+      "icon": "Heroes/jaina/abilities/storm_ui_icon_jaina_frostbolt.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "JainaFrostbolt|JainaFrostbolt|Q",
+      "ability_id": "JainaFrostbolt",
+      "button_id": "JainaFrostbolt",
+      "unit_id": "HeroJaina",
+      "unit_name": "Jaina",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "blizzard",
+      "name": "Blizzard",
+      "description": "Mana: 90 Cooldown: 15 seconds Bombard an area with 3 waves of ice, dealing 142 (+4% per level) damage each. Damaged enemies are Chilled.",
+      "icon": "Heroes/jaina/abilities/storm_ui_icon_jaina_blizzard.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "JainaBlizzard|JainaBlizzard|W",
+      "ability_id": "JainaBlizzard",
+      "button_id": "JainaBlizzard",
+      "unit_id": "HeroJaina",
+      "unit_name": "Jaina",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "cone_of_cold",
+      "name": "Cone of Cold",
+      "description": "Mana: 40 Cooldown: 10 seconds Deal 220 (+4% per level) damage and Chill targets.",
+      "icon": "Heroes/jaina/abilities/storm_ui_icon_jaina_coneofcold.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "JainaConeOfCold|JainaConeOfCold|E",
+      "ability_id": "JainaConeOfCold",
+      "button_id": "JainaConeOfCold",
+      "unit_id": "HeroJaina",
+      "unit_name": "Jaina",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_water_elemental",
+      "name": "Summon Water Elemental",
+      "description": "Mana: 60 Cooldown: 60 seconds Summon a Water Elemental at target location. The Water Elemental's Basic Attacks deal 62 (+4% per level) damage, splash for 25% damage and Chill. The Ability can be reactivated to retarget the Water Elemental. Loses Health over 32 seconds.",
+      "icon": "Heroes/jaina/talents/storm_ui_icon_jaina_summonwaterelemental.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "JainaSummonWaterElemental|JainaSummonWaterElemental|Heroic",
+      "ability_id": "JainaSummonWaterElemental",
+      "button_id": "JainaSummonWaterElemental",
+      "unit_id": "HeroJaina",
+      "unit_name": "Jaina",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/jaina/talents/storm_ui_icon_jaina_summonwaterelemental_mini.png"
+    },
+    {
+      "id": "ring_of_frost",
+      "name": "Ring of Frost",
+      "description": "Mana: 70 Cooldown: 70 seconds After a 1.5 second delay, create a Ring of Frost in an area that deals 310 (+4% per level) damage and Roots enemies for 3 seconds. The ring persists for 3 seconds afterward, Chilling any enemies who touch it.",
+      "icon": "Heroes/jaina/talents/storm_ui_icon_jaina_ringoffrost.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "JainaRingOfFrost|JainaRingOfFrost|Heroic",
+      "ability_id": "JainaRingOfFrost",
+      "button_id": "JainaRingOfFrost",
+      "unit_id": "HeroJaina",
+      "unit_name": "Jaina",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/jaina/talents/storm_ui_icon_jaina_ringoffrost_mini.png"
+    },
+    {
+      "id": "frostbite",
+      "name": "Frostbite",
+      "description": "Jaina's Abilities Chill targets, Slowing them by 25% and amplifying damage taken from her Abilities by 50%. Lasts 4 seconds.  Quest: Deal Ability damage to Chilled Heroes.  Reward: Upon dealing 12000 damage, unlock the Improved Ice Block Ability, allowing Jaina to become temporarily Invulnerable.  Mythic Reward: Upon dealing 30000 damage, Ice Block upgrades to Ice Cold, allowing Jaina to move and cast while active.",
+      "icon": "Heroes/jaina/abilities/storm_ui_icon_jaina_frostbite.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": ":PASSIVE:|JainaTraitFrostbite|Trait",
+      "ability_id": ":PASSIVE:",
+      "button_id": "JainaTraitFrostbite",
+      "unit_id": "HeroJaina",
+      "unit_name": "Jaina",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroJaina",
+      "unit_name": "Jaina",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroJaina",
+      "unit_name": "Jaina",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "command_water_elemental",
+      "name": "Command Water Elemental",
+      "description": "Wills the Water Elemental to attack an enemy or move to an area.",
+      "icon": "Heroes/jaina/abilities/storm_ui_icon_jaina_commandwaterelemental.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "JainaCommandWaterElemental|JainaCommandWaterElemental|Heroic",
+      "ability_id": "JainaCommandWaterElemental",
+      "button_id": "JainaCommandWaterElemental",
+      "unit_id": "HeroJaina",
+      "unit_name": "Jaina",
+      "parent_link_ids": [
+        "JainaSummonWaterElemental|JainaSummonWaterElemental|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroJaina",
+      "unit_name": "Jaina",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "improved_ice_block",
+      "name": "Improved Ice Block",
+      "description": "Cooldown: 40 seconds Activate to place Jaina in Stasis and gain Invulnerability for 2.5 seconds. When this effect expires, nearby enemies are Chilled.",
+      "icon": "Heroes/jaina/abilities/storm_ui_icon_talent_iceblock.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "JainaIceBlockActivate|JainaImprovedIceBlockHotbar|Active",
+      "ability_id": "JainaIceBlockActivate",
+      "button_id": "JainaImprovedIceBlockHotbar",
+      "unit_id": "HeroJaina",
+      "unit_name": "Jaina",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "JainaIceBlockActivate",
+      "active_order": 1,
+      "active_origin": "initial",
+      "unlock_level": 0,
+      "unlock_position": 0
+    },
+    {
+      "id": "ice_cold",
+      "name": "Ice Cold",
+      "description": "Cooldown: 40 seconds Activate to grant Jaina Protected and Unstoppable for 2.5 seconds. When this effect expires, nearby enemies are Chilled.",
+      "icon": "Heroes/jaina/abilities/storm_ui_icon_talent_iceblock.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "JainaIceBlockActivate|JainaIceColdHotbar|Active",
+      "ability_id": "JainaIceBlockActivate",
+      "button_id": "JainaIceColdHotbar",
+      "unit_id": "HeroJaina",
+      "unit_name": "Jaina",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "JainaIceBlockActivate",
+      "active_order": 1,
+      "active_origin": "initial",
+      "unlock_level": 0,
+      "unlock_position": 0
+    },
+    {
+      "id": "cancel_ice_cold",
+      "name": "Cancel Ice Cold",
+      "description": "Cancel Improved Ice Cold, removing Protected and Chilling nearby enemies.",
+      "icon": null,
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "JainaIceBlockCancel|JainaIceColdCancel|Active",
+      "ability_id": "JainaIceBlockCancel",
+      "button_id": "JainaIceColdCancel",
+      "unit_id": "HeroJaina",
+      "unit_name": "Jaina",
+      "parent_link_ids": [
+        "JainaIceBlockActivate|JainaIceColdHotbar|Active"
+      ],
+      "unlock_conditions": [
+        []
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "JainaIceBlockActivate",
+      "active_order": 1,
+      "active_origin": "initial",
+      "unlock_level": 0,
+      "unlock_position": 0
+    },
+    {
+      "id": "cancel_improved_ice_block",
+      "name": "Cancel Improved Ice Block",
+      "description": "Cancel Improved Ice Block, removing the Stasis and Invulnerability and Chilling nearby enemies.",
+      "icon": null,
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "JainaIceBlockCancel|JainaImprovedIceBlockCancel|Active",
+      "ability_id": "JainaIceBlockCancel",
+      "button_id": "JainaImprovedIceBlockCancel",
+      "unit_id": "HeroJaina",
+      "unit_name": "Jaina",
+      "parent_link_ids": [
+        "JainaIceBlockActivate|JainaImprovedIceBlockHotbar|Active"
+      ],
+      "unlock_conditions": [
+        []
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "JainaIceBlockActivate",
+      "active_order": 1,
+      "active_origin": "initial",
+      "unlock_level": 0,
+      "unlock_position": 0
+    },
+    {
+      "id": "icy_veins",
+      "name": "Icy Veins",
+      "description": "Cooldown: 60 seconds Activate to make Jaina's Basic Abilities' cooldowns recharge 200% faster and reduce their Mana cost by 50% for 5 seconds.",
+      "icon": "Heroes/jaina/abilities/storm_ui_icon_jaina_icyveins.png",
+      "hotkey": "2",
+      "ability_type": "Active",
+      "link_id": "IcyVeins|JainaIcyVeinsHotbar|Active",
+      "ability_id": "IcyVeins",
+      "button_id": "JainaIcyVeinsHotbar",
+      "unit_id": "HeroJaina",
+      "unit_name": "Jaina",
+      "parent_link_ids": [
+        "JainaIcyVeins|JainaIcyVeinsHotbar|Active|Level13"
+      ],
+      "unlock_conditions": [
+        [
+          "JainaIcyVeins"
+        ]
+      ],
+      "hotkey_candidates": [
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "IcyVeins",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 13,
+      "unlock_position": 3
+    },
+    {
+      "id": "ice_blink",
+      "name": "Ice Blink",
+      "description": "Cooldown: 60 seconds Activate to teleport a short distance and Chill all nearby enemies.",
+      "icon": "Heroes/jaina/abilities/storm_ui_icon_talent_boltofthestorm.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "JainaFrigidTransmission|JainaFrigidTransmission|Active",
+      "ability_id": "JainaFrigidTransmission",
+      "button_id": "JainaFrigidTransmission",
+      "unit_id": "HeroJaina",
+      "unit_name": "Jaina",
+      "parent_link_ids": [
+        "JainaFrigidTransmission|JainaFrigidTransmission|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "JainaFrigidTransmission"
+        ]
+      ],
+      "hotkey_candidates": [
+        "2",
+        "3"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "JainaFrigidTransmission",
+      "active_order": 3,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 3
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "winter_s_reach",
+          "name": "Winter's Reach",
+          "description": "Increase the range and travel speed of Frostbolt by 30%.",
+          "icon": "Heroes/jaina/talents/storm_ui_icon_jaina_frostbolt.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "JainaFrostboltWintersReach|JainaFrostboltWintersReachTalent|Q|Level1",
+          "talent_id": "JainaFrostboltWintersReach",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/jaina/talents/storm_ui_icon_jaina_frostbolt_mini.png"
+        },
+        {
+          "id": "lingering_chill",
+          "name": "Lingering Chill",
+          "description": "Increase the duration of Chill from 4 seconds to 6 seconds.",
+          "icon": "Heroes/jaina/talents/storm_ui_icon_jaina_frostbite.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "JainaFrostbiteLingeringChill|JainaFrostbiteLingeringChillTalent|Trait|Level1",
+          "talent_id": "JainaFrostbiteLingeringChill",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/jaina/talents/storm_ui_icon_jaina_frostbite_mini.png"
+        },
+        {
+          "id": "fingers_of_frost",
+          "name": "Fingers of Frost",
+          "description": "Quest: Gather Regeneration Globes to increase Jaina's Mana regeneration by 0.1 per second, up to 2 per second.   Reward: After gathering 20 Globes, the damage bonus from Frostbite is increased by 10%.",
+          "icon": "Heroes/jaina/talents/storm_ui_icon_talent_conjurerspursuit.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "JainaFingersOfFrost|JainaFingersOfFrost|Passive|Level1",
+          "talent_id": "JainaFingersOfFrost",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/jaina/talents/storm_ui_icon_talent_conjurerspursuit_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "frost_shards",
+          "name": "Frost Shards",
+          "description": "Frostbolt will now pierce the first two targets.",
+          "icon": "Heroes/jaina/talents/storm_ui_icon_jaina_frostbolt.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "JainaFrostboltFrostShards|JainaFrostboltFrostShardsTalent|Q|Level4",
+          "talent_id": "JainaFrostboltFrostShards",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/jaina/talents/storm_ui_icon_jaina_frostbolt_mini.png"
+        },
+        {
+          "id": "arcane_intellect",
+          "name": "Arcane Intellect",
+          "description": "Dealing damage to a Chilled target returns Mana to Jaina. Basic Attacks return 5 Mana and Abilities return 20.  Passive: While above 75% Mana, Jaina gains 10% Spell Power.",
+          "icon": "Heroes/jaina/talents/storm_ui_icon_jaina_arcaneintellect.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "JainaFrostbiteArcaneIntellect|JainaFrostbiteArcaneIntellectTalent|Trait|Level4",
+          "talent_id": "JainaFrostbiteArcaneIntellect",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/jaina/talents/storm_ui_icon_jaina_arcaneintellect_mini.png"
+        },
+        {
+          "id": "frost_armor",
+          "name": "Frost Armor",
+          "description": "Enemies that attack Jaina are Chilled. Additionally, every 10 seconds, Jaina gains 75 Physical Armor against the next enemy Hero Basic Attack, reducing the damage taken by 75%.",
+          "icon": "Heroes/jaina/talents/storm_ui_icon_jaina_frostarmor.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "JainaFrostbiteFrostArmor|JainaFrostbiteFrostArmorTalent|Passive|Level4",
+          "talent_id": "JainaFrostbiteFrostArmor",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/jaina/talents/storm_ui_icon_jaina_frostarmor_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "ice_lance",
+          "name": "Ice Lance",
+          "description": "Hitting a Chilled target with Frostbolt reduces its cooldown by 2 seconds and restores 10 Mana.",
+          "icon": "Heroes/jaina/talents/storm_ui_icon_jaina_frostbolt.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "JainaFrostboltIceLance|JainaFrostboltIceLanceTalent|Q|Level7",
+          "talent_id": "JainaFrostboltIceLance",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/jaina/talents/storm_ui_icon_jaina_frostbolt_mini.png"
+        },
+        {
+          "id": "ice_floes",
+          "name": "Ice Floes",
+          "description": "Increase the width of Cone of Cold by 100% and cause each Hero hit to reduce its cooldown by 2 seconds, doubled against chilled Heroes, up to a maximum of 8 seconds per use.",
+          "icon": "Heroes/jaina/talents/storm_ui_icon_jaina_coneofcold.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "JainaConeOfColdIceFloes|JainaConeOfColdIceFloesTalent|E|Level7",
+          "talent_id": "JainaConeOfColdIceFloes",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/jaina/talents/storm_ui_icon_jaina_coneofcold_mini.png"
+        },
+        {
+          "id": "icefury_wand",
+          "name": "Icefury Wand",
+          "description": "Basic Attacks against Chilled enemies deal 50% more damage and lower the cooldown of Blizzard by 1.25 seconds. Doubled against enemy Heroes.",
+          "icon": "Heroes/jaina/talents/storm_ui_icon_talent_autoattack_cooldown.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "JainaIcefuryWand|JainaIcefuryWand|Passive|Level7",
+          "talent_id": "JainaIcefuryWand",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/jaina/talents/storm_ui_icon_talent_autoattack_cooldown_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "ring_of_frost",
+          "name": "Ring of Frost",
+          "description": "Mana: 70 Cooldown: 70 seconds After a 1.5 second delay, create a Ring of Frost in an area that deals 310 (+4% per level) damage and Roots enemies for 3 seconds. The ring persists for 3 seconds afterward, Chilling any enemies who touch it.",
+          "icon": "Heroes/jaina/talents/storm_ui_icon_jaina_ringoffrost.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "JainaHeroicRingOfFrost|JainaRingOfFrost|Heroic|Level10",
+          "talent_id": "JainaHeroicRingOfFrost",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/jaina/talents/storm_ui_icon_jaina_ringoffrost_mini.png"
+        },
+        {
+          "id": "summon_water_elemental",
+          "name": "Summon Water Elemental",
+          "description": "Mana: 60 Cooldown: 60 seconds Summon a Water Elemental at target location. The Water Elemental's Basic Attacks deal 62 (+4% per level) damage, splash for 25% damage and Chill. The Ability can be reactivated to retarget the Water Elemental. Loses Health over 32 seconds.",
+          "icon": "Heroes/jaina/talents/storm_ui_icon_jaina_summonwaterelemental.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "JainaHeroicSummonWaterElemental|JainaSummonWaterElemental|Heroic|Level10",
+          "talent_id": "JainaHeroicSummonWaterElemental",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/jaina/talents/storm_ui_icon_jaina_summonwaterelemental_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "storm_front",
+          "name": "Storm Front",
+          "description": "Increase the cast range of Blizzard by 75% and its radius by 30%.",
+          "icon": "Heroes/jaina/talents/storm_ui_icon_jaina_blizzard.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "JainaBlizzardStormFront|JainaBlizzardStormFrontTalent|W|Level13",
+          "talent_id": "JainaBlizzardStormFront",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/jaina/talents/storm_ui_icon_jaina_blizzard_mini.png"
+        },
+        {
+          "id": "ice_barrier",
+          "name": "Ice Barrier",
+          "description": "Gain a Shield for 25% of Ability damage dealt to Chilled targets. The shield lasts 4 seconds.",
+          "icon": "Heroes/jaina/talents/storm_ui_icon_jaina_frostbite.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "JainaFrostbiteIceBarrier|JainaFrostbiteIceBarrierTalent|Trait|Level13",
+          "talent_id": "JainaFrostbiteIceBarrier",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/jaina/talents/storm_ui_icon_jaina_frostbite_mini.png"
+        },
+        {
+          "id": "icy_veins",
+          "name": "Icy Veins",
+          "description": "Cooldown: 60 seconds Activate to make Jaina's Basic Abilities' cooldowns recharge 200% faster and reduce their Mana cost by 50% for 5 seconds.",
+          "icon": "Heroes/jaina/talents/storm_ui_icon_jaina_icyveins.png",
+          "position": 3,
+          "hotkey": "2",
+          "ability_type": "Active",
+          "link_id": "JainaIcyVeins|JainaIcyVeinsHotbar|Active|Level13",
+          "talent_id": "JainaIcyVeins",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "2"
+          ],
+          "icon_mini": "Heroes/jaina/talents/storm_ui_icon_jaina_icyveins_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "snowstorm",
+          "name": "Snowstorm",
+          "description": "The damage of the second wave of Blizzard is increased by 50%. The damage of the third wave is increased by 100%.",
+          "icon": "Heroes/jaina/talents/storm_ui_icon_jaina_blizzard.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "JainaBlizzardSnowstorm|JainaBlizzardSnowstormTalent|W|Level16",
+          "talent_id": "JainaBlizzardSnowstorm",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/jaina/talents/storm_ui_icon_jaina_blizzard_mini.png"
+        },
+        {
+          "id": "northern_exposure",
+          "name": "Northern Exposure",
+          "description": "Enemies damaged by Cone of Cold have their Armor lowered by 25 for 2 seconds, increasing their damage taken by 25%.",
+          "icon": "Heroes/jaina/talents/storm_ui_icon_jaina_coneofcold.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "JainaConeOfColdNorthernExposure|JainaConeOfColdNorthernExposureTalent|E|Level16",
+          "talent_id": "JainaConeOfColdNorthernExposure",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/jaina/talents/storm_ui_icon_jaina_coneofcold_mini.png"
+        },
+        {
+          "id": "numbing_blast",
+          "name": "Numbing Blast",
+          "description": "Cone of Cold Roots Chilled targets for 0.75 seconds.",
+          "icon": "Heroes/jaina/talents/storm_ui_icon_jaina_coneofcold_var1.png",
+          "position": 3,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "JainaConeOfColdNumbingBlast|JainaConeOfColdNumbingBlastTalent|E|Level16",
+          "talent_id": "JainaConeOfColdNumbingBlast",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/jaina/talents/storm_ui_icon_jaina_coneofcold_var1_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "cold_snap",
+          "name": "Cold Snap",
+          "description": "The center area of Ring of Frost deals 310 (+4% per level) damage and Roots enemies after the outer ring expires. Each enemy Hero hit reduces its cooldown by 15 seconds.",
+          "icon": "Heroes/jaina/talents/storm_ui_icon_jaina_ringoffrost.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "JainaRingOfFrostColdSnap|JainaRingOfFrostColdSnapTalent|Heroic|Level20",
+          "talent_id": "JainaRingOfFrostColdSnap",
+          "prerequisite_talent_ids": [
+            "JainaHeroicRingOfFrost"
+          ],
+          "icon_mini": "Heroes/jaina/talents/storm_ui_icon_jaina_ringoffrost_mini.png"
+        },
+        {
+          "id": "wintermute",
+          "name": "Wintermute",
+          "description": "Increases the cast range of Water Elemental by 40%, and the Water Elemental will now mimic Jaina's Basic Abilities for 40% damage.",
+          "icon": "Heroes/jaina/talents/storm_ui_icon_jaina_summonwaterelemental.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "JainaSummonWaterElementalWintermute|JainaSummonWaterElementalWintermuteTalent|Heroic|Level20",
+          "talent_id": "JainaSummonWaterElementalWintermute",
+          "prerequisite_talent_ids": [
+            "JainaHeroicSummonWaterElemental"
+          ],
+          "icon_mini": "Heroes/jaina/talents/storm_ui_icon_jaina_summonwaterelemental_mini.png"
+        },
+        {
+          "id": "ice_blink",
+          "name": "Ice Blink",
+          "description": "Cooldown: 60 seconds Activate to teleport a short distance and Chill all nearby enemies.",
+          "icon": "Heroes/jaina/talents/storm_ui_icon_talent_boltofthestorm.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "JainaFrigidTransmission|JainaFrigidTransmission|Active|Level20",
+          "talent_id": "JainaFrigidTransmission",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "2",
+            "3"
+          ],
+          "icon_mini": "Heroes/jaina/talents/storm_ui_icon_talent_boltofthestorm_mini.png"
+        },
+        {
+          "id": "deep_chill",
+          "name": "Deep Chill",
+          "description": "Frostbite's Chill can now stack a second time, slowing targets up to 40%.",
+          "icon": "Heroes/jaina/talents/storm_ui_icon_jaina_frostbite.png",
+          "position": 4,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "JainaFrostbiteDeepChill|JainaFrostbiteDeepChillTalent|Trait|Level20",
+          "talent_id": "JainaFrostbiteDeepChill",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/jaina/talents/storm_ui_icon_jaina_frostbite_mini.png"
+        }
+      ]
+    }
+  ]
+}

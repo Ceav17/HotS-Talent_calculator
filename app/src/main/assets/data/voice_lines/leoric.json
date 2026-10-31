@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/leoric/portrait.png",
+  "lines": [
+    {
+      "id": "cower_before_your_king_4e3cad48",
+      "title": "Cower Before Your King",
+      "variant": null,
+      "audio": "voice_lines/leoric/cower_before_your_king_4e3cad48.ogg"
+    },
+    {
+      "id": "into_my_tomb_884d1f24",
+      "title": "Into My Tomb",
+      "variant": null,
+      "audio": "voice_lines/leoric/into_my_tomb_884d1f24.ogg"
+    },
+    {
+      "id": "no_life_f22a5ea6",
+      "title": "No Life",
+      "variant": null,
+      "audio": "voice_lines/leoric/no_life_f22a5ea6.ogg"
+    },
+    {
+      "id": "rise_again_3e22519d",
+      "title": "Rise Again",
+      "variant": null,
+      "audio": "voice_lines/leoric/rise_again_3e22519d.ogg"
+    },
+    {
+      "id": "treason_47811755",
+      "title": "Treason",
+      "variant": null,
+      "audio": "voice_lines/leoric/treason_47811755.ogg"
+    }
+  ]
+}

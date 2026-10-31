@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/mephisto/portrait.png",
+  "lines": [
+    {
+      "id": "creation_shall_tremble_07571296",
+      "title": "Creation Shall Tremble",
+      "variant": null,
+      "audio": "voice_lines/mephisto/creation_shall_tremble_07571296.ogg"
+    },
+    {
+      "id": "hatred_stirs_23425105",
+      "title": "Hatred Stirs",
+      "variant": null,
+      "audio": "voice_lines/mephisto/hatred_stirs_23425105.ogg"
+    },
+    {
+      "id": "my_brothers_have_escaped_026a9a15",
+      "title": "My Brothers Have Escaped",
+      "variant": null,
+      "audio": "voice_lines/mephisto/my_brothers_have_escaped_026a9a15.ogg"
+    },
+    {
+      "id": "not_happy_275ade05",
+      "title": "Not Happy",
+      "variant": null,
+      "audio": "voice_lines/mephisto/not_happy_275ade05.ogg"
+    },
+    {
+      "id": "you_are_too_late_94ab0f3c",
+      "title": "You Are Too Late",
+      "variant": null,
+      "audio": "voice_lines/mephisto/you_are_too_late_94ab0f3c.ogg"
+    }
+  ]
+}

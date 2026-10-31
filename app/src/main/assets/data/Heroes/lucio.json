@@ -1,0 +1,552 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "lucio",
+    "name": "Lúcio",
+    "team_role": "Healer",
+    "universe": "Overwatch",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "soundwave",
+      "name": "Soundwave",
+      "description": "Mana: 45 Cooldown: 8 seconds Deal 105 (+4% per level) damage to enemies in an area and knock them back.",
+      "icon": "Heroes/lucio/abilities/storm_ui_icon_lucio_soundwave.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "LucioSoundwave|LucioSoundwave|Q",
+      "ability_id": "LucioSoundwave",
+      "button_id": "LucioSoundwave",
+      "unit_id": "HeroLucio",
+      "unit_name": "Lúcio",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "crossfade_5b6b3a2dae",
+      "name": "Crossfade",
+      "description": "Currently playing Speed Boost, increasing the Movement Speed of Lúcio and nearby allied Heroes by 10%.  Toggle to play Healing Boost instead.",
+      "icon": "Heroes/lucio/abilities/storm_ui_icon_lucio_crossfadehealing.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "LucioCrossfade|LucioCrossfadeActivateHealingBoost|W",
+      "ability_id": "LucioCrossfade",
+      "button_id": "LucioCrossfadeActivateHealingBoost",
+      "unit_id": "HeroLucio",
+      "unit_name": "Lúcio",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "amp_it_up",
+      "name": "Amp It Up",
+      "description": "Mana: 90 Cooldown: 13 seconds Raise Lúcio's Crossfade track volume for 3 seconds, amping Healing Boost to 112 (+4% per level) Health per second and Speed Boost to 30% increased Movement Speed.",
+      "icon": "Heroes/lucio/abilities/storm_ui_icon_lucio_ampitup.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "LucioAmpItUp|LucioAmpItUp|E",
+      "ability_id": "LucioAmpItUp",
+      "button_id": "LucioAmpItUp",
+      "unit_id": "HeroLucio",
+      "unit_name": "Lúcio",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "sound_barrier",
+      "name": "Sound Barrier",
+      "description": "Mana: 100 Cooldown: 80 seconds After 1 second, Lúcio and nearby allied Heroes gain a 1296 (+4% per level) point Shield that rapidly decays over 6 seconds.",
+      "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_soundbarrier.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "LucioSoundBarrier|LucioSoundBarrier|Heroic",
+      "ability_id": "LucioSoundBarrier",
+      "button_id": "LucioSoundBarrier",
+      "unit_id": "HeroLucio",
+      "unit_name": "Lúcio",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_soundbarrier_mini.png"
+    },
+    {
+      "id": "high_five",
+      "name": "High Five",
+      "description": "Mana: 30 Cooldown: 25 seconds per ally Quickly skate to an allied Hero. Upon arrival the ally is healed for 230 (+4% per level), Lúcio is healed for 80 (+4% per level), and both gain Unstoppable for 1 second.",
+      "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_highfive.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "LucioHighFive|LucioHighFive|Heroic",
+      "ability_id": "LucioHighFive",
+      "button_id": "LucioHighFive",
+      "unit_id": "HeroLucio",
+      "unit_name": "Lúcio",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_highfive_mini.png"
+    },
+    {
+      "id": "push_off",
+      "name": "Push Off",
+      "description": "Cooldown: 20 seconds While moving alongside terrain, activate to slide towards a targeted location. Enemies hit take 100 (+4% per level) damage and are Slowed by 75% for 1 second.",
+      "icon": "Heroes/lucio/abilities/storm_ui_icon_lucio_accelerando.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "LucioPushOff|LucioPushOff|Trait",
+      "ability_id": "LucioPushOff",
+      "button_id": "LucioPushOff",
+      "unit_id": "HeroLucio",
+      "unit_name": "Lúcio",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "wall_ride",
+      "name": "Wall Ride",
+      "description": "When moving alongside terrain, Lúcio begins to Wall Ride for 2 seconds. While Wall Ride is active, Lúcio can walk through units and gains 20% Movement Speed that stacks with other bonuses.",
+      "icon": "Heroes/lucio/abilities/storm_ui_icon_lucio_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "LucioWallRide|LucioWallRide|Z",
+      "ability_id": "LucioWallRide",
+      "button_id": "LucioWallRide",
+      "unit_id": "HeroLucio",
+      "unit_name": "Lúcio",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroLucio",
+      "unit_name": "Lúcio",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "crossfade_647b21b504",
+      "name": "Crossfade",
+      "description": "Currently playing Healing Boost, passively healing Lúcio and nearby allied Heroes for 15 (+4% per level) Health per second.  Toggle to play Speed Boost instead.",
+      "icon": "Heroes/lucio/abilities/storm_ui_icon_lucio_crossfadespeed.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "LucioCrossfade|LucioCrossfadeActivateSpeedBoost|W",
+      "ability_id": "LucioCrossfade",
+      "button_id": "LucioCrossfadeActivateSpeedBoost",
+      "unit_id": "HeroLucio",
+      "unit_name": "Lúcio",
+      "parent_link_ids": [
+        "LucioCrossfade|LucioCrossfadeActivateHealingBoost|W"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "boombox",
+      "name": "Boombox",
+      "description": "Cooldown: 20 seconds Place a boombox that plays Lúcio's active Crossfade track. Its volume adjusts with Amp It Up. Allied Heroes near the boombox gain 5 Armor.  Crossfade tracks from Lúcio and the Boombox do not stack.",
+      "icon": "Heroes/lucio/abilities/storm_ui_icon_lucio_fineshrine.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "LucioBoombox|LucioBoomboxBoombox|Active",
+      "ability_id": "LucioBoombox",
+      "button_id": "LucioBoomboxBoombox",
+      "unit_id": "HeroLucio",
+      "unit_name": "Lúcio",
+      "parent_link_ids": [
+        "LucioBoombox|LucioBoomboxBoombox|Active|Level7"
+      ],
+      "unlock_conditions": [
+        [
+          "LucioBoombox"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "LucioBoombox",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 7,
+      "unlock_position": 3
+    },
+    {
+      "id": "summer_anthem",
+      "name": "Summer Anthem",
+      "description": "Cooldown: 60 seconds Activate for allies affected by Crossfade to become Unkillable for 1.5 seconds.",
+      "icon": "Heroes/lucio/abilities/storm_ui_icon_lucio_crossfade_a.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "LucioSummerAnthem|LucioItemSummerAnthem|Active",
+      "ability_id": "LucioSummerAnthem",
+      "button_id": "LucioItemSummerAnthem",
+      "unit_id": "HeroLucio",
+      "unit_name": "Lúcio",
+      "parent_link_ids": [
+        "LucioItemSummerAnthem|LucioItemSummerAnthem|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "LucioItemSummerAnthem"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "LucioSummerAnthem",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 4
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "party_mix",
+          "name": "Party Mix",
+          "description": "Quest: Play Lúcio's Crossfade tracks to nearby allies. Multiple allies provide additional time.  Reward: For every 1 Minute played, permanently increase Lúcio's maximum Mana by 10.  Reward: Once you have played for 8 minutes or more, permanently increase Crossfade's radius by 20%.",
+          "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_crossfade_all.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "LucioCrossfadePartyMixQuest|LucioCrossfadePartyMix|W|Level1",
+          "talent_id": "LucioCrossfadePartyMixQuest",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_crossfade_all_mini.png"
+        },
+        {
+          "id": "accelerando",
+          "name": "Accelerando",
+          "description": "Wall Ride's Movement Speed bonus gradually increases to 40% over 6 seconds while Lúcio maintains its effect.",
+          "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_wallride.png",
+          "position": 2,
+          "hotkey": "Z",
+          "ability_type": "Z",
+          "link_id": "LucioWallRideAccelerando|LucioWallRideAccelerando|Z|Level1",
+          "talent_id": "LucioWallRideAccelerando",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_wallride_mini.png"
+        },
+        {
+          "id": "smooth_moves",
+          "name": "Smooth Moves",
+          "description": "While Wall Ride is active, Basic Attacks heal for 30% of the damage dealt and restore 0.5 Mana.  Passive: Increase Wall Ride duration by 1 second.",
+          "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_wallride_a.png",
+          "position": 3,
+          "hotkey": "Z",
+          "ability_type": "Z",
+          "link_id": "LucioPassiveSmoothMoves|LucioPassiveSmoothMoves|Z|Level1",
+          "talent_id": "LucioPassiveSmoothMoves",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_wallride_a_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "subwoofer",
+          "name": "Subwoofer",
+          "description": "Enemies within the first half of Soundwave's range are knocked back 75% further.  Quest: Hit 3 enemy Heroes with a single Soundwave.  Reward: Increase Soundwave's arc by 50% and its range by 20%.",
+          "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_soundwave.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "LucioSoundwaveSubwoofer|LucioSoundwaveSubwoofer|Q|Level4",
+          "talent_id": "LucioSoundwaveSubwoofer",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_soundwave_mini.png"
+        },
+        {
+          "id": "off_the_wall",
+          "name": "Off the Wall",
+          "description": "Hitting an enemy with Soundwave while Wall Ride is active sets its cooldown to 5 seconds and refunds 15 Mana.",
+          "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_soundwave_a.png",
+          "position": 2,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "LucioSoundwaveOffTheWall|LucioSoundwaveOffTheWall|Q|Level4",
+          "talent_id": "LucioSoundwaveOffTheWall",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_soundwave_a_mini.png"
+        },
+        {
+          "id": "supersonic",
+          "name": "Supersonic",
+          "description": "While Wall Ride is active, Push Off's cooldown recharges 100% faster.",
+          "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_accelerando.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "LucioPushOffSupersonic|LucioPushOffSupersonic|Trait|Level4",
+          "talent_id": "LucioPushOffSupersonic",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_accelerando_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "good_vibrations",
+          "name": "Good Vibrations",
+          "description": "Hitting an enemy with Soundwave grants Lúcio a 38 (+4% per level) Shield for 8 seconds. Hitting enemy Heroes grants 3 times this amount.",
+          "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_soundwave.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "LucioSoundwaveGoodVibrations|LucioSoundwaveGoodVibrations|Q|Level7",
+          "talent_id": "LucioSoundwaveGoodVibrations",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_soundwave_mini.png"
+        },
+        {
+          "id": "reverse_amp",
+          "name": "Reverse Amp",
+          "description": "Blast Lúcio's active Crossfade track at enemy Heroes. While Amp It Up is active, Healing Boost deals 50 (+4% per level) damage per second and Speed Boost Slows by 20%.  This ability is unaffected by Crossfade talents.",
+          "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_crossfade_all.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "LucioReverseAmp|LucioReverseAmp|W|Level7",
+          "talent_id": "LucioReverseAmp",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_crossfade_all_mini.png"
+        },
+        {
+          "id": "boombox",
+          "name": "Boombox",
+          "description": "Cooldown: 20 seconds Place a boombox that plays Lúcio's active Crossfade track. Its volume adjusts with Amp It Up. Allied Heroes near the boombox gain 5 Armor.  Crossfade tracks from Lúcio and the Boombox do not stack.",
+          "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_fineshrine.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "LucioBoombox|LucioBoomboxBoombox|Active|Level7",
+          "talent_id": "LucioBoombox",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_fineshrine_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "sound_barrier",
+          "name": "Sound Barrier",
+          "description": "Mana: 100 Cooldown: 80 seconds After 1 second, Lúcio and nearby allied Heroes gain a 1296 (+4% per level) point Shield that rapidly decays over 6 seconds.",
+          "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_soundbarrier.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "LucioSoundBarrier|LucioSoundBarrier|Heroic|Level10",
+          "talent_id": "LucioSoundBarrier",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_soundbarrier_mini.png"
+        },
+        {
+          "id": "high_five",
+          "name": "High Five",
+          "description": "Mana: 30 Cooldown: 25 seconds per ally Quickly skate to an allied Hero. Upon arrival the ally is healed for 230 (+4% per level), Lúcio is healed for 80 (+4% per level), and both gain Unstoppable for 1 second.",
+          "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_highfive.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "LucioHighFive|LucioHighFive|Heroic|Level10",
+          "talent_id": "LucioHighFive",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_highfive_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "all_together",
+          "name": "All Together",
+          "description": "For each ally affected by Crossfade, Lúcio gains 5% Movement Speed that stacks with other bonuses.",
+          "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_crossfade_all.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "LucioCrossfadeAllTogetherTalent|LucioCrossfadeAllTogether|W|Level13",
+          "talent_id": "LucioCrossfadeAllTogetherTalent",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_crossfade_all_mini.png"
+        },
+        {
+          "id": "heavy_casters",
+          "name": "Heavy Casters",
+          "description": "Push Off no longer Slows the first Hero hit, and instead Stuns them for 0.5 seconds.",
+          "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_accelerando.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "LucioPushOffHeavyCasters|LucioPushOffHeavyCasters|Trait|Level13",
+          "talent_id": "LucioPushOffHeavyCasters",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_accelerando_mini.png"
+        },
+        {
+          "id": "slip",
+          "name": "Slip",
+          "description": "While Wall Ride is active, passing near an enemy Hero increases its Movement Speed bonus to 40%, and grants 15 Armor, for 1 second.",
+          "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_wallride.png",
+          "position": 3,
+          "hotkey": "Z",
+          "ability_type": "Z",
+          "link_id": "LucioWallRideSlip|LucioWallRideSlip|Z|Level13",
+          "talent_id": "LucioWallRideSlip",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_wallride_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "rejuvenescencia",
+          "name": "Rejuvenescência",
+          "description": "While Amp It Up is active, Crossfade's Healing Boost heals for an additional 2.5% of the target's maximum Health each second.",
+          "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_ampitup.png",
+          "position": 1,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "LucioAmpItUpRejuvenescencia|LucioAmpItUpRejuvenescencia|E|Level16",
+          "talent_id": "LucioAmpItUpRejuvenescencia",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_ampitup_mini.png"
+        },
+        {
+          "id": "up_the_frequency",
+          "name": "Up the Frequency",
+          "description": "Hitting enemy Heroes with Basic Attacks reduces the cooldown of Amp It Up by 0.3 seconds.  Passive: Wall Ride increases Basic Attack range by 2.2.",
+          "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_ampitup_b.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "LucioAmpItUpUpTheFrequency|LucioAmpItUpUpTheFrequency|E|Level16",
+          "talent_id": "LucioAmpItUpUpTheFrequency",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_ampitup_b_mini.png"
+        },
+        {
+          "id": "up_to_eleven",
+          "name": "Up To Eleven",
+          "description": "Hitting an enemy Hero with Soundwave or Push Off increases the duration of Amp It Up.  Soundwave grants 0.5 seconds and Push Off grants 1 second. If Amp It Up is not active, these bonuses are granted to its next activation, up to 3 seconds.  Passive: Increase the duration of Amp It Up by 1 second.",
+          "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_ampitup_a.png",
+          "position": 3,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "LucioAmpItUpUpToEleven|LucioAmpItUpUpToEleven|E|Level16",
+          "talent_id": "LucioAmpItUpUpToEleven",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_ampitup_a_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "bossa_nova",
+          "name": "Bossa Nova",
+          "description": "Reduce the cooldown of Sound Barrier to 30 seconds, but the Shield now decays over 4 seconds.",
+          "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_soundbarrier.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "LucioSoundBarrierBossaNova|LucioSoundBarrierBossaNova|Heroic|Level20",
+          "talent_id": "LucioSoundBarrierBossaNova",
+          "prerequisite_talent_ids": [
+            "LucioSoundBarrier"
+          ],
+          "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_soundbarrier_mini.png"
+        },
+        {
+          "id": "mixing_fire",
+          "name": "Mixing Fire",
+          "description": "High Five can now be cast on enemy Heroes, dealing 160 (+4% per level) damage and reducing all healing received by 50% for 3 seconds.  Passive: Reduce the cost and cooldown of High Five by 30%.",
+          "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_highfive.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "LucioCrossfadeMixingFire|LucioHighFiveMixingFire|Heroic|Level20",
+          "talent_id": "LucioCrossfadeMixingFire",
+          "prerequisite_talent_ids": [
+            "LucioHighFive"
+          ],
+          "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_highfive_mini.png"
+        },
+        {
+          "id": "house_party",
+          "name": "House Party",
+          "description": "For each ally affected by Crossfade, Lúcio gains 8% increased healing.",
+          "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_crossfade_all.png",
+          "position": 3,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "LucioPassiveHouseParty|LucioPassiveHouseParty|W|Level20",
+          "talent_id": "LucioPassiveHouseParty",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_crossfade_all_mini.png"
+        },
+        {
+          "id": "summer_anthem",
+          "name": "Summer Anthem",
+          "description": "Cooldown: 60 seconds Activate for allies affected by Crossfade to become Unkillable for 1.5 seconds.",
+          "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_crossfade_a.png",
+          "position": 4,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "LucioItemSummerAnthem|LucioItemSummerAnthem|Active|Level20",
+          "talent_id": "LucioItemSummerAnthem",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2"
+          ],
+          "icon_mini": "Heroes/lucio/talents/storm_ui_icon_lucio_crossfade_a_mini.png"
+        }
+      ]
+    }
+  ]
+}

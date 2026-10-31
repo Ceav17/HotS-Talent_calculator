@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/murky/portrait.png",
+  "lines": [
+    {
+      "id": "geeshewha_cecc3aa4",
+      "title": "Geeshewha?",
+      "variant": null,
+      "audio": "voice_lines/murky/geeshewha_cecc3aa4.ogg"
+    },
+    {
+      "id": "grglrglrgl_cca70c02",
+      "title": "Grglrglrgl",
+      "variant": null,
+      "audio": "voice_lines/murky/grglrglrgl_cca70c02.ogg"
+    },
+    {
+      "id": "heh_keh_keh_keh_kah_ac536901",
+      "title": "Heh Keh-keh-keh Kah!",
+      "variant": null,
+      "audio": "voice_lines/murky/heh_keh_keh_keh_kah_ac536901.ogg"
+    },
+    {
+      "id": "mgrglmrgl_a20fc65d",
+      "title": "Mgrglmrgl!",
+      "variant": null,
+      "audio": "voice_lines/murky/mgrglmrgl_a20fc65d.ogg"
+    },
+    {
+      "id": "pyehhhh_8f7d1953",
+      "title": "Pyehhhh!",
+      "variant": null,
+      "audio": "voice_lines/murky/pyehhhh_8f7d1953.ogg"
+    }
+  ]
+}

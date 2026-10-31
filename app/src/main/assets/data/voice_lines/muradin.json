@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/muradin/portrait.png",
+  "lines": [
+    {
+      "id": "don_t_mess_with_the_best_55408516",
+      "title": "Don't Mess With the Best",
+      "variant": null,
+      "audio": "voice_lines/muradin/don_t_mess_with_the_best_55408516.ogg"
+    },
+    {
+      "id": "for_khaz_modan_41af8848",
+      "title": "For Khaz Modan!",
+      "variant": null,
+      "audio": "voice_lines/muradin/for_khaz_modan_41af8848.ogg"
+    },
+    {
+      "id": "gettin_a_hammer_14bc9541",
+      "title": "Gettin' a Hammer",
+      "variant": null,
+      "audio": "voice_lines/muradin/gettin_a_hammer_14bc9541.ogg"
+    },
+    {
+      "id": "hammer_time_fe48009e",
+      "title": "Hammer Time",
+      "variant": null,
+      "audio": "voice_lines/muradin/hammer_time_fe48009e.ogg"
+    },
+    {
+      "id": "let_s_crack_some_skulls_01bbdefe",
+      "title": "Let's Crack Some Skulls",
+      "variant": null,
+      "audio": "voice_lines/muradin/let_s_crack_some_skulls_01bbdefe.ogg"
+    }
+  ]
+}

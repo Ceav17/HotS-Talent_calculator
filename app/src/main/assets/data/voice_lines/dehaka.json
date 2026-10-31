@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/dehaka/portrait.png",
+  "lines": [
+    {
+      "id": "all_things_change_cd4894a5",
+      "title": "All Things Change",
+      "variant": null,
+      "audio": "voice_lines/dehaka/all_things_change_cd4894a5.ogg"
+    },
+    {
+      "id": "essence_7e7f2e64",
+      "title": "Essence",
+      "variant": null,
+      "audio": "voice_lines/dehaka/essence_7e7f2e64.ogg"
+    },
+    {
+      "id": "growl_31917c3f",
+      "title": "Growl",
+      "variant": null,
+      "audio": "voice_lines/dehaka/growl_31917c3f.ogg"
+    },
+    {
+      "id": "i_refuse_4d31a616",
+      "title": "I Refuse",
+      "variant": null,
+      "audio": "voice_lines/dehaka/i_refuse_4d31a616.ogg"
+    },
+    {
+      "id": "one_dies_one_grows_a78923b1",
+      "title": "One Dies, One Grows",
+      "variant": null,
+      "audio": "voice_lines/dehaka/one_dies_one_grows_a78923b1.ogg"
+    }
+  ]
+}

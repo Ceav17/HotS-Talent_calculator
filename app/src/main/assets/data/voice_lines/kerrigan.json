@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/kerrigan/portrait.png",
+  "lines": [
+    {
+      "id": "here_i_come_2057eccd",
+      "title": "Here I Come",
+      "variant": null,
+      "audio": "voice_lines/kerrigan/here_i_come_2057eccd.ogg"
+    },
+    {
+      "id": "i_m_not_done_ea3f2609",
+      "title": "I'm Not Done",
+      "variant": null,
+      "audio": "voice_lines/kerrigan/i_m_not_done_ea3f2609.ogg"
+    },
+    {
+      "id": "never_cross_the_queen_dac10d36",
+      "title": "Never Cross the Queen",
+      "variant": null,
+      "audio": "voice_lines/kerrigan/never_cross_the_queen_dac10d36.ogg"
+    },
+    {
+      "id": "no_time_like_the_present_ee0d48a2",
+      "title": "No Time Like the Present",
+      "variant": null,
+      "audio": "voice_lines/kerrigan/no_time_like_the_present_ee0d48a2.ogg"
+    },
+    {
+      "id": "the_swarm_is_eternal_93b1b3f9",
+      "title": "The Swarm Is Eternal",
+      "variant": null,
+      "audio": "voice_lines/kerrigan/the_swarm_is_eternal_93b1b3f9.ogg"
+    }
+  ]
+}

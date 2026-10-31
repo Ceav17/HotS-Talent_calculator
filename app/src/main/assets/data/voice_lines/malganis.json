@@ -1,0 +1,41 @@
+{
+  "portrait": "voice_lines/malganis/portrait.png",
+  "lines": [
+    {
+      "id": "i_am_eternal_040853b5",
+      "title": "I Am Eternal!",
+      "variant": "Turtle",
+      "audio": "voice_lines/malganis/i_am_eternal_040853b5.ogg"
+    },
+    {
+      "id": "for_the_nathrezim_499a116c",
+      "title": "For the Nathrezim",
+      "variant": null,
+      "audio": "voice_lines/malganis/for_the_nathrezim_499a116c.ogg"
+    },
+    {
+      "id": "i_am_eternal_9105c907",
+      "title": "I Am Eternal!",
+      "variant": null,
+      "audio": "voice_lines/malganis/i_am_eternal_9105c907.ogg"
+    },
+    {
+      "id": "kirel_narak_c31ad281",
+      "title": "Kirel Narak!",
+      "variant": null,
+      "audio": "voice_lines/malganis/kirel_narak_c31ad281.ogg"
+    },
+    {
+      "id": "my_revenge_0e0fc8ad",
+      "title": "My Revenge",
+      "variant": null,
+      "audio": "voice_lines/malganis/my_revenge_0e0fc8ad.ogg"
+    },
+    {
+      "id": "settle_the_score_30340e6e",
+      "title": "Settle the Score",
+      "variant": null,
+      "audio": "voice_lines/malganis/settle_the_score_30340e6e.ogg"
+    }
+  ]
+}

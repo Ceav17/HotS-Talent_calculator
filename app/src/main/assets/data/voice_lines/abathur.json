@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/abathur/portrait.png",
+  "lines": [
+    {
+      "id": "eradication_complete_a9731864",
+      "title": "Eradication Complete",
+      "variant": null,
+      "audio": "voice_lines/abathur/eradication_complete_a9731864.ogg"
+    },
+    {
+      "id": "for_the_swarm_2037d56f",
+      "title": "For the Swarm",
+      "variant": null,
+      "audio": "voice_lines/abathur/for_the_swarm_2037d56f.ogg"
+    },
+    {
+      "id": "poor_essence_2c387214",
+      "title": "Poor Essence",
+      "variant": null,
+      "audio": "voice_lines/abathur/poor_essence_2c387214.ogg"
+    },
+    {
+      "id": "unacceptable_c517fbdd",
+      "title": "Unacceptable!",
+      "variant": null,
+      "audio": "voice_lines/abathur/unacceptable_c517fbdd.ogg"
+    },
+    {
+      "id": "unclear_9cffe9a5",
+      "title": "Unclear",
+      "variant": null,
+      "audio": "voice_lines/abathur/unclear_9cffe9a5.ogg"
+    }
+  ]
+}

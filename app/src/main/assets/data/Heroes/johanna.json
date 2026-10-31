@@ -1,0 +1,649 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "johanna",
+    "name": "Johanna",
+    "team_role": "Tank",
+    "universe": "Diablo",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "punish",
+      "name": "Punish",
+      "description": "Mana: 40 Cooldown: 8 seconds Step forward dealing 113 (+4% per level) damage and Slowing enemies by 50%, decaying over 2 seconds.",
+      "icon": "Heroes/johanna/abilities/storm_ui_icon_johanna_punish.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "CrusaderPunish|CrusaderPunish|Q",
+      "ability_id": "CrusaderPunish",
+      "button_id": "CrusaderPunish",
+      "unit_id": "HeroCrusader",
+      "unit_name": "Johanna",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "condemn",
+      "name": "Condemn",
+      "description": "Mana: 50 Cooldown: 10 seconds After 1 second, Johanna pulls nearby enemies toward her, Stunning them for 0.25 seconds and dealing 55 (+4% per level) damage. Deals 200% increased damage to Minions and Mercenaries.",
+      "icon": "Heroes/johanna/abilities/storm_ui_icon_johanna_condemn.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "CrusaderCondemn|CrusaderCondemn|W",
+      "ability_id": "CrusaderCondemn",
+      "button_id": "CrusaderCondemn",
+      "unit_id": "HeroCrusader",
+      "unit_name": "Johanna",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "shield_glare",
+      "name": "Shield Glare",
+      "description": "Mana: 55 Cooldown: 13 seconds Deal 59 (+4% per level) damage to enemies and Blind them for 1.5 seconds.",
+      "icon": "Heroes/johanna/abilities/storm_ui_icon_johanna_shield_glare.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "CrusaderShieldGlare|CrusaderShieldGlare|E",
+      "ability_id": "CrusaderShieldGlare",
+      "button_id": "CrusaderShieldGlare",
+      "unit_id": "HeroCrusader",
+      "unit_name": "Johanna",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "falling_sword",
+      "name": "Falling Sword",
+      "description": "Mana: 60 Cooldown: 50 seconds Johanna leaps into the air for 2 seconds and she can steer the landing location by moving. While in the air, allies below Johanna are Unstoppable. Upon landing enemies hit take 225 (+4% per level) damage and are Stunned for 0.25 seconds.",
+      "icon": "Heroes/johanna/talents/storm_ui_icon_johanna_falling_sword.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "CrusaderFallingSword|CrusaderFallingSword|Heroic",
+      "ability_id": "CrusaderFallingSword",
+      "button_id": "CrusaderFallingSword",
+      "unit_id": "HeroCrusader",
+      "unit_name": "Johanna",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/johanna/talents/storm_ui_icon_johanna_falling_sword_mini.png"
+    },
+    {
+      "id": "blessed_shield",
+      "name": "Blessed Shield",
+      "description": "Mana: 90 Cooldown: 65 seconds Deal 114 (+4% per level) damage and Stun the first enemy hit for 1.5 seconds. Blessed Shield then bounces to 2 nearby enemies, dealing 57 (+4% per level) damage and Stunning them for 0.75 seconds.",
+      "icon": "Heroes/johanna/talents/storm_ui_icon_johanna_blessed_shield.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "CrusaderBlessedShield|CrusaderBlessedShield|Heroic",
+      "ability_id": "CrusaderBlessedShield",
+      "button_id": "CrusaderBlessedShield",
+      "unit_id": "HeroCrusader",
+      "unit_name": "Johanna",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/johanna/talents/storm_ui_icon_johanna_blessed_shield_mini.png"
+    },
+    {
+      "id": "iron_skin",
+      "name": "Iron Skin",
+      "description": "Cooldown: 22 seconds Activate to grant Johanna a Shield that absorbs 810 (+4% per level) damage for 4 seconds. While this Shield is active, Johanna is Unstoppable.",
+      "icon": "Heroes/johanna/abilities/storm_ui_icon_johanna_iron_skin.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "CrusaderIronSkin|CrusaderIronSkin|Trait",
+      "ability_id": "CrusaderIronSkin",
+      "button_id": "CrusaderIronSkin",
+      "unit_id": "HeroCrusader",
+      "unit_name": "Johanna",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroCrusader",
+      "unit_name": "Johanna",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroCrusader",
+      "unit_name": "Johanna",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroCrusader",
+      "unit_name": "Johanna",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "indestructible",
+      "name": "Indestructible",
+      "description": "Cooldown: 120 seconds Upon taking fatal damage, Johanna gains a Shield equal to her maximum Health for 4 seconds.",
+      "icon": "Heroes/johanna/abilities/storm_ui_icon_johanna_indestructible.png",
+      "hotkey": null,
+      "ability_type": "Passive",
+      "link_id": "CrusaderIndestructible|CrusaderIndestructibleHotbar|Passive",
+      "ability_id": "CrusaderIndestructible",
+      "button_id": "CrusaderIndestructibleHotbar",
+      "unit_id": "HeroCrusader",
+      "unit_name": "Johanna",
+      "parent_link_ids": [
+        "CrusaderHeroicMasteryIndestructable|CrusaderIndestructableTalent|Passive|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "CrusaderHeroicMasteryIndestructable"
+        ]
+      ]
+    },
+    {
+      "id": "laws_of_hope",
+      "name": "Laws of Hope",
+      "description": "Cooldown: 40 seconds Activate to heal 20% of Johanna's max Health over 5 seconds.  Quest: Every 10 Regeneration Globes gathered increases this heal amount by 5% of Johanna's max Health.",
+      "icon": "Heroes/johanna/abilities/storm_ui_icon_johanna_lawsofhope.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "CrusaderLawsOfHope|CrusaderLawsOfHope|Active",
+      "ability_id": "CrusaderLawsOfHope",
+      "button_id": "CrusaderLawsOfHope",
+      "unit_id": "HeroCrusader",
+      "unit_name": "Johanna",
+      "parent_link_ids": [
+        "CrusaderMasteryLawsOfHope|CrusaderLawsOfHope|Active|Level1"
+      ],
+      "unlock_conditions": [
+        [
+          "CrusaderMasteryLawsOfHope"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "CrusaderLawsOfHope",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 1,
+      "unlock_position": 3
+    },
+    {
+      "id": "steed_charge",
+      "name": "Steed Charge",
+      "description": "Cooldown: 20 seconds Activate to instantly Mount for 4 seconds, unhindered by damage.  Passive: Increase the duration of Iron Skin by 2 second.",
+      "icon": "Heroes/johanna/abilities/storm_btn_d3ros_crusader_steedcharge.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "CrusaderSteedCharge|CrusaderIronSkinSteedCharge|Active",
+      "ability_id": "CrusaderSteedCharge",
+      "button_id": "CrusaderIronSkinSteedCharge",
+      "unit_id": "HeroCrusader",
+      "unit_name": "Johanna",
+      "parent_link_ids": [
+        "CrusaderIronSkinSteedCharge|CrusaderIronSkinSteedCharge|Active|Level7"
+      ],
+      "unlock_conditions": [
+        [
+          "CrusaderIronSkinSteedCharge"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "CrusaderSteedCharge",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 7,
+      "unlock_position": 3
+    },
+    {
+      "id": "blessed_hammer",
+      "name": "Blessed Hammer",
+      "description": "Cooldown: 30 seconds Activate to create 2 hammers that spiral outward from Johanna, dealing 65 (+4% per level) damage to enemies hit. Damaging enemies with Basic Abilities reduce the cooldown of this Ability by 2.5 seconds.  Passive: Every 3rd Basic Attack against enemy Heroes releases a hammer.",
+      "icon": "Heroes/johanna/abilities/storm_btn_d3ros_crusader_blessedhammer.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "CrusaderBlessedHammer|CrusaderCondemnBlessedHammerTalent|Active",
+      "ability_id": "CrusaderBlessedHammer",
+      "button_id": "CrusaderCondemnBlessedHammerTalent",
+      "unit_id": "HeroCrusader",
+      "unit_name": "Johanna",
+      "parent_link_ids": [
+        "CrusaderBlessedHammer|CrusaderCondemnBlessedHammerTalent|Active|Level13"
+      ],
+      "unlock_conditions": [
+        [
+          "CrusaderBlessedHammer"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2",
+        "3"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "CrusaderBlessedHammer",
+      "active_order": 3,
+      "active_origin": "talent",
+      "unlock_level": 13,
+      "unlock_position": 3
+    },
+    {
+      "id": "blinded_by_the_light",
+      "name": "Blinded By The Light",
+      "description": "Cooldown: 60 seconds Activate to grant nearby allied Heroes a Shield equal to 25% of their maximum Health for 3 seconds.  Hitting Heroes with Shield Glare reduces the cooldown of this Ability by 8 seconds.",
+      "icon": "Heroes/johanna/abilities/storm_ui_icon_talent_stormshield.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "CrusaderBlindedByTheLight|CrusaderBlindedByTheLight|Active",
+      "ability_id": "CrusaderBlindedByTheLight",
+      "button_id": "CrusaderBlindedByTheLight",
+      "unit_id": "HeroCrusader",
+      "unit_name": "Johanna",
+      "parent_link_ids": [
+        "CrusaderBlindedByTheLight|CrusaderBlindedByTheLight|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "CrusaderBlindedByTheLight"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "CrusaderBlindedByTheLight",
+      "active_order": 4,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 4
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "zealous_glare",
+          "name": "Zealous Glare",
+          "description": "Shield Glare gains 1 additional charge, and deals 70% more damage.",
+          "icon": "Heroes/johanna/talents/storm_ui_icon_johanna_shield_glare.png",
+          "position": 1,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "CrusaderZealousGlare|CrusaderZealousGlare|E|Level1",
+          "talent_id": "CrusaderZealousGlare",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/johanna/talents/storm_ui_icon_johanna_shield_glare_mini.png"
+        },
+        {
+          "id": "divine_fortress",
+          "name": "Divine Fortress",
+          "description": "Basic Attacks grant 10 Physical Armor for 4 seconds, stacking up to 40.  Gambit: Gain 25% bonus maximum Health. Every death reduces this bonus by 5%.",
+          "icon": "Heroes/johanna/talents/storm_ui_icon_talent_block.png",
+          "position": 2,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "CrusaderPassiveDivineFortress|CrusaderPassiveDivineFortress|Passive|Level1",
+          "talent_id": "CrusaderPassiveDivineFortress",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/johanna/talents/storm_ui_icon_talent_block_mini.png"
+        },
+        {
+          "id": "laws_of_hope",
+          "name": "Laws of Hope",
+          "description": "Cooldown: 40 seconds Activate to heal 20% of Johanna's max Health over 5 seconds.  Quest: Every 10 Regeneration Globes gathered increases this heal amount by 5% of Johanna's max Health.",
+          "icon": "Heroes/johanna/talents/storm_ui_icon_johanna_lawsofhope.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "CrusaderMasteryLawsOfHope|CrusaderLawsOfHope|Active|Level1",
+          "talent_id": "CrusaderMasteryLawsOfHope",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/johanna/talents/storm_ui_icon_johanna_lawsofhope_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "subdue",
+          "name": "Subdue",
+          "description": "Hitting 2 or more Heroes at the same time with Punish increases the Slow to 70% and the Slow amount does not decay.  Quest: Hit 4 or more Heroes at the same time with Punish.  Reward: Punish always Slows by 70%.",
+          "icon": "Heroes/johanna/talents/storm_ui_icon_johanna_punish.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "CrusaderMasteryPunishSubdue|CrusaderSubdueTalent|Q|Level4",
+          "talent_id": "CrusaderMasteryPunishSubdue",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/johanna/talents/storm_ui_icon_johanna_punish_mini.png"
+        },
+        {
+          "id": "eternal_retaliation",
+          "name": "Eternal Retaliation",
+          "description": "Mark enemies hit by Condemn for 10 seconds. Johanna's next Basic Attack against them removes the mark, lowering the cooldown of Condemn by 1 second, refunding 10 Mana, and killing Minions.",
+          "icon": "Heroes/johanna/talents/storm_ui_icon_johanna_condemn.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "CrusaderMasteryCondemnEternalRetaliation|CrusaderEternalRetaliationTalent|W|Level4",
+          "talent_id": "CrusaderMasteryCondemnEternalRetaliation",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/johanna/talents/storm_ui_icon_johanna_condemn_mini.png"
+        },
+        {
+          "id": "hold_your_ground",
+          "name": "Hold Your Ground",
+          "description": "Increases Iron Skin's Shield by 40% and its cooldown is reduced by 2 seconds.",
+          "icon": "Heroes/johanna/talents/storm_ui_icon_johanna_iron_skin.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "CrusaderMasteryIronSkinHoldYourGround|CrusaderIronSkinHoldYourGroundTalent|Trait|Level4",
+          "talent_id": "CrusaderMasteryIronSkinHoldYourGround",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/johanna/talents/storm_ui_icon_johanna_iron_skin_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "sins_exposed",
+          "name": "Sins Exposed",
+          "description": "Punish reduces healing received by 35% for 3 seconds. Basic Attacks against them refresh this duration.",
+          "icon": "Heroes/johanna/talents/storm_ui_icon_johanna_punish.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "CrusaderMasteryShieldGlareSinsExposed|CrusaderPunishSinsExposedTalent|Q|Level7",
+          "talent_id": "CrusaderMasteryShieldGlareSinsExposed",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/johanna/talents/storm_ui_icon_johanna_punish_mini.png"
+        },
+        {
+          "id": "conviction",
+          "name": "Conviction",
+          "description": "Gain 10% Movement Speed, increased to 20% while Condemn is charging up.",
+          "icon": "Heroes/johanna/talents/storm_ui_icon_johanna_condemn.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "CrusaderMasteryCondemnConviction|CrusaderCondemnConvictionTalent|W|Level7",
+          "talent_id": "CrusaderMasteryCondemnConviction",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/johanna/talents/storm_ui_icon_johanna_condemn_mini.png"
+        },
+        {
+          "id": "steed_charge",
+          "name": "Steed Charge",
+          "description": "Cooldown: 20 seconds Activate to instantly Mount for 4 seconds, unhindered by damage.  Passive: Increase the duration of Iron Skin by 2 second.",
+          "icon": "Heroes/johanna/talents/storm_btn_d3ros_crusader_steedcharge.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "CrusaderIronSkinSteedCharge|CrusaderIronSkinSteedCharge|Active|Level7",
+          "talent_id": "CrusaderIronSkinSteedCharge",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2"
+          ],
+          "icon_mini": "Heroes/johanna/talents/storm_btn_d3ros_crusader_steedcharge_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "falling_sword",
+          "name": "Falling Sword",
+          "description": "Mana: 60 Cooldown: 50 seconds Johanna leaps into the air for 2 seconds and she can steer the landing location by moving. While in the air, allies below Johanna are Unstoppable. Upon landing enemies hit take 225 (+4% per level) damage and are Stunned for 0.25 seconds.",
+          "icon": "Heroes/johanna/talents/storm_ui_icon_johanna_falling_sword.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "CrusaderHeroicAbilityFallingSword|CrusaderFallingSword|Heroic|Level10",
+          "talent_id": "CrusaderHeroicAbilityFallingSword",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/johanna/talents/storm_ui_icon_johanna_falling_sword_mini.png"
+        },
+        {
+          "id": "blessed_shield",
+          "name": "Blessed Shield",
+          "description": "Mana: 90 Cooldown: 65 seconds Deal 114 (+4% per level) damage and Stun the first enemy hit for 1.5 seconds. Blessed Shield then bounces to 2 nearby enemies, dealing 57 (+4% per level) damage and Stunning them for 0.75 seconds.",
+          "icon": "Heroes/johanna/talents/storm_ui_icon_johanna_blessed_shield.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "CrusaderHeroicAbilityBlessedShield|CrusaderBlessedShield|Heroic|Level10",
+          "talent_id": "CrusaderHeroicAbilityBlessedShield",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/johanna/talents/storm_ui_icon_johanna_blessed_shield_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "roar",
+          "name": "Roar",
+          "description": "Increase Punish's damage by 50%. This bonus is increased to 150% whenever Punish hits 2 or more Heroes.",
+          "icon": "Heroes/johanna/talents/storm_ui_icon_johanna_punish.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "CrusaderMasteryPunishRoar|CrusaderRoarTalent|Q|Level13",
+          "talent_id": "CrusaderMasteryPunishRoar",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/johanna/talents/storm_ui_icon_johanna_punish_mini.png"
+        },
+        {
+          "id": "holy_fury",
+          "name": "Holy Fury",
+          "description": "Deal 15 (+4% per level) damage per second to nearby enemies. Each Hero hit by Condemn increases this damage by 40% for 5 seconds.",
+          "icon": "Heroes/johanna/talents/storm_ui_icon_talent_burningrage.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "CrusaderHolyFury|CrusaderHolyFury|W|Level13",
+          "talent_id": "CrusaderHolyFury",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/johanna/talents/storm_ui_icon_talent_burningrage_mini.png"
+        },
+        {
+          "id": "blessed_hammer",
+          "name": "Blessed Hammer",
+          "description": "Cooldown: 30 seconds Activate to create 2 hammers that spiral outward from Johanna, dealing 65 (+4% per level) damage to enemies hit. Damaging enemies with Basic Abilities reduce the cooldown of this Ability by 2.5 seconds.  Passive: Every 3rd Basic Attack against enemy Heroes releases a hammer.",
+          "icon": "Heroes/johanna/talents/storm_btn_d3ros_crusader_blessedhammer.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "CrusaderBlessedHammer|CrusaderCondemnBlessedHammerTalent|Active|Level13",
+          "talent_id": "CrusaderBlessedHammer",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2",
+            "3"
+          ],
+          "icon_mini": "Heroes/johanna/talents/storm_btn_d3ros_crusader_blessedhammer_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "shrinking_vacuum",
+          "name": "Shrinking Vacuum",
+          "description": "Condemn reduces enemy Heroes damage by 30% and Slows by 30% for 3 seconds.",
+          "icon": "Heroes/johanna/talents/storm_ui_icon_johanna_condemn.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "CrusaderCondemnShrinkingVacuum|CrusaderCondemnShrinkingVacuumTalent|W|Level16",
+          "talent_id": "CrusaderCondemnShrinkingVacuum",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/johanna/talents/storm_ui_icon_johanna_condemn_mini.png"
+        },
+        {
+          "id": "holy_renewal",
+          "name": "Holy Renewal",
+          "description": "Hitting enemy Heroes with Shield Glare reduce its cooldown by 1 second and heals for 5% of Johanna's maximum Health.",
+          "icon": "Heroes/johanna/talents/storm_ui_icon_johanna_shield_glare.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "CrusaderMasteryShieldGlareHolyRenewal|CrusaderShieldGlareHolyRenewalTalent|E|Level16",
+          "talent_id": "CrusaderMasteryShieldGlareHolyRenewal",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/johanna/talents/storm_ui_icon_johanna_shield_glare_mini.png"
+        },
+        {
+          "id": "blessed_momentum",
+          "name": "Blessed Momentum",
+          "description": "Basic Attacks grant 10% increased Attack Speed for 4 seconds, stacking up to 40%. They also reduce Johanna's Basic Ability cooldowns by 0.5 seconds.",
+          "icon": "Heroes/johanna/talents/storm_ui_icon_talent_autoattack_cooldown.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "CrusaderBlessedMomentum|JohannaBlessedMomentum|Passive|Level16",
+          "talent_id": "CrusaderBlessedMomentum",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/johanna/talents/storm_ui_icon_talent_autoattack_cooldown_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "heaven_s_fury",
+          "name": "Heaven's Fury",
+          "description": "Falling Sword rains down holy bolts, dealing 50 (+4% per level) damage to enemies, healing allied Heroes for 68 (+4% per level), and reducing its cooldown by 1 second for each Hero hit.",
+          "icon": "Heroes/johanna/talents/storm_ui_icon_johanna_falling_sword.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "CrusaderMasteryFallingSwordHeavensFury|CrusaderFallingSwordHeavensFuryTalent|Heroic|Level20",
+          "talent_id": "CrusaderMasteryFallingSwordHeavensFury",
+          "prerequisite_talent_ids": [
+            "CrusaderHeroicAbilityFallingSword"
+          ],
+          "icon_mini": "Heroes/johanna/talents/storm_ui_icon_johanna_falling_sword_mini.png"
+        },
+        {
+          "id": "radiating_faith",
+          "name": "Radiating Faith",
+          "description": "Increase the number of enemies hit by Blessed Shield by 2. Its Stun duration is increased to 1.75 seconds and all targets hit are Stunned for the maximum duration.",
+          "icon": "Heroes/johanna/talents/storm_ui_icon_johanna_blessed_shield.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "CrusaderMasteryBlessedShieldRadiatingFaith|CrusaderBlessedShieldRadiatingFaithTalent|Heroic|Level20",
+          "talent_id": "CrusaderMasteryBlessedShieldRadiatingFaith",
+          "prerequisite_talent_ids": [
+            "CrusaderHeroicAbilityBlessedShield"
+          ],
+          "icon_mini": "Heroes/johanna/talents/storm_ui_icon_johanna_blessed_shield_mini.png"
+        },
+        {
+          "id": "indestructible",
+          "name": "Indestructible",
+          "description": "Upon taking fatal damage, Johanna gains a Shield equal to her maximum Health for 4 seconds. This effect has a 120 second cooldown.",
+          "icon": "Heroes/johanna/talents/storm_ui_icon_johanna_indestructible.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "CrusaderHeroicMasteryIndestructable|CrusaderIndestructableTalent|Passive|Level20",
+          "talent_id": "CrusaderHeroicMasteryIndestructable",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/johanna/talents/storm_ui_icon_johanna_indestructible_mini.png"
+        },
+        {
+          "id": "blinded_by_the_light",
+          "name": "Blinded By The Light",
+          "description": "Cooldown: 60 seconds Activate to grant nearby allied Heroes a Shield equal to 25% of their maximum Health for 3 seconds.  Hitting Heroes with Shield Glare reduces the cooldown of this Ability by 8 seconds.",
+          "icon": "Heroes/johanna/talents/storm_ui_icon_talent_stormshield.png",
+          "position": 4,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "CrusaderBlindedByTheLight|CrusaderBlindedByTheLight|Active|Level20",
+          "talent_id": "CrusaderBlindedByTheLight",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "icon_mini": "Heroes/johanna/talents/storm_ui_icon_talent_stormshield_mini.png"
+        }
+      ]
+    }
+  ]
+}

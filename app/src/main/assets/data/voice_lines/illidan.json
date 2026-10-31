@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/illidan/portrait.png",
+  "lines": [
+    {
+      "id": "challenge_07164b5f",
+      "title": "Challenge",
+      "variant": null,
+      "audio": "voice_lines/illidan/challenge_07164b5f.ogg"
+    },
+    {
+      "id": "child_s_play_051731f1",
+      "title": "Child's Play",
+      "variant": null,
+      "audio": "voice_lines/illidan/child_s_play_051731f1.ogg"
+    },
+    {
+      "id": "frustration_c9efec47",
+      "title": "Frustration",
+      "variant": null,
+      "audio": "voice_lines/illidan/frustration_c9efec47.ogg"
+    },
+    {
+      "id": "vengeance_is_mine_aab16de3",
+      "title": "Vengeance Is Mine",
+      "variant": null,
+      "audio": "voice_lines/illidan/vengeance_is_mine_aab16de3.ogg"
+    },
+    {
+      "id": "who_dares_b2a2f61c",
+      "title": "Who Dares?",
+      "variant": null,
+      "audio": "voice_lines/illidan/who_dares_b2a2f61c.ogg"
+    }
+  ]
+}

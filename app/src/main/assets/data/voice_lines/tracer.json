@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/tracer/portrait.png",
+  "lines": [
+    {
+      "id": "cheers_love_904fee71",
+      "title": "Cheers, Love!",
+      "variant": null,
+      "audio": "voice_lines/tracer/cheers_love_904fee71.ogg"
+    },
+    {
+      "id": "deja_vu_d66dfb1b",
+      "title": "Déjà Vu",
+      "variant": null,
+      "audio": "voice_lines/tracer/deja_vu_d66dfb1b.ogg"
+    },
+    {
+      "id": "she_shoots_she_scores_a180c22c",
+      "title": "She Shoots, She Scores",
+      "variant": null,
+      "audio": "voice_lines/tracer/she_shoots_she_scores_a180c22c.ogg"
+    },
+    {
+      "id": "the_world_needs_heroes_23788d05",
+      "title": "The World Needs Heroes",
+      "variant": null,
+      "audio": "voice_lines/tracer/the_world_needs_heroes_23788d05.ogg"
+    },
+    {
+      "id": "you_need_a_time_out_92485733",
+      "title": "You Need a Time Out",
+      "variant": null,
+      "audio": "voice_lines/tracer/you_need_a_time_out_92485733.ogg"
+    }
+  ]
+}

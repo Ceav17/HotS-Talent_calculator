@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/zarya/portrait.png",
+  "lines": [
+    {
+      "id": "do_you_even_lift_7d55d554",
+      "title": "Do You Even Lift?",
+      "variant": null,
+      "audio": "voice_lines/zarya/do_you_even_lift_7d55d554.ogg"
+    },
+    {
+      "id": "for_the_motherland_21ba1b84",
+      "title": "For the Motherland",
+      "variant": null,
+      "audio": "voice_lines/zarya/for_the_motherland_21ba1b84.ogg"
+    },
+    {
+      "id": "strong_as_the_mountain_dc2f0c0f",
+      "title": "Strong as the Mountain",
+      "variant": null,
+      "audio": "voice_lines/zarya/strong_as_the_mountain_dc2f0c0f.ogg"
+    },
+    {
+      "id": "strongest_woman_in_the_world_c6967459",
+      "title": "Strongest Woman in the World",
+      "variant": null,
+      "audio": "voice_lines/zarya/strongest_woman_in_the_world_c6967459.ogg"
+    },
+    {
+      "id": "welcome_to_the_gun_show_4d93d3f1",
+      "title": "Welcome to the Gun Show",
+      "variant": null,
+      "audio": "voice_lines/zarya/welcome_to_the_gun_show_4d93d3f1.ogg"
+    }
+  ]
+}

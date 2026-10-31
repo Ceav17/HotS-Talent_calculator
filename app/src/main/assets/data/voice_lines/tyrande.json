@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/tyrande/portrait.png",
+  "lines": [
+    {
+      "id": "laughter_eacc3a6c",
+      "title": "Laughter",
+      "variant": null,
+      "audio": "voice_lines/tyrande/laughter_eacc3a6c.ogg"
+    },
+    {
+      "id": "no_joy_de87082d",
+      "title": "No Joy",
+      "variant": null,
+      "audio": "voice_lines/tyrande/no_joy_de87082d.ogg"
+    },
+    {
+      "id": "the_goddess_calls_c6ce6df3",
+      "title": "The Goddess Calls",
+      "variant": null,
+      "audio": "voice_lines/tyrande/the_goddess_calls_c6ce6df3.ogg"
+    },
+    {
+      "id": "voice_of_elune_067ce886",
+      "title": "Voice of Elune",
+      "variant": null,
+      "audio": "voice_lines/tyrande/voice_of_elune_067ce886.ogg"
+    },
+    {
+      "id": "you_ve_been_outmatched_94127451",
+      "title": "You've Been Outmatched",
+      "variant": null,
+      "audio": "voice_lines/tyrande/you_ve_been_outmatched_94127451.ogg"
+    }
+  ]
+}

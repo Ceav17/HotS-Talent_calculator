@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/stitches/portrait.png",
+  "lines": [
+    {
+      "id": "darkshire_i_hunger_201bb055",
+      "title": "Darkshire, I Hunger",
+      "variant": null,
+      "audio": "voice_lines/stitches/darkshire_i_hunger_201bb055.ogg"
+    },
+    {
+      "id": "muahaha_7122bdf2",
+      "title": "Muahaha!",
+      "variant": null,
+      "audio": "voice_lines/stitches/muahaha_7122bdf2.ogg"
+    },
+    {
+      "id": "playtime_3ebcdfef",
+      "title": "Playtime",
+      "variant": null,
+      "audio": "voice_lines/stitches/playtime_3ebcdfef.ogg"
+    },
+    {
+      "id": "rend_and_tear_cd9c4c76",
+      "title": "Rend and Tear",
+      "variant": null,
+      "audio": "voice_lines/stitches/rend_and_tear_cd9c4c76.ogg"
+    },
+    {
+      "id": "stitches_smash_2250cf6d",
+      "title": "Stitches Smash!",
+      "variant": null,
+      "audio": "voice_lines/stitches/stitches_smash_2250cf6d.ogg"
+    }
+  ]
+}

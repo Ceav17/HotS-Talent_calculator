@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/brightwing/portrait.png",
+  "lines": [
+    {
+      "id": "fight_time_5d3ecf16",
+      "title": "Fight Time!",
+      "variant": null,
+      "audio": "voice_lines/brightwing/fight_time_5d3ecf16.ogg"
+    },
+    {
+      "id": "fun_ae849948",
+      "title": "Fun!",
+      "variant": null,
+      "audio": "voice_lines/brightwing/fun_ae849948.ogg"
+    },
+    {
+      "id": "good_thing_53e39d60",
+      "title": "Good Thing",
+      "variant": null,
+      "audio": "voice_lines/brightwing/good_thing_53e39d60.ogg"
+    },
+    {
+      "id": "no_9177659b",
+      "title": "No",
+      "variant": null,
+      "audio": "voice_lines/brightwing/no_9177659b.ogg"
+    },
+    {
+      "id": "until_you_die_a24933b7",
+      "title": "Until You Die",
+      "variant": null,
+      "audio": "voice_lines/brightwing/until_you_die_a24933b7.ogg"
+    }
+  ]
+}

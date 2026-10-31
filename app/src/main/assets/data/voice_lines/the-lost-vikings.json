@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/the-lost-vikings/portrait.png",
+  "lines": [
+    {
+      "id": "close_enough_28654684",
+      "title": "Close Enough",
+      "variant": null,
+      "audio": "voice_lines/the-lost-vikings/close_enough_28654684.ogg"
+    },
+    {
+      "id": "don_t_mess_with_us_53f88c7a",
+      "title": "Don't Mess With Us",
+      "variant": null,
+      "audio": "voice_lines/the-lost-vikings/don_t_mess_with_us_53f88c7a.ogg"
+    },
+    {
+      "id": "meatloaf_d180f7a9",
+      "title": "Meatloaf",
+      "variant": null,
+      "audio": "voice_lines/the-lost-vikings/meatloaf_d180f7a9.ogg"
+    },
+    {
+      "id": "party_848ff903",
+      "title": "Party",
+      "variant": null,
+      "audio": "voice_lines/the-lost-vikings/party_848ff903.ogg"
+    },
+    {
+      "id": "sit_on_you_32715289",
+      "title": "Sit on You",
+      "variant": null,
+      "audio": "voice_lines/the-lost-vikings/sit_on_you_32715289.ogg"
+    }
+  ]
+}

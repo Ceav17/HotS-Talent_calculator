@@ -1,0 +1,695 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "nazeebo",
+    "name": "Nazeebo",
+    "team_role": "Ranged Assassin",
+    "universe": "Diablo",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "corpse_spiders",
+      "name": "Corpse Spiders",
+      "description": "Mana: 40 Cooldown: 8 seconds Hurl a jar of spiders that deals 50 (+4% per level) damage. If it hits at least one enemy, create 3 Corpse Spiders that attack for 38 (+4% per level) damage. Spiders last for 4 seconds.",
+      "icon": "Heroes/nazeebo/abilities/storm_ui_icon_nazeebo_corpsespider.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "WitchDoctorCorpseSpiders|WitchDoctorCorpseSpiders|Q",
+      "ability_id": "WitchDoctorCorpseSpiders",
+      "button_id": "WitchDoctorCorpseSpiders",
+      "unit_id": "HeroWitchDoctor",
+      "unit_name": "Nazeebo",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "zombie_wall_d796c70f87",
+      "name": "Zombie Wall",
+      "description": "Mana: 70 Cooldown: 14 seconds After 1 second, create a ring of Zombies surrounding the target area that deal 28 (+4% per level) damage and last for 3 seconds.",
+      "icon": "Heroes/nazeebo/abilities/storm_ui_icon_nazeebo_zombiewall.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "WitchDoctorZombieWall|WitchDoctorZombieWall|W",
+      "ability_id": "WitchDoctorZombieWall",
+      "button_id": "WitchDoctorZombieWall",
+      "unit_id": "HeroWitchDoctor",
+      "unit_name": "Nazeebo",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "plague_of_toads",
+      "name": "Plague of Toads",
+      "description": "Mana: 30 Charge Cooldown: 8 seconds Create a wave of 3 Toads that explode on contact, dealing 126 (+4% per level) damage over 6 seconds. This effect stacks.  Stores up to 2 charges.",
+      "icon": "Heroes/nazeebo/abilities/storm_ui_icon_nazeebo_plagueoftoads.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "WitchDoctorPlagueofToads|WitchDoctorPlagueOfToads|E",
+      "ability_id": "WitchDoctorPlagueofToads",
+      "button_id": "WitchDoctorPlagueOfToads",
+      "unit_id": "HeroWitchDoctor",
+      "unit_name": "Nazeebo",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "gargantuan",
+      "name": "Gargantuan",
+      "description": "Mana: 90 Cooldown: 70 seconds Summon a Gargantuan to guard an area, losing Health over 29 seconds. Deals 100 (+4% per level) damage when summoned, attacks for 140 (+4% per level) damage, and can be ordered to stomp nearby enemies. The Gargantuan's Stomp deals 240 (+4% per level) damage and Slows by 30% for 2 seconds.",
+      "icon": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_gargantuan.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "WitchDoctorGargantuan|WitchDoctorGargantuan|Heroic",
+      "ability_id": "WitchDoctorGargantuan",
+      "button_id": "WitchDoctorGargantuan",
+      "unit_id": "HeroWitchDoctor",
+      "unit_name": "Nazeebo",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_gargantuan_mini.png"
+    },
+    {
+      "id": "ravenous_spirit_cceef0a824",
+      "name": "Ravenous Spirit",
+      "description": "Mana: 100 Cooldown: 90 seconds Channel a Ravenous Spirit that deals 230 (+4% per level) damage per second. Cannot move while channeling. Lasts for 8 seconds.",
+      "icon": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_ravenousspirit.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "WitchDoctorRavenousSpirit|WitchDoctorRavenousSpirit|Heroic",
+      "ability_id": "WitchDoctorRavenousSpirit",
+      "button_id": "WitchDoctorRavenousSpirit",
+      "unit_id": "HeroWitchDoctor",
+      "unit_name": "Nazeebo",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_ravenousspirit_mini.png"
+    },
+    {
+      "id": "voodoo_ritual",
+      "name": "Voodoo Ritual",
+      "description": "Nazeebo's Basic Attacks and Abilities poison Non-Heroic enemies, causing them to take 66 (+4% per level) additional damage over 6 seconds.   Quest: If a Minion dies while poisoned by Voodoo Ritual, Nazeebo permanently gains 6 Health and 1 Mana.",
+      "icon": "Heroes/nazeebo/abilities/storm_ui_icon_nazeebo_voodooritual.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": ":PASSIVE:|WitchDoctorVoodooRitualTrait|Trait",
+      "ability_id": ":PASSIVE:",
+      "button_id": "WitchDoctorVoodooRitualTrait",
+      "unit_id": "HeroWitchDoctor",
+      "unit_name": "Nazeebo",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroWitchDoctor",
+      "unit_name": "Nazeebo",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroWitchDoctor",
+      "unit_name": "Nazeebo",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "zombie_wall_0517710101",
+      "name": "Zombie Wall",
+      "description": "Destroys the active Zombie Wall.",
+      "icon": null,
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "WitchDoctorZombieWallCancel|WitchDoctorZombieWallCancel|W",
+      "ability_id": "WitchDoctorZombieWallCancel",
+      "button_id": "WitchDoctorZombieWallCancel",
+      "unit_id": "HeroWitchDoctor",
+      "unit_name": "Nazeebo",
+      "parent_link_ids": [
+        "WitchDoctorZombieWall|WitchDoctorZombieWall|W"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "gargantuan_stomp_f34d2cee89",
+      "name": "Gargantuan Stomp",
+      "description": "Cooldown: 5 seconds Order the Gargantuan to stomp, dealing 240 (+4% per level) damage to nearby enemies and Slowing them by 30% for 2 seconds.",
+      "icon": "Heroes/nazeebo/abilities/storm_ui_icon_nazeebo_gargantuanstomp.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "WitchDoctorGargantuanStompCommand|WitchDoctorGargantuanStomp|Heroic",
+      "ability_id": "WitchDoctorGargantuanStompCommand",
+      "button_id": "WitchDoctorGargantuanStomp",
+      "unit_id": "HeroWitchDoctor",
+      "unit_name": "Nazeebo",
+      "parent_link_ids": [
+        "WitchDoctorGargantuan|WitchDoctorGargantuan|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "gargantuan_stomp_511298147d",
+      "name": "Gargantuan Stomp",
+      "description": "Order the Gargantuan to stomp, dealing 240 (+4% per level) damage to nearby enemies and Slowing them by 30% for 2 seconds.",
+      "icon": "Heroes/nazeebo/abilities/storm_ui_icon_nazeebo_gargantuanstomp.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": ":PASSIVE:|WitchDoctorGargantuanStomp|Heroic",
+      "ability_id": ":PASSIVE:",
+      "button_id": "WitchDoctorGargantuanStomp",
+      "unit_id": "HeroWitchDoctor",
+      "unit_name": "Nazeebo",
+      "parent_link_ids": [
+        "WitchDoctorGargantuanStompCommand|WitchDoctorGargantuanStomp|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "ravenous_spirit_528fa5b90a",
+      "name": "Ravenous Spirit",
+      "description": "Cancels the Ravenous Spirit ability and returns control to the Witch Doctor.",
+      "icon": null,
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "WitchDoctorRavenousSpiritCancel|WitchDoctorRavenousSpiritCancel|Heroic",
+      "ability_id": "WitchDoctorRavenousSpiritCancel",
+      "button_id": "WitchDoctorRavenousSpiritCancel",
+      "unit_id": "HeroWitchDoctor",
+      "unit_name": "Nazeebo",
+      "parent_link_ids": [
+        "WitchDoctorRavenousSpirit|WitchDoctorRavenousSpirit|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroWitchDoctor",
+      "unit_name": "Nazeebo",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "cancel_ice_block",
+      "name": "Cancel Ice Block",
+      "description": "Cooldown: 60 seconds Cancel Ice Block early, removing the Stasis and Invulnerability.",
+      "icon": null,
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "TalentBucketIceBlock|GenericIceBlockCancel|Active",
+      "ability_id": "TalentBucketIceBlock",
+      "button_id": "GenericIceBlockCancel",
+      "unit_id": "HeroWitchDoctor",
+      "unit_name": "Nazeebo",
+      "parent_link_ids": [
+        "TalentBucketIceBlock|GenericIceBlockTalent|Active"
+      ],
+      "unlock_conditions": [
+        [
+          "GenericTalentIceBlock"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "TalentBucketIceBlock",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 13,
+      "unlock_position": 3
+    },
+    {
+      "id": "ice_block",
+      "name": "Ice Block",
+      "description": "Cooldown: 60 seconds Activate to place yourself in Stasis and gain Invulnerability for 3 seconds.",
+      "icon": "Heroes/nazeebo/abilities/storm_ui_icon_talent_iceblock.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "TalentBucketIceBlock|GenericIceBlockTalent|Active",
+      "ability_id": "TalentBucketIceBlock",
+      "button_id": "GenericIceBlockTalent",
+      "unit_id": "HeroWitchDoctor",
+      "unit_name": "Nazeebo",
+      "parent_link_ids": [
+        "GenericTalentIceBlock|GenericIceBlockTalent|Active|Level13"
+      ],
+      "unlock_conditions": [
+        [
+          "GenericTalentIceBlock"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "TalentBucketIceBlock",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 13,
+      "unlock_position": 3
+    },
+    {
+      "id": "soul_harvest",
+      "name": "Soul Harvest",
+      "description": "Cooldown: 15 seconds Activate to increase Nazeebo's Health and Spell Power by 7% for each nearby enemy, up to a maximum of 35%. Lasts 15 seconds.",
+      "icon": "Heroes/nazeebo/abilities/storm_ui_icon_nazeebo_soulharvest.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "WitchDoctorSoulHarvest|WitchDoctorSoulHarvest|Active",
+      "ability_id": "WitchDoctorSoulHarvest",
+      "button_id": "WitchDoctorSoulHarvest",
+      "unit_id": "HeroWitchDoctor",
+      "unit_name": "Nazeebo",
+      "parent_link_ids": [
+        "WitchDoctorSoulHarvest|WitchDoctorSoulHarvest|Active|Level16"
+      ],
+      "unlock_conditions": [
+        [
+          "WitchDoctorSoulHarvest"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "WitchDoctorSoulHarvest",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 16,
+      "unlock_position": 3
+    },
+    {
+      "id": "bad_medicine",
+      "name": "Bad Medicine",
+      "description": "Cooldown: 30 seconds Consume 5 stacks of Voodoo Ritual to become Unstoppable, gain 20% increased Movement Speed, and 50 Armor for 2 seconds.",
+      "icon": "Heroes/nazeebo/abilities/storm_ui_icon_nazeebo_voodooritual_a.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "WitchDoctorBadMedicine|WitchDoctorBadMedicine|Active",
+      "ability_id": "WitchDoctorBadMedicine",
+      "button_id": "WitchDoctorBadMedicine",
+      "unit_id": "HeroWitchDoctor",
+      "unit_name": "Nazeebo",
+      "parent_link_ids": [
+        "WitchDoctorBadMedicine|WitchDoctorBadMedicine|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "WitchDoctorBadMedicine"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2",
+        "3"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "WitchDoctorBadMedicine",
+      "active_order": 3,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 4
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "widowmakers",
+          "name": "Widowmakers",
+          "description": "Enemies hit by Corpse Spiders' jar are Slowed by 25% for 1 second.  Reward: After Corpse Spiders attack Heroes 100 times, their attack damage is increased by 25% and their duration is increased by 1 second.",
+          "icon": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_corpsespider.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "WitchDoctorWidowmakers|WitchDoctorWidowmakers|Q|Level1",
+          "talent_id": "WitchDoctorWidowmakers",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_corpsespider_mini.png"
+        },
+        {
+          "id": "pandemic",
+          "name": "Pandemic",
+          "description": "Quest: Hit Heroes with Plague of Toads.  Reward: After hitting 35 Heroes with Plague of Toads, it spawns 2 additional toads.  Reward: After hitting 70 Heroes with Plague of Toads, it reduces the damage Heroes deal by 5%, stacking up to 25%.",
+          "icon": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_plagueoftoads.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "WitchDoctorPandemic|WitchDoctorPandemic|E|Level1",
+          "talent_id": "WitchDoctorPandemic",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_plagueoftoads_mini.png"
+        },
+        {
+          "id": "thing_of_the_deep",
+          "name": "Thing of the Deep",
+          "description": "Increase the range of Nazeebo's Basic Abilities by 20%.  Reward: After gaining 50 stacks of Voodoo Ritual, gain 5% Spell Power.  Reward: After gaining 100 stacks of Voodoo Ritual, gain an additional 5% Spell Power.",
+          "icon": "Heroes/nazeebo/talents/storm_ui_icon_talent_elunesgrace.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "WitchDoctorThingOfTheDeep|WitchDoctorThingOfTheDeepTalent|Passive|Level1",
+          "talent_id": "WitchDoctorThingOfTheDeep",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_talent_elunesgrace_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "hexed_crawlers",
+          "name": "Hexed Crawlers",
+          "description": "Corpse Spiders restore 1% of Nazeebo's maximum Health and Mana when they attack an enemy Hero.",
+          "icon": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_corpsespider.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "WitchDoctorHexedCrawlers|WitchDoctorHexedCrawlers|Q|Level4",
+          "talent_id": "WitchDoctorHexedCrawlers",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_corpsespider_mini.png"
+        },
+        {
+          "id": "big_voodoo",
+          "name": "Big Voodoo",
+          "description": "Increases the Health and Mana bonuses from Voodoo Ritual by 100%.",
+          "icon": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_voodooritual.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "WitchDoctorBigVoodoo|WitchDoctorBigVoodoo|Trait|Level4",
+          "talent_id": "WitchDoctorBigVoodoo",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_voodooritual_mini.png"
+        },
+        {
+          "id": "blood_ritual",
+          "name": "Blood Ritual",
+          "description": "If an enemy dies while poisoned by Voodoo Ritual, restore 2% of Nazeebo's maximum Health and Mana.  Passive: Takedowns grant 3 stacks of Voodoo Ritual.",
+          "icon": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_voodooritual_a.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "WitchDoctorBloodRitual|WitchDoctorVoodooRitualBloodRitualTalent|Trait|Level4",
+          "talent_id": "WitchDoctorBloodRitual",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_voodooritual_a_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "spirit_of_arachyr",
+          "name": "Spirit of Arachyr",
+          "description": "The number of Corpse Spiders spawned is increased from 3 to 4. If Corpse Spiders' jar hits only one enemy, it creates an additional spider.",
+          "icon": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_corpsespider.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "WitchDoctorSpiritofArachyr|WitchDoctorSpiritofArachyr|Q|Level7",
+          "talent_id": "WitchDoctorSpiritofArachyr",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_corpsespider_mini.png"
+        },
+        {
+          "id": "dead_rush",
+          "name": "Dead Rush",
+          "description": "Zombie Wall deals 100% more damage. When it expires up to 5 remaining Zombies uproot and attack nearby enemies, losing Health over 3 seconds.",
+          "icon": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_zombiewall.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "WitchDoctorDeadRush|WitchDoctorZombieWallDeadRushTalent|W|Level7",
+          "talent_id": "WitchDoctorDeadRush",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_zombiewall_mini.png"
+        },
+        {
+          "id": "toads_of_hugeness",
+          "name": "Toads of Hugeness",
+          "description": "Increase the damage and explosion radius of Plague of Toads by 25% after each hop, up to a maximum of 100%.",
+          "icon": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_plagueoftoads.png",
+          "position": 3,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "WitchDoctorToadsofHugeness|WitchDoctorPlagueOfToadsToadsOfHugenessTalent|E|Level7",
+          "talent_id": "WitchDoctorToadsofHugeness",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_plagueoftoads_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "gargantuan",
+          "name": "Gargantuan",
+          "description": "Mana: 90 Cooldown: 70 seconds Summon a Gargantuan to guard an area, losing Health over 29 seconds. Deals 100 (+4% per level) damage when summoned, attacks for 140 (+4% per level) damage, and can be ordered to stomp nearby enemies. The Gargantuan's Stomp deals 240 (+4% per level) damage and Slows by 30% for 2 seconds.",
+          "icon": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_gargantuan.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "WitchDoctorHeroicAbilityGargantuan|WitchDoctorGargantuan|Heroic|Level10",
+          "talent_id": "WitchDoctorHeroicAbilityGargantuan",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_gargantuan_mini.png"
+        },
+        {
+          "id": "ravenous_spirit",
+          "name": "Ravenous Spirit",
+          "description": "Mana: 100 Cooldown: 90 seconds Channel a Ravenous Spirit that deals 230 (+4% per level) damage per second. Cannot move while channeling. Lasts for 8 seconds.",
+          "icon": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_ravenousspirit.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "WitchDoctorHeroicAbilityRavenousSpirits|WitchDoctorRavenousSpirit|Heroic|Level10",
+          "talent_id": "WitchDoctorHeroicAbilityRavenousSpirits",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_ravenousspirit_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "guardian_toads",
+          "name": "Guardian Toads",
+          "description": "Hitting an enemy Hero with Plague of Toads grants 30 Armor for 3 seconds, stacking up to 6 seconds.",
+          "icon": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_plagueoftoads.png",
+          "position": 1,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "WitchDoctorGuardianToads|WitchDoctorGuardianToads|E|Level13",
+          "talent_id": "WitchDoctorGuardianToads",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_plagueoftoads_mini.png"
+        },
+        {
+          "id": "superstition",
+          "name": "Superstition",
+          "description": "Gain 40 Spell Armor. Heroic Basic Attacks against Nazeebo remove this bonus for 3 seconds and spawn a Corpse Spider to attack the Hero.",
+          "icon": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_suprerstition.png",
+          "position": 2,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "WitchDoctorSuperstition|WitchDoctorSuperstition|Passive|Level13",
+          "talent_id": "WitchDoctorSuperstition",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_suprerstition_mini.png"
+        },
+        {
+          "id": "ice_block",
+          "name": "Ice Block",
+          "description": "Cooldown: 60 seconds Activate to place yourself in Stasis and gain Invulnerability for 3 seconds.",
+          "icon": "Heroes/nazeebo/talents/storm_ui_icon_talent_iceblock.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "GenericTalentIceBlock|GenericIceBlockTalent|Active|Level13",
+          "talent_id": "GenericTalentIceBlock",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_talent_iceblock_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "spider_colony",
+          "name": "Spider Colony",
+          "description": "Corpse Spider Attacks against Heroes reduce the cooldown of Nazeebo's Basic Abilities by 0.125 seconds.",
+          "icon": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_corpsespider.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "WitchDoctorSpiderColony|WitchDoctorSpiderColony|Q|Level16",
+          "talent_id": "WitchDoctorSpiderColony",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_corpsespider_mini.png"
+        },
+        {
+          "id": "ring_of_poison",
+          "name": "Ring of Poison",
+          "description": "Zombie Wall lasts 1 second longer, and the center is filled with poison that deals a total of 319 (+4% per level) damage over 4 seconds. This damage starts small and increases over the duration.",
+          "icon": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_zombiewall.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "WitchDoctorRingOfPoison|WitchDoctorRingOfPoison|W|Level16",
+          "talent_id": "WitchDoctorRingOfPoison",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_zombiewall_mini.png"
+        },
+        {
+          "id": "soul_harvest",
+          "name": "Soul Harvest",
+          "description": "Cooldown: 15 seconds Activate to increase Nazeebo's Health and Spell Power by 7% for each nearby enemy, up to a maximum of 35%. Lasts 15 seconds.",
+          "icon": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_soulharvest.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "WitchDoctorSoulHarvest|WitchDoctorSoulHarvest|Active|Level16",
+          "talent_id": "WitchDoctorSoulHarvest",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2"
+          ],
+          "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_soulharvest_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "humongoid",
+          "name": "Humongoid",
+          "description": "Gargantuan Stomp's area is increased by 25% and its Slow amount is increased to 50%.  Passive: Reduce Gargantuan's cooldown by 40 seconds and its Mana cost by 50%.",
+          "icon": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_gargantuan.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "WitchDoctorHumongoid|WitchDoctorGargantuanHumongoidTalent|Heroic|Level20",
+          "talent_id": "WitchDoctorHumongoid",
+          "prerequisite_talent_ids": [
+            "WitchDoctorHeroicAbilityGargantuan"
+          ],
+          "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_gargantuan_mini.png"
+        },
+        {
+          "id": "annihilating_spirit",
+          "name": "Annihilating Spirit",
+          "description": "When Ravenous Spirit damages an enemy Hero, reduce their healing received by 50% for 1 second and increase Ravenous Spirit's damage by 5% for the rest of its duration.  Passive: Increases the range of Ravenous Spirit by 50%.",
+          "icon": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_ravenousspirit.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "WitchDoctorAnnihilatingSpirits|WitchDoctorRavenousSpiritAnnihilatingSpiritTalent|Heroic|Level20",
+          "talent_id": "WitchDoctorAnnihilatingSpirits",
+          "prerequisite_talent_ids": [
+            "WitchDoctorHeroicAbilityRavenousSpirits"
+          ],
+          "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_ravenousspirit_mini.png"
+        },
+        {
+          "id": "vile_infection",
+          "name": "Vile Infection",
+          "description": "Quest: Reach 175 stacks of Voodoo Ritual.  Reward: After reaching 175 stacks of Voodoo Ritual, it can also be applied to Heroes and its damage is increased from 66 (+4% per level) to 165 (+4% per level) over 6 seconds.",
+          "icon": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_voodooritual.png",
+          "position": 3,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "WitchDoctorVileInfection|WitchDoctorVileInfection|Trait|Level20",
+          "talent_id": "WitchDoctorVileInfection",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_voodooritual_mini.png"
+        },
+        {
+          "id": "bad_medicine",
+          "name": "Bad Medicine",
+          "description": "Cooldown: 30 seconds Consume 5 stacks of Voodoo Ritual to become Unstoppable, gain 20% increased Movement Speed, and 50 Armor for 2 seconds.",
+          "icon": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_voodooritual_a.png",
+          "position": 4,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "WitchDoctorBadMedicine|WitchDoctorBadMedicine|Active|Level20",
+          "talent_id": "WitchDoctorBadMedicine",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2",
+            "3"
+          ],
+          "icon_mini": "Heroes/nazeebo/talents/storm_ui_icon_nazeebo_voodooritual_a_mini.png"
+        }
+      ]
+    }
+  ]
+}

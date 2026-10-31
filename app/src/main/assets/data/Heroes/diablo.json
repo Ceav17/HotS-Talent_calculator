@@ -1,0 +1,606 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "diablo",
+    "name": "Diablo",
+    "team_role": "Tank",
+    "universe": "Diablo",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "shadow_charge",
+      "name": "Shadow Charge",
+      "description": "Mana: 65 Cooldown: 12 seconds Charge an enemy, knocking them back, dealing 45 (+4% per level) damage and gaining 15% Movement Speed for 2 seconds. If the enemy hits terrain, they are Stunned for 1 second and take an additional 140 (+4% per level) damage.",
+      "icon": "Heroes/diablo/abilities/storm_ui_icon_diablo_shadowcharge_var1.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "DiabloShadowCharge|DiabloShadowCharge|Q",
+      "ability_id": "DiabloShadowCharge",
+      "button_id": "DiabloShadowCharge",
+      "unit_id": "HeroDiablo",
+      "unit_name": "Diablo",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "fire_stomp",
+      "name": "Fire Stomp",
+      "description": "Mana: 35 Cooldown: 8 seconds Unleashes fire waves toward the targeted area that deal 11 (+4% per level) damage each. Once they reach maximum range they return, dealing an additional 34 (+4% per level) damage. Diablo heals for 130% of the damage dealt to Heroes.",
+      "icon": "Heroes/diablo/abilities/storm_ui_icon_diablo_firestomp.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "DiabloFireStomp|DiabloFireStomp|W",
+      "ability_id": "DiabloFireStomp",
+      "button_id": "DiabloFireStomp",
+      "unit_id": "HeroDiablo",
+      "unit_name": "Diablo",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "overpower",
+      "name": "Overpower",
+      "description": "Mana: 35 Cooldown: 12 seconds Grabs the target and slams it behind Diablo, dealing 80 (+4% per level) damage and Stunning for 0.25 seconds.",
+      "icon": "Heroes/diablo/abilities/storm_ui_icon_diablo_overpower_var1.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "DiabloOverpower|DiabloOverpower|E",
+      "ability_id": "DiabloOverpower",
+      "button_id": "DiabloOverpower",
+      "unit_id": "HeroDiablo",
+      "unit_name": "Diablo",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "apocalypse",
+      "name": "Apocalypse",
+      "description": "Mana: 50 Cooldown: 90 seconds Create a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and Stunning them for 1.75 seconds.",
+      "icon": "Heroes/diablo/talents/storm_ui_icon_diablo_apocalypse.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "DiabloApocalypse|DiabloApocalypse|Heroic",
+      "ability_id": "DiabloApocalypse",
+      "button_id": "DiabloApocalypse",
+      "unit_id": "HeroDiablo",
+      "unit_name": "Diablo",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/diablo/talents/storm_ui_icon_diablo_apocalypse_mini.png"
+    },
+    {
+      "id": "lightning_breath",
+      "name": "Lightning Breath",
+      "description": "Mana: 80 Cooldown: 90 seconds After 0.5 seconds, become Unstoppable and Channel for up to 4 seconds, dealing 50 (+4% per level) damage every 0.25 seconds to enemies in front of Diablo. Enemies affected are Slowed by 4% for 2 seconds, up to 40%.   Lightning Breath's direction changes with your mouse cursor position.",
+      "icon": "Heroes/diablo/talents/storm_ui_icon_diablo_lightningbreath.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "DiabloLightningBreath|DiabloLightningBreath|Heroic",
+      "ability_id": "DiabloLightningBreath",
+      "button_id": "DiabloLightningBreath",
+      "unit_id": "HeroDiablo",
+      "unit_name": "Diablo",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/diablo/talents/storm_ui_icon_diablo_lightningbreath_mini.png"
+    },
+    {
+      "id": "black_soulstone",
+      "name": "Black Soulstone",
+      "description": "Repeatable Quest: Gain 10 Souls per Hero killed and 1 Soul per Minion, up to 100. For each Soul, gain 0.3% maximum Health. If Diablo has 100 Souls upon dying, he will resurrect in 5 seconds but lose 100 Souls.  After reaching level 10, Diablo only consumes 75 Souls when resurrecting.",
+      "icon": "Heroes/diablo/abilities/storm_ui_icon_diablo_blacksoulstone_var1.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": ":PASSIVE:|DiabloBlackSoulstone|Trait",
+      "ability_id": ":PASSIVE:",
+      "button_id": "DiabloBlackSoulstone",
+      "unit_id": "HeroDiablo",
+      "unit_name": "Diablo",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroDiablo",
+      "unit_name": "Diablo",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroDiablo",
+      "unit_name": "Diablo",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "lightning_breath_cancel",
+      "name": "Lightning Breath Cancel",
+      "description": "Cancels the Lightning Breath ability.",
+      "icon": null,
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "LightningBreathCancel|DiabloLightningBreathCancel|Heroic",
+      "ability_id": "LightningBreathCancel",
+      "button_id": "DiabloLightningBreathCancel",
+      "unit_id": "HeroDiablo",
+      "unit_name": "Diablo",
+      "parent_link_ids": [
+        "DiabloLightningBreath|DiabloLightningBreath|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroDiablo",
+      "unit_name": "Diablo",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "soul_shield",
+      "name": "Soul Shield",
+      "description": "Cooldown: 45 seconds Activate to gain 25 plus 50% of Diablo's current Souls as Spell Armor for 4 seconds. Every time Diablo damages an enemy Hero, reduce this cooldown by 1 second.",
+      "icon": "Heroes/diablo/abilities/storm_ui_icon_talent_hardenedshield.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "DiabloBlackSoulstoneSoulShield|DiabloSoulShield|Active",
+      "ability_id": "DiabloBlackSoulstoneSoulShield",
+      "button_id": "DiabloSoulShield",
+      "unit_id": "HeroDiablo",
+      "unit_name": "Diablo",
+      "parent_link_ids": [
+        "DiabloSoulShield|DiabloSoulShield|Active|Level1"
+      ],
+      "unlock_conditions": [
+        [
+          "DiabloSoulShield"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "DiabloBlackSoulstoneSoulShield",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 1,
+      "unlock_position": 3
+    },
+    {
+      "id": "lord_of_terror",
+      "name": "Lord of Terror",
+      "description": "Cooldown: 60 seconds Activate to steal 12% of the maximum Health of nearby enemy Heroes and gain 5 Souls per Hero hit.",
+      "icon": "Heroes/diablo/abilities/storm_ui_icon_diablo_lordofterror.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "DiabloTalentLordOfTerror|DiabloLordOfTerror|Active",
+      "ability_id": "DiabloTalentLordOfTerror",
+      "button_id": "DiabloLordOfTerror",
+      "unit_id": "HeroDiablo",
+      "unit_name": "Diablo",
+      "parent_link_ids": [
+        "DiabloTalentLordOfTerror|DiabloLordOfTerror|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "DiabloTalentLordOfTerror"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "DiabloTalentLordOfTerror",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 3
+    },
+    {
+      "id": "hellgate",
+      "name": "Hellgate",
+      "description": "Cooldown: 100 seconds Teleport and place a demonic rune at target location. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and stunning enemies for 1.75 seconds.",
+      "icon": "Heroes/diablo/abilities/storm_ui_icon_talent_boltofthestorm.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "DiabloHellgate|DiabloHellgateTalent|Active",
+      "ability_id": "DiabloHellgate",
+      "button_id": "DiabloHellgateTalent",
+      "unit_id": "HeroDiablo",
+      "unit_name": "Diablo",
+      "parent_link_ids": [
+        "DiabloHellgate|DiabloHellgateTalent|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "DiabloHellgate"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "DiabloHellgate",
+      "active_order": 3,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 4
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "feast_on_fear",
+          "name": "Feast on Fear",
+          "description": "Stunning an enemy Hero with Shadow Charge or Overpower heals Diablo for 10% of his maximum Health over 3 seconds.",
+          "icon": "Heroes/diablo/talents/storm_ui_icon_diablo_combo_1.png",
+          "position": 1,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "DiabloMasteryFeastOnFearBlackSoulstone|DiabloBlackSoulstoneFeastOnFearTalent|Passive|Level1",
+          "talent_id": "DiabloMasteryFeastOnFearBlackSoulstone",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/diablo/talents/storm_ui_icon_diablo_combo_1_mini.png"
+        },
+        {
+          "id": "devil_s_due",
+          "name": "Devil's Due",
+          "description": "Black Soulstone increases the effects of Regen Globes and Healing Fountains by 2.25% per Soul.",
+          "icon": "Heroes/diablo/talents/storm_ui_icon_diablo_blacksoulstone_var1.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "DiabloMasteryDevilsDueBlackSoulstone|DiabloBlackSoulstoneDevilsDueTalent|Trait|Level1",
+          "talent_id": "DiabloMasteryDevilsDueBlackSoulstone",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/diablo/talents/storm_ui_icon_diablo_blacksoulstone_var1_mini.png"
+        },
+        {
+          "id": "soul_shield",
+          "name": "Soul Shield",
+          "description": "Cooldown: 45 seconds Activate to gain 25 plus 50% of Diablo's current Souls as Spell Armor for 4 seconds. Every time Diablo damages an enemy Hero, reduce this cooldown by 1 second.",
+          "icon": "Heroes/diablo/talents/storm_ui_icon_talent_hardenedshield.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "DiabloSoulShield|DiabloSoulShield|Active|Level1",
+          "talent_id": "DiabloSoulShield",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/diablo/talents/storm_ui_icon_talent_hardenedshield_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "sacrificial_soul",
+          "name": "Sacrificial Soul",
+          "description": "Stunning a Hero with Shadow Charge grants 10 Souls and 20 Armor for 3 seconds. While at 100 Souls, increase this Armor to 40.",
+          "icon": "Heroes/diablo/talents/storm_ui_icon_diablo_shadowcharge_var1.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "DiabloShadowChargeSacrificialSoul|DiabloShadowChargeSacrificialSoul|Q|Level4",
+          "talent_id": "DiabloShadowChargeSacrificialSoul",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/diablo/talents/storm_ui_icon_diablo_shadowcharge_var1_mini.png"
+        },
+        {
+          "id": "souls_to_the_flame",
+          "name": "Souls to the Flame",
+          "description": "Fire Stomp grants 1 Soul every 3 times it damages an enemy Hero, and heals for an additional 1.3% of its damage dealt per Soul.",
+          "icon": "Heroes/diablo/talents/storm_ui_icon_diablo_firestomp.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "DiabloFireStompSoulsToTheFlame|DiabloFireStompSoulsToTheFlame|W|Level4",
+          "talent_id": "DiabloFireStompSoulsToTheFlame",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/diablo/talents/storm_ui_icon_diablo_firestomp_mini.png"
+        },
+        {
+          "id": "life_leech",
+          "name": "Life Leech",
+          "description": "Diablo gains 1 Soul and heals for 1.75% of his maximum Health when Basic Attacking an enemy Hero. While at 100 Souls, increase this healing to 3.5% of his maximum Health.",
+          "icon": "Heroes/diablo/talents/storm_ui_icon_talent_autoattack_heal.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "DiabloLifeLeech|DiabloLifeLeechTalent|Passive|Level4",
+          "talent_id": "DiabloLifeLeech",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/diablo/talents/storm_ui_icon_talent_autoattack_heal_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "eternal_flames",
+          "name": "Eternal Flames",
+          "description": "Reduce the cooldown of Fire Stomp by 1 second. When Diablo Stuns an enemy Hero with Shadow Charge or Overpower, reset the cooldown of Fire Stomp and restore 45 Mana.",
+          "icon": "Heroes/diablo/talents/storm_ui_icon_diablo_firestomp.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "DiabloShadowChargeOverpowerEternalFlames|DiabloShadowChargeOverpowerEternalFlames|W|Level7",
+          "talent_id": "DiabloShadowChargeOverpowerEternalFlames",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/diablo/talents/storm_ui_icon_diablo_firestomp_mini.png"
+        },
+        {
+          "id": "malevolence",
+          "name": "Malevolence",
+          "description": "Basic Abilities cause Diablo's next Basic Attack within 6 seconds to deal an additional 100 (+4% per level) Spell Damage. Stores up to 2 charges.",
+          "icon": "Heroes/diablo/talents/storm_ui_icon_talent_autoattack_damage.png",
+          "position": 2,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "DiabloMalevolence|DiabloMalevolence|Passive|Level7",
+          "talent_id": "DiabloMalevolence",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/diablo/talents/storm_ui_icon_talent_autoattack_damage_mini.png"
+        },
+        {
+          "id": "diabolical_momentum",
+          "name": "Diabolical Momentum",
+          "description": "When Diablo's Basic Attacks damage enemies, reduce the cooldown of Shadow Charge and Overpower by 2 seconds.",
+          "icon": "Heroes/diablo/talents/storm_ui_icon_diablo_combo_1.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "DiabloDiabolicalMomentum|DiabloDiabolicalMomentum|Passive|Level7",
+          "talent_id": "DiabloDiabolicalMomentum",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/diablo/talents/storm_ui_icon_diablo_combo_1_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "apocalypse",
+          "name": "Apocalypse",
+          "description": "Mana: 50 Cooldown: 90 seconds Create a demonic rune under each enemy Hero on the battleground. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and Stunning them for 1.75 seconds.",
+          "icon": "Heroes/diablo/talents/storm_ui_icon_diablo_apocalypse.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "DiabloHeroicAbilityApocalypse|DiabloApocalypse|Heroic|Level10",
+          "talent_id": "DiabloHeroicAbilityApocalypse",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/diablo/talents/storm_ui_icon_diablo_apocalypse_mini.png"
+        },
+        {
+          "id": "lightning_breath",
+          "name": "Lightning Breath",
+          "description": "Mana: 80 Cooldown: 90 seconds After 0.5 seconds, become Unstoppable and Channel for up to 4 seconds, dealing 50 (+4% per level) damage every 0.25 seconds to enemies in front of Diablo. Enemies affected are Slowed by 4% for 2 seconds, up to 40%.   Lightning Breath's direction changes with your mouse cursor position.",
+          "icon": "Heroes/diablo/talents/storm_ui_icon_diablo_lightningbreath.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "DiabloHeroicAbilityLightningBreath|DiabloLightningBreath|Heroic|Level10",
+          "talent_id": "DiabloHeroicAbilityLightningBreath",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/diablo/talents/storm_ui_icon_diablo_lightningbreath_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "devastating_charge",
+          "name": "Devastating Charge",
+          "description": "Increase Shadow Charge's terrain collision damage by 50%.  Quest: Hit an enemy Hero against terrain 5 times.  Reward: Hitting enemy Heroes against terrain reduces their Armor by 20 for 4 seconds.",
+          "icon": "Heroes/diablo/talents/storm_ui_icon_diablo_shadowcharge_var1.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "DiabloDevastatingCharge|DiabloDevastatingCharge|Q|Level13",
+          "talent_id": "DiabloDevastatingCharge",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/diablo/talents/storm_ui_icon_diablo_shadowcharge_var1_mini.png"
+        },
+        {
+          "id": "hellfire",
+          "name": "Hellfire",
+          "description": "Each enemy Hero hit by Fire Stomp grants 3% Spell Power for 10 seconds, up to 30%.  While at maximum stacks, Diablo deals 33 (+4% per level) damage per second to nearby enemies.",
+          "icon": "Heroes/diablo/talents/storm_ui_icon_diablo_firestomp.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "DiabloHellfire|DiabloHellfire|W|Level13",
+          "talent_id": "DiabloHellfire",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/diablo/talents/storm_ui_icon_diablo_firestomp_mini.png"
+        },
+        {
+          "id": "cruelty",
+          "name": "Cruelty",
+          "description": "Stunning an enemy Hero with Shadow Charge or Overpower increases Diablo's Attack Speed by 50% for 7 seconds, up to 100%.",
+          "icon": "Heroes/diablo/talents/storm_ui_icon_diablo_combo_1.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "DiabloShadowChargeOverpowerCruelty|DiabloShadowChargeOverpowerCruelty|Passive|Level13",
+          "talent_id": "DiabloShadowChargeOverpowerCruelty",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/diablo/talents/storm_ui_icon_diablo_combo_1_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "domination",
+          "name": "Domination",
+          "description": "Casting Overpower resets the cooldown of Shadow Charge.",
+          "icon": "Heroes/diablo/talents/storm_ui_icon_diablo_shadowcharge_var1.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "DiabloTalentDominationOverpower|DiabloOverpowerDominationTalent|Q|Level16",
+          "talent_id": "DiabloTalentDominationOverpower",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/diablo/talents/storm_ui_icon_diablo_shadowcharge_var1_mini.png"
+        },
+        {
+          "id": "debilitating_flames",
+          "name": "Debilitating Flames",
+          "description": "Enemy Heroes hit by Fire Stomp are Slowed by 6% for 4 seconds, up to 60%. Heroes Slowed by 24% or more by Debilitating Flames deal 50% less damage.",
+          "icon": "Heroes/diablo/talents/storm_ui_icon_diablo_firestomp.png",
+          "position": 2,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "DiabloDebilitatingFlames|DiabloDebilitatingFlames|W|Level16",
+          "talent_id": "DiabloDebilitatingFlames",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/diablo/talents/storm_ui_icon_diablo_firestomp_mini.png"
+        },
+        {
+          "id": "overpowering_nightmare",
+          "name": "Overpowering Nightmare",
+          "description": "Gain 2 additional charges of Overpower, with a 2 second cooldown between uses.",
+          "icon": "Heroes/diablo/talents/storm_ui_icon_diablo_overpower_var1.png",
+          "position": 3,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "DiabloOverpowerOverpoweringNightmare|DiabloOverpowerOverpoweringNightmareTalent|E|Level16",
+          "talent_id": "DiabloOverpowerOverpoweringNightmare",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/diablo/talents/storm_ui_icon_diablo_overpower_var1_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "dying_breath",
+          "name": "Dying Breath",
+          "description": "Apocalypse's cooldown is reduced by 30 seconds for every enemy Hero hit (to a minimum of 5 seconds) and is cast for free when Diablo dies.",
+          "icon": "Heroes/diablo/talents/storm_ui_icon_diablo_apocalypse.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "DiabloMasteryDyingBreathApocalypse|DiabloApocalypseDyingBreathTalent|Heroic|Level20",
+          "talent_id": "DiabloMasteryDyingBreathApocalypse",
+          "prerequisite_talent_ids": [
+            "DiabloHeroicAbilityApocalypse"
+          ],
+          "icon_mini": "Heroes/diablo/talents/storm_ui_icon_diablo_apocalypse_mini.png"
+        },
+        {
+          "id": "hellstorm",
+          "name": "Hellstorm",
+          "description": "Lightning Breath lasts 200% longer.",
+          "icon": "Heroes/diablo/talents/storm_ui_icon_diablo_lightningbreath.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "DiabloMasteryHellstormLightningBreath|DiabloLightningBreathHellstormTalent|Heroic|Level20",
+          "talent_id": "DiabloMasteryHellstormLightningBreath",
+          "prerequisite_talent_ids": [
+            "DiabloHeroicAbilityLightningBreath"
+          ],
+          "icon_mini": "Heroes/diablo/talents/storm_ui_icon_diablo_lightningbreath_mini.png"
+        },
+        {
+          "id": "lord_of_terror",
+          "name": "Lord of Terror",
+          "description": "Cooldown: 60 seconds Activate to steal 12% of the maximum Health of nearby enemy Heroes and gain 5 Souls per Hero hit.",
+          "icon": "Heroes/diablo/talents/storm_ui_icon_diablo_lordofterror.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "DiabloTalentLordOfTerror|DiabloLordOfTerror|Active|Level20",
+          "talent_id": "DiabloTalentLordOfTerror",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2"
+          ],
+          "icon_mini": "Heroes/diablo/talents/storm_ui_icon_diablo_lordofterror_mini.png"
+        },
+        {
+          "id": "hellgate",
+          "name": "Hellgate",
+          "description": "Cooldown: 100 seconds Teleport and place a demonic rune at target location. After 1.75 seconds the rune explodes dealing 137 (+4% per level) damage and stunning enemies for 1.75 seconds.",
+          "icon": "Heroes/diablo/talents/storm_ui_icon_talent_boltofthestorm.png",
+          "position": 4,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "DiabloHellgate|DiabloHellgateTalent|Active|Level20",
+          "talent_id": "DiabloHellgate",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2"
+          ],
+          "icon_mini": "Heroes/diablo/talents/storm_ui_icon_talent_boltofthestorm_mini.png"
+        }
+      ]
+    }
+  ]
+}

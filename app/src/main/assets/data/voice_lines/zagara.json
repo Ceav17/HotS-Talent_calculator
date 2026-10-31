@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/zagara/portrait.png",
+  "lines": [
+    {
+      "id": "come_to_mama_b3d5f922",
+      "title": "Come to Mama",
+      "variant": null,
+      "audio": "voice_lines/zagara/come_to_mama_b3d5f922.ogg"
+    },
+    {
+      "id": "fury_of_the_swarm_ddc33daf",
+      "title": "Fury of the Swarm",
+      "variant": null,
+      "audio": "voice_lines/zagara/fury_of_the_swarm_ddc33daf.ogg"
+    },
+    {
+      "id": "just_as_i_envisioned_04b8766f",
+      "title": "Just as I Envisioned",
+      "variant": null,
+      "audio": "voice_lines/zagara/just_as_i_envisioned_04b8766f.ogg"
+    },
+    {
+      "id": "now_you_die_aae7cb43",
+      "title": "Now You Die!",
+      "variant": null,
+      "audio": "voice_lines/zagara/now_you_die_aae7cb43.ogg"
+    },
+    {
+      "id": "the_swarm_endures_ff666661",
+      "title": "The Swarm Endures",
+      "variant": null,
+      "audio": "voice_lines/zagara/the_swarm_endures_ff666661.ogg"
+    }
+  ]
+}

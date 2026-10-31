@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/samuro/portrait.png",
+  "lines": [
+    {
+      "id": "disrespect_is_not_tolerated_7161e7d7",
+      "title": "Disrespect Is Not Tolerated",
+      "variant": null,
+      "audio": "voice_lines/samuro/disrespect_is_not_tolerated_7161e7d7.ogg"
+    },
+    {
+      "id": "i_do_not_fear_death_f09b4f0c",
+      "title": "I Do Not Fear Death",
+      "variant": null,
+      "audio": "voice_lines/samuro/i_do_not_fear_death_f09b4f0c.ogg"
+    },
+    {
+      "id": "my_blade_is_sated_066ffd3f",
+      "title": "My Blade Is Sated",
+      "variant": null,
+      "audio": "voice_lines/samuro/my_blade_is_sated_066ffd3f.ogg"
+    },
+    {
+      "id": "taste_my_blade_023a1bab",
+      "title": "Taste My Blade!",
+      "variant": null,
+      "audio": "voice_lines/samuro/taste_my_blade_023a1bab.ogg"
+    },
+    {
+      "id": "you_fought_well_04b787de",
+      "title": "You Fought Well...",
+      "variant": null,
+      "audio": "voice_lines/samuro/you_fought_well_04b787de.ogg"
+    }
+  ]
+}

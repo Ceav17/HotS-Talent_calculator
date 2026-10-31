@@ -1,0 +1,35 @@
+{
+  "portrait": "voice_lines/medivh/portrait.png",
+  "lines": [
+    {
+      "id": "destiny_is_at_hand_b40063c0",
+      "title": "Destiny Is at Hand",
+      "variant": null,
+      "audio": "voice_lines/medivh/destiny_is_at_hand_b40063c0.ogg"
+    },
+    {
+      "id": "excelsior_7a6ab546",
+      "title": "Excelsior",
+      "variant": null,
+      "audio": "voice_lines/medivh/excelsior_7a6ab546.ogg"
+    },
+    {
+      "id": "for_azeroth_761390b9",
+      "title": "For Azeroth!",
+      "variant": null,
+      "audio": "voice_lines/medivh/for_azeroth_761390b9.ogg"
+    },
+    {
+      "id": "let_the_games_begin_74249627",
+      "title": "Let the Games Begin",
+      "variant": null,
+      "audio": "voice_lines/medivh/let_the_games_begin_74249627.ogg"
+    },
+    {
+      "id": "your_fate_is_sealed_7516378a",
+      "title": "Your Fate Is Sealed",
+      "variant": null,
+      "audio": "voice_lines/medivh/your_fate_is_sealed_7516378a.ogg"
+    }
+  ]
+}

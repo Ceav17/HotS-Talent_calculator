@@ -1,0 +1,704 @@
+{
+  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "hero": {
+    "id": "yrel",
+    "name": "Yrel",
+    "team_role": "Bruiser",
+    "universe": "Warcraft",
+    "icon": null,
+    "has_hearthstone": true
+  },
+  "abilities": [
+    {
+      "id": "vindication_79aae7f1fa",
+      "name": "Vindication",
+      "description": "Mana: 50 Cooldown: 6 seconds Unleash holy energy around Yrel, dealing 48 (+4% per level) damage to nearby enemies and healing her for 111 (+4% per level).  Charging up this Ability increases its damage up to 160 (+4% per level), and healing up to 370 (+4% per level).",
+      "icon": "Heroes/yrel/abilities/storm_ui_icon_yrel_vindication.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "YrelVindication|YrelVindication|Q",
+      "ability_id": "YrelVindication",
+      "button_id": "YrelVindication",
+      "unit_id": "HeroYrel",
+      "unit_name": "Yrel",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "righteous_hammer_5b6f8973e1",
+      "name": "Righteous Hammer",
+      "description": "Mana: 50 Cooldown: 6 seconds Swing Yrel's hammer, dealing 42 (+4% per level) damage to enemies in front of her and knocking them away.  Charging up this Ability increases its knockback distance, and damage up to 140 (+4% per level). Enemies hit at maximum charge are Stunned for 1 seconds.",
+      "icon": "Heroes/yrel/abilities/storm_ui_icon_yrel_righteous_hammer.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "YrelRighteousHammerChannel|YrelRighteousHammer|W",
+      "ability_id": "YrelRighteousHammerChannel",
+      "button_id": "YrelRighteousHammer",
+      "unit_id": "HeroYrel",
+      "unit_name": "Yrel",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "avenging_wrath_fb6bc22106",
+      "name": "Avenging Wrath",
+      "description": "Mana: 50 Cooldown: 6 seconds Leap to a location, dealing 260 (+4% per level) damage to enemies in an area and Slowing them by 60% for 1 second.  Charging up this Ability increases its range.",
+      "icon": "Heroes/yrel/abilities/storm_ui_icon_yrel_avenging_wrath.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "YrelAvengingWrathChannel|YrelAvengingWrath|E",
+      "ability_id": "YrelAvengingWrathChannel",
+      "button_id": "YrelAvengingWrath",
+      "unit_id": "HeroYrel",
+      "unit_name": "Yrel",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "ardent_defender",
+      "name": "Ardent Defender",
+      "description": "Mana: 80 Cooldown: 120 seconds Surround Yrel in a barrier for 3 seconds, absorbing all damage taken and healing her for 50% of the damage received.",
+      "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_ardent_defender.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "YrelArdentDefender|YrelArdentDefender|Heroic",
+      "ability_id": "YrelArdentDefender",
+      "button_id": "YrelArdentDefender",
+      "unit_id": "HeroYrel",
+      "unit_name": "Yrel",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/yrel/talents/storm_ui_icon_yrel_ardent_defender_mini.png"
+    },
+    {
+      "id": "sacred_ground",
+      "name": "Sacred Ground",
+      "description": "Cooldown: 25 seconds Yrel sanctifies the ground around her, gaining 50 Armor until she leaves the area.",
+      "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_sacred_ground.png",
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "YrelSacredGround|YrelSacredGround|Heroic",
+      "ability_id": "YrelSacredGround",
+      "button_id": "YrelSacredGround",
+      "unit_id": "HeroYrel",
+      "unit_name": "Yrel",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ],
+      "icon_mini": "Heroes/yrel/talents/storm_ui_icon_yrel_sacred_ground_mini.png"
+    },
+    {
+      "id": "divine_purpose",
+      "name": "Divine Purpose",
+      "description": "Cooldown: 12 seconds Activate to instantly charge Yrel's next Basic Ability at no mana cost. Divine Purpose's cooldown is reduced by 3 seconds if Stunned or Silenced while charging her skills.  Passive: Yrel's Basic Abilities charge up over 1.5 seconds, increasing in effectiveness, but reducing Yrel's Movement Speed by 25%.",
+      "icon": "Heroes/yrel/abilities/storm_ui_icon_yrel_divine_purpose.png",
+      "hotkey": "D",
+      "ability_type": "Trait",
+      "link_id": "YrelDivinePurpose|YrelDivinePurpose|Trait",
+      "ability_id": "YrelDivinePurpose",
+      "button_id": "YrelDivinePurpose",
+      "unit_id": "HeroYrel",
+      "unit_name": "Yrel",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount_7e9c6804d6",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Mount|SummonMount|Z",
+      "ability_id": "Mount",
+      "button_id": "SummonMount",
+      "unit_id": "HeroYrel",
+      "unit_name": "Yrel",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "hearthstone",
+      "name": "Hearthstone",
+      "description": "After Channeling for 6 seconds, teleport back to the Hall of Storms, instantly restoring 1125 Health and 150 Mana.",
+      "icon": "Heroes/storm_ui_icon_miscrune_1.png",
+      "hotkey": "B",
+      "ability_type": "B",
+      "link_id": "Hearthstone|Hearthstone|B",
+      "ability_id": "Hearthstone",
+      "button_id": "Hearthstone",
+      "unit_id": "HeroYrel",
+      "unit_name": "Yrel",
+      "parent_link_ids": [],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "vindication_99b9a1163d",
+      "name": "Vindication",
+      "description": "Mana: 50 Cooldown: 6 seconds Unleash holy energy around Yrel, dealing 48 (+4% per level) damage to nearby enemies and healing her for 111 (+4% per level).  Charging up this Ability increases its damage up to 160 (+4% per level), and healing up to 370 (+4% per level).",
+      "icon": "Heroes/yrel/abilities/storm_ui_icon_yrel_vindication.png",
+      "hotkey": "Q",
+      "ability_type": "Q",
+      "link_id": "YrelVindicationCast|YrelVindication|Q",
+      "ability_id": "YrelVindicationCast",
+      "button_id": "YrelVindication",
+      "unit_id": "HeroYrel",
+      "unit_name": "Yrel",
+      "parent_link_ids": [
+        "YrelDivinePurpose|YrelDivinePurpose|Trait",
+        "YrelVindication|YrelVindication|Q"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "righteous_hammer_6b1281cd0c",
+      "name": "Righteous Hammer",
+      "description": "Mana: 50 Cooldown: 6 seconds Swing Yrel's hammer, dealing 42 (+4% per level) damage to enemies in front of her and knocking them away.  Charging up this Ability increases its knockback distance, and damage up to 140 (+4% per level). Enemies hit at maximum charge are Stunned for 1 seconds.",
+      "icon": "Heroes/yrel/abilities/storm_ui_icon_yrel_righteous_hammer.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "YrelRighteousHammer|YrelRighteousHammer|W",
+      "ability_id": "YrelRighteousHammer",
+      "button_id": "YrelRighteousHammer",
+      "unit_id": "HeroYrel",
+      "unit_name": "Yrel",
+      "parent_link_ids": [
+        "YrelRighteousHammerChannel|YrelRighteousHammer|W"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "avenging_wrath_b399c981af",
+      "name": "Avenging Wrath",
+      "description": "Mana: 50 Cooldown: 6 seconds Leap to a location, dealing 260 (+4% per level) damage to enemies in an area and Slowing them by 60% for 1 second.  Charging up this Ability increases its range.",
+      "icon": "Heroes/yrel/abilities/storm_ui_icon_yrel_avenging_wrath.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "YrelAvengingWrath|YrelAvengingWrath|E",
+      "ability_id": "YrelAvengingWrath",
+      "button_id": "YrelAvengingWrath",
+      "unit_id": "HeroYrel",
+      "unit_name": "Yrel",
+      "parent_link_ids": [
+        "YrelAvengingWrathChannel|YrelAvengingWrath|E"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "righteous_hammer_9d96909cd2",
+      "name": "Righteous Hammer",
+      "description": "Mana: 50 Cooldown: 6 seconds Swing Yrel's hammer, dealing 42 (+4% per level) damage to enemies in front of her and knocking them away.  Charging up this Ability increases its knockback distance, and damage up to 140 (+4% per level). Enemies hit at maximum charge are Stunned for 1 seconds.",
+      "icon": "Heroes/yrel/abilities/storm_ui_icon_yrel_righteous_hammer.png",
+      "hotkey": "W",
+      "ability_type": "W",
+      "link_id": "YrelRighteousHammerDivinePurpose|YrelRighteousHammer|W",
+      "ability_id": "YrelRighteousHammerDivinePurpose",
+      "button_id": "YrelRighteousHammer",
+      "unit_id": "HeroYrel",
+      "unit_name": "Yrel",
+      "parent_link_ids": [
+        "YrelDivinePurpose|YrelDivinePurpose|Trait"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "avenging_wrath_2bc8df41de",
+      "name": "Avenging Wrath",
+      "description": "Mana: 50 Cooldown: 6 seconds Leap to a location, dealing 260 (+4% per level) damage to enemies in an area and Slowing them by 60% for 1 second.  Charging up this Ability increases its range.",
+      "icon": "Heroes/yrel/abilities/storm_ui_icon_yrel_avenging_wrath.png",
+      "hotkey": "E",
+      "ability_type": "E",
+      "link_id": "YrelAvengingWrathDivinePurpose|YrelAvengingWrath|E",
+      "ability_id": "YrelAvengingWrathDivinePurpose",
+      "button_id": "YrelAvengingWrath",
+      "unit_id": "HeroYrel",
+      "unit_name": "Yrel",
+      "parent_link_ids": [
+        "YrelDivinePurpose|YrelDivinePurpose|Trait"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "unsummon_mount",
+      "name": "Unsummon Mount",
+      "description": "Dismounts you.",
+      "icon": null,
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "Dismount|UnsummonMount|Z",
+      "ability_id": "Dismount",
+      "button_id": "UnsummonMount",
+      "unit_id": "HeroYrel",
+      "unit_name": "Yrel",
+      "parent_link_ids": [
+        "Mount|SummonMount|Z"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
+      "id": "summon_mount_a422b5ebd9",
+      "name": "Summon Mount",
+      "description": "Cooldown: 4 seconds After Channeling for 1 second, gain 30% Movement Speed.",
+      "icon": "Heroes/storm_ui_icon_generic_mount.png",
+      "hotkey": "Z",
+      "ability_type": "Z",
+      "link_id": "YrelDivineSteedSummonMount|YrelDivineSteedSummonMount|Z",
+      "ability_id": "YrelDivineSteedSummonMount",
+      "button_id": "YrelDivineSteedSummonMount",
+      "unit_id": "HeroYrel",
+      "unit_name": "Yrel",
+      "parent_link_ids": [
+        "YrelDivineSteed|YrelDivineSteed|Z|Level7"
+      ],
+      "unlock_conditions": [
+        [
+          "YrelDivineSteed"
+        ]
+      ]
+    },
+    {
+      "id": "hand_of_freedom",
+      "name": "Hand of Freedom",
+      "description": "Cooldown: 40 seconds Grant an allied Hero 25% Movement Speed for 3 seconds and remove all Slows and Roots from them.",
+      "icon": "Heroes/yrel/abilities/storm_ui_icon_yrel_hand_of_freedom.png",
+      "hotkey": "1",
+      "ability_type": "Active",
+      "link_id": "YrelHandOfFreedom|YrelHandOfFreedom|Active",
+      "ability_id": "YrelHandOfFreedom",
+      "button_id": "YrelHandOfFreedom",
+      "unit_id": "HeroYrel",
+      "unit_name": "Yrel",
+      "parent_link_ids": [
+        "YrelHandOfFreedom|YrelHandOfFreedom|Active|Level4"
+      ],
+      "unlock_conditions": [
+        [
+          "YrelHandOfFreedom"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "YrelHandOfFreedom",
+      "active_order": 1,
+      "active_origin": "talent",
+      "unlock_level": 4,
+      "unlock_position": 3
+    },
+    {
+      "id": "bubble_hearth",
+      "name": "Bubble Hearth",
+      "description": "Cooldown: 80 seconds After 1 second, Yrel becomes Invulnerable and casts Hearthstone. Cannot be canceled.",
+      "icon": "Heroes/yrel/abilities/storm_ui_icon_yrel_bubble_hearth.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "YrelBubbleHearth|YrelBubbleHearth|Active",
+      "ability_id": "YrelBubbleHearth",
+      "button_id": "YrelBubbleHearth",
+      "unit_id": "HeroYrel",
+      "unit_name": "Yrel",
+      "parent_link_ids": [
+        "YrelBubbleHearth|YrelBubbleHearth|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "YrelBubbleHearth"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "YrelBubbleHearth",
+      "active_order": 2,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 3
+    },
+    {
+      "id": "seraphim",
+      "name": "Seraphim",
+      "description": "Cooldown: 30 seconds Activate to become Unstoppable for 2 seconds.",
+      "icon": "Heroes/yrel/abilities/storm_ui_icon_yrel_seraphim.png",
+      "hotkey": null,
+      "ability_type": "Active",
+      "link_id": "YrelSeraphim|YrelSeraphim|Active",
+      "ability_id": "YrelSeraphim",
+      "button_id": "YrelSeraphim",
+      "unit_id": "HeroYrel",
+      "unit_name": "Yrel",
+      "parent_link_ids": [
+        "YrelSeraphim|YrelSeraphim|Active|Level20"
+      ],
+      "unlock_conditions": [
+        [
+          "YrelSeraphim"
+        ]
+      ],
+      "hotkey_candidates": [
+        "1",
+        "2"
+      ],
+      "hotkey_source": "computed_default_slots",
+      "active_group": "YrelSeraphim",
+      "active_order": 3,
+      "active_origin": "talent",
+      "unlock_level": 20,
+      "unlock_position": 4
+    }
+  ],
+  "talent_tiers": [
+    {
+      "level": 1,
+      "talents": [
+        {
+          "id": "light_of_karabor",
+          "name": "Light of Karabor",
+          "description": "Increase Vindication's radius by 15%. Hitting an enemy Hero increases Vindication's healing by 40%. If more than one Hero is hit, the bonus is increased to 80%.",
+          "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_vindication.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "YrelVindicationLightOfKarabor|YrelVindicationLightOfKarabor|Q|Level1",
+          "talent_id": "YrelVindicationLightOfKarabor",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/yrel/talents/storm_ui_icon_yrel_vindication_mini.png"
+        },
+        {
+          "id": "dauntless",
+          "name": "Dauntless",
+          "description": "Casting a Basic Ability grants Yrel 35 Physical Armor for 2.5 seconds.",
+          "icon": "Heroes/yrel/talents/storm_ui_icon_talent_abilitytalent_armor.png",
+          "position": 2,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "YrelDauntless|YrelDauntless|Passive|Level1",
+          "talent_id": "YrelDauntless",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/yrel/talents/storm_ui_icon_talent_abilitytalent_armor_mini.png"
+        },
+        {
+          "id": "maraad_s_insight",
+          "name": "Maraad's Insight",
+          "description": "After damaging an enemy Hero with a Basic Ability, Yrel's next Basic Attack heals her for 160 (+4% per level).",
+          "icon": "Heroes/yrel/talents/storm_ui_icon_talent_autoattack_heal.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "YrelMaraadsInsight|YrelMaraadsInsight|Passive|Level1",
+          "talent_id": "YrelMaraadsInsight",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/yrel/talents/storm_ui_icon_talent_autoattack_heal_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "talents": [
+        {
+          "id": "aegis_of_light",
+          "name": "Aegis of Light",
+          "description": "Upon landing, Avenging Wrath grants other nearby allied Heroes 40 Armor for 5 seconds.",
+          "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_avenging_wrath.png",
+          "position": 1,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "YrelAvengingWrathAegisOfLight|YrelAvengingWrathAegisOfLight|E|Level4",
+          "talent_id": "YrelAvengingWrathAegisOfLight",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/yrel/talents/storm_ui_icon_yrel_avenging_wrath_mini.png"
+        },
+        {
+          "id": "gift_of_the_naaru",
+          "name": "Gift of the Naaru",
+          "description": "Divine Purpose heals the lowest Health nearby allied Hero other than Yrel for 275 (+4% per level).",
+          "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_divine_purpose.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "YrelDivinePurposeGiftOfTheNaaru|YrelDivinePurposeGiftOfTheNaaru|Trait|Level4",
+          "talent_id": "YrelDivinePurposeGiftOfTheNaaru",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/yrel/talents/storm_ui_icon_yrel_divine_purpose_mini.png"
+        },
+        {
+          "id": "hand_of_freedom",
+          "name": "Hand of Freedom",
+          "description": "Cooldown: 40 seconds Grant an allied Hero 25% Movement Speed for 3 seconds and remove all Slows and Roots from them.",
+          "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_hand_of_freedom.png",
+          "position": 3,
+          "hotkey": "1",
+          "ability_type": "Active",
+          "link_id": "YrelHandOfFreedom|YrelHandOfFreedom|Active|Level4",
+          "talent_id": "YrelHandOfFreedom",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1"
+          ],
+          "icon_mini": "Heroes/yrel/talents/storm_ui_icon_yrel_hand_of_freedom_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "talents": [
+        {
+          "id": "righteous_momentum",
+          "name": "Righteous Momentum",
+          "description": "Gain 5% Movement Speed. Yrel is no longer Slowed while Channeling Righteous Hammer, and instead this bonus is quadrupled.",
+          "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_righteous_hammer.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "YrelRighteousHammerRighteousMomentum|YrelRighteousHammerRighteousMomentum|W|Level7",
+          "talent_id": "YrelRighteousHammerRighteousMomentum",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/yrel/talents/storm_ui_icon_yrel_righteous_hammer_mini.png"
+        },
+        {
+          "id": "holy_avenger",
+          "name": "Holy Avenger",
+          "description": "Hitting an enemy Hero with Avenging Wrath at maximum charge deals 25% more damage and reduces its cooldown to 1 second.",
+          "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_avenging_wrath.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "YrelAvengingWrathHolyAvenger|YrelAvengingWrathHolyAvenger|E|Level7",
+          "talent_id": "YrelAvengingWrathHolyAvenger",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/yrel/talents/storm_ui_icon_yrel_avenging_wrath_mini.png"
+        },
+        {
+          "id": "divine_steed",
+          "name": "Divine Steed",
+          "description": "Mounting is instant and grants 60% Movement Speed that decays over 3 seconds.",
+          "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_divine_steed.png",
+          "position": 3,
+          "hotkey": "Z",
+          "ability_type": "Z",
+          "link_id": "YrelDivineSteed|YrelDivineSteed|Z|Level7",
+          "talent_id": "YrelDivineSteed",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/yrel/talents/storm_ui_icon_yrel_divine_steed_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "talents": [
+        {
+          "id": "ardent_defender",
+          "name": "Ardent Defender",
+          "description": "Mana: 80 Cooldown: 120 seconds Surround Yrel in a barrier for 3 seconds, absorbing all damage taken and healing her for 50% of the damage received.",
+          "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_ardent_defender.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "YrelArdentDefender|YrelArdentDefender|Heroic|Level10",
+          "talent_id": "YrelArdentDefender",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/yrel/talents/storm_ui_icon_yrel_ardent_defender_mini.png"
+        },
+        {
+          "id": "sacred_ground",
+          "name": "Sacred Ground",
+          "description": "Cooldown: 25 seconds Yrel sanctifies the ground around her, gaining 50 Armor until she leaves the area.",
+          "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_sacred_ground.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "YrelSacredGround|YrelSacredGround|Heroic|Level10",
+          "talent_id": "YrelSacredGround",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/yrel/talents/storm_ui_icon_yrel_sacred_ground_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "talents": [
+        {
+          "id": "aldor_peacekeeper",
+          "name": "Aldor Peacekeeper",
+          "description": "Enemy Heroes hit by Vindication at maximum charge deal 50% less damage for 4 seconds.",
+          "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_vindication.png",
+          "position": 1,
+          "hotkey": "Q",
+          "ability_type": "Q",
+          "link_id": "YrelVindicationAldorPeacekeeper|YrelVindicationAldorPeacekeeper|Q|Level13",
+          "talent_id": "YrelVindicationAldorPeacekeeper",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/yrel/talents/storm_ui_icon_yrel_vindication_mini.png"
+        },
+        {
+          "id": "repentance",
+          "name": "Repentance",
+          "description": "Increase Avenging Wrath's Slow by 25% and duration by 0.75 seconds.",
+          "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_avenging_wrath.png",
+          "position": 2,
+          "hotkey": "E",
+          "ability_type": "E",
+          "link_id": "YrelAvengingWrathRepentance|YrelAvengingWrathRepentance|E|Level13",
+          "talent_id": "YrelAvengingWrathRepentance",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/yrel/talents/storm_ui_icon_yrel_avenging_wrath_mini.png"
+        },
+        {
+          "id": "velen_s_chosen",
+          "name": "Velen's Chosen",
+          "description": "Hitting an enemy Hero with a Basic Ability at maximum charge grants 7.5% Spell Power for 10 seconds, up to 30%.",
+          "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_velens_chosen.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "YrelVelensChosen|YrelVelensChosen|Passive|Level13",
+          "talent_id": "YrelVelensChosen",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/yrel/talents/storm_ui_icon_yrel_velens_chosen_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "talents": [
+        {
+          "id": "templar_s_verdict",
+          "name": "Templar's Verdict",
+          "description": "Righteous Hammer reduces the Armor of enemy Heroes hit by 15 for 4 seconds and deals bonus damage equal to 6% of their maximum Health.",
+          "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_righteous_hammer.png",
+          "position": 1,
+          "hotkey": "W",
+          "ability_type": "W",
+          "link_id": "YrelRighteousHammerTemplarsVerdict|YrelRighteousHammerTemplarsVerdict|W|Level16",
+          "talent_id": "YrelRighteousHammerTemplarsVerdict",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/yrel/talents/storm_ui_icon_yrel_righteous_hammer_mini.png"
+        },
+        {
+          "id": "divine_favor",
+          "name": "Divine Favor",
+          "description": "Casting a Basic Ability reduces the cooldown of Divine Purpose by 2.5 seconds.",
+          "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_divine_purpose.png",
+          "position": 2,
+          "hotkey": "D",
+          "ability_type": "Trait",
+          "link_id": "YrelDivinePurposeDivineFavor|YrelDivinePurposeDivineFavor|Trait|Level16",
+          "talent_id": "YrelDivinePurposeDivineFavor",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/yrel/talents/storm_ui_icon_yrel_divine_purpose_mini.png"
+        },
+        {
+          "id": "holy_wrath",
+          "name": "Holy Wrath",
+          "description": "After casting a Basic Ability, Yrel's next Basic Attack splashes for 35% increased damage around the target.",
+          "icon": "Heroes/yrel/talents/storm_ui_icon_talent_autoattack_aoe.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Passive",
+          "link_id": "YrelHolyWrath|YrelHolyWrath|Passive|Level16",
+          "talent_id": "YrelHolyWrath",
+          "prerequisite_talent_ids": [],
+          "icon_mini": "Heroes/yrel/talents/storm_ui_icon_talent_autoattack_aoe_mini.png"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "talents": [
+        {
+          "id": "word_of_glory",
+          "name": "Word of Glory",
+          "description": "Increase the amount that Yrel heals from damage received from 50% to 75%. Ardent Defender heals nearby allied Heroes for 100% of the healing received by Yrel.",
+          "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_ardent_defender.png",
+          "position": 1,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "YrelArdentDefenderWordOfGlory|YrelArdentDefenderWordOfGlory|Heroic|Level20",
+          "talent_id": "YrelArdentDefenderWordOfGlory",
+          "prerequisite_talent_ids": [
+            "YrelArdentDefender"
+          ],
+          "icon_mini": "Heroes/yrel/talents/storm_ui_icon_yrel_ardent_defender_mini.png"
+        },
+        {
+          "id": "hallowed_ground",
+          "name": "Hallowed Ground",
+          "description": "Casting Avenging Wrath while inside Sacred Ground moves Sacred Ground to Yrel's location upon landing.",
+          "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_sacred_ground.png",
+          "position": 2,
+          "hotkey": "R",
+          "ability_type": "Heroic",
+          "link_id": "YrelSacredGroundHallowedGround|YrelSacredGroundHallowedGround|Heroic|Level20",
+          "talent_id": "YrelSacredGroundHallowedGround",
+          "prerequisite_talent_ids": [
+            "YrelSacredGround"
+          ],
+          "icon_mini": "Heroes/yrel/talents/storm_ui_icon_yrel_sacred_ground_mini.png"
+        },
+        {
+          "id": "bubble_hearth",
+          "name": "Bubble Hearth",
+          "description": "Cooldown: 80 seconds After 1 second, Yrel becomes Invulnerable and casts Hearthstone. Cannot be canceled.",
+          "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_bubble_hearth.png",
+          "position": 3,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "YrelBubbleHearth|YrelBubbleHearth|Active|Level20",
+          "talent_id": "YrelBubbleHearth",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2"
+          ],
+          "icon_mini": "Heroes/yrel/talents/storm_ui_icon_yrel_bubble_hearth_mini.png"
+        },
+        {
+          "id": "seraphim",
+          "name": "Seraphim",
+          "description": "Cooldown: 30 seconds Activate to become Unstoppable for 2 seconds.",
+          "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_seraphim.png",
+          "position": 4,
+          "hotkey": null,
+          "ability_type": "Active",
+          "link_id": "YrelSeraphim|YrelSeraphim|Active|Level20",
+          "talent_id": "YrelSeraphim",
+          "prerequisite_talent_ids": [],
+          "hotkey_candidates": [
+            "1",
+            "2"
+          ],
+          "icon_mini": "Heroes/yrel/talents/storm_ui_icon_yrel_seraphim_mini.png"
+        }
+      ]
+    }
+  ]
+}
