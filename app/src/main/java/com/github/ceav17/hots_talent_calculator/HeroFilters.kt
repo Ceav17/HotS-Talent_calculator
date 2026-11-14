@@ -112,7 +112,8 @@ internal fun HeroFilters(
             }
         }
         if (customGroups.isNotEmpty()) {
-            Spacer(Modifier.height(FilterButtonHeight))
+            // Include the Column's 4 dp spacing on both sides when halving the gap.
+            Spacer(Modifier.height(FilterButtonHeight / 2 - 4.dp))
             customGroups.chunked(2).forEachIndexed { rowIndex, row ->
                 Row(horizontalArrangement = Arrangement.spacedBy(FilterColumnSpacing)) {
                     row.forEachIndexed { columnIndex, group ->

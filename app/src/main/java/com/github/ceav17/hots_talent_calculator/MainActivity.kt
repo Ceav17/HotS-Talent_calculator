@@ -73,6 +73,7 @@ import java.io.IOException
 
 private const val MAIN_MENU_ROUTE = "main_menu"
 private const val MAPS_ROUTE = "maps"
+private const val LEADERBOARDS_ROUTE = "leaderboards"
 private const val SETTINGS_ROUTE = "settings"
 private const val DATA_TRANSFER_ROUTE = "settings/data_transfer"
 private const val ABOUT_ROUTE = "settings/about"
@@ -171,7 +172,7 @@ fun TalentCalculatorApp(onExit: () -> Unit, modifier: Modifier = Modifier) {
         startDestination = MAIN_MENU_ROUTE,
         modifier = modifier.fillMaxSize()
     ) {
-        composable(MAIN_MENU_ROUTE) {
+        composable(MAIN_MENU_ROUTE) { entry ->
             MainMenu(
                 onTalentCalculator = {
                     navController.navigate(TALENT_CALCULATOR_ROUTE) {
@@ -189,8 +190,18 @@ fun TalentCalculatorApp(onExit: () -> Unit, modifier: Modifier = Modifier) {
                     }
                 },
                 onExit = onExit,
-                onTwitch = { openHeroesOnTwitch(context) }
+                onTwitch = { openHeroesOnTwitch(context) },
+                onLeaderboards = {
+                    if (navController.currentBackStackEntry == entry &&
+                        entry.lifecycle.currentState == Lifecycle.State.RESUMED
+                    ) {
+                        navController.navigate(LEADERBOARDS_ROUTE) { launchSingleTop = true }
+                    }
+                }
             )
+        }
+        composable(LEADERBOARDS_ROUTE) {
+            LeaderboardScreen(onBack = { navController.popBackStack() })
         }
         composable(SETTINGS_ROUTE) { entry ->
             SettingsScreen(
@@ -393,6 +404,7 @@ fun MainMenu(
     onSettings: () -> Unit,
     onExit: () -> Unit,
     onTwitch: () -> Unit,
+    onLeaderboards: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     ResponsiveScreen(
@@ -446,15 +458,27 @@ fun MainMenu(
                 }
             }
             Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxWidth()) {
-                Image(
-                    painter = painterResource(R.drawable.glitch_flat_purple),
-                    contentDescription = stringResource(R.string.main_menu_twitch),
-                    contentScale = ContentScale.Fit,
-                    modifier = Modifier.align(Alignment.End).padding(end = 24.dp).size(56.dp, 64.dp)
-                        .testTag("main_menu_twitch")
-                        .clickable(interactionSource = null, indication = null, role = Role.Button, onClick = onTwitch)
-                        .padding(4.dp)
-                )
+                Row(
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically,
+                    modifier = Modifier.fillMaxWidth().padding(horizontal = 24.dp)
+                ) {
+                    Image(
+                        painter = painterResource(R.drawable.glitch_flat_purple),
+                        contentDescription = stringResource(R.string.main_menu_twitch),
+                        contentScale = ContentScale.Fit,
+                        modifier = Modifier.size(56.dp, 64.dp).testTag("main_menu_twitch")
+                            .clickable(interactionSource = null, indication = null, role = Role.Button, onClick = onTwitch)
+                            .padding(4.dp)
+                    )
+                    Image(
+                        painter = painterResource(R.drawable.storm_ui_ranked_button_leaderboards_selected),
+                        contentDescription = stringResource(R.string.leaderboards_title),
+                        contentScale = ContentScale.Fit,
+                        modifier = Modifier.size(76.dp).testTag("main_menu_leaderboards")
+                            .clickable(interactionSource = null, indication = null, role = Role.Button, onClick = onLeaderboards)
+                    )
+                }
                 MainMenuItem(
                     imageResId = R.drawable.storm_standardbutton_blue_normal,
                     label = stringResource(R.string.main_menu_exit),
@@ -474,10 +498,11 @@ internal fun MainMenuItem(
     leadingImageResId: Int? = null,
     fontSize: TextUnit = 22.sp,
     textPadding: Dp = 28.dp,
-    trailingImageResId: Int? = null
+    trailingImageResId: Int? = null,
+    textColor: Color = Color.White
 ) {
     val labelStyle = TextStyle(
-        color = Color.White,
+        color = textColor,
         fontFamily = MenuFontFamily,
         fontWeight = FontWeight.Bold,
         fontSize = fontSize,
@@ -551,6 +576,6 @@ fun NexusBackground(modifier: Modifier = Modifier) {
 @Composable
 fun MainMenuPreview() {
     TalentCalculatorHotSTheme {
-        MainMenu(onTalentCalculator = {}, onMaps = {}, onSettings = {}, onExit = {}, onTwitch = {})
+        MainMenu(onTalentCalculator = {}, onMaps = {}, onSettings = {}, onExit = {}, onTwitch = {}, onLeaderboards = {})
     }
 }

@@ -10,8 +10,12 @@ navigationCompose = "2.10.2"
 kotlin = "2.2.10"
 composeBom = "2026.02.01"
 jsonTest = "20260814"
+jsoup = "1.24.1"
+desugarJdkLibs = "2.1.5"
 
 [libraries]
+jsoup = { module = "org.jsoup:jsoup", version.ref = "jsoup" }
+desugar-jdk-libs = { module = "com.android.tools:desugar_jdk_libs_nio", version.ref = "desugarJdkLibs" }
 json-test = { module = "org.json:json", version.ref = "jsonTest" }
 androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleRuntimeKtx" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }

@@ -1,5 +1,6 @@
 package com.github.ceav17.hots_talent_calculator
 
+import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
@@ -24,6 +25,7 @@ internal fun OutlinedText(
     softWrap: Boolean = true
 ) {
     val layout = remember { mutableStateOf<TextLayoutResult?>(null) }
+    val fillColor = if (style.color == Color.Unspecified) LocalContentColor.current else style.color
     // Reuse Text's layout and semantics; only replace the glyph painting.
     Text(
         text = text,
@@ -39,8 +41,8 @@ internal fun OutlinedText(
                     drawContent()
                 } else {
                     drawText(label, color = Color.Black, drawStyle = outline)
-                    // Reset the paragraph paint to filled glyphs after drawing the outline.
-                    drawText(label, color = label.layoutInput.style.color, drawStyle = Fill)
+                    // Color-only changes can reuse the layout, so read the current color instead.
+                    drawText(label, color = fillColor, drawStyle = Fill)
                 }
             }
         }

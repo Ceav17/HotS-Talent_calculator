@@ -15,8 +15,8 @@ android {
         applicationId = "com.github.ceav17.hots_talent_calculator"
         minSdk = 29
         targetSdk = 37
-        versionCode = 1
-        versionName = "0.1"
+        versionCode = 2
+        versionName = "0.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -29,6 +29,8 @@ android {
         }
     }
     compileOptions {
+        // jsoup recommends the NIO desugaring specification for Android runtimes.
+        isCoreLibraryDesugaringEnabled = true
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
@@ -38,6 +40,8 @@ android {
 }
 
 dependencies {
+    coreLibraryDesugaring(libs.desugar.jdk.libs)
+    implementation(libs.jsoup)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     testImplementation(libs.json.test)
     implementation(platform(libs.androidx.compose.bom))

@@ -14,6 +14,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 
 @Composable
@@ -21,6 +22,7 @@ internal fun ResponsiveScreen(
     @DrawableRes backgroundResId: Int,
     modifier: Modifier = Modifier,
     backgroundAlignment: Alignment = AbsoluteAlignment.TopLeft,
+    maxContentWidth: Dp = 840.dp,
     content: @Composable BoxWithConstraintsScope.() -> Unit
 ) {
     Box(modifier = modifier.fillMaxSize(), contentAlignment = Alignment.TopCenter) {
@@ -33,7 +35,7 @@ internal fun ResponsiveScreen(
         )
         // Keep controls clear of system UI, and limit line lengths without scaling text or touch targets.
         BoxWithConstraints(
-            modifier = Modifier.safeDrawingPadding().widthIn(max = 840.dp).fillMaxSize(),
+            modifier = Modifier.safeDrawingPadding().widthIn(max = maxContentWidth).fillMaxSize(),
             content = content
         )
     }
