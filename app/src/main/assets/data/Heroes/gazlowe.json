@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "updated_at": "2026-11-24T17:15:00.668259+00:00",
   "hero": {
     "id": "gazlowe",
     "name": "Gazlowe",
@@ -29,7 +29,7 @@
     {
       "id": "deth_lazor",
       "name": "Deth Lazor",
-      "description": "Cooldown: 8 seconds After 0.65 seconds, deal 175 (+4% per level) damage to enemies in a line. Heal for 25% of the damage dealt, increased to 75% against enemy Heroes.",
+      "description": "Cooldown: 8 seconds After 0.65 seconds, deal 175 (+4% per level) damage to enemies in a line. Heal for 30% of the damage dealt, increased to 75% against enemy Heroes.",
       "icon": "Heroes/gazlowe/abilities/storm_ui_icon_gazlowe_dethlazor.png",
       "hotkey": "W",
       "ability_type": "W",
@@ -527,7 +527,7 @@
         {
           "id": "bomb_toss",
           "name": "Bomb Toss",
-          "description": "Xplodium Charge gains a 2nd charge with a 3 second cooldown between uses and launches 2 more bombs when it detonates.",
+          "description": "Xplodium Charge cooldown is reduced by 3 seconds and launches 2 more bombs when it detonates.",
           "icon": "Heroes/gazlowe/talents/storm_ui_icon_gazlowe_explodiumcharge.png",
           "position": 4,
           "hotkey": "E",

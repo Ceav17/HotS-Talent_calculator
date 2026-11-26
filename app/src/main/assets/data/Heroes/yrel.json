@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "updated_at": "2026-11-24T17:15:00.668259+00:00",
   "hero": {
     "id": "yrel",
     "name": "Yrel",
@@ -383,7 +383,7 @@
         {
           "id": "light_of_karabor",
           "name": "Light of Karabor",
-          "description": "Increase Vindication's radius by 15%. Hitting an enemy Hero increases Vindication's healing by 40%. If more than one Hero is hit, the bonus is increased to 80%.",
+          "description": "Increase Vindication's radius by 15%. Hitting an enemy Hero increases Vindication's healing by 35%. If more than one Hero is hit, the bonus is increased to 70%.",
           "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_vindication.png",
           "position": 1,
           "hotkey": "Q",
@@ -500,7 +500,7 @@
         {
           "id": "divine_steed",
           "name": "Divine Steed",
-          "description": "Mounting is instant and grants 60% Movement Speed that decays over 3 seconds.",
+          "description": "Mounting is instant and grants 60% Movement Speed that decays over 4 seconds.",
           "icon": "Heroes/yrel/talents/storm_ui_icon_yrel_divine_steed.png",
           "position": 3,
           "hotkey": "Z",

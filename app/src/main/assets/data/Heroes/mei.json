@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "updated_at": "2026-11-24T17:15:00.668259+00:00",
   "hero": {
     "id": "mei",
     "name": "Mei",
     "team_role": "Tank",
     "universe": "Overwatch",
-    "icon": "Heroes/mei/storm_ui_glues_draft_portrait_meiow.png",
+    "icon": "Heroes/mei/storm_ui_ingame_heroselect_btn_meiow.png",
     "has_hearthstone": true
   },
   "abilities": [
@@ -29,7 +29,7 @@
     {
       "id": "blizzard",
       "name": "Blizzard",
-      "description": "Mana: 70 Cooldown: 14 seconds Command Snowball to create a Blizzard at the target location for 2 seconds. Enemies within the blizzard take 13 (+4% per level) damage every 0.25 seconds and are Slowed by 7%, stacking up to 35%. When the Blizzard ends, enemies within its area take an additional 75 (+4% per level) damage and are Stunned for 1.25 seconds.",
+      "description": "Mana: 70 Cooldown: 14 seconds Command Snowball to create a Blizzard at the target location for 1.88 seconds. Enemies within the blizzard take 13 (+4% per level) damage every 0.25 seconds and are Slowed by 7%, stacking up to 35%. When the Blizzard ends, enemies within its area take an additional 80 (+4% per level) damage and are Stunned for 1.25 seconds.",
       "icon": "Heroes/mei/abilities/storm_ui_icon_mei_w_blizzard.png",
       "hotkey": "W",
       "ability_type": "W",
@@ -63,7 +63,7 @@
     {
       "id": "avalanche",
       "name": "Avalanche",
-      "description": "Mana: 80 Cooldown: 90 seconds After 0.5 seconds, roll a massive snowball that consumes enemy Heroes in its path. At the end of its path, the snowball crumbles, releasing the consumed Heroes, dealing 220 (+4% per level) damage and Stunning them for 0.5 seconds per Hero consumed.",
+      "description": "Mana: 80 Cooldown: 80 seconds After 0.5 seconds, roll a massive snowball that consumes enemy Heroes in its path. At the end of its path, the snowball crumbles, releasing the consumed Heroes, dealing 220 (+4% per level) damage and Stunning them for 0.5 seconds per Hero consumed.",
       "icon": "Heroes/mei/talents/storm_ui_icon_mei_r1_avalanche.png",
       "hotkey": "R",
       "ability_type": "Heroic",
@@ -81,7 +81,7 @@
     {
       "id": "ice_wall",
       "name": "Ice Wall",
-      "description": "Mana: 50 Cooldown: 60 seconds Vector Targeting After a 0.75 second delay, create an impassable wall that traps enemy Heroes hit for 2.5 seconds. When the wall expires, trapped Heroes are Slowed by 75%, decaying over 3 seconds.",
+      "description": "Mana: 50 Cooldown: 60 seconds Vector Targeting After a 0.6875 second delay, create an impassable wall that traps enemy Heroes hit for 2.5 seconds. When the wall expires, trapped Heroes are Slowed by 75%, decaying over 3 seconds.",
       "icon": "Heroes/mei/talents/storm_ui_icon_mei_r2_icewall.png",
       "hotkey": "R",
       "ability_type": "Heroic",
@@ -419,7 +419,7 @@
         {
           "id": "avalanche",
           "name": "Avalanche",
-          "description": "Mana: 80 Cooldown: 90 seconds After 0.5 seconds, roll a massive snowball that consumes enemy Heroes in its path. At the end of its path, the snowball crumbles, releasing the consumed Heroes, dealing 220 (+4% per level) damage and Stunning them for 0.5 seconds per Hero consumed.",
+          "description": "Mana: 80 Cooldown: 80 seconds After 0.5 seconds, roll a massive snowball that consumes enemy Heroes in its path. At the end of its path, the snowball crumbles, releasing the consumed Heroes, dealing 220 (+4% per level) damage and Stunning them for 0.5 seconds per Hero consumed.",
           "icon": "Heroes/mei/talents/storm_ui_icon_mei_r1_avalanche.png",
           "position": 1,
           "hotkey": "R",
@@ -432,7 +432,7 @@
         {
           "id": "ice_wall",
           "name": "Ice Wall",
-          "description": "Mana: 50 Cooldown: 60 seconds Vector Targeting After a 0.75 second delay, create an impassable wall that traps enemy Heroes hit for 2.5 seconds. When the wall expires, trapped Heroes are Slowed by 75%, decaying over 3 seconds.",
+          "description": "Mana: 50 Cooldown: 60 seconds Vector Targeting After a 0.6875 second delay, create an impassable wall that traps enemy Heroes hit for 2.5 seconds. When the wall expires, trapped Heroes are Slowed by 75%, decaying over 3 seconds.",
           "icon": "Heroes/mei/talents/storm_ui_icon_mei_r2_icewall.png",
           "position": 2,
           "hotkey": "R",

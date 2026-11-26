@@ -255,4 +255,4 @@ The YouTube, Twitch and GitHub logos are used to link to their respective servic
 
 ## License
 
-The app's original source code is licensed under the [MIT License](https://github.com/ceav17/HotS-Talent_calculator/blob/main/LICENSE). Game assets and third-party logos are excluded; see [Legal notices](#legal-notices).
+The app's original source code is licensed under the [EUPL License](https://github.com/ceav17/HotS-Talent_calculator/blob/main/LICENSE). Game assets and third-party logos are excluded; see [Legal notices](#legal-notices).

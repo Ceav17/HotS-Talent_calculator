@@ -15,8 +15,8 @@ android {
         applicationId = "com.github.ceav17.hots_talent_calculator"
         minSdk = 29
         targetSdk = 37
-        versionCode = 2
-        versionName = "0.2"
+        versionCode = 3
+        versionName = "0.2.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

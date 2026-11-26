@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "updated_at": "2026-11-24T17:15:00.668259+00:00",
   "hero": {
     "id": "chromie",
     "name": "Chromie",
@@ -400,7 +400,7 @@
         {
           "id": "once_again_the_first_time",
           "name": "Once Again the First Time",
-          "description": "Quest: Hit 20 Heroes with Sand Blast from Chromie or her Echoes without dying.  Reward: Increase the maximum number of active Echoes to 2, and increase Echo damage to 50%.",
+          "description": "Quest: Hit 20 Heroes with Sand Blast from Chromie or her Echoes without dying.  Reward: Increase the maximum number of active Echoes to 2, and increase Echo damage to 55%.",
           "icon": "Heroes/chromie/talents/storm_ui_icon_chromie_aethercannon.png",
           "position": 1,
           "hotkey": "Q",
@@ -413,7 +413,7 @@
         {
           "id": "deep_breathing",
           "name": "Deep Breathing",
-          "description": "Quest: Every time Dragon's Breath hits a Hero increase its damage by 0.5%.  Reward: After hitting 20 Heroes, reduce the cooldown of Dragon's Breath by 4 seconds and its Mana cost from 65 to 40.",
+          "description": "Quest: Every time Dragon's Breath hits a Hero increase its damage by 0.6%.  Reward: After hitting 20 Heroes, reduce the cooldown of Dragon's Breath by 4 seconds and its Mana cost from 65 to 40.",
           "icon": "Heroes/chromie/talents/storm_ui_icon_chromie_sandstrike.png",
           "position": 2,
           "hotkey": "W",
@@ -426,7 +426,7 @@
         {
           "id": "timewalker_s_pursuit",
           "name": "Timewalker's Pursuit",
-          "description": "Cooldown: 25 seconds Gain 15% Spell Power and reduce the arming time of Time Traps by 0.75 seconds. Activate to reveal the targeted area for 4 seconds. Enemies seen are revealed for 4 seconds.",
+          "description": "Cooldown: 25 seconds Gain 12% Spell Power and reduce the arming time of Time Traps by 0.75 seconds. Activate to reveal the targeted area for 4 seconds. Enemies seen are revealed for 4 seconds.",
           "icon": "Heroes/chromie/talents/storm_ui_icon_talent_clairvoyance.png",
           "position": 3,
           "hotkey": "1",

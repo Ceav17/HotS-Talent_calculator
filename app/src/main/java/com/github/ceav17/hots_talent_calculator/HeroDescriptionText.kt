@@ -150,12 +150,22 @@ internal fun heroDescriptionText(heroId: String, entryId: String, description: S
                 phrases(Color(0xFF63E19F), "Speed Boost")
             }
             "malthael" -> phrases(Color(0xFF29B8C4), "Reaper's Mark")
-            "medivh" -> phrases(
-                HeroTextColors.Caution,
-                "Activate Medivh's Trait to cancel an unlinked Portal.",
-                "Active Medivh's Trait to cancel an unlinked Portal.",
-                newLineBefore = true
-            )
+            "medivh" -> {
+                phrases(
+                    HeroTextColors.Caution,
+                    "Activate Medivh's Trait to cancel an unlinked Portal.",
+                    "Active Medivh's Trait to cancel an unlinked Portal.",
+                    newLineBefore = true,
+                )
+                when (entryId) {
+                    "portal_mastery" -> phrases(Color(0xFFCF1B00), "+100%")
+                }
+                if (entryId == "portal_mastery") {
+                    Regex("Portal Mana Cost").find(description)?.let { match ->
+                        requestLineBreak(match.range.last + 1)
+                    }
+                }
+            }
             "sgt-hammer" -> phrases(Color(0xFFEEEE97), "Siege Mode:")
             "tassadar" -> phrases(HeroTextColors.Passive, "Resonance Beam:", newLineBefore = true)
             "valeera" -> {
@@ -182,10 +192,10 @@ internal fun heroDescriptionText(heroId: String, entryId: String, description: S
             }
             "xalatath" -> {
                 val bonuses = when (entryId) {
-                    "void_volley" -> arrayOf("+2", "-1", "+50%")
+                    "void_volley" -> arrayOf("+2", "-1", "+35%")
                     "anchored_core" -> arrayOf("+50%", "+25%")
-                    "cold_feet", "toxic_mark" -> arrayOf("+1s")
-                    "fractured_reality" -> arrayOf("+25%")
+                    "cold_feet", "toxic_mark" -> arrayOf("+2s")
+                    "fractured_reality" -> arrayOf("+15%")
                     "dueling_orbs" -> arrayOf("+1")
                     else -> emptyArray()
                 }
@@ -194,6 +204,7 @@ internal fun heroDescriptionText(heroId: String, entryId: String, description: S
                 // Include HDP's scaling values and singular "Void Minion loses" variant.
                 val notes = listOf(
                     "Stack loss will never cause the Hero to fall below a quest reward threshold\\.",
+                    "Charge fully decays if Xal’atath does not hit an enemy with a Basic Attack after $NumberPattern seconds\\.",
                     "Contact damage is dealt every $NumberPattern seconds\\.",
                     "The Portal expires after $NumberPattern seconds\\.",
                     "Void Minions automatically choose a nearby lane to push\\.",
@@ -204,7 +215,7 @@ internal fun heroDescriptionText(heroId: String, entryId: String, description: S
                     "Damage increases up to $NumberPattern\\.?",
                     "Damage increase from multiple fires stack\\.",
                     "Shadow Mark has a $NumberPattern second cooldown between uses\\.",
-                    "The flames deal damage every $NumberPattern second\\.",
+                    "Deals $NumberPattern(?: \\([^)]*\\))? damage every $NumberPattern second\\.",
                     "Bonus Basic Attack damage stacks up to $NumberPattern times\\.?"
                 )
                 highlight(Regex(notes.joinToString("|")), Color(0xFFB7B4C4), newLineBefore = true)

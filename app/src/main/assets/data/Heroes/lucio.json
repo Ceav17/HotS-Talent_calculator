@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "updated_at": "2026-11-24T17:15:00.668259+00:00",
   "hero": {
     "id": "lucio",
     "name": "Lúcio",
@@ -63,7 +63,7 @@
     {
       "id": "sound_barrier",
       "name": "Sound Barrier",
-      "description": "Mana: 100 Cooldown: 80 seconds After 1 second, Lúcio and nearby allied Heroes gain a 1296 (+4% per level) point Shield that rapidly decays over 6 seconds.",
+      "description": "Mana: 100 Cooldown: 80 seconds After 1 second, Lúcio and nearby allied Heroes gain a 1488 (+4% per level) point Shield that rapidly decays over 6 seconds.",
       "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_soundbarrier.png",
       "hotkey": "R",
       "ability_type": "Heroic",
@@ -199,7 +199,7 @@
     {
       "id": "summer_anthem",
       "name": "Summer Anthem",
-      "description": "Cooldown: 60 seconds Activate for allies affected by Crossfade to become Unkillable for 1.5 seconds.",
+      "description": "Cooldown: 60 seconds Activate for allies affected by Crossfade to become Unkillable for 2.5 seconds.",
       "icon": "Heroes/lucio/abilities/storm_ui_icon_lucio_crossfade_a.png",
       "hotkey": null,
       "ability_type": "Active",
@@ -235,7 +235,7 @@
         {
           "id": "party_mix",
           "name": "Party Mix",
-          "description": "Quest: Play Lúcio's Crossfade tracks to nearby allies. Multiple allies provide additional time.  Reward: For every 1 Minute played, permanently increase Lúcio's maximum Mana by 10.  Reward: Once you have played for 8 minutes or more, permanently increase Crossfade's radius by 20%.",
+          "description": "Quest: Play Lúcio's Crossfade tracks to nearby allies. Multiple allies provide additional time.  Reward: For every 1 Minute played, permanently increase Lúcio's maximum Mana by 10.  Reward: Once you have played for 8 minutes or more, permanently increase Crossfade's radius by 30%.",
           "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_crossfade_all.png",
           "position": 1,
           "hotkey": "W",
@@ -261,7 +261,7 @@
         {
           "id": "smooth_moves",
           "name": "Smooth Moves",
-          "description": "While Wall Ride is active, Basic Attacks heal for 30% of the damage dealt and restore 0.5 Mana.  Passive: Increase Wall Ride duration by 1 second.",
+          "description": "While Wall Ride is active, Basic Attacks heal for 30% of the damage dealt and restore 0.5 Mana.  Passive: Increase Wall Ride duration by 1 seconds.",
           "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_wallride_a.png",
           "position": 3,
           "hotkey": "Z",
@@ -370,7 +370,7 @@
         {
           "id": "sound_barrier",
           "name": "Sound Barrier",
-          "description": "Mana: 100 Cooldown: 80 seconds After 1 second, Lúcio and nearby allied Heroes gain a 1296 (+4% per level) point Shield that rapidly decays over 6 seconds.",
+          "description": "Mana: 100 Cooldown: 80 seconds After 1 second, Lúcio and nearby allied Heroes gain a 1488 (+4% per level) point Shield that rapidly decays over 6 seconds.",
           "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_soundbarrier.png",
           "position": 1,
           "hotkey": "R",
@@ -427,7 +427,7 @@
         {
           "id": "slip",
           "name": "Slip",
-          "description": "While Wall Ride is active, passing near an enemy Hero increases its Movement Speed bonus to 40%, and grants 15 Armor, for 1 second.",
+          "description": "While Wall Ride is active, passing near an enemy Hero increases its Movement Speed bonus to 40%, and grants 15 Armor, for 2 second.",
           "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_wallride.png",
           "position": 3,
           "hotkey": "Z",
@@ -532,7 +532,7 @@
         {
           "id": "summer_anthem",
           "name": "Summer Anthem",
-          "description": "Cooldown: 60 seconds Activate for allies affected by Crossfade to become Unkillable for 1.5 seconds.",
+          "description": "Cooldown: 60 seconds Activate for allies affected by Crossfade to become Unkillable for 2.5 seconds.",
           "icon": "Heroes/lucio/talents/storm_ui_icon_lucio_crossfade_a.png",
           "position": 4,
           "hotkey": null,

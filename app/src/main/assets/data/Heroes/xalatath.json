@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T00:37:02.705837+00:00",
+  "updated_at": "2026-11-24T17:15:00.668259+00:00",
   "hero": {
     "id": "xalatath",
     "name": "Xal'atath",
@@ -13,7 +13,7 @@
     {
       "id": "shadow_mark",
       "name": "Shadow Mark",
-      "description": "Mana: 45 Cooldown: 7 seconds Shoot a Void Orb that deals 60 (+4% per level) damage to enemies hit, and an additional 120 (+4% per level) damage to enemies in the center.  If an enemy Hero or Structure is hit by the center, they are marked for 4 seconds.  Targets afflicted by Shadow Mark are Revealed and draw the Dark Heart and Void Minions towards them.",
+      "description": "Mana: 45 Cooldown: 7 seconds Shoot a Void Orb that deals 65 (+4% per level) damage to enemies hit, and an additional 130 (+4% per level) damage to enemies in the center.  If an enemy Hero or Structure is hit by the center, they are marked for 4 seconds.  Targets afflicted by Shadow Mark are Revealed and draw the Dark Heart and Void Minions towards them.",
       "icon": "Heroes/xalatath/abilities/storm_ui_icon_xalatath_q_shadowmark.png",
       "hotkey": "Q",
       "ability_type": "Q",
@@ -30,7 +30,7 @@
     {
       "id": "dark_heart_ritual",
       "name": "Dark Heart Ritual",
-      "description": "Mana: 50 Cooldown: 15 seconds Summon the Dark Heart, which pulses for 50 (+4% per level) damage per second to nearby enemies and lasts 8 seconds.  The Dark Heart moves to Shadow Mark's impact location.  The Dark Heart will pursue targets afflicted by Shadow Mark and detonate on impact, dealing 245 (+4% per level) damage to nearby enemies and 61 (+4% per level) more damage to the Marked target.",
+      "description": "Mana: 50 Cooldown: 15 seconds Summon the Dark Heart, which pulses for 50 (+4% per level) damage per second to nearby enemies and lasts 8 seconds.  The Dark Heart moves to Shadow Mark's impact location.  The Dark Heart will pursue targets afflicted by Shadow Mark and detonate on impact, dealing 260 (+4% per level) damage to nearby enemies and 65 (+4% per level) more damage to the Marked target.",
       "icon": "Heroes/xalatath/abilities/storm_ui_icon_xalatath_e_darkheartritual.png",
       "hotkey": "W",
       "ability_type": "W",
@@ -47,7 +47,7 @@
     {
       "id": "void_step",
       "name": "Void Step",
-      "description": "Mana: 50 Cooldown: 15 seconds Cast to teleport Xal'atath 3 times in a triangular pattern.  Each time Xal'atath teleports, her Basic Attacks deal 10% more damage while the Ability is active.  Reactivate to end Void Step early and remain at your current location.",
+      "description": "Mana: 50 Cooldown: 15 seconds Cast to teleport Xal'atath 3 times in a triangular pattern.  Each time Xal'atath teleports, her Basic Attacks deal 15% more damage while the Ability is active.  Reactivate to end Void Step early and remain at your current location.",
       "icon": "Heroes/xalatath/abilities/storm_ui_icon_xalatath_w_voidstep.png",
       "hotkey": "E",
       "ability_type": "E",
@@ -64,12 +64,12 @@
     {
       "id": "void_eruption",
       "name": "Void Eruption",
-      "description": "Mana: 80 Cooldown: 75 seconds Channel a powerful Void Orb that grows over time until reaching maximum size after 2 seconds. Recast to launch the Orb early.  Enemies that come into contact with the Orb take 90 (+4% per level) damage and are Blinded for 1 second.  When the Orb reaches the end of its path, it detonates in a large explosion, dealing 400 (+4% per level) damage.  Charging up this Ability increases its contact damage up to 166 (+4% per level) and its explosion damage up to 700 (+4% per level).  Contact damage is dealt every 0.25 seconds.",
+      "description": "Mana: 80 Cooldown: 75 seconds Channel a powerful Void Orb that grows over time until reaching maximum size after 2 seconds. Recast to launch the Orb early.  Enemies that come into contact with the Orb take 81 (+4% per level) damage and are Blinded for 1 second.  When the Orb reaches the end of its path, it detonates in a large explosion, dealing 320 (+4% per level) damage.  Charging up this Ability increases its contact damage up to 146 (+4% per level) and its explosion damage up to 672 (+4% per level).  Contact damage is dealt every 0.25 seconds.",
       "icon": "Heroes/xalatath/talents/storm_ui_icon_xalatath_r1_voideruption.png",
       "hotkey": "R",
       "ability_type": "Heroic",
-      "link_id": "XalatathVoidEruption|XalatathVoidEruption|Heroic",
-      "ability_id": "XalatathVoidEruption",
+      "link_id": "XalatathVoidEruptionV2|XalatathVoidEruption|Heroic",
+      "ability_id": "XalatathVoidEruptionV2",
       "button_id": "XalatathVoidEruption",
       "unit_id": "HeroXalatath",
       "unit_name": "Xal'atath",
@@ -100,7 +100,7 @@
     {
       "id": "void_volley",
       "name": "Void Volley",
-      "description": "Mana: 35 Every basic attack against heroes, and every 2 basic attacks against non-heroes generate charge. Once fully charged Xal'atath can activate Void Volley to unleash a barrage of 6 Void Orbs at a target location, each dealing 72 (+4% per level) damage on impact.  Charge fully decays if Xal’atath does not hit an enemy with a Basic Attack after 6 seconds.  Quest: Hit enemy Heroes with Void Volley to grant 1 stack per hit and increases Void Volley's damage by 1%. Lose all stacks upon dying.  Reward (20 Stacks):    +2 Void Volley Range    Stack loss on death lowered to 6.  Reward (60 Stacks):    -1 Basic Attack required to charge Void Volley.  Mythic Reward (100 Stacks):    +50% Basic Attack and Void Volley Damage.    Void Volley projectiles Pierce all targets.  Stack loss will never cause the Hero to fall below a quest reward threshold.",
+      "description": "Mana: 35 Every basic attack against heroes, and every 2 basic attacks against non-heroes generate charge. Once fully charged Xal'atath can activate Void Volley to unleash a barrage of 6 Void Orbs at a target location, each dealing 72 (+4% per level) damage on impact.  Quest: Hit enemy Heroes with Void Volley to grant 1 stack per hit and increases Void Volley's damage by 0.75%. Lose all stacks upon dying.  Reward (20 Stacks):    +2 Void Volley Range    Stack loss on death lowered to 6.  Reward (60 Stacks):    -1 Basic Attack required to charge Void Volley.  Mythic Reward (100 Stacks):    +35% Basic Attack and Void Volley Damage.    Void Volley projectiles Pierce all targets.  Stack loss will never cause the Hero to fall below a quest reward threshold. Charge fully decays if Xal’atath does not hit an enemy with a Basic Attack after 6 seconds.",
       "icon": "Heroes/xalatath/abilities/storm_ui_icon_xalatath_trait.png",
       "hotkey": "D",
       "ability_type": "Trait",
@@ -168,6 +168,25 @@
       ]
     },
     {
+      "id": "cancel_void_eruption",
+      "name": "Cancel Void Eruption",
+      "description": "",
+      "icon": null,
+      "hotkey": "R",
+      "ability_type": "Heroic",
+      "link_id": "XalatathVoidEruptionV2Cancel|XalatathVoidEruptionCancel|Heroic",
+      "ability_id": "XalatathVoidEruptionV2Cancel",
+      "button_id": "XalatathVoidEruptionCancel",
+      "unit_id": "HeroXalatath",
+      "unit_name": "Xal'atath",
+      "parent_link_ids": [
+        "XalatathVoidEruptionV2|XalatathVoidEruption|Heroic"
+      ],
+      "unlock_conditions": [
+        []
+      ]
+    },
+    {
       "id": "unsummon_mount",
       "name": "Unsummon Mount",
       "description": "Dismounts you.",
@@ -207,7 +226,7 @@
         {
           "id": "anchored_core",
           "name": "Anchored Core",
-          "description": "Dark Heart Ritual: +25% Radius +25% Duration  Dark Heart's damage bounces 2 times from the primary target to nearby enemies, dealing 25 (+4% per level) damage.",
+          "description": "+25% Dark Heart Ritual Radius  Dark Heart's damage bounces 2 times from the primary target to nearby enemies, dealing 25 (+4% per level) damage.",
           "icon": "Heroes/xalatath/talents/storm_ui_icon_xalatath_e_darkheartritual.png",
           "position": 2,
           "hotkey": "W",
@@ -220,7 +239,7 @@
         {
           "id": "cloak_of_shadows",
           "name": "Cloak of Shadows",
-          "description": "Activating Void Step grants 50% Movement Speed and 25 Spell Armor for 2 seconds. This bonus refreshes each time Xal'atath teleports.",
+          "description": "Activating Void Step grants 25 Spell Armor while teleporting and 50% Movement Speed for 2 seconds afterwards.",
           "icon": "Heroes/xalatath/talents/storm_ui_icon_xalatath_w_voidstep.png",
           "position": 3,
           "hotkey": "E",
@@ -238,7 +257,7 @@
         {
           "id": "cold_feet",
           "name": "Cold Feet",
-          "description": "+1s Shadow Mark Duration  Heroes afflicted by Shadow Mark have their Movement Speed reduced by 25%.",
+          "description": "+2s Shadow Mark Duration  Heroes afflicted by Shadow Mark have their Movement Speed reduced by 25%.",
           "icon": "Heroes/xalatath/talents/storm_ui_icon_xalatath_q_shadowmark.png",
           "position": 1,
           "hotkey": "Q",
@@ -282,7 +301,7 @@
         {
           "id": "toxic_mark",
           "name": "Toxic Mark",
-          "description": "+1s Shadow Mark Duration  Heroes affliced with Shadow Mark have their Armor reduced by 10 and take damage equal to 1% of their maximum Health every second.",
+          "description": "Heroes affliced with Shadow Mark have their Armor reduced by 10 and take damage equal to 1% of their maximum Health every second.",
           "icon": "Heroes/xalatath/talents/storm_ui_icon_xalatath_q_shadowmark.png",
           "position": 1,
           "hotkey": "Q",
@@ -326,7 +345,7 @@
         {
           "id": "void_eruption",
           "name": "Void Eruption",
-          "description": "Mana: 80 Cooldown: 75 seconds Channel a powerful Void Orb that grows over time until reaching maximum size after 2 seconds. Recast to launch the Orb early.  Enemies that come into contact with the Orb take 90 (+4% per level) damage and are Blinded for 1 second.  When the Orb reaches the end of its path, it detonates in a large explosion, dealing 400 (+4% per level) damage.  Charging up this Ability increases its contact damage up to 166 (+4% per level) and its explosion damage up to 700 (+4% per level).  Contact damage is dealt every 0.25 seconds.",
+          "description": "Mana: 80 Cooldown: 75 seconds Channel a powerful Void Orb that grows over time until reaching maximum size after 2 seconds. Recast to launch the Orb early.  Enemies that come into contact with the Orb take 81 (+4% per level) damage and are Blinded for 1 second.  When the Orb reaches the end of its path, it detonates in a large explosion, dealing 320 (+4% per level) damage.  Charging up this Ability increases its contact damage up to 146 (+4% per level) and its explosion damage up to 672 (+4% per level).  Contact damage is dealt every 0.25 seconds.",
           "icon": "Heroes/xalatath/talents/storm_ui_icon_xalatath_r1_voideruption.png",
           "position": 1,
           "hotkey": "R",
@@ -401,7 +420,7 @@
         {
           "id": "marked_resilience",
           "name": "Marked Resilience",
-          "description": "Basic Attacks against enemy Heroes afflicted by Shadow Mark grant a 160 (+4% per level) point Shield that rapidly decays.  Shield starts decaying after 1 second, decays over 2 seconds.",
+          "description": "Basic Attacks against enemy Heroes afflicted by Shadow Mark grant a 200 (+4% per level) point Shield that rapidly decays.  Shield starts decaying after 1 second, decays over 2 seconds.",
           "icon": "Heroes/xalatath/talents/storm_ui_icon_xalatath_q_shadowmark.png",
           "position": 1,
           "hotkey": "Q",
@@ -414,7 +433,7 @@
         {
           "id": "relentless_whispers",
           "name": "Relentless Whispers",
-          "description": "While Void Step is active, Xal'atath's Basic Attack Speed is increased by 150%.",
+          "description": "Increases the Basic Attack damage bonus per teleport by 75%.",
           "icon": "Heroes/xalatath/talents/storm_ui_icon_xalatath_w_voidstep.png",
           "position": 2,
           "hotkey": "E",
@@ -427,7 +446,7 @@
         {
           "id": "fractured_reality",
           "name": "Fractured Reality",
-          "description": "+25% Void Volley Projectile Damage  Void Volley's projectiles leave behind a trail of fire for 3 seconds, constantly dealing 9 (+4% per level) damage to enemies. Damage is increased the longer a target stands in the flames.  Damage is dealt every 0.1875 seconds. Damage increases up to 300%. Damage increase from multiple fires stack.",
+          "description": "+15% Void Volley Projectile Damage  Void Volley's projectiles leave behind a trail of fire for 3 seconds, constantly dealing 9 (+4% per level) damage to enemies. Damage is increased the longer a target stands in the flames.  Damage is dealt every 0.1875 seconds. Damage increases up to 300%. Damage increase from multiple fires stack.",
           "icon": "Heroes/xalatath/talents/storm_ui_icon_xalatath_trait.png",
           "position": 3,
           "hotkey": "D",
@@ -445,7 +464,7 @@
         {
           "id": "harbinger_s_consumption",
           "name": "Harbinger's Consumption",
-          "description": "Void Eruption splits into 3 orbiting Void Orbs. Each enemy Hero hit by their explosions reduces Void Eruption's cooldown by 14 seconds.",
+          "description": "Void Eruption splits into 3 orbiting Void Orbs. Each enemy Hero hit by their explosions reduces Void Eruption's cooldown by 10 seconds.",
           "icon": "Heroes/xalatath/talents/storm_ui_icon_xalatath_r1_voideruption_b.png",
           "position": 1,
           "hotkey": "R",
@@ -488,7 +507,7 @@
         {
           "id": "unstable_core",
           "name": "Unstable Core",
-          "description": "When the Dark Heart expires or detonates on a target afflicted by Shadow Mark, it leaves behind a pool of void flames for 5 seconds. Enemies in the flames take 45 (+4% per level) damage over time.  The flames deal damage every 1 second.",
+          "description": "When the Dark Heart expires or detonates, it leaves behind a pool of void flames for 6 seconds, dealing up to 450 (+4% per level) to enemies in the area.  Deals 75 (+4% per level) damage every 1 second.",
           "icon": "Heroes/xalatath/talents/storm_ui_icon_xalatath_e_darkheartritual.png",
           "position": 4,
           "hotkey": "W",

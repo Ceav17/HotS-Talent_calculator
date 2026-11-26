@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "updated_at": "2026-11-24T17:15:00.668259+00:00",
   "hero": {
     "id": "greymane",
     "name": "Greymane",
@@ -332,7 +332,7 @@
         {
           "id": "incendiary_elixir",
           "name": "Incendiary Elixir",
-          "description": "Quest: Reduce the cooldown of Gilnean Cocktail by 2 seconds. Every time Greymane hits an enemy Hero with the explosion damage from Gilnean Cocktail, increase its explosion damage by 25, up to 375.  Reward: After hitting 15 Heroes, the cooldown is reduced by an additional 3 seconds.",
+          "description": "Quest: Reduce the cooldown of Gilnean Cocktail by 2 seconds. Every time Greymane hits an enemy Hero with the explosion damage from Gilnean Cocktail, increase its explosion damage by 30, up to 450.  Reward: After hitting 15 Heroes, the cooldown is reduced by an additional 3 seconds.",
           "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_qattack.png",
           "position": 2,
           "hotkey": "Q",
@@ -497,7 +497,7 @@
         {
           "id": "gilnean_roulette",
           "name": "Gilnean Roulette",
-          "description": "Cursed Bullet's damage is reduced to 30% of current health but its cooldown is reduced by 24 seconds.",
+          "description": "Cursed Bullet's cooldown is reduced by 24 seconds.",
           "icon": "Heroes/greymane/talents/storm_ui_icon_greymane_snapshot.png",
           "position": 2,
           "hotkey": "R",

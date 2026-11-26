@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "updated_at": "2026-11-24T17:15:00.668259+00:00",
   "hero": {
     "id": "medivh",
     "name": "Medivh",
@@ -12,7 +12,7 @@
     {
       "id": "arcane_rift_0b63257a51",
       "name": "Arcane Rift",
-      "description": "Mana: 50 Cooldown: 7 seconds Launch a rift that deals 170 (+4% per level) damage to enemies in its path. If an enemy Hero is hit, reduce its cooldown by 5 seconds and refund 50 Mana.  Quest: Hit 40 enemy Heroes with Arcane Rift without dying.  Reward: Permanently increase the damage dealt by 75 and cooldown reduction for hitting a Hero by 1 second.",
+      "description": "Mana: 50 Cooldown: 7 seconds Launch a rift that deals 185 (+4% per level) damage to enemies in its path. If an enemy Hero is hit, reduce its cooldown by 5 seconds and refund 50 Mana.  Quest: Hit 40 enemy Heroes with Arcane Rift without dying.  Reward: Permanently increase the damage dealt by 75 and cooldown reduction for hitting a Hero by 1 second.",
       "icon": "Heroes/medivh/abilities/storm_ui_icon_medivh_arcanemissile.png",
       "hotkey": "Q",
       "ability_type": "Q",
@@ -29,7 +29,7 @@
     {
       "id": "force_of_will_128d0015db",
       "name": "Force of Will",
-      "description": "Mana: 60 Cooldown: 9 seconds Protect an allied Hero from all damage for 1.5 seconds. Upon expiration, Force of Will heals the target for 20% of the damage it absorbed.",
+      "description": "Mana: 60 Cooldown: 8 seconds Protect an allied Hero from all damage for 1.5 seconds. Upon expiration, Force of Will heals the target for 20% of the damage it absorbed.",
       "icon": "Heroes/medivh/abilities/storm_ui_icon_medivh_forceofwill.png",
       "hotkey": "W",
       "ability_type": "W",
@@ -46,7 +46,7 @@
     {
       "id": "portal_89433eeee5",
       "name": "Portal",
-      "description": "Mana: 65 Cooldown: 16 seconds Create a set of portals between Medivh and the target location, allowing allies to teleport between both. The portals last 6 seconds.",
+      "description": "Mana: 65 Cooldown: 20 seconds Create a set of portals between Medivh and the target location, allowing allies to teleport between both. The portals last 6 seconds.",
       "icon": "Heroes/medivh/abilities/storm_ui_icon_medivh_portal.png",
       "hotkey": "E",
       "ability_type": "E",
@@ -189,7 +189,7 @@
     {
       "id": "portal_529aeab902",
       "name": "Portal",
-      "description": "Mana: 65 Cooldown: 16 seconds Create a set of portals between Medivh and the target location, allowing allies to teleport between both. The portals last 6 seconds.",
+      "description": "Mana: 65 Cooldown: 20 seconds Create a set of portals between Medivh and the target location, allowing allies to teleport between both. The portals last 6 seconds.",
       "icon": "Heroes/medivh/abilities/storm_ui_icon_medivh_portal.png",
       "hotkey": "E",
       "ability_type": "E",
@@ -252,7 +252,7 @@
     {
       "id": "arcane_rift_b38f71b31a",
       "name": "Arcane Rift",
-      "description": "Mana: 50 Cooldown: 7 seconds Launch a rift that deals 170 (+4% per level) damage to enemies in its path. If an enemy Hero is hit, reduce its cooldown by 5 seconds and refund 50 Mana.  Quest: Hit 40 enemy Heroes with Arcane Rift without dying.  Reward: Permanently increase the damage dealt by 75 and cooldown reduction for hitting a Hero by 1 second.",
+      "description": "Mana: 50 Cooldown: 7 seconds Launch a rift that deals 185 (+4% per level) damage to enemies in its path. If an enemy Hero is hit, reduce its cooldown by 5 seconds and refund 50 Mana.  Quest: Hit 40 enemy Heroes with Arcane Rift without dying.  Reward: Permanently increase the damage dealt by 75 and cooldown reduction for hitting a Hero by 1 second.",
       "icon": "Heroes/medivh/abilities/storm_ui_icon_medivh_arcanemissile.png",
       "hotkey": "Q",
       "ability_type": "Q",
@@ -269,7 +269,7 @@
     {
       "id": "force_of_will_e1fb6f38cd",
       "name": "Force of Will",
-      "description": "Mana: 60 Cooldown: 9 seconds Protect an allied Hero from all damage for 1.5 seconds. Upon expiration, Force of Will heals the target for 20% of the damage it absorbed.",
+      "description": "Mana: 60 Cooldown: 8 seconds Protect an allied Hero from all damage for 1.5 seconds. Upon expiration, Force of Will heals the target for 20% of the damage it absorbed.",
       "icon": "Heroes/medivh/abilities/storm_ui_icon_medivh_forceofwill.png",
       "hotkey": "W",
       "ability_type": "W",
@@ -286,7 +286,7 @@
     {
       "id": "portal_11c7fd103a",
       "name": "Portal",
-      "description": "Mana: 65 Cooldown: 16 seconds Create a set of portals between Medivh and the target location, allowing allies to teleport between both. The portals last 6 seconds.",
+      "description": "Mana: 65 Cooldown: 20 seconds Create a set of portals between Medivh and the target location, allowing allies to teleport between both. The portals last 6 seconds.",
       "icon": "Heroes/medivh/abilities/storm_ui_icon_medivh_portal.png",
       "hotkey": "E",
       "ability_type": "E",
@@ -429,7 +429,7 @@
     {
       "id": "portal_a762ab7ddd",
       "name": "Portal",
-      "description": "Mana: 65 Cooldown: 16 seconds Create a Portal entrance or exit at the targeted location.   Activate Medivh's Trait to cancel an unlinked Portal.",
+      "description": "Mana: 130 Cooldown: 20 seconds Create a Portal entrance or exit at the targeted location.   Activate Medivh's Trait to cancel an unlinked Portal.",
       "icon": "Heroes/medivh/abilities/storm_ui_icon_medivh_portal.png",
       "hotkey": "1",
       "ability_type": "Active",
@@ -459,7 +459,7 @@
     {
       "id": "dust_of_appearance",
       "name": "Dust of Appearance",
-      "description": "Cooldown: 45 seconds Activate to greatly increase sight range for 5 seconds and reveal enemy Heroes in the area for 8 seconds. Does not cancel Raven Form.  Passive: Increase Medivh's sight range while in Raven Form by 25%.",
+      "description": "Cooldown: 40 seconds Activate to greatly increase sight range for 5 seconds and reveal enemy Heroes in the area for 8 seconds. Does not cancel Raven Form.  Passive: Increase Medivh's sight range while in Raven Form by 25%.",
       "icon": "Heroes/medivh/abilities/storm_ui_icon_medivh_dustofappearance.png",
       "hotkey": null,
       "ability_type": "Active",
@@ -559,7 +559,7 @@
         {
           "id": "winds_of_celerity",
           "name": "Winds of Celerity",
-          "description": "Increases Raven Form's Movement Speed bonus by 100%.",
+          "description": "Increases Raven Form's Movement Speed bonus by 100% and reduces the cast time by 0.25 seconds.",
           "icon": "Heroes/medivh/talents/storm_ui_icon_medivh_ravenform.png",
           "position": 1,
           "hotkey": "Z",
@@ -572,7 +572,7 @@
         {
           "id": "ravens_intellect",
           "name": "Raven’s Intellect",
-          "description": "Raven Form increases Medivh's Mana and Health Regeneration by 200%.",
+          "description": "Raven Form increases Medivh's Mana and Health Regeneration by 400%.",
           "icon": "Heroes/medivh/talents/storm_ui_icon_medivh_ravenform_b.png",
           "position": 2,
           "hotkey": "Z",
@@ -585,7 +585,7 @@
         {
           "id": "portal_mastery",
           "name": "Portal Mastery",
-          "description": "Mana: 65 Cooldown: 16 seconds Medivh can manually place both Portal locations and it no longer breaks Raven Form.   Activate Medivh's Trait to cancel an unlinked Portal.",
+          "description": "Mana: 130 Cooldown: 20 seconds +100% Portal Mana Cost Medivh can manually place both Portal locations.  Activate Medivh's Trait to cancel an unlinked Portal.",
           "icon": "Heroes/medivh/talents/storm_ui_icon_medivh_portal.png",
           "position": 3,
           "hotkey": "1",
@@ -619,7 +619,7 @@
         {
           "id": "raven_familiar",
           "name": "Raven Familiar",
-          "description": "A Raven Familiar joins allies each time they use a Portal. The Raven will dive at the ally's next Basic Attack against a Hero within 5 seconds, dealing 114 (+4% per level) damage and Slowing them by 20% for 2.5 seconds.",
+          "description": "A Raven Familiar joins allies each time they use a Portal. The Raven will dive at the ally's next Basic Attack against a Hero within 5 seconds, dealing 98 (+4% per level) damage and Slowing them by 15% for 2.5 seconds.",
           "icon": "Heroes/medivh/talents/storm_ui_icon_medivh_portal_a.png",
           "position": 2,
           "hotkey": "E",
@@ -632,7 +632,7 @@
         {
           "id": "dust_of_appearance",
           "name": "Dust of Appearance",
-          "description": "Cooldown: 45 seconds Activate to greatly increase sight range for 5 seconds and reveal enemy Heroes in the area for 8 seconds. Does not cancel Raven Form.  Passive: Increase Medivh's sight range while in Raven Form by 25%.",
+          "description": "Cooldown: 40 seconds Activate to greatly increase sight range for 5 seconds and reveal enemy Heroes in the area for 8 seconds. Does not cancel Raven Form.  Passive: Increase Medivh's sight range while in Raven Form by 25%.",
           "icon": "Heroes/medivh/talents/storm_ui_icon_medivh_dustofappearance.png",
           "position": 3,
           "hotkey": null,

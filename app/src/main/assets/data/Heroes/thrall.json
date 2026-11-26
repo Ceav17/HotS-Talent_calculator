@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T19:45:37.327955+00:00",
+  "updated_at": "2026-11-24T17:15:00.668259+00:00",
   "hero": {
     "id": "thrall",
     "name": "Thrall",
@@ -270,7 +270,7 @@
     {
       "id": "spirit_shield_abb843aaac",
       "name": "Spirit Shield",
-      "description": "Cooldown: 45 seconds Every 45 seconds, gain 70 Spell Armor against the next enemy Ability and subsequent Abilities for 4 seconds. Frostwolf Resilience reduces this cooldown by 10 seconds.  Can be toggled to allow or prevent this talent from triggering automatically.",
+      "description": "Cooldown: 45 seconds Every 45 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 4 seconds. Frostwolf Resilience reduces this cooldown by 10 seconds.  Can be toggled to allow or prevent this talent from triggering automatically.",
       "icon": null,
       "hotkey": null,
       "ability_type": "Active",
@@ -338,7 +338,7 @@
         {
           "id": "echo_of_the_elements",
           "name": "Echo of the Elements",
-          "description": "Quest: Kill Minions or Heroes within 2 seconds of hitting them with Chain Lightning.  Reward: After killing 20 enemies, reduce the Mana cost of Chain Lightning from 40 to 20.  Reward: After killing 50 enemies, Chain Lightning gains an extra charge.  Mythic Reward: After killing 125 enemies, Chain Lightning can now strike the same target multiple times, and also strikes 1 additional target per bounce.",
+          "description": "Quest: Kill Minions or Heroes within 2 seconds of hitting them with Chain Lightning. Upon dying, lose 5 stacks. Gained rewards cannot be lost.  Reward: After killing 20 enemies, reduce the Mana cost of Chain Lightning from 40 to 20.  Reward: After killing 50 enemies, Chain Lightning gains an extra charge.  Mythic Reward: After killing 125 enemies, Chain Lightning can now strike the same target multiple times, and also strikes 1 additional target per bounce.",
           "icon": "Heroes/thrall/talents/storm_ui_icon_thrall_chainlightning.png",
           "position": 1,
           "hotkey": "Q",
@@ -530,7 +530,7 @@
         {
           "id": "spirit_shield",
           "name": "Spirit Shield",
-          "description": "Cooldown: 45 seconds Every 45 seconds, gain 70 Spell Armor against the next enemy Ability and subsequent Abilities for 4 seconds. Frostwolf Resilience reduces this cooldown by 10 seconds.  Can be toggled to allow or prevent this talent from triggering automatically.",
+          "description": "Cooldown: 45 seconds Every 45 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 4 seconds. Frostwolf Resilience reduces this cooldown by 10 seconds.  Can be toggled to allow or prevent this talent from triggering automatically.",
           "icon": "Heroes/thrall/talents/storm_ui_icon_talent_spellshield.png",
           "position": 3,
           "hotkey": null,
